@@ -1,0 +1,36 @@
+{
+	"nome": "Statistical Learning",
+	"dipartimento": [
+		{
+			"nome": "Dipartimento di Sociologia e Ricerca Sociale",
+			"id": "STO0008630"
+		}
+	],
+	"descrizione": "",
+	"docenti": [
+		{
+			"nome": "Michele",
+			"cognome": "Coghi",
+			"id": "5e46c810c4997457d117df11eddfe7d6"
+		},
+		{
+			"nome": "Marco",
+			"cognome": "Chierici",
+			"id": "51b341113c1194d97dbe512766ada181"
+		}
+	],
+	"assistenti": [
+		{
+			"nome": "Veronica",
+			"cognome": "Vinciotti",
+			"id": "93643174baa4800edb49dfd84f652007"
+		},
+		{
+			"nome": "Federico",
+			"cognome": "Reali",
+			"id": "918df666dd4e54fe993a39a6312cd12d"
+		}
+	],
+	"corsoStudi": "Data Science (LM)",
+	"sitoWeb": "https://www.esse3.unitn.it/Guide/PaginaADContest.do?ad_cont_id=10692*93487*2022*2018*9999"
+}

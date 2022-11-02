@@ -1,0 +1,367 @@
+<!DOCTYPE html><html id="top" lang="it">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Guida Online, Universit&agrave; di UNITN</title>
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<meta content="Servizi online dell'ateneo" name="description">
+<base href="https://www.esse3.unitn.it/">
+<link href="img/layout/favicons/apple-touch-icon.png" sizes="120x120" rel="apple-touch-icon" class="favicon">
+<link href="https://www.esse3.unitn.it/img/layout/favicons/favicon-32x32.png" sizes="32x32" type="image/png" rel="icon" class="favicon">
+<link href="https://www.esse3.unitn.it/img/layout/favicons/favicon-16x16.png" sizes="16x16" type="image/png" rel="icon" class="favicon">
+<link href="img/layout/favicons/manifest.json" rel="manifest" class="favicon">
+<link href="img/layout/favicons/safari-pinned-tab.svg" rel="mask-icon" class="favicon">
+<link href="JavaScript/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet">
+<link href="css/layout/app.css?v=22.09.02" rel="stylesheet">
+<link href="css/templateCommon.css?v=19.08.00" type="text/css" rel="stylesheet">
+<link href="css/layout/print.css" type="text/css" rel="stylesheet">
+<link href="css/layout/legacy-standard.css?v=21.02.03a" type="text/css" rel="stylesheet">
+<link href="css/modules.css?v=22.07.01" type="text/css" rel="stylesheet">
+<link href="css/layout/legacy.css?v=20.10.04" type="text/css" rel="stylesheet">
+<link href="css/layout/theme-custom.css?v=22.08.02" type="text/css" rel="stylesheet">
+<link href="css/jquery-ui-timepicker-addon.css?v=19.06.01" type="text/css" rel="stylesheet">
+<link href="css/jquery-ui.css" media="all" type="text/css" rel="stylesheet">
+<link href="css/jquery.fileupload.css?v=20.12.00" media="all" type="text/css" rel="stylesheet">
+<link href="css/ui.jqgrid.css" media="all" type="text/css" rel="stylesheet">
+<link href="css/footable.css?v=20.11.03a" media="all" type="text/css" rel="stylesheet">
+<script src="JavaScript/utils.js?v=22.01.00"></script><script src="JavaScript/jquery/jquery-3.6.1.min.js"></script><script src="JavaScript/bootstrap-3.4.1/js/bootstrap.min.js"></script><script src="JavaScript/jquery/jquery-ui/js/jquery-ui-1.13.2.min.js"></script><script src="JavaScript/jquery/jqgrid/js/jquery.jqGrid.min.js"></script><script src="JavaScript/jquery/jqgrid/src/grid.tbltogrid.js?v=22.01.00"></script><script src="JavaScript/jquery/jqgrid/js/i18n/grid.locale-it.js"></script><script src="JavaScript/jquery/timepicker/js/jquery-ui-timepicker-addon.min.js?v=19.06.01"></script><script src="JavaScript/jquery/timepicker/js/i18n/jquery-ui-timepicker-addon-i18n.min.js?v=19.06.01"></script><script src="JavaScript/jquery/jquery-ui/js/i18n/datepicker-it.js?v=19.06.01"></script><script src="JavaScript/jquery/footable/js/footable.js"></script><script src="JavaScript/jquery/stickytableheaders/js/jquery.stickytableheaders.min.js"></script><script src="JavaScript/jquery/fileupload/js/jquery.iframe-transport.js"></script><script src="JavaScript/jquery/fileupload/js/jquery.fileupload.js?v=22.01.00"></script><script src="JavaScript/widgetChunkFileUpload.js?v=22.01.00"></script><script src="JavaScript/sharedUtils.js?v=20.10.04"></script>
+</head>
+<body data-xsl="/xsl/unitn/GuidePaginaADContest.xsl" class="secondaryMenuBottom ">
+<noscript>
+<div id="noscript-warning">E' necessario abilitare javascript per utilizzare questo sito. Istruzioni disponibili <a target="_blank" href="https://www.wikihow.com/Enable-Cookies-and-JavaScript">qui</a>
+</div>
+</noscript>
+<div id="nocookies-warning" aria-hidden="true">E' necessario abilitare i cookies per utilizzare questo sito. Istruzioni disponibili <a target="_blank" href="https://www.wikihow.com/Enable-Cookies-and-JavaScript" class="cookies_howto">qui</a>
+</div>
+<style>
+				#noscript-warning, #nocookies-warning {
+					width:100%;
+					z-index:10000;
+					text-align:center;
+					font-weight:bold;
+					color:#FFF;
+					background-color:#AE0000;
+					padding:10px 10px
+				}
+
+				#nocookies-warning {
+					display: none;
+				}
+
+				#noscript-warning a, #nocookies-warning a {
+					color:#FFF;
+					text-decoration: underline;
+				}
+			</style>
+<script>
+				$(
+					function() {
+						// try..catch because some in situations `document.cookie` is exposed but throws a
+					    // SecurityError if you try to access it; e.g. documents created from data URIs
+					    // or in sandboxed iframes (depending on flags/context)
+					    try {
+							// Create cookie
+							document.cookie = 'cookietest=1' + (window.location.protocol === 'https:' ? '; SameSite=None; Secure' : '; SameSite=Lax');
+							var ret = document.cookie.indexOf('cookietest=') != -1;
+							// Delete cookie
+							document.cookie = 'cookietest=1; expires=Thu, 01-Jan-1970 00:00:01 GMT' + (window.location.protocol === 'https:' ? '; SameSite=None; Secure' : '; SameSite=Lax');
+
+							if (!ret) {
+								if (!!document.referrer) {
+									if (!document.referrer.toLowerCase().startsWith(document.location.protocol + '//' + document.location.host)) {
+										document.location.href = document.location.protocol + '//' + document.location.host + '';
+										return;
+									}
+								}
+							}
+
+							if (!ret) {
+								document.getElementById("nocookies-warning").style.display="block";
+								document.getElementById("nocookies-warning").setAttribute("aria-hidden", "false");
+
+								var anchors = document.getElementsByTagName("a");
+								for (var i = 0; anchors.length > i; i++) {
+									if (!(!(anchors[i].className != null) || !(anchors[i].className.indexOf("cookies_howto") == -1)) || (anchors[i].className == null)) {
+										anchors[i].removeAttribute("href");
+									}
+								}
+								var inputs = document.getElementsByTagName("input");
+								for (var i = 0; inputs.length > i; i++) {
+									inputs[i].disabled = true;
+								}
+								var textareas = document.getElementsByTagName("textarea");
+								for (var i = 0; textareas.length > i; i++) {
+									textareas[i].disabled = true;
+								}
+								var selects = document.getElementsByTagName("select");
+								for (var i = 0; selects.length > i; i++) {
+									selects[i].disabled = true;
+								}
+								var buttons = document.getElementsByTagName("button");
+								for (var i = 0; buttons.length > i; i++) {
+								    buttons[i].disabled = true;
+								}
+							}
+						}
+						catch (e) {
+							console.log("errore durante elaborazione 'cookies warning': " + e);
+						}
+					}						
+				);
+			</script><script>
+								window.addEventListener('cookie-consent:initialized', _ => {
+									if (typeof changeCookieLang === 'function') {
+										changeCookieLang('it');
+									} else {
+									  console.error('Error changing language');
+									}
+								});
+								window.addEventListener('matomo-loaded:init', _ => {
+									if (typeof trackEvent === 'function') {
+									  trackEvent('trackPageView');
+									} else {
+									  console.error('Error tracking page view');
+									}
+									
+								});
+
+								$(function() {
+									window.customCookieJsonConfigPath='CookieConfig.do';
+
+								    const cookieScript = document.createElement('script');
+								    cookieScript.src = 'https://static.dev.iu.cineca.it/v1/default.js';
+								    document.head.appendChild(cookieScript);
+							     });
+								</script>
+<nav class="accessibility-item">
+<h2 tabindex="1" id="shortcut">Link per accesso rapido</h2>
+<ul>
+<li>
+<a href="#maincontent">Contenuto principale della pagina</a>
+</li>
+<li class="salta-menu-desktop">
+<a href="#menuprincipale">Menu principale</a>
+</li>
+<li class="salta-menu-mobile">
+<a data-focus="#menuprincipale" aria-expanded="false" data-toggle="main-navigation" aria-controls="main-navigation" href="#main-navigation">Menu principale</a>
+</li>
+<li class="salta-menu-desktop">
+<a href="#menusecondario">Link utili</a>
+</li>
+<li class="salta-menu-mobile">
+<a data-focus="#focus-secondario" data-toggle="secondary-menu-list" aria-controls="secondary-menu-list" aria-expanded="false" href="#focus-secondario">Link utili</a>
+</li>
+</ul>
+</nav>
+<header class="masthead">
+<div class="l-container">
+<div class="masthead_top">
+<a class="masthead_logo" title="Home page" href="Redirect.do?parconfurl=LAYOUT_HEADER_URL_0"><img aria-hidden="true" alt="Logo ateneo" src="img/layout/logo.png?v=22.09.02" id="theme-logo"></a><a data-toggle="main-navigation" id="hamburger" aria-hidden="true" aria-controls="main-navigation" aria-expanded="false" aria-label="Menu principale" role="button" class="masthead_hamburger js-masthead-menubutton" href=""><i class="fa fa-2x fa-bars"></i></a>
+</div>
+<nav aria-labelledby="menuprincipale" id="main-navigation" class="masthead_menu" data-menu-opened="">
+<h2 tabindex="2" id="menuprincipale" class="accessibility-item">Menu principale</h2>
+<div class="masthead_menu_container">
+<div class="masthead_menu_header">
+<a id="chiudi-menu-principale" data-focus="#shortcut" data-toggle="main-navigation" aria-hidden="true" role="button" class="masthead_menu_close js-masthead-menubutton" href="#shortcut"><i aria-hidden="true" class="fa fa-2x fa-times"></i></a>
+<ul class="masthead_menu_lang">
+<li>
+<a class="is-active">ita</a>
+</li>
+<li>
+<a href="/Guide/PaginaADContest.do;jsessionid=531F32EBA8D35D3227BDC7791BAA4640.esse3-unitn-prod-06?cod_lingua=eng&amp;ad_cont_id=10692*93487*2022*2018*9999">eng</a>
+</li>
+</ul>
+<div class="masthead_usermenu">
+<h2 class="accessibility-item">Menu utente</h2>
+<div class="masthead_usermenu_menu">
+<ul>
+<li class=" has-children " id="ar-label">
+<a id="menu_link-navbox_account_Utilit&agrave;_Area_Riservata" href="Home.do?menu_opened_cod=" aria-expanded="false" aria-controls="10-100"><i aria-hidden="true" class="fa fa-chevron-left"></i>Utilit&agrave; Area Riservata​ <i aria-hidden="true" class="fa fa-chevron-right"></i></a>
+<ul id="10-100" class="notOpened">
+<li id="ar-label-second">
+<a id="menu_link-navbox_account_auth/Logon" href="auth/Logon.do?menu_opened_cod=">Login​ </a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="masthead_menu_body">
+<ul>
+<li class=" masthead_menu_body_comunita " id="menu-open-community">
+<a id="menu_link-navbox_community_Didattica_OnLine" href="ewc/RedirectListaCommunity.do?menu_opened_cod=">Didattica On line​ </a>
+</li>
+<li class=" has-children ">
+<a id="menu_link-accreditamento_Accreditamento_Aziende" href="Home.do?menu_opened_cod=" aria-expanded="false" aria-controls="1500-100"><i aria-hidden="true" class="fa fa-chevron-left"></i>Accreditamento Aziende​ <i aria-hidden="true" class="fa fa-chevron-right"></i></a>
+<ul id="1500-100" class="notOpened">
+<li>
+<a id="menu_link-accreditamento_tirocini/RichiestaAccredito" href="tirocini/RichiestaAccredito.do?menu_opened_cod=menu_link-accreditamento_Accreditamento_Aziende">Registrazione aziende​ </a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+</div>
+</header>
+<div class="l-content-container">
+<div class="l-container">
+<div class="l-sidebar">
+<aside class="l-sidebar-left">
+<div aria-hidden="true" class="l-sidebar-left-placeholder"></div>
+</aside>
+<main aria-live="polite" id="main" class="l-sidebar-right">
+<h2 class="accessibility-item">Contenuto principale</h2>
+<div class="briciole">
+<h2 id="maincontent" class="accessibility-item">Tu sei qui</h2>
+<ul></ul>
+</div>
+<div class="l-header"></div>
+<div id="esse3" class="layout-container-fluid container-fluid"><div id="columnContainer" class="row"><div class="col-sm-12 col-md-10 " id="column1of2">
+<div class="" id="floating">
+<div id="header_1" class="breaks1  header-hx header-h1">
+<h1>145679&nbsp;​
+				-
+				&nbsp;​Statistical Learning</h1>
+<p>Anno Accademico&nbsp;​2022
+		/
+		2023</p>
+<div id="header_2" class=" header-hx header-h2">
+<h2>0522H
+				-
+				Data Science</h2>
+<div id="header2" class=" header-hx header-h2">
+<h2>standard - P0005</h2>
+</div>
+</div>
+</div>
+<div id="infobox" class="record">
+<dl class="record-riga">
+<dt class="">Anno di Corso</dt>
+<dd class="">1&deg; Anno&nbsp;​<br>
+</dd>
+<dt class="">Tipologia</dt>
+<dd class="">Caratterizzante&nbsp;​<br>
+</dd>
+<dt class="">Totale Crediti</dt>
+<dd class="">12&nbsp;​<br>
+</dd>
+<dt class="">Metodi Didattici</dt>
+<dd class="">
+<desc_tipo_att>Lezioni</desc_tipo_att>&nbsp;​<br>
+</dd>
+<dt class="">Tipo Esame</dt>
+<dd class="">Orale&nbsp;​<br>
+</dd>
+<dt class="">Valutazione</dt>
+<dd class="">Voto Finale&nbsp;​<br>
+</dd>
+<dt class="">Periodo Didattico</dt>
+<dd class="">Attivit&agrave; a durata annuale&nbsp;​<br>
+</dd>
+</dl>
+<br>
+</div>
+<br class="pulisci">
+<div class="" id="titbox1">
+<p id="texttitboxUD" class="text-align-left">Scomposizione in Unit&agrave; Didattiche<br>
+</p>
+</div>
+<table id="table1" class="table table-1"><thead><tr>
+<th id="table1th1" scope="col" class="">Unit&agrave; Didattica</th><th id="table1th2" scope="col" class="">Tipo Attivit&agrave;</th><th id="table1th3" scope="col" class="">Durata (h)</th><th id="table1th4" scope="col" class="">Tipo Attivit&agrave; Formativa</th><th id="table1th5" scope="col" class="">Settore Scientifico Disciplinare</th><th id="table1th6" scope="col" class="">CFU</th>
+</tr></thead><tbody class="table-1-body"><tr>
+<td rowspan="1" title="" class="">Statistical Methods (condivide da QCB 145539)</td><td title="" class="">Lezioni</td><td title="" class="">48</td><td title="" class="">Caratterizzante</td><td title="" class="">
+						[
+						SECS-S/01
+						]
+					</td><td title="" class="">6</td>
+</tr>
+<tr>
+<td rowspan="1" title="" class="">Statistical Models (offerto da DS)</td><td title="" class="">Lezioni</td><td title="" class="">48</td><td title="" class="">Caratterizzante</td><td title="" class="">
+						[
+						SECS-S/01
+						]
+					</td><td title="" class="">6</td>
+</tr></tbody></table>
+<div class="" id="titbox2">
+<p id="texttitbox2" class="text-align-left">Partizioni<br>
+</p>
+</div>
+<table id="table2" class="table table-1"><thead><tr>
+<th id="table2th1" scope="col" class="cell-alignC">Partizione</th><th id="table2th2" scope="col" class="cell-alignC">Periodo</th><th id="table2th3" scope="col" class="cell-alignC">Docente</th><th id="table2th4" scope="col" class="cell-alignC">Titolare</th><th id="table2th5" scope="col" class="cell-alignC">Syllabus (Programma attivit&agrave; didattica)</th>
+</tr></thead><tbody class="table-1-body"><tr>
+<td rowspan="4" title="" class=""><a id="table2-cell11-link1" href="Guide/PaginaADErogata.do?ad_er_id=2022*N0*N0*M1*84266*93487&amp;ANNO_ACCADEMICO=2022&amp;mostra_percorsi=N" title="Accedi alla pagina dell'AD Erogata">Statistical Learning - Partizione Unica</a></td><td rowspan="4" title="" class="">Attivit&agrave; a durata annuale</td><td title="" class=""><a id="table2-cell13-link3" href="Guide/PaginaDocente.do?docente_id=76245" title="Visualizza i dettagli del Docente">FEDERICO&nbsp;​REALI</a></td><td title="" class="cell-alignC"></td><td rowspan="4" title="" class=""></td>
+</tr>
+<tr>
+<td title="" class=""><a id="table2-cell21-link1" href="Guide/PaginaDocente.do?docente_id=78137" title="Visualizza i dettagli del Docente">MICHELE&nbsp;​COGHI</a></td><td title="" class="cell-alignC"><img alt="Titolare" aria-label="Titolare" src="img/guide/spunta.png"></td>
+</tr>
+<tr>
+<td title="" class=""><a id="table2-cell31-link1" href="Guide/PaginaDocente.do?docente_id=77703" title="Visualizza i dettagli del Docente">VERONICA&nbsp;​VINCIOTTI</a></td><td title="" class="cell-alignC"></td>
+</tr>
+<tr>
+<td title="" class=""><a id="table2-cell41-link1" href="Guide/PaginaDocente.do?docente_id=77617" title="Visualizza i dettagli del Docente">MARCO&nbsp;​CHIERICI</a></td><td title="" class="cell-alignC"></td>
+</tr></tbody></table>
+</div>
+</div>
+<div class="col-sm-12 col-md-2 " id="column2of2">
+<div id="utility-list">
+<h2>Utility</h2>
+<ul class=" list-standard">
+<li id="utility-list-li-1">
+<a id="utility-list-listitem-1" href="Guide/PaginaRicercaCorsi.do?statoRicerca=INIZIO" title="Accedi alla pagina di ricerca dei corsi">Ricerca Corsi</a>&nbsp;​</li>
+<li id="utility-list-li-2">
+<a id="utility-list-listitem-2" href="Guide/PaginaRicercaInse.do?statoRicerca=INIZIO" title="Accedi alla pagina di ricerca degli insegnamenti">Ricerca Insegnamenti</a>&nbsp;​</li>
+<li id="utility-list-li-3">
+<a id="utility-list-listitem-3" href="Guide/PaginaRicercaDocenti.do?statoRicerca=INIZIO" title="Accedi alla pagina di ricerca dei docenti">Ricerca Docenti</a>&nbsp;​</li>
+<li id="utility-list-li-4">
+<a id="utility-list-listitem-4" href="Guide/PaginaListaAppelli.do" title="Accedi alla pagina di ricerca degli appelli">Ricerca Appelli</a>&nbsp;​</li>
+</ul>
+</div>
+</div></div><script>
+								hideShowElementsById();
+								</script>
+</div>
+</main>
+</div>
+</div>
+</div>
+<div id="secondary-menu" class="secondary-menu">
+<div class="l-container">
+<div class="secondary-menu_top">
+<button data-toggle="secondary-menu-list" aria-controls="secondary-menu-list" aria-expanded="false" id="focus-secondario" class="secondary-menu_button" data-scroll="#footer">Link utili<i data-toggle-icon-closed="true" aria-hidden="true" class="fa fa-chevron-right"></i><i data-toggle-icon-open="true" aria-hidden="true" class="fa fa-chevron-down"></i></button>
+</div>
+<nav id="secondary-menu-list" class="secondary-menu-list">
+<h2 id="menusecondario" class="accessibility-item">Link utili</h2>
+<ul>
+<li>
+<a title="Home" href="Home.do">Home</a>
+</li>
+<li>
+<a title="unitn.it" href="Redirect.do?parconfurl=LAYOUT_HEADER_URL_2">unitn.it</a>
+</li>
+<li>
+<a title="myunitn" href="Redirect.do?parconfurl=LAYOUT_HEADER_URL_3">myunitn</a>
+</li>
+<li>
+<a title="people" href="Redirect.do?parconfurl=LAYOUT_HEADER_URL_5">people</a>
+</li>
+<li>
+<a title="Helpdesk" href="Redirect.do?parconfurl=LAYOUT_HEADER_URL_6">Helpdesk</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+<footer id="footer" class="footer">
+<div class="l-container">
+<div class="footer_content">
+<p>
+<a href="InformativaCookie.do">Informativa utilizzo cookie</a> | &copy; CINECA</p>
+</div>
+</div>
+</footer>
+<script src="JavaScript/enquire/enquire.min.js"></script><script src="JavaScript/layout/layout.js?v=20.12.00"></script><script>$(function() { $.get('PageLoaded.do'); });</script><script>$(onReady);</script>
+</body>
+</html>
