@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 import re
 import string
 import time
+from pprint import pprint # Only for debugging purposes
 
 # THE CODE HERE IS NOT FINAL, IT NEEDS TO BE FINISHED AND CLEANED
 
@@ -16,7 +17,7 @@ def clean_string(input_string):
     :param input_string: String to be cleaned
     :return: Cleaned string
     """
-    return input_string.strip().replace(u"\200b", "").replace(u"\xa0â€‹", "").replace(u"â€‹", "")
+    return input_string.strip().replace(u"\200b", "").replace(u"\xa0â€‹", "").replace(u"â€‹", "").replace(u"\n", "").replace(u"\t", "")
 
 
 def get_initial_data(urls, filenames, extract_urls):
@@ -97,26 +98,58 @@ def scrape_esse3(url):
     with open('prova.html', "r") as f:
         page = f.read()
     soup = BeautifulSoup(page, 'lxml')
+    
     split_title = soup.find(
         "div", {"id": "header_1"}).contents[1].string.split()
     table_values = soup.find_all('dd')
+    
+    teaching_units_html = soup.find(id="table1").find('tbody').find_all("tr")
+    teaching_units = []
+    for i in range(len(teaching_units_html)):
+        unit = teaching_units_html[i].find_all("td")
+        unit_information = {
+            'unit_name': clean_string(unit[0].string),
+            'activity_type': clean_string(unit[1].string),
+            'duration_hours': clean_string(unit[2].string),
+            'type_teaching': clean_string(unit[3].string),
+            'subject_area': clean_string(unit[4].string),
+            'credits': clean_string(unit[5].string)
+        }
+        teaching_units.append(unit_information)
+    
+    # This needs time to do correctly, the table is formatted weirdly
+    """ partitions_html = soup.find(id="table2").find('tbody').find_all("tr")
+    partitions = []
+    for i in range(len(partitions_html)):
+        partition = partitions_html[i].find_all("td")
+        pprint(partition)
+        print(clean_string(partition[1].string))
+        partition_information = {
+            'partition_name': clean_string(partition[0].string),
+            'period': clean_string(partition[1].string),
+            'teacher': [clean_string(partition[2].string)],
+            'syllabus_link': clean_string(partition[3].string)
+        }
+        partitions.append(partition_information) """
 
     information = {
         'id': clean_string(split_title[0]),
         'title': clean_string(" ".join(split_title[3:])),
         'year': table_values[0].contents[0].string[0],
-        'type': clean_string(table_values[1].contents[0]),
+        'type_course': clean_string(table_values[1].contents[0]),
         'credits': clean_string(table_values[2].contents[0].string.split(" ")[0]),
         'lesson_type': clean_string(soup.find("desc_tipo_att").contents[0].string),
         'exam_type': clean_string(table_values[4].contents[0].string),
         'evaluation_type': clean_string(table_values[5].contents[0].string),
-        'lesson_period': clean_string(table_values[6].contents[0].string)
+        'lesson_period': clean_string(table_values[6].contents[0].string),
+        'teaching_units': teaching_units,
+        #'partitions': partitions
     }
     """ else:
         # add better error control with an exception
         print(f"Cannot download the page from {url}.") """
 
-    print(information)
+    pprint(information)
     return information
 
 
@@ -139,11 +172,11 @@ filenames = [
     #'person_en'
 ]
 
-data, extracted_urls = get_initial_data(urls, filenames, extract_urls)
+""" data, extracted_urls = get_initial_data(urls, filenames, extract_urls)
 departments = extract_departments(data[0], data[1])
 
 with open('departments.json', 'w', encoding='utf-8') as f:
-    json.dump(departments, f, indent=2)
+    json.dump(departments, f, indent=2) """
 
 scrape_esse3("https://www.esse3.unitn.it/Guide/PaginaADContest.do?ad_cont_id=10692*93487*2022*2018*9999")
 
