@@ -18,7 +18,7 @@ def clean_string(input_string):
     :param input_string: String to be cleaned
     :return: Cleaned string
     """
-    return input_string.strip().replace(u"\200b", "").replace(u"\xa0â€‹", "").replace(u"â€‹", "").replace(u"\n", "").replace(u"\t", "")
+    return input_string.strip().replace(u"\xa0â€‹", "").replace(u"â€‹", "").replace(u"\n", "").replace(u"\t", "").replace(u"\xa0", "").replace(u"\u200b", "")
 
 
 def get_initial_data(urls, filenames, extract_urls):
@@ -96,37 +96,39 @@ def scrape_esse3(url):
 
     if res.ok:
         soup = BeautifulSoup(res.text, 'lxml') """
-    with open('prova2.html', "r") as f:
+    with open('prova3.html', "r") as f:
         page = f.read()
     soup = BeautifulSoup(page, 'lxml')
+    split_title = clean_string(soup.find(
+        "div", {"id": "header_1"}).contents[1].string).split("-")
 
-    split_title = soup.find(
-        "div", {"id": "header_1"}).contents[1].string.split()
     table_values = soup.find_all('dd')
-
     teaching_units_html = soup.find(id="table1").find('tbody').find_all("tr")
     teaching_units = []
     for i in range(len(teaching_units_html)):
         unit = teaching_units_html[i].find_all("td")
         unit_information = {
-                'unit_name': clean_string(unit[0].string),
-                'activity_type': clean_string(unit[1].string) if unit[1].string else '',
-                'duration_hours': clean_string(unit[2].string) if unit[2].string else '',
-                'type_teaching': clean_string(unit[3].string) if unit[3].string else '',
-                'subject_area': clean_string(unit[4].string) if unit[4].string else '',
-                'credits': clean_string(unit[5].string) if unit[5].string else ''
+            'unit_name': clean_string(unit[0].string),
+            'activity_type': clean_string(unit[1].string) if unit[1].string else '',
+            'duration_hours': clean_string(unit[2].string) if unit[2].string else '',
+            'type_teaching': clean_string(unit[3].string) if unit[3].string else '',
+            'subject_area': clean_string(unit[4].string) if unit[4].string else '',
+            'credits': clean_string(unit[5].string) if unit[5].string else ''
         }
         teaching_units.append(unit_information)
 
-    # This needs to be adapted to get the right professor name
     partitions_html = soup.find(id="table2").find('tbody').find_all("tr")
-    # VERSION 1
     partitions = []
     last_rowspan = {
         'partition': 1,
         'syllabus': 1
     }
     append_new = True
+    professor = {
+        'count': 0,
+        'name': '',
+        'tenured': True
+    }
     for i in range(len(partitions_html)):
         partition = partitions_html[i].find_all("td")
         if list(last_rowspan.values()) == [1, 1]:
@@ -134,12 +136,16 @@ def scrape_esse3(url):
                 'partition_name': clean_string(partition[0].string),
                 'period': clean_string(partition[1].string),
                 'teacher': {'name': [clean_string(partition[2].string) if partition[2].string else ''], 'tenured': [True if partition[3].find('img') else False]},
-                'syllabus_link': clean_string(partition[4].string) if partition[4].string else '' if partition[4] else '',
+                'syllabus_link': 'https://www.esse3.unitn.it/'+partition[4].find('a')['href'] if partition[4].find('a') else '' if partition[4] else '',
             }
             last_rowspan = {
                 'partition': int(partition[0]['rowspan']),
                 'syllabus': int(partition[4]['rowspan'])
             }
+            if partition[2].string and clean_string(partition[2].string) != '':
+                professor['count'] += 1
+                professor['name'] = clean_string(partition[2].string)
+                professor['tenured'] = True if partition[3].find('img') else False
         else:
             if last_rowspan['partition'] <= 1:
                 partition_information = {
@@ -149,11 +155,22 @@ def scrape_esse3(url):
                     'syllabus_link': '',
                 }
                 append_new = True
+                if partition[2].string and clean_string(partition[2].string) != '':
+                    professor['count'] += 1
+                    professor['name'] = clean_string(partition[2].string)
+                    professor['tenured'] = True if partition[3].find('img') else False
             else:
                 last_rowspan['partition'] -= 1
-                partitions[-1]['teacher']['name'].append(clean_string(partition[0].string) if partition[0].string else '')
-                partitions[-1]['teacher']['tenured'].append(True if partition[1].find('img') else False)
+                partitions[-1]['teacher']['name'].append(clean_string(
+                    partition[0].string) if partition[0].string else '')
+                partitions[-1]['teacher']['tenured'].append(
+                    True if partition[1].find('img') else False)
                 append_new = False
+                if partition[0].string and clean_string(partition[0].string) != '':
+                    professor['count'] += 1
+                    professor['name'] = clean_string(partition[0].string)
+                    professor['tenured'] = True if partition[1].find('img') else False
+
             if last_rowspan['syllabus'] <= 1:
                 partition_information['syllabus_link'] = clean_string(partition[4].string) if len(
                     partition) >= 5 and partition[4] else partition_information['syllabus_link']
@@ -161,56 +178,17 @@ def scrape_esse3(url):
                 last_rowspan['syllabus'] -= 1
                 if partitions[-1]['syllabus_link'] == '':
                     partitions[-1]['syllabus_link'] = clean_string(partition[2].string) if len(
-                    partition) >= 3 and partition[2] else partition_information['syllabus_link']
+                        partition) >= 3 and partition[2] else partition_information['syllabus_link']
         if append_new:
             partitions.append(partition_information)
-
-    """
-    # VERSION 2
-    partitions = {}
-    last_rowspan = {
-        'partition': 1,
-        'syllabus': 1
-    }
-    previous_partition_name = ''
-    for i in range(len(partitions_html)):
-        partition = partitions_html[i].find_all("td")
-        if list(last_rowspan.values()) == [1, 1]:
-            partition_information = {
-                'period': clean_string(partition[1].string),
-                'teacher': {'name': [clean_string(partition[2].string) if partition[2].string else ''], 'tenured': [True if partition[3].find('img') else False]},
-                'syllabus_link': clean_string(partition[4].string) if partition[4].string else '' if partition[4] else '',
-            }
-            last_rowspan = {
-                'partition': int(partition[0]['rowspan']),
-                'syllabus': int(partition[4]['rowspan'])
-            }
-            previous_partition_name = clean_string(partition[0].string)
-        else:
-            if last_rowspan['partition'] <= 1:
-                partition_information = {
-                    'period': clean_string(partition[1].string),
-                    'teacher': {'name': [clean_string(partition[2].string) if partition[2].string else ''], 'tenured': [True if partition[3].find('img') else False]},
-                    'syllabus_link': '',
-                }
-                previous_partition_name = clean_string(partition[0].string)
-            else:
-                last_rowspan['partition'] -= 1
-                partition_information['syllabus'] = ''
-                partition_information['teacher']['name'].append(clean_string(partition[0].string) if partition[0].string else '')
-                partition_information['teacher']['tenured'].append(True if partition[1].find('img') else False)
-            if last_rowspan['syllabus'] <= 1:
-                partition_information['syllabus_link'] = clean_string(partition[4].string) if len(
-                    partition) >= 5 and partition[4] else partition_information['syllabus_link']
-            else:
-                last_rowspan['syllabus'] -= 1
-                partition_information['syllabus_link'] = clean_string(partition[2].string) if len(
-                    partition) >= 3 and partition[2] else partition_information['syllabus_link']
-        partitions[previous_partition_name] = partition_information """
+    if professor['count'] == 1:
+        for partition in partitions:
+            partition['teacher']['name'] = [professor['name']]
+            partition['teacher']['tenured'] = [professor['tenured']]
 
     information = {
-        'id': clean_string(split_title[0]),
-        'title': clean_string(" ".join(split_title[3:])),
+        'id': clean_string(" ".join(split_title[0:-1])),
+        'title': clean_string(split_title[-1]),
         'year': table_values[0].contents[0].string[0],
         'type_course': clean_string(table_values[1].contents[0]),
         'credits': clean_string(table_values[2].contents[0].string.split(" ")[0]),
@@ -225,6 +203,8 @@ def scrape_esse3(url):
         # add better error control with an exception
         print(f"Cannot download the page from {url}.") """
 
+    """ with open('prova_esse3.json', 'w', encoding='utf-8') as f:
+        json.dump(information, f) """
     pprint(information)
     return information
 
