@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 import re
 import string
 import time
+from geopy.geocoders import Nominatim
 from pprint import pprint  # Only for debugging purposes
 
 # THE CODE HERE IS NOT FINAL, IT NEEDS TO BE FINISHED AND CLEANED
@@ -208,6 +209,35 @@ def scrape_esse3(url):
     pprint(information)
     return information
 
+def get_address_information(address):
+    """
+    Fetch and return the address information from OpenStreetMap
+
+    :param address: Address to look up in OSM
+    :return: Dictionary with the information for the input address
+    """
+    # Check the Nominatim TOS before using this, it allows maximum 1 request per second
+    # https://operations.osmfoundation.org/policies/nominatim/
+    # Also check the OSM wiki regarding the API
+    # https://wiki.openstreetmap.org/wiki/API_v0.6
+    geolocator = Nominatim(user_agent="Mozilla/5.0 (Windows NT 10.0; rv:105.0) Gecko/20100101 Firefox/105.0")
+    query = geolocator.geocode(query=address)
+    r = request('get', f"https://www.openstreetmap.org/api/0.6/way/{query.raw.get('osm_id')}.json", headers={
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; rv:106.0) Gecko/20100101 Firefox/106.0'})
+    if r.ok:
+        return json.loads(r.text)
+    else:
+        return {}
+
+def integrate_organization(organization):
+    """
+    Add to the organization received in input the information gathered from OpenStreetMap
+
+    :param organization: The organization to integrate
+    :return: The integrated organization
+    """
+
+    return organization
 
 # From here the real code starts where all the function calls are made
 urls = [
@@ -234,10 +264,13 @@ departments = extract_departments(data[0], data[1])
 with open('departments.json', 'w', encoding='utf-8') as f:
     json.dump(departments, f, indent=2) """
 
-scrape_esse3(
-    "https://www.esse3.unitn.it/Guide/PaginaADContest.do?ad_cont_id=10704*95962*2022*2018*9999")
-
 """ for url in extracted_urls[0]:
     information = scrape_esse3(url)
     # What are we doing with this information?
     time.sleep(2) """
+
+# Uncomment the following to test the scraping function
+# scrape_esse3("https://www.esse3.unitn.it/Guide/PaginaADContest.do?ad_cont_id=10704*95962*2022*2018*9999")
+
+# Test the OSM address retrieval
+print(get_address_information("Via Adalberto Libera, 3, Trento, TN"))
