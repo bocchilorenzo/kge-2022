@@ -336,7 +336,7 @@ def start():
     roles_set = set()
     person_positions_dataset = initialize_dataset()
     person_phone_dataset = initialize_dataset()
-    for person in staff:
+    for person in data[5]['value']['data']:
         for position in person['position']:
             role_id = uuid.uuid4().hex
             if position['role'] not in roles_set:
@@ -360,6 +360,11 @@ def start():
     set_total_size(roles_dataset)
     set_total_size(person_positions_dataset)
     set_total_size(person_phone_dataset)
+
+    save_dataset(data[5], 'person_en_final', 'json')
+    save_dataset(roles_dataset, 'roles_en', 'json')
+    save_dataset(person_positions_dataset, 'person_positions', 'json')
+    save_dataset(person_phone_dataset, 'person_phone', 'json')
     del roles_set
 
     # Download information about the addresses from OpenStreetMap
@@ -370,14 +375,7 @@ def start():
 
     addresses.remove('')
 
-    osm_data = {
-        'value': {
-            'total': len(addresses),
-            'size': len(addresses),
-            'language': 'en',
-            'data': []
-        }
-    }
+    osm_data = initialize_dataset()
 
     for address in addresses:
         info = get_address_information(address)
@@ -387,7 +385,7 @@ def start():
             tags['timestamp'] = info['elements'][0]['timestamp']
         append_data(osm_data, {'address': address, 'osm_tags': tags})
         time.sleep(1.5)
-
+    set_total_size(osm_data)
     save_dataset(osm_data, 'buildings', 'json')
 
     print("Done!")
