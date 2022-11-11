@@ -256,18 +256,18 @@ def start():
 
     # Set the names for the files
     filenames = [
-        'course',
-        'course_en',
-        'organization',
-        'organization_en',
-        'person',
-        'person_en'
+        'original/course',
+        'original/course_en',
+        'original/organization',
+        'original/organization_en',
+        'original/person',
+        'original/person_en'
     ]
 
     # Download the files and extract the departments
     data = get_initial_data(urls, filenames)
     departments = extract_departments(data[1])
-    save_dataset(departments, 'departments', 'json')
+    save_dataset(departments, 'generated/departments', 'json')
 
     # Scraping of the courses from Esse3
     # NOTE: This needs to be cleaned, move repeated code in a function
@@ -276,6 +276,7 @@ def start():
     course_professors_dataset = initialize_dataset()
     course_departments_dataset = initialize_dataset()
     course_assistants_dataset = initialize_dataset()
+    counter = 0
     for course in data[1]['value']['data']:
         print(f"Scraping {course['name']}...")
         information, partitions, teaching_units = scrape_esse3(
@@ -320,18 +321,23 @@ def start():
         course['teachingPeriod'] = information['lesson_period']
         course['teachingUnits'] = information['teaching_units']
         course['partitions'] = information['partitions'] """
-        time.sleep(random.uniform(1, 1.5))
+        count += 1
+        if count == 100:
+            time.sleep(random.uniform(1, 2))
+            count = 1
+        else:
+            time.sleep(10)
     set_total_size(partitions_dataset)
     set_total_size(teaching_units_dataset)
 
-    save_dataset(data[1], 'course_en_complete', 'json')
-    save_dataset(partitions_dataset, 'partitions_en', 'json')
-    save_dataset(teaching_units_dataset, 'teaching_units_en', 'json')
-    save_dataset(course_departments_dataset, 'course_departments_en', 'json')
-    save_dataset(course_professors_dataset, 'course_professors_en', 'json')
-    save_dataset(course_assistants_dataset, 'course_assistants_en', 'json')
+    save_dataset(data[1], 'generated/course_en_final', 'json')
+    save_dataset(partitions_dataset, 'generated/partitions_en', 'json')
+    save_dataset(teaching_units_dataset, 'generated/teaching_units_en', 'json')
+    save_dataset(course_departments_dataset, 'generated/course_departments_en', 'json')
+    save_dataset(course_professors_dataset, 'generated/course_professors_en', 'json')
+    save_dataset(course_assistants_dataset, 'generated/course_assistants_en', 'json')
 
-    # Separating the positions from the staff
+    # Separating the lists from the staff dataset
     roles_dataset = initialize_dataset()
     roles_set = set()
     person_positions_dataset = initialize_dataset()
@@ -361,11 +367,52 @@ def start():
     set_total_size(person_positions_dataset)
     set_total_size(person_phone_dataset)
 
-    save_dataset(data[5], 'person_en_final', 'json')
-    save_dataset(roles_dataset, 'roles_en', 'json')
-    save_dataset(person_positions_dataset, 'person_positions', 'json')
-    save_dataset(person_phone_dataset, 'person_phone', 'json')
+    save_dataset(data[5], 'generated/person_en_final', 'json')
+    save_dataset(roles_dataset, 'generated/roles_en', 'json')
+    save_dataset(person_positions_dataset, 'generated/person_positions', 'json')
+    save_dataset(person_phone_dataset, 'generated/person_phone', 'json')
     del roles_set
+
+    # Separating the lists from the organization dataset
+    organization_phone_dataset = initialize_dataset()
+    organization_email_dataset = initialize_dataset()
+    organization_website_dataset = initialize_dataset()
+    organization_path_dataset = initialize_dataset()
+    for organization in data[3]['value']['data']:
+        for phone in organization['phone']:
+            append_data(organization_phone_dataset, {
+                'organizationId': organization['identifier'],
+                'phoneNumber': phone
+            })
+        for email in organization['email']:
+            append_data(organization_email_dataset, {
+                'organizationId': organization['identifier'],
+                'emailAddress': email
+            })
+        for website in organization['website']:
+            append_data(organization_website_dataset, {
+                'organizationId': organization['identifier'],
+                'website': website
+            })
+        for path in organization['unitPath']:
+            append_data(organization_path_dataset, {
+                'organizationId': organization['identifier'],
+                'unitPath': path
+            })
+        del organization['phone']
+        del organization['website']
+        del organization['email']
+        del organization['unitPath']
+    set_total_size(organization_phone_dataset)
+    set_total_size(organization_email_dataset)
+    set_total_size(organization_website_dataset)
+    set_total_size(organization_path_dataset)
+
+    save_dataset(data[3], 'generated/organization_en_final', 'json')
+    save_dataset(organization_phone_dataset, 'generated/organization_phone', 'json')
+    save_dataset(organization_email_dataset, 'generated/organization_email', 'json')
+    save_dataset(organization_website_dataset, 'generated/organization_website', 'json')
+    save_dataset(organization_path_dataset, 'generated/organization_path', 'json')
 
     # Download information about the addresses from OpenStreetMap
     print("Getting addresses from OpenStreetMap...")
@@ -386,7 +433,7 @@ def start():
         append_data(osm_data, {'address': address, 'osm_tags': tags})
         time.sleep(1.5)
     set_total_size(osm_data)
-    save_dataset(osm_data, 'buildings', 'json')
+    save_dataset(osm_data, 'generated/buildings', 'json')
 
     print("Done!")
 
