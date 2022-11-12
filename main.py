@@ -93,6 +93,7 @@ def scrape_esse3(url):
         teaching_units = []
         for i in range(len(teaching_units_html)):
             unit = teaching_units_html[i].find_all("td")
+            unitId = uuid.uuid4().hex
             if len(unit) < 6:
                 # Probably an error in the input, see https://www.esse3.unitn.it/Guide/PaginaADContest.do?ad_cont_id=10661*94459*2022*2017*9999
                 previous_unit = teaching_units_html[i-1].find_all("td")
@@ -103,7 +104,8 @@ def scrape_esse3(url):
                     'durationHours': clean_string(unit[1].string) if unit[1].string else '',
                     'typeTeaching': clean_string(unit[2].string) if unit[2].string else '',
                     'subjectArea': clean_string(unit[3].string) if unit[3].string else '',
-                    'credits': clean_string(unit[4].string) if unit[4].string else ''
+                    'credits': clean_string(unit[4].string) if unit[4].string else '',
+                    'id': unitId
                 }
             else:
                 unit_information = {
@@ -113,7 +115,8 @@ def scrape_esse3(url):
                     'durationHours': clean_string(unit[2].string) if unit[2].string else '',
                     'typeTeaching': clean_string(unit[3].string) if unit[3].string else '',
                     'subjectArea': clean_string(unit[4].string) if unit[4].string else '',
-                    'credits': clean_string(unit[5].string) if unit[5].string else ''
+                    'credits': clean_string(unit[5].string) if unit[5].string else '',
+                    'id': unitId
                 }
             teaching_units.append(unit_information)
 
@@ -133,6 +136,7 @@ def scrape_esse3(url):
         if partitions_html:
             for i in range(len(partitions_html)):
                 partition = partitions_html[i].find_all("td")
+                partitionId = uuid.uuid4().hex
                 if list(last_rowspan.values()) == [1, 1]:
                     partition_information = {
                         'partitionName': clean_string(partition[0].string),
@@ -188,6 +192,7 @@ def scrape_esse3(url):
                                 partition) >= 3 and partition[2] else partition_information['syllabusLink']
                 if append_new:
                     partition_information['courseId'] = course_id
+                    partition_information['id'] = partitionId
                     partitions.append(partition_information)
             if professor['count'] == 1:
                 for partition in partitions:
@@ -239,29 +244,51 @@ def get_address_information(address):
         return {}
 
 
-def get_geospatial_data(dep_data):
+def get_geospatial_data(dep_data, addresses):
     """
     Fetch and save the geospatial data about Uni departments from OpenStreetMap
 
     :param dep_data: departments_en file
+    :param addresses: Addresses to use
     """
     print("Getting addresses from OpenStreetMap...")
-    addresses = set()
-    for organization in dep_data['value']['data']:
-        addresses.add(organization['address'])
-
-    addresses.remove('')
-
     osm_data = initialize_dataset()
-
+    tags_to_use = {'addr:city',
+                   'addr:country',
+                   'addr:housenumber',
+                   'addr:postcode',
+                   'addr:street',
+                   'alt_name',
+                   'amenity',
+                   'email',
+                   'long_name',
+                   'name',
+                   'name:en',
+                   'name:it',
+                   'old_name',
+                   'opening_hours',
+                   'phone',
+                   'short_name',
+                   'website',
+                   'wheelchair'}
     for address in addresses:
         info = get_address_information(address)
         tags = {}
         if bool(info):
-            tags = info['elements'][0]['tags']
+            for tag in tags_to_use:
+                tags[tag] = info['elements'][0]['tags'][tag] if tag in info['elements'][0]['tags'] else ''
             tags['timestamp'] = info['elements'][0]['timestamp']
         append_data(osm_data, {'address': address, 'osm_tags': tags})
         time.sleep(1.5)
+
+    problematic_addresses = [building['address'] for building in osm_data['value']['data'] if not bool(building['osm_tags'])]
+    i = 0
+    while i < len(osm_data['value']['data']):
+        if osm_data['value']['data'][i]['address'] in problematic_addresses:
+            del osm_data['value']['data'][i]
+        else:
+            i += 1
+    
     set_total_size(osm_data)
     save_dataset(osm_data, 'generated/buildings', 'json')
 
@@ -303,6 +330,7 @@ def start():
     course_professors_dataset = initialize_dataset()
     course_departments_dataset = initialize_dataset()
     course_assistants_dataset = initialize_dataset()
+    partition_professors_dataset = initialize_dataset()
     count = 0
     for course in data[1]['value']['data']:
         print(f"Scraping {course['name']}...")
@@ -312,42 +340,30 @@ def start():
             'department'], course['professor'], course['assistant']
         del course['department'], course['professor'], course['assistant']
 
-        for professor in course_professors:
-            append_data(course_professors_dataset, {
-                'courseId': information['id'],
-                'professorId': professor['id']
-            }
-            )
-        for department in course_departments:
-            append_data(course_departments_dataset, {
-                'courseId': information['id'],
-                'departmentId': department['unitId']
-            }
-            )
-        for assistant in course_assistants:
-            append_data(course_assistants_dataset, {
-                'courseId': information['id'],
-                'assistantId': professor['id']
-            }
-            )
+        course_professors_dataset['value']['data'] = [
+            {'courseId': information['id'], 'professorId': professor['id']} for professor in course_professors]
+        course_departments_dataset['value']['data'] = [
+            {'courseId': information['id'], 'departmentId': department['unitId']} for department in course_departments]
+        course_assistants_dataset['value']['data'] = [
+            {'courseId': information['id'], 'assistantId': assistant['id']} for assistant in course_assistants]
 
         for partition in partitions:
-            append_data(partitions_dataset, partition)
-        for unit in teaching_units:
-            append_data(teaching_units_dataset, unit)
+            for i in range(len(partition['teacher']['name'])):
+                for j in range(len(course_professors)):
+                    if " ".join([course_professors[j]['name'], course_professors[j]['surname']]).lower() == partition['teacher']['name'][i].lower():
+                        append_data(partition_professors_dataset, {
+                            'partitionId': partition['id'],
+                            'professorId': course_professors[j]['id'],
+                            'tenured': partition['teacher']['tenured'][i]
+                        })
+        if 'teacher' in partition:
+            del partition['teacher']
+        append_data(partitions_dataset, partition)
 
-        # This is the inbuilt function to merge dictionaries, needs testing
+        teaching_units_dataset['value']['data'] = [
+            unit for unit in teaching_units]
+
         course.update(information)
-        """ course['id'] = information['id']
-        course['teachingYear'] = information['year']
-        course['courseType'] = information['type_course']
-        course['credits'] = information['credits']
-        course['teachingMethods'] = information['lesson_type']
-        course['examType'] = information['exam_type']
-        course['evalutation'] = information['evaluation_type']
-        course['teachingPeriod'] = information['lesson_period']
-        course['teachingUnits'] = information['teaching_units']
-        course['partitions'] = information['partitions'] """
         count += 1
         if count == 100:
             time.sleep(10)
@@ -357,6 +373,10 @@ def start():
 
     set_total_size(partitions_dataset)
     set_total_size(teaching_units_dataset)
+    set_total_size(course_professors_dataset)
+    set_total_size(course_departments_dataset)
+    set_total_size(course_assistants_dataset)
+    set_total_size(partition_professors_dataset)
 
     save_dataset(data[1], 'generated/course_en_final', 'json')
     save_dataset(partitions_dataset, 'generated/partitions_en', 'json')
@@ -367,6 +387,8 @@ def start():
                  'generated/course_professors_en', 'json')
     save_dataset(course_assistants_dataset,
                  'generated/course_assistants_en', 'json')
+    save_dataset(partition_professors_dataset,
+                 'generated/partition_professors_en', 'json')
 
     # Separating the lists from the staff dataset
     roles_dataset = initialize_dataset()
@@ -387,11 +409,8 @@ def start():
                 'roleId': role_id,
                 'unitId': position['unitId']
             })
-        for phone in person['phone']:
-            append_data(person_phone_dataset, {
-                'personId': person['identifier'],
-                'phoneNumber': phone
-            })
+        person_phone_dataset['value']['data'] = [
+            {'personId': person['identifier'], 'phoneNumber': phone} for phone in person['phone']]
         del person['position']
         del person['phone']
     set_total_size(roles_dataset)
@@ -410,27 +429,17 @@ def start():
     organization_email_dataset = initialize_dataset()
     organization_website_dataset = initialize_dataset()
     organization_path_dataset = initialize_dataset()
+    addresses = set()
     for organization in data[3]['value']['data']:
-        for phone in organization['phone']:
-            append_data(organization_phone_dataset, {
-                'organizationId': organization['identifier'],
-                'phoneNumber': phone
-            })
-        for email in organization['email']:
-            append_data(organization_email_dataset, {
-                'organizationId': organization['identifier'],
-                'emailAddress': email
-            })
-        for website in organization['website']:
-            append_data(organization_website_dataset, {
-                'organizationId': organization['identifier'],
-                'website': website
-            })
-        for path in organization['unitPath']:
-            append_data(organization_path_dataset, {
-                'organizationId': organization['identifier'],
-                'unitPath': path
-            })
+        addresses.add(organization['address'])
+        organization_phone_dataset['value']['data'] = [
+            {'organizationId': organization['identifier'], 'phoneNumber': phone} for phone in organization['phone']]
+        organization_email_dataset['value']['data'] = [
+            {'organizationId': organization['identifier'], 'emailAddress': email} for email in organization['email']]
+        organization_website_dataset['value']['data'] = [
+            {'organizationId': organization['identifier'], 'website': website} for website in organization['website']]
+        organization_path_dataset['value']['data'] = [
+            {'organizationId': organization['identifier'], 'unitPath': path} for path in organization['unitPath']]
         del organization['phone']
         del organization['website']
         del organization['email']
@@ -439,6 +448,7 @@ def start():
     set_total_size(organization_email_dataset)
     set_total_size(organization_website_dataset)
     set_total_size(organization_path_dataset)
+    addresses.remove('')
 
     save_dataset(data[3], 'generated/organization_en_final', 'json')
     save_dataset(organization_phone_dataset,
@@ -451,8 +461,7 @@ def start():
                  'generated/organization_path', 'json')
 
     # Download information about the addresses from OpenStreetMap
-    dep_data = data[3]
-    get_geospatial_data(dep_data)
+    get_geospatial_data(data[3], addresses)
 
     print("Done!")
 
