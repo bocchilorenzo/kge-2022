@@ -5,7 +5,7 @@ import re
 import string
 import time
 from geopy.geocoders import Nominatim
-#from pprint import pprint  # Only for debugging purposes
+# from pprint import pprint  # Only for debugging purposes
 import random
 import uuid
 from utilities.utilities import append_data, clean_string, initialize_dataset, save_dataset, set_total_size
@@ -39,7 +39,7 @@ def get_initial_data(urls, filenames):
             downloaded_data.append(file_to_json)
         else:
             # add better error control with an exception
-            print(f"Cannot download data from {url}.")
+            print(f"Cannot download data from {urls[i]}.")
 
     return downloaded_data
 
@@ -85,7 +85,7 @@ def scrape_esse3(url):
         soup = BeautifulSoup(res.text, 'lxml')
         # with open('prova3.html', "r") as f:
         #     page = f.read()
-        #soup = BeautifulSoup(page, 'lxml')
+        # soup = BeautifulSoup(page, 'lxml')
         course_id = uuid.uuid4().hex
         table_values = soup.find_all('dd')
         teaching_units_html = soup.find(
@@ -239,6 +239,33 @@ def get_address_information(address):
         return {}
 
 
+def get_geospatial_data(dep_data):
+    """
+    Fetch and save the geospatial data about Uni departments from OpenStreetMap
+
+    :param dep_data: departments_en file
+    """
+    print("Getting addresses from OpenStreetMap...")
+    addresses = set()
+    for organization in dep_data['value']['data']:
+        addresses.add(organization['address'])
+
+    addresses.remove('')
+
+    osm_data = initialize_dataset()
+
+    for address in addresses:
+        info = get_address_information(address)
+        tags = {}
+        if bool(info):
+            tags = info['elements'][0]['tags']
+            tags['timestamp'] = info['elements'][0]['timestamp']
+        append_data(osm_data, {'address': address, 'osm_tags': tags})
+        time.sleep(1.5)
+    set_total_size(osm_data)
+    save_dataset(osm_data, 'generated/buildings', 'json')
+
+
 def start():
     """
     Main function that executes all the code
@@ -276,7 +303,7 @@ def start():
     course_professors_dataset = initialize_dataset()
     course_departments_dataset = initialize_dataset()
     course_assistants_dataset = initialize_dataset()
-    counter = 0
+    count = 0
     for course in data[1]['value']['data']:
         print(f"Scraping {course['name']}...")
         information, partitions, teaching_units = scrape_esse3(
@@ -323,19 +350,23 @@ def start():
         course['partitions'] = information['partitions'] """
         count += 1
         if count == 100:
-            time.sleep(random.uniform(1, 2))
+            time.sleep(10)
             count = 1
         else:
-            time.sleep(10)
+            time.sleep(random.uniform(1, 2))
+
     set_total_size(partitions_dataset)
     set_total_size(teaching_units_dataset)
 
     save_dataset(data[1], 'generated/course_en_final', 'json')
     save_dataset(partitions_dataset, 'generated/partitions_en', 'json')
     save_dataset(teaching_units_dataset, 'generated/teaching_units_en', 'json')
-    save_dataset(course_departments_dataset, 'generated/course_departments_en', 'json')
-    save_dataset(course_professors_dataset, 'generated/course_professors_en', 'json')
-    save_dataset(course_assistants_dataset, 'generated/course_assistants_en', 'json')
+    save_dataset(course_departments_dataset,
+                 'generated/course_departments_en', 'json')
+    save_dataset(course_professors_dataset,
+                 'generated/course_professors_en', 'json')
+    save_dataset(course_assistants_dataset,
+                 'generated/course_assistants_en', 'json')
 
     # Separating the lists from the staff dataset
     roles_dataset = initialize_dataset()
@@ -369,7 +400,8 @@ def start():
 
     save_dataset(data[5], 'generated/person_en_final', 'json')
     save_dataset(roles_dataset, 'generated/roles_en', 'json')
-    save_dataset(person_positions_dataset, 'generated/person_positions', 'json')
+    save_dataset(person_positions_dataset,
+                 'generated/person_positions', 'json')
     save_dataset(person_phone_dataset, 'generated/person_phone', 'json')
     del roles_set
 
@@ -409,31 +441,18 @@ def start():
     set_total_size(organization_path_dataset)
 
     save_dataset(data[3], 'generated/organization_en_final', 'json')
-    save_dataset(organization_phone_dataset, 'generated/organization_phone', 'json')
-    save_dataset(organization_email_dataset, 'generated/organization_email', 'json')
-    save_dataset(organization_website_dataset, 'generated/organization_website', 'json')
-    save_dataset(organization_path_dataset, 'generated/organization_path', 'json')
+    save_dataset(organization_phone_dataset,
+                 'generated/organization_phone', 'json')
+    save_dataset(organization_email_dataset,
+                 'generated/organization_email', 'json')
+    save_dataset(organization_website_dataset,
+                 'generated/organization_website', 'json')
+    save_dataset(organization_path_dataset,
+                 'generated/organization_path', 'json')
 
     # Download information about the addresses from OpenStreetMap
-    print("Getting addresses from OpenStreetMap...")
-    addresses = set()
-    for organization in file_to_json['value']['data']:
-        addresses.add(organization['address'])
-
-    addresses.remove('')
-
-    osm_data = initialize_dataset()
-
-    for address in addresses:
-        info = get_address_information(address)
-        tags = {}
-        if bool(info):
-            tags = info['elements'][0]['tags']
-            tags['timestamp'] = info['elements'][0]['timestamp']
-        append_data(osm_data, {'address': address, 'osm_tags': tags})
-        time.sleep(1.5)
-    set_total_size(osm_data)
-    save_dataset(osm_data, 'generated/buildings', 'json')
+    dep_data = data[3]
+    get_geospatial_data(dep_data)
 
     print("Done!")
 

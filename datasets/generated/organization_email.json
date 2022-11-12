@@ -1,0 +1,281 @@
+{
+  "value": {
+    "total": 68,
+    "size": 68,
+    "language": "en",
+    "data": [
+      {
+        "organizationId": "STO0012250",
+        "emailAddress": "c3a@unitn.it"
+      },
+      {
+        "organizationId": "STO0000268",
+        "emailAddress": "uff.organicollegiali@unitn.it"
+      },
+      {
+        "organizationId": "STO0000266",
+        "emailAddress": "dirpi@unitn.it"
+      },
+      {
+        "organizationId": "STO0000292",
+        "emailAddress": "BibliotecaIngegneria@unitn.it"
+      },
+      {
+        "organizationId": "STO0000237",
+        "emailAddress": "Uff.Stipendi@unitn.it"
+      },
+      {
+        "organizationId": "STO0000235",
+        "emailAddress": "formazione@unitn.it"
+      },
+      {
+        "organizationId": "STO0000240",
+        "emailAddress": "fiscale@unitn.it"
+      },
+      {
+        "organizationId": "STO0001641",
+        "emailAddress": "iris@unitn.it"
+      },
+      {
+        "organizationId": "STO0000399",
+        "emailAddress": "gestione.sistemi@unitn.it"
+      },
+      {
+        "organizationId": "STO0000371",
+        "emailAddress": "school.socialsciences@unitn.it"
+      },
+      {
+        "organizationId": "ORI0000277",
+        "emailAddress": "direttoregenerale@unitn.it"
+      },
+      {
+        "organizationId": "ORI0000281",
+        "emailAddress": "presidente@unitn.it"
+      },
+      {
+        "organizationId": "STO0000012",
+        "emailAddress": "staff.rettorato@unitn.it"
+      },
+      {
+        "organizationId": "STO0000006",
+        "emailAddress": "staff.rettorato@unitn.it"
+      },
+      {
+        "organizationId": "STO0008899",
+        "emailAddress": "dii.tecnici.laboratori@unitn.it"
+      },
+      {
+        "organizationId": "STO0008898",
+        "emailAddress": "dii.supportstaff@unitn.it"
+      },
+      {
+        "organizationId": "STO0008862",
+        "emailAddress": "Comunicazione-Citta@unitn.it"
+      },
+      {
+        "organizationId": "STO0008864",
+        "emailAddress": "Comunicazione-Collina@unitn.it"
+      },
+      {
+        "organizationId": "STO0008878",
+        "emailAddress": "labdipsco@unitn.it"
+      },
+      {
+        "organizationId": "STO0000143",
+        "emailAddress": "DirezioneRisorseUmane@unitn.it"
+      },
+      {
+        "organizationId": "STO0008926",
+        "emailAddress": "phd.office-st@unitn.it"
+      },
+      {
+        "organizationId": "STO0008929",
+        "emailAddress": "supportostudentiecogiursi@unitn.it"
+      },
+      {
+        "organizationId": "ORI0000004",
+        "emailAddress": "presidenteconsigliostudenti@unitn.it"
+      },
+      {
+        "organizationId": "STO0000868",
+        "emailAddress": "uff.personaledr@unitn.it"
+      },
+      {
+        "organizationId": "STO0000864",
+        "emailAddress": "Div.Amministrazione@unitn.it"
+      },
+      {
+        "organizationId": "STO0000863",
+        "emailAddress": "Div.Pianificazione@unitn.it"
+      },
+      {
+        "organizationId": "STO0000861",
+        "emailAddress": "dca@unitn.it"
+      },
+      {
+        "organizationId": "STO0000883",
+        "emailAddress": "uff.amministrazionepta@unitn.it"
+      },
+      {
+        "organizationId": "STO0012554",
+        "emailAddress": "WebTeam@unitn.it"
+      },
+      {
+        "organizationId": "STO0012566",
+        "emailAddress": "ammissioni@unitn.it"
+      },
+      {
+        "organizationId": "STO0009626",
+        "emailAddress": "Uff.ProtocolloCentrale@unitn.it"
+      },
+      {
+        "organizationId": "STO0000948",
+        "emailAddress": "dir.dss@unitn.it"
+      },
+      {
+        "organizationId": "STO0000947",
+        "emailAddress": "dir.dss@unitn.it"
+      },
+      {
+        "organizationId": "STO0000958",
+        "emailAddress": "uff.serviziallostudio@unitn.it"
+      },
+      {
+        "organizationId": "STO0000962",
+        "emailAddress": "Uff.DidatticaOnLine@unitn.it"
+      },
+      {
+        "organizationId": "STO0008662",
+        "emailAddress": "cibio@unitn.it"
+      },
+      {
+        "organizationId": "STO0008631",
+        "emailAddress": "dipartimentopsc@unitn.it"
+      },
+      {
+        "organizationId": "STO0008625",
+        "emailAddress": "dii.supportstaff@unitn.it"
+      },
+      {
+        "organizationId": "STO0008628",
+        "emailAddress": "dept.math@unitn.it"
+      },
+      {
+        "organizationId": "STO0008627",
+        "emailAddress": "df.supportstaff@unitn.it"
+      },
+      {
+        "organizationId": "STO0008626",
+        "emailAddress": "dicam@unitn.it"
+      },
+      {
+        "organizationId": "STO0008633",
+        "emailAddress": "sis@unitn.it"
+      },
+      {
+        "organizationId": "STO0000267",
+        "emailAddress": "UfficioStudi@unitn.it"
+      },
+      {
+        "organizationId": "STO0000217",
+        "emailAddress": "ufficio.stampa@unitn.it"
+      },
+      {
+        "organizationId": "STO0000238",
+        "emailAddress": "Uff.Previdenza@unitn.it"
+      },
+      {
+        "organizationId": "STO0013545",
+        "emailAddress": "uff.privacy@unitn.it"
+      },
+      {
+        "organizationId": "STO0000242",
+        "emailAddress": "gm.povo@unitn.it"
+      },
+      {
+        "organizationId": "STO0013558",
+        "emailAddress": "UfficioArchiviEditoria@unitn.it"
+      },
+      {
+        "organizationId": "STO0000398",
+        "emailAddress": "ecdl@unitn.it"
+      },
+      {
+        "organizationId": "ORI0000276",
+        "emailAddress": "rettore@unitn.it"
+      },
+      {
+        "organizationId": "STO0000434",
+        "emailAddress": "dottorato.sgce@unitn.it"
+      },
+      {
+        "organizationId": "STO0008863",
+        "emailAddress": "Comunicazione-Rovereto@unitn.it"
+      },
+      {
+        "organizationId": "STO0008877",
+        "emailAddress": "itmrovereto@unitn.it"
+      },
+      {
+        "organizationId": "STO0008876",
+        "emailAddress": "icts.polocollina@unitn.it"
+      },
+      {
+        "organizationId": "STO0008920",
+        "emailAddress": "Uff.SviluppoServiziOnLine@unitn.it"
+      },
+      {
+        "organizationId": "STO0008924",
+        "emailAddress": "phd.office-cssh@unitn.it"
+      },
+      {
+        "organizationId": "ORI0000003",
+        "emailAddress": "presidente@unitn.it"
+      },
+      {
+        "organizationId": "ORI0000005",
+        "emailAddress": "NucleodiValutazione@unitn.it"
+      },
+      {
+        "organizationId": "STO0000843",
+        "emailAddress": "uff.legale@unitn.it"
+      },
+      {
+        "organizationId": "STO0000869",
+        "emailAddress": "Uff.AccoglienzaPersonale@unitn.it"
+      },
+      {
+        "organizationId": "STO0000870",
+        "emailAddress": "dir.sisti@unitn.it"
+      },
+      {
+        "organizationId": "STO0000885",
+        "emailAddress": "network@unitn.it"
+      },
+      {
+        "organizationId": "STO0000946",
+        "emailAddress": "comunicazione@unitn.it"
+      },
+      {
+        "organizationId": "STO0002401",
+        "emailAddress": "cru@unitn.it"
+      },
+      {
+        "organizationId": "STO0008663",
+        "emailAddress": "cimec@unitn.it"
+      },
+      {
+        "organizationId": "STO0008621",
+        "emailAddress": "dem@unitn.it"
+      },
+      {
+        "organizationId": "STO0008632",
+        "emailAddress": "staffdip.lett@unitn.it"
+      },
+      {
+        "organizationId": "STO0008629",
+        "emailAddress": "disi@unitn.it"
+      }
+    ]
+  }
+}
