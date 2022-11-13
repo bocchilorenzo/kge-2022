@@ -5,303 +5,303 @@
     "language": "en",
     "data": [
       {
-        "roleId": "c75b39879bd9488dba052a431bb12b53",
+        "roleId": "2390cb244f234e07a52781349ac6fa35",
         "roleName": "Guest"
       },
       {
-        "roleId": "e401dc0cb7ad419bb0726f9d24aefc02",
+        "roleId": "4dbeafe1de004b76bfd86283108d20f0",
         "roleName": "Teaching fellow"
       },
       {
-        "roleId": "28f41baeac4f4559a606a3b69873b18d",
+        "roleId": "9aa33646860f4ca7b334f28f608f7542",
         "roleName": "Teaching assistant"
       },
       {
-        "roleId": "9edf1826c1d044c49b11a2ac340b65bc",
+        "roleId": "385e300d65c0451ab3b0fb03674e2970",
         "roleName": "Full professor"
       },
       {
-        "roleId": "06b400db8fcb4174836e62c6e912dd30",
+        "roleId": "8bf0794265d1427a9c590dca147cb18f",
         "roleName": "Research collaborator"
       },
       {
-        "roleId": "65d32e6b13074825bcc50418addc3829",
+        "roleId": "eef9c56acb9d4186b17f60d569f06f7e",
         "roleName": "Research fellowship holder"
       },
       {
-        "roleId": "3bdf6694f0d54f53a6a95f9399c12ba3",
+        "roleId": "6ad00d23af854316b86eeaec5afc4d15",
         "roleName": "PhD student"
       },
       {
-        "roleId": "aacb51400ba443eaaa355e66fc1f00c5",
+        "roleId": "edef8d362cd24036901e4d24dfc47d85",
         "roleName": "Staff"
       },
       {
-        "roleId": "81ed9cafcaa04289bc2fc873bf4a22b2",
+        "roleId": "8fc8ed49143441279beef409540a9312",
         "roleName": "Associate professor"
       },
       {
-        "roleId": "4f2d479e8e35437986f6fb20ebac7d2b",
+        "roleId": "359047ca7da24ec3bc3ec5e676cd2386",
         "roleName": "Collaborator"
       },
       {
-        "roleId": "247557aac78d4406bb3ab011789d1213",
+        "roleId": "c63ec7ab85a94742a568d9a80372cf67",
         "roleName": "Assistant professor"
       },
       {
-        "roleId": "b3dbbeb69ab74ddfb2ef5cf7ca01ccf2",
+        "roleId": "1be94ec2b66a4a5b96af422282121c96",
         "roleName": "Employees' representative for safety issues"
       },
       {
-        "roleId": "70e4a20b34d84429b89c10667c3befb0",
+        "roleId": "687cf87aee2c4371b0e8055c2cddd429",
         "roleName": "Visiting professor"
       },
       {
-        "roleId": "15be7fed05134bf2a821e952757613cd",
+        "roleId": "9ea4c09cac2f46689ca6bfb84ca7de5a",
         "roleName": "Adjunct professor"
       },
       {
-        "roleId": "ed5da805f18d4e72afb0b7c643f0ea2a",
+        "roleId": "a120bedac5354ceeb4d0350b60502e6a",
         "roleName": "Member"
       },
       {
-        "roleId": "25a46e43b95f4130be3040bd64f62c58",
+        "roleId": "2cb9a597f91c4181819c5f5b51c22965",
         "roleName": "Director"
       },
       {
-        "roleId": "961fb7a6668d4fbea162eeb436b6dfba",
+        "roleId": "9331c1b343144fd8812021b586b5a48d",
         "roleName": "Head"
       },
       {
-        "roleId": "c6d947fbe8d846b386b04845d0cbb20f",
+        "roleId": "7febf8146a2f4db3a0c52399a02f15f1",
         "roleName": "Students' representative"
       },
       {
-        "roleId": "31024692c35343378da90c84732e0e13",
+        "roleId": "282272f9dcac4476b64b756f0c5c864a",
         "roleName": "Research grant holder"
       },
       {
-        "roleId": "860a8f09e6184e889cb873684bc9e87b",
+        "roleId": "88a7a9a992234738af6f6d6e429775ef",
         "roleName": "Linguistic expert"
       },
       {
-        "roleId": "f9e0c838a0fc4b6eaa9162514d7fa960",
+        "roleId": "98e287a4c9ad4d3381f02c39b281e900",
         "roleName": "President"
       },
       {
-        "roleId": "d7aeef9e8b3d43c69c971d5d2ffea5a1",
+        "roleId": "b0f0748faeff426691e35e6d768b440e",
         "roleName": "Emeritus professor"
       },
       {
-        "roleId": "e8aac2fe4d7d47c39501ea76ef6a9041",
+        "roleId": "c2fed29b26a8422b9148413775f3972b",
         "roleName": "Deputy dean"
       },
       {
-        "roleId": "30736145d91a431088ef9eb838335011",
+        "roleId": "8a749556e64b492f8d0136b133811ff9",
         "roleName": "Senior Professor"
       },
       {
-        "roleId": "0698a8224fef49aaab0604bf6ef0d077",
+        "roleId": "19f400cdeaa24b23962ceca3d68a7aca",
         "roleName": "Student representative in the board of directors of Opera Universitaria"
       },
       {
-        "roleId": "0b5e025d7d164538bcfefb8a1a0acbb9",
+        "roleId": "095d8e67eb74446b923f61500127457f",
         "roleName": "Deputy coordinator"
       },
       {
-        "roleId": "21778fe9b0fe4e1b9db0a163078ba41a",
+        "roleId": "d24ee165d5a24322b174b02f588bbc28",
         "roleName": "Executive assistant to the Head of the Direction"
       },
       {
-        "roleId": "7bae845eabe843b9b2f185b1991402ee",
+        "roleId": "7bf24550e7e14858a370ba380673c56a",
         "roleName": "Director General"
       },
       {
-        "roleId": "2120a8a9f4b741fb90e51dad5e6b361a",
+        "roleId": "69879f0647ae41bca144a3ebe6f1e3ea",
         "roleName": "Anti-corruption Officer"
       },
       {
-        "roleId": "2cc9c65d909a4ae495b66f539544c6ea",
+        "roleId": "d5bb559b1c05495fa94a9b47a3345344",
         "roleName": "Senior staff"
       },
       {
-        "roleId": "1d5a0fe5e96048c1b66f3d802834eb06",
+        "roleId": "840b888f53124ce69b0370a2644da798",
         "roleName": "Vice-Rector for the Development of International Relationships"
       },
       {
-        "roleId": "09ace43fe63e42c4b4d94081146dae98",
+        "roleId": "fd1d779209544d49840daa29bc368cd8",
         "roleName": "Rector's delegate for Initiatives on Linguistic Minorities"
       },
       {
-        "roleId": "b537830903eb4b47badb2caf5a975557",
+        "roleId": "3d5a3b1c26b1483d9a4b39da225dc589",
         "roleName": "Rector's delegate for University Community Surveys and Analyses"
       },
       {
-        "roleId": "8adfd660e3b34be39aad422ef3636287",
+        "roleId": "41046311b5d041fca2915fe9959f4e6f",
         "roleName": "Coordinator"
       },
       {
-        "roleId": "e943913f215f44a48338be5409917ddc",
+        "roleId": "d83901a2877c4b789b0afa5cf333f53d",
         "roleName": "Rector's delegate for Environmental Sustainability"
       },
       {
-        "roleId": "94ff11c08d704a5bb7027c6e9161f6ab",
+        "roleId": "8b803ee503374a9dabeed2662974f498",
         "roleName": "Rector's Delegate for musical activities"
       },
       {
-        "roleId": "91d06845fb494d3bacd2922b841d78a0",
+        "roleId": "854d45ea0c33443ca89ce6a3be23064b",
         "roleName": "Rector's delegate for Language Education"
       },
       {
-        "roleId": "5c5d7aa46ef14fd4808fbe94632fab5e",
+        "roleId": "b23b3963924c44c1bc4286462e27332f",
         "roleName": "Alternate member"
       },
       {
-        "roleId": "3b9e35361ce941578ab255bb420ccfd1",
+        "roleId": "e4bcdcc35822413d8b28bbe2bb11f298",
         "roleName": "Rector's delegate for IT Services and Technologies"
       },
       {
-        "roleId": "c78687eeb50f444b94dd84a2810ccc6a",
+        "roleId": "47be16a84d13469b972d269434f4484b",
         "roleName": "Rector's delegate for the Collegio Bernardo Clesio"
       },
       {
-        "roleId": "158cb9465b074bc8bbe9f9d158a6ca45",
+        "roleId": "f1a8c1a19c92426ebe42088beafe43ac",
         "roleName": "Rector's delegate for Legal Affairs"
       },
       {
-        "roleId": "eca3c2f72e6243a8b7d7945fd606bc46",
+        "roleId": "90fc3791ff00458e83d6ad08209198d3",
         "roleName": "External staff"
       },
       {
-        "roleId": "cbbafaa76a094a62b315b4fe221e3c14",
+        "roleId": "6ea1a58ea09d4f058bfe97723225c162",
         "roleName": "Research fellow"
       },
       {
-        "roleId": "148233b58d7b4c47866dd47516871dd1",
+        "roleId": "4a18d1aa533942029e5d5375b38991d7",
         "roleName": "Rector's delegate for Academic and International Solidarity"
       },
       {
-        "roleId": "87376e3bbe594b3a812bf093f8d08f5b",
+        "roleId": "d9b68206a3a34587b7a6ea07d16947b5",
         "roleName": "Rector's delegate for Orientation to Graduate Education"
       },
       {
-        "roleId": "132de9a79f114aa784071c2e0b779bbf",
+        "roleId": "692a0634d04d4812b888ee9861d95fcc",
         "roleName": "Vice-Rector for Teaching and Learning"
       },
       {
-        "roleId": "0ac30811b4c34866a5dad321e969e648",
+        "roleId": "11cae23d05b64bd78e30ededfa004a3e",
         "roleName": "Rector's delegate for Support to the Business Sector"
       },
       {
-        "roleId": "ed8b593b25754208ac4031c8d59c5521",
+        "roleId": "d744807269cc4535aac71fec73f3284f",
         "roleName": "Vice-Rector for Organizational Well-Being and Employee Relations"
       },
       {
-        "roleId": "cc022b77cf904353a15019b64aea500b",
+        "roleId": "4cfb18cf026845cda7dcb3894a1adc07",
         "roleName": "Implementation of the Development Plan"
       },
       {
-        "roleId": "ed32b16f73da478d86b5bff897ad2b63",
+        "roleId": "195c2426018f49cea658905f17261f9e",
         "roleName": "Sport with Special Mandate for the 2026 Winter Olympics"
       },
       {
-        "roleId": "2df38aadf47140879be13e0a49d49253",
+        "roleId": "f22e937224874cb8a49e013b4b6aef88",
         "roleName": "Students' representative to the Academic Senate"
       },
       {
-        "roleId": "e7a2bb86e4934906afd2c1afcf6a5771",
+        "roleId": "6025cf6f757d48898bd5364194d466d0",
         "roleName": "Rector's delegate for Student Services and Relations"
       },
       {
-        "roleId": "ed7356d8df3243a191e3ec97986e7776",
+        "roleId": "0e689e795f244fe98486c22c0bc460e1",
         "roleName": "Senior researcher"
       },
       {
-        "roleId": "c94269f881b4458cbe6fc7acdd2080b2",
+        "roleId": "50b804bae33d4ae3ba9464cc37d366ac",
         "roleName": "Vice-Rector for Organisational and Resource Planning"
       },
       {
-        "roleId": "dfe777d240d34ed7b1bfa67bb0d6c5bd",
+        "roleId": "96ddd6dab29145e7b1fc014f7c4b3627",
         "roleName": "Rector's delegate for Open Access and Copyright Policies"
       },
       {
-        "roleId": "f6e8c822a9a247ae913fc01e31968247",
+        "roleId": "632196180ce94ab5aa0322c33f4b98d5",
         "roleName": "Vice-president"
       },
       {
-        "roleId": "88f983c88c764307b712b8e790f6d57c",
+        "roleId": "5138e920ad4642a199db69dccd0d42e2",
         "roleName": "Rector\u2019s delegate for the Research Ethics Committee"
       },
       {
-        "roleId": "2725fbba0fe549d38bbd8b25e2eaeda6",
+        "roleId": "cdd5b009a4f1498bbc7523786b98f1e3",
         "roleName": "Vice-Rector"
       },
       {
-        "roleId": "6ced76fb1b8445bba79a3ad7b6beb1f3",
+        "roleId": "1fb55e756a0c40a3ab851719284ad68e",
         "roleName": "Rector's delegate for Internships and Placements"
       },
       {
-        "roleId": "01ade6d1d7c446d3a681e8bde746f56b",
+        "roleId": "ea75426832b741a5bd9d1d6df44bb3e5",
         "roleName": "Vice-Rector for research"
       },
       {
-        "roleId": "58a3d52e96a743e08734cf76e2de6a8c",
+        "roleId": "d58fe5621c964ef7bfefa2e2c61d0023",
         "roleName": "Student ombudsman"
       },
       {
-        "roleId": "322a2c32086e4d3cabf2c6d9af8f0f62",
+        "roleId": "53a5b5679c36474a9e71bd044154bd5f",
         "roleName": "Rector"
       },
       {
-        "roleId": "cc23f3872a63425885ce8f99332e7474",
+        "roleId": "9849fed3e1e4424caed7c8a9d7cbd68e",
         "roleName": "Rector's delegate for Science Communication and Orientation for High-School Students"
       },
       {
-        "roleId": "d154678fc08c46dd9578617ffed6ce62",
+        "roleId": "6f58ed7f6367420a851c685375e59da2",
         "roleName": "Rector's delegate for Doctoral Programmes"
       },
       {
-        "roleId": "5497bae890544d358f9d30ad75fe640f",
+        "roleId": "1787d0fb170d47b294102fb85c895183",
         "roleName": "Vice-Rector for Equity and Diversity Policies"
       },
       {
-        "roleId": "5aa6dfbec5244442bbb030fc97318144",
+        "roleId": "e74ecd8490884b73beaa8285a09a2639",
         "roleName": "Rector's delegate for Development Cooperation"
       },
       {
-        "roleId": "ba6719b749154ffeabc479d8eb925bf2",
+        "roleId": "5470d294e38c4123a7a4aaf9d811cb38",
         "roleName": "Visiting researcher"
       },
       {
-        "roleId": "699c369f7ebd4f4d81f46bcb1365d8ca",
+        "roleId": "5a5b592ab4684edaa05dd22930cf3911",
         "roleName": "Rector's delegate for Vocational and Continuing Training"
       },
       {
-        "roleId": "7a1eaf14433a4290b350cd7015d72281",
+        "roleId": "4dc039eae0354d62bfc537928a81be6a",
         "roleName": "Rector's delegate for Press and Communication"
       },
       {
-        "roleId": "18da4caeb7bf40958e100a4360444d6e",
+        "roleId": "58350adde24a4f508d9baffcdf14e3db",
         "roleName": "Rector's delegate for the Animal Welfare Committee"
       },
       {
-        "roleId": "7953eaa893b64f2bb3ac65cc6cbedf8b",
+        "roleId": "cbb5fc1f396f47edb5830bee5e996b2e",
         "roleName": "Rector's delegate for Alumni"
       },
       {
-        "roleId": "e13459aa78d745f6813c60dbe54939cb",
+        "roleId": "1f61df12365c4fc2862553b1013c0117",
         "roleName": "Rector's delegate for Safety in the workplace"
       },
       {
-        "roleId": "8b267f421b894a0eb16e002d6f6ceced",
+        "roleId": "44d949a16a7e4e3ba92bfd5da17253b5",
         "roleName": "Chief digital transformation officer"
       },
       {
-        "roleId": "f2fdafa408db463abeff78a4aaace937",
+        "roleId": "df0f7b1106244bb5b9b2b312e4934186",
         "roleName": "Data Protection Officer"
       },
       {
-        "roleId": "ae80a92e0e354cdfb2e6f5687e73aa05",
+        "roleId": "c164eace9f0247259c2450d8bf5685be",
         "roleName": "Rector's delegate for Disability Support"
       }
     ]

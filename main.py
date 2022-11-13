@@ -141,16 +141,16 @@ def scrape_esse3(url):
                     partition_information = {
                         'partitionName': clean_string(partition[0].string),
                         'period': clean_string(partition[1].string),
-                        'teacher': {'name': [clean_string(partition[2].string) if partition[2].string else ''], 'tenured': [True if partition[3].find('img') else False]},
+                        'teacher': {'name': [clean_string(partition[2].string, 'prof') if partition[2].string else ''], 'tenured': [True if partition[3].find('img') else False]},
                         'syllabusLink': 'https://www.esse3.unitn.it/'+partition[4].find('a')['href'] if partition[4].find('a') else '' if partition[4] else '',
                     }
                     last_rowspan = {
                         'partition': int(partition[0]['rowspan']),
                         'syllabus': int(partition[4]['rowspan'])
                     }
-                    if partition[2].string and clean_string(partition[2].string) != '':
+                    if partition[2].string and clean_string(partition[2].string, 'prof') != '':
                         professor['count'] += 1
-                        professor['name'] = clean_string(partition[2].string)
+                        professor['name'] = clean_string(partition[2].string, 'prof')
                         professor['tenured'] = True if partition[3].find(
                             'img') else False
                 else:
@@ -158,27 +158,27 @@ def scrape_esse3(url):
                         partition_information = {
                             'partitionName': clean_string(partition[0].string),
                             'period': clean_string(partition[1].string),
-                            'teacher': {'name': [clean_string(partition[2].string) if partition[2].string else ''], 'tenured': [True if partition[3].find('img') else False]},
+                            'teacher': {'name': [clean_string(partition[2].string, 'prof') if partition[2].string else ''], 'tenured': [True if partition[3].find('img') else False]},
                             'syllabusLink': '',
                         }
                         append_new = True
                         if partition[2].string and clean_string(partition[2].string) != '':
                             professor['count'] += 1
                             professor['name'] = clean_string(
-                                partition[2].string)
+                                partition[2].string, 'prof')
                             professor['tenured'] = True if partition[3].find(
                                 'img') else False
                     else:
                         last_rowspan['partition'] -= 1
                         partitions[-1]['teacher']['name'].append(clean_string(
-                            partition[0].string) if partition[0].string else '')
+                            partition[0].string, 'prof') if partition[0].string else '')
                         partitions[-1]['teacher']['tenured'].append(
                             True if partition[1].find('img') else False)
                         append_new = False
                         if partition[0].string and clean_string(partition[0].string) != '':
                             professor['count'] += 1
                             professor['name'] = clean_string(
-                                partition[0].string)
+                                partition[0].string, 'prof')
                             professor['tenured'] = True if partition[1].find(
                                 'img') else False
 
@@ -340,12 +340,24 @@ def start():
             'department'], course['professor'], course['assistant']
         del course['department'], course['professor'], course['assistant']
 
-        course_professors_dataset['value']['data'] = [
-            {'courseId': information['id'], 'professorId': professor['id']} for professor in course_professors]
-        course_departments_dataset['value']['data'] = [
-            {'courseId': information['id'], 'departmentId': department['unitId']} for department in course_departments]
-        course_assistants_dataset['value']['data'] = [
-            {'courseId': information['id'], 'assistantId': assistant['id']} for assistant in course_assistants]
+        for professor in course_professors:
+            append_data(course_professors_dataset, {
+                'courseId': information['id'],
+                'professorId': professor['id']
+            }
+            )
+        for department in course_departments:
+            append_data(course_departments_dataset, {
+                'courseId': information['id'],
+                'departmentId': department['unitId']
+            }
+            )
+        for assistant in course_assistants:
+            append_data(course_assistants_dataset, {
+                'courseId': information['id'],
+                'assistantId': assistant['id']
+            }
+            )
 
         for partition in partitions:
             for i in range(len(partition['teacher']['name'])):
@@ -360,8 +372,8 @@ def start():
             del partition['teacher']
         append_data(partitions_dataset, partition)
 
-        teaching_units_dataset['value']['data'] = [
-            unit for unit in teaching_units]
+        for unit in teaching_units:
+            append_data(teaching_units_dataset, unit)
 
         course.update(information)
         count += 1
@@ -409,8 +421,11 @@ def start():
                 'roleId': role_id,
                 'unitId': position['unitId']
             })
-        person_phone_dataset['value']['data'] = [
-            {'personId': person['identifier'], 'phoneNumber': phone} for phone in person['phone']]
+        for phone in person['phone']:
+            append_data(person_phone_dataset, {
+                'personId': person['identifier'],
+                'phoneNumber': phone
+            })
         del person['position']
         del person['phone']
     set_total_size(roles_dataset)
@@ -432,14 +447,26 @@ def start():
     addresses = set()
     for organization in data[3]['value']['data']:
         addresses.add(organization['address'])
-        organization_phone_dataset['value']['data'] = [
-            {'organizationId': organization['identifier'], 'phoneNumber': phone} for phone in organization['phone']]
-        organization_email_dataset['value']['data'] = [
-            {'organizationId': organization['identifier'], 'emailAddress': email} for email in organization['email']]
-        organization_website_dataset['value']['data'] = [
-            {'organizationId': organization['identifier'], 'website': website} for website in organization['website']]
-        organization_path_dataset['value']['data'] = [
-            {'organizationId': organization['identifier'], 'unitPath': path} for path in organization['unitPath']]
+        for phone in organization['phone']:
+            append_data(organization_phone_dataset, {
+                'organizationId': organization['identifier'],
+                'phoneNumber': phone
+            })
+        for email in organization['email']:
+            append_data(organization_email_dataset, {
+                'organizationId': organization['identifier'],
+                'emailAddress': email
+            })
+        for website in organization['website']:
+            append_data(organization_website_dataset, {
+                'organizationId': organization['identifier'],
+                'website': website
+            })
+        for path in organization['unitPath']:
+            append_data(organization_path_dataset, {
+                'organizationId': organization['identifier'],
+                'unitPath': path
+            })
         del organization['phone']
         del organization['website']
         del organization['email']

@@ -2,16 +2,17 @@ from os import makedirs, path
 import json
 
 
-def clean_string(input_string):
+def clean_string(input_string, mode = None):
     """
     Utility function to clean the input string.
     The filters are chosen by hand when scraping the values.
     NOTE: Only add filters, don't remove them
 
     :param input_string: String to be cleaned
+    :param mode: Useful to avoid adding spaces in case of select fields
     :return: Cleaned string
     """
-    return input_string.strip().replace(u"\xa0â€‹", "").replace(u"â€‹", "").replace(u"\n", "").replace(u"\t", "").replace(u"\xa0", u" ").replace(u"\u200b", "").replace(u"\u00e0", "à")
+    return input_string.strip().replace(u"\xa0â€‹", "").replace(u"â€‹", "").replace(u"\n", "").replace(u"\t", "").replace(u"\xa0", " " if (mode and mode == 'prof') else "").replace(u"\u200b", "").replace(u"\u00e0", "à")
 
 
 def initialize_dataset():
