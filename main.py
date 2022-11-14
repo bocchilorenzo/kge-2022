@@ -54,13 +54,16 @@ def extract_departments(subjects):
     """
     print("Extracting all departments...")
     departments = initialize_dataset()
-
+    already_added = set()
     for course in subjects['value']['data']:
         for department in course['department']:
-            append_data(departments, {
-                'id': department['unitId'],
-                'name': department['unitName']
-            })
+            if department['unitId'] not in already_added:
+                append_data(departments, {
+                    'id': department['unitId'],
+                    'name': department['unitName']
+                })
+                already_added.add(department['unitId'])
+    del already_added
     departments['value']['total'] = len(departments['value']['data'])
     departments['value']['size'] = len(departments['value']['data'])
 
