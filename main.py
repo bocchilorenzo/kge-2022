@@ -102,7 +102,7 @@ def scrape_esse3(url):
                 previous_unit = teaching_units_html[i-1].find_all("td")
                 unit_information = {
                     'courseId': course_id,
-                    'unitName': clean_string(previous_unit[0].string),
+                    'name': clean_string(previous_unit[0].string),
                     'activityType': clean_string(unit[0].string) if unit[0].string else '',
                     'durationHours': clean_string(unit[1].string) if unit[1].string else '',
                     'typeTeaching': clean_string(unit[2].string) if unit[2].string else '',
@@ -113,7 +113,7 @@ def scrape_esse3(url):
             else:
                 unit_information = {
                     'courseId': course_id,
-                    'unitName': clean_string(unit[0].string),
+                    'name': clean_string(unit[0].string),
                     'activityType': clean_string(unit[1].string) if unit[1].string else '',
                     'durationHours': clean_string(unit[2].string) if unit[2].string else '',
                     'typeTeaching': clean_string(unit[3].string) if unit[3].string else '',
@@ -142,7 +142,7 @@ def scrape_esse3(url):
                 partitionId = uuid.uuid4().hex
                 if list(last_rowspan.values()) == [1, 1]:
                     partition_information = {
-                        'partitionName': clean_string(partition[0].string),
+                        'name': clean_string(partition[0].string),
                         'period': clean_string(partition[1].string),
                         'teacher': {'name': [clean_string(partition[2].string, 'prof') if partition[2].string else ''], 'tenured': [True if partition[3].find('img') else False]},
                         'syllabusLink': 'https://www.esse3.unitn.it/'+partition[4].find('a')['href'] if partition[4].find('a') else '' if partition[4] else '',
@@ -153,13 +153,14 @@ def scrape_esse3(url):
                     }
                     if partition[2].string and clean_string(partition[2].string, 'prof') != '':
                         professor['count'] += 1
-                        professor['name'] = clean_string(partition[2].string, 'prof')
+                        professor['name'] = clean_string(
+                            partition[2].string, 'prof')
                         professor['tenured'] = True if partition[3].find(
                             'img') else False
                 else:
                     if last_rowspan['partition'] <= 1:
                         partition_information = {
-                            'partitionName': clean_string(partition[0].string),
+                            'name': clean_string(partition[0].string),
                             'period': clean_string(partition[1].string),
                             'teacher': {'name': [clean_string(partition[2].string, 'prof') if partition[2].string else ''], 'tenured': [True if partition[3].find('img') else False]},
                             'syllabusLink': '',
@@ -284,14 +285,15 @@ def get_geospatial_data(dep_data, addresses):
         append_data(osm_data, {'address': address, 'osm_tags': tags})
         time.sleep(1.5)
 
-    problematic_addresses = [building['address'] for building in osm_data['value']['data'] if not bool(building['osm_tags'])]
+    problematic_addresses = [building['address']
+                             for building in osm_data['value']['data'] if not bool(building['osm_tags'])]
     i = 0
     while i < len(osm_data['value']['data']):
         if osm_data['value']['data'][i]['address'] in problematic_addresses:
             del osm_data['value']['data'][i]
         else:
             i += 1
-    
+
     set_total_size(osm_data)
     save_dataset(osm_data, 'generated/buildings', 'json')
 
@@ -415,22 +417,22 @@ def start():
             role_id = uuid.uuid4().hex
             if position['role'] not in roles_set:
                 append_data(roles_dataset, {
-                    'roleId': role_id,
-                    'roleName': position['role']
+                    'id': role_id,
+                    'name': position['role']
                 })
                 roles_set.add(position['role'])
             append_data(person_positions_dataset, {
                 'personId': person['identifier'],
                 'roleId': role_id,
-                'unitId': position['unitId']
+                'departmentId': position['unitId']
             })
         for phone in person['phone']:
             append_data(person_phone_dataset, {
                 'personId': person['identifier'],
                 'phoneNumber': phone
             })
-        del person['position']
-        del person['phone']
+        person['id'] = person['identifier']
+        del person['identifier'], person['position'], person['phone']
     set_total_size(roles_dataset)
     set_total_size(person_positions_dataset)
     set_total_size(person_phone_dataset)
@@ -446,7 +448,7 @@ def start():
     organization_phone_dataset = initialize_dataset()
     organization_email_dataset = initialize_dataset()
     organization_website_dataset = initialize_dataset()
-    organization_path_dataset = initialize_dataset()
+    #organization_path_dataset = initialize_dataset()
     addresses = set()
     for organization in data[3]['value']['data']:
         addresses.add(organization['address'])
@@ -465,19 +467,17 @@ def start():
                 'organizationId': organization['identifier'],
                 'website': website
             })
-        for path in organization['unitPath']:
+        """ for path in organization['unitPath']:
             append_data(organization_path_dataset, {
                 'organizationId': organization['identifier'],
                 'unitPath': path
-            })
-        del organization['phone']
-        del organization['website']
-        del organization['email']
-        del organization['unitPath']
+            }) """
+        organization['id'] = organization['identifier']
+        del organization['identifier'], organization['phone'], organization['website'], organization['email'], organization['unitPath']
     set_total_size(organization_phone_dataset)
     set_total_size(organization_email_dataset)
     set_total_size(organization_website_dataset)
-    set_total_size(organization_path_dataset)
+    #set_total_size(organization_path_dataset)
     addresses.remove('')
 
     save_dataset(data[3], 'generated/organization_en_final', 'json')
@@ -487,8 +487,7 @@ def start():
                  'generated/organization_email', 'json')
     save_dataset(organization_website_dataset,
                  'generated/organization_website', 'json')
-    save_dataset(organization_path_dataset,
-                 'generated/organization_path', 'json')
+    #save_dataset(organization_path_dataset, 'generated/organization_path', 'json')
 
     # Download information about the addresses from OpenStreetMap
     get_geospatial_data(data[3], addresses)

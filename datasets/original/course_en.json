@@ -40,26 +40,26 @@
         "description": "<p>Taking into account the observation that \"in mathematics you don't understand things, you just get used to them\", aim of the course is to make familiar to the students the basic topics of mathematical analysis (functions, limits, derivatives, integrals, series, series of functions, differential equations). At the end of the course the students will be essentially able to orient themselves among the mathematical concepts listed above, and to understand how they can be useful for giving a rigorous form to more specific scientific arguments; they will be also able to solve exercises related to the topics of the course.</p>",
         "professor": [
           {
-            "name": "Francesco",
-            "surname": "Menegale",
-            "id": "73758b3e636de83a9748c8c64728860c"
-          },
-          {
             "name": "Alberto",
             "surname": "Valli",
             "id": "0ae71788f7ec7c4a42eaefa9f7e528eb"
+          },
+          {
+            "name": "Francesco",
+            "surname": "Menegale",
+            "id": "73758b3e636de83a9748c8c64728860c"
           }
         ],
         "assistant": [
           {
-            "name": "Alessio",
-            "surname": "Marinelli",
-            "id": "2012b786f1cbcacccd228d0469773700"
-          },
-          {
             "name": "Mattia",
             "surname": "Sensi",
             "id": "c0dd2da2b62fae112ac9eafcb2ca36f2"
+          },
+          {
+            "name": "Alessio",
+            "surname": "Marinelli",
+            "id": "2012b786f1cbcacccd228d0469773700"
           }
         ],
         "degreeProgram": "Ingegneria Civile (L2)",
@@ -1905,24 +1905,24 @@
         "webSite": "https://www.esse3.unitn.it/Guide/PaginaADContest.do?ad_cont_id=10158*88657*2022*2009*9999"
       },
       {
-        "name": "Fourier Analysis",
+        "name": "Coding Theory and Applications",
         "department": [
           {
             "unitName": "Department of Mathematics",
             "unitId": "STO0008628"
           }
         ],
-        "description": "The student is expected to learn the essential elements of the theory of Fourier series and Fourier transform, together with some of their relevant applications. It is also expected that she/he is able to set and complete the resolution of exercises and problems like the ones proposed during the course.",
+        "description": "<p>To provide the theory underpinning modern industrial applications of coding theory</p>",
         "professor": [
           {
-            "name": "Gian Paolo",
-            "surname": "Leonardi",
-            "id": "4b497556b9d1a385d21e3432993adbe3"
+            "name": "Nadir",
+            "surname": "Murru",
+            "id": "953b174b6d6e11425ef7866eb7d39df6"
           }
         ],
         "assistant": [],
         "degreeProgram": "MATEMATICA (LM)",
-        "webSite": "https://www.esse3.unitn.it/Guide/PaginaADContest.do?ad_cont_id=10170*91534*2022*2009*10002"
+        "webSite": "https://www.esse3.unitn.it/Guide/PaginaADContest.do?ad_cont_id=10170*91163*2022*2009*10002"
       },
       {
         "name": "Gnoseologia",
@@ -2313,14 +2313,14 @@
         ],
         "assistant": [
           {
-            "name": "Emanuela",
-            "surname": "Callone",
-            "id": "3064d00d5a754d0dc4c563bdca289114"
-          },
-          {
             "name": "Daniele",
             "surname": "Bugnotti",
             "id": "ddf205261a80192f78157995e4165c11"
+          },
+          {
+            "name": "Emanuela",
+            "surname": "Callone",
+            "id": "3064d00d5a754d0dc4c563bdca289114"
           }
         ],
         "degreeProgram": "Materials Engineering (LM)",
@@ -3655,14 +3655,14 @@
         "description": "<h3>The course aims to</h3><ul><li>provide the basic elements of Linear Algebra, with applications to the geometry in three-dimensional space and to vector calculus.</li></ul><p><br></p><h3>At the end of the corse the student should:</h3><ul><li>have a good knowledge and understanding of the theory of finite dimensional real vector spaces, as described in the corse list of topics.</li><li>know the basic concepts, be able to explain and describe them also with examples, identify the connections between them.</li><li>be familiar with the mathematical tools which are needed to develop a suitable approach and solve Linear Algebra problems, such as, for example, operations between matrices, echelon form reduction algorithms, computation of determinants, of eigenvalues and eigenvectors.</li></ul><p><br></p>",
         "professor": [
           {
-            "name": "Gianluca",
-            "surname": "Occhetta",
-            "id": "16a64b346d59ab0c12bd9c300595633d"
-          },
-          {
             "name": "Anna",
             "surname": "Fochesato",
             "id": "8e50e359a512adc5d12f05b29ba4476c"
+          },
+          {
+            "name": "Gianluca",
+            "surname": "Occhetta",
+            "id": "16a64b346d59ab0c12bd9c300595633d"
           }
         ],
         "assistant": [],
@@ -4932,14 +4932,14 @@
         "description": "This module course aims to provide students with the basic competencies in quantum mechanics physics. \n\nAt the end of the first module, students are expected to:\n\n1) understand the main difference between the physical phenomenology at the macroscopic level ( governed by the laws of classical physics) and the phenomenology at the microscopic level, where quantum mechanical behavior takes place\n\n2) understand the concept of particle-wave duality, and describe and critically analyze the main experiments which provide evidence of quantum uncertainty, wave-like properties of matter, and energy or magnetic moment quantization. \n\n3) understand the mathematical and physical significance of the wave-function and the related time-dependent and stationary Schrodinger equation.\n\n4) Solve elementary problems in quantum mechanics (particle in an infinite square well, particle in a finite square potential, ground state of the harmonic oscillator)\n\n5) understand and use the basic mathematical tools involved in physical modeling, including:\n\n- Multi-dimensional calculus: partial derivatives, multi-dimensional integral, differential operators, partial differential equations. \n\n- Basic linear algebra, including matrix diagonalization, eigenvalues, and eigenvectors, commutation relationships. \n\n- Notion of Hilbert space and its representation theory\n\n- Notion of Dirac-delta function\n\n",
         "professor": [
           {
-            "name": "Pietro",
-            "surname": "Faccioli",
-            "id": "b50ebcae12dfdd6303adcfc851e78d4c"
-          },
-          {
             "name": "Pier Luigi",
             "surname": "Cudazzo",
             "id": "7de7d8062dac9a804c12eb3e398bd638"
+          },
+          {
+            "name": "Pietro",
+            "surname": "Faccioli",
+            "id": "b50ebcae12dfdd6303adcfc851e78d4c"
           }
         ],
         "assistant": [],
@@ -7491,14 +7491,14 @@
         "description": "",
         "professor": [
           {
-            "name": "Luca",
-            "surname": "Tubiana",
-            "id": "8ae38e7423830aff6fcb258b3dd086bc"
-          },
-          {
             "name": "Gianluca",
             "surname": "Lattanzi",
             "id": "0a5033a28555b6a7be73aab6ae7bb60c"
+          },
+          {
+            "name": "Luca",
+            "surname": "Tubiana",
+            "id": "8ae38e7423830aff6fcb258b3dd086bc"
           }
         ],
         "assistant": [
@@ -8503,14 +8503,14 @@
         "description": "<h3>The course aims to</h3><ul><li>provide the basic elements of Linear Algebra, with applications to the geometry in three-dimensional space and to vector calculus.</li></ul><p><br></p><h3>At the end of the corse the student should:</h3><ul><li>have a good knowledge and understanding of the theory of finite dimensional real vector spaces, as described in the corse list of topics.</li><li>know the basic concepts, be able to explain and describe them also with examples, identify the connections between them.</li><li>be familiar with the mathematical tools which are needed to develop a suitable approach and solve Linear Algebra problems, such as, for example, operations between matrices, echelon form reduction algorithms, computation of determinants, of eigenvalues and eigenvectors.</li></ul><p><br></p>",
         "professor": [
           {
-            "name": "Anna",
-            "surname": "Fochesato",
-            "id": "8e50e359a512adc5d12f05b29ba4476c"
-          },
-          {
             "name": "Gianluca",
             "surname": "Occhetta",
             "id": "16a64b346d59ab0c12bd9c300595633d"
+          },
+          {
+            "name": "Anna",
+            "surname": "Fochesato",
+            "id": "8e50e359a512adc5d12f05b29ba4476c"
           }
         ],
         "assistant": [],
@@ -9721,6 +9721,11 @@
         "description": "<p>The course is aimed at improving and training the students\u2019 experimental skills through laboratory practice and designing/modeling activities. The main goal is to stimulate an active approach to some selected scientific and technical problems.</p><p>After the course the students will be able</p><p>-to apply the scientific method: to critically analyze the scientific/technical problem proposed and to find a suitable solution;</p><p>-to analyze the state of the art and literature data for selection of polymeric materials and design;</p><p>-depth study on fibres (rope design) and multilayer films (permeability design);</p><p>-evaluate certain properties of the plastic products in relation to the process;</p><p>-to discuss the test results and to answer questions made by an external audience.</p><p>-to use proper oral and/or written scientific communication for results dissemination.</p><p>-to improve \u201cteam working\u201d capability.</p><p>&nbsp;</p><p>&nbsp;</p>",
         "professor": [
           {
+            "name": "Luca",
+            "surname": "Fambri",
+            "id": "1ff0938ceb9ca8ec6d50bd29baefe977"
+          },
+          {
             "name": "Giulia",
             "surname": "Fredi",
             "id": "d6bab699f81f9e749c9822b605b69313"
@@ -9729,11 +9734,6 @@
             "name": "Davide",
             "surname": "Perin",
             "id": "dfce3c2b2434299aeb4da8212261c206"
-          },
-          {
-            "name": "Luca",
-            "surname": "Fambri",
-            "id": "1ff0938ceb9ca8ec6d50bd29baefe977"
           }
         ],
         "assistant": [],
@@ -11332,9 +11332,9 @@
         "description": "<p>Objectives:</p><p>This course is focused on materials and the environment: the eco-aspects of materials\u2019 production, use, and disposal at end of life. The course also provides an overview of materials selection and design approaches that minimize the environmental impact.</p><p>&nbsp;</p><p>After completing the course, the student will be able to:</p><p>- assess the sustainable development of a given articulation following a rigorous procedure;</p><p>- select an eco-sustainable material on the basis of its property profile and interaction with the environment;</p><p>- measure the main properties of biopolymers and wood-related materials according to the relevant standards;</p><p>- design a component taking the most suitable end-of-first-life options into proper account;</p><p>- design a life cycle assessment analysis on a practical case.</p><p>&nbsp;</p><p>&nbsp;</p><p>Learning outcomes:</p><p>At the end of the course, the student should be able to:</p><p>\u00b7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;illustrate the concept of sustainable development and the ways in which it is evaluated for a given articulation;</p><p>\u00b7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;explain the physical-mechanical properties and the applications of wood-related materials and materials for thermal insulation;</p><p>\u00b7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;classify and compare the various families of biopolymers and their properties in the different applications, in order to select the best candidate material for a given application;</p><p>\u00b7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;illustrate the recycling methods for the various materials, highlighting the pros and the cons of each of them;</p><p>\u00b7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;explain the life cycle assessment (LCA) methodology in its theoretical and practical aspects</p><p>\u00b7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;produce and characterize eco-sustainable materials, analyze the experimental data, and generate a technical report with the results and discussion of the analysis.</p><p><br></p>",
         "professor": [
           {
-            "name": "Alessandro",
-            "surname": "Pegoretti",
-            "id": "aa57e25f9eb615c8b2b061165f5222ae"
+            "name": "Giulia",
+            "surname": "Fredi",
+            "id": "d6bab699f81f9e749c9822b605b69313"
           },
           {
             "name": "Andrea",
@@ -11342,9 +11342,9 @@
             "id": "6b5fcf96b1aacf2cc8d1bcb987c623ea"
           },
           {
-            "name": "Giulia",
-            "surname": "Fredi",
-            "id": "d6bab699f81f9e749c9822b605b69313"
+            "name": "Alessandro",
+            "surname": "Pegoretti",
+            "id": "aa57e25f9eb615c8b2b061165f5222ae"
           }
         ],
         "assistant": [],
@@ -12526,14 +12526,14 @@
         "description": "<p>The course aims to merge structural engineering and architectural vision, often believed to be opposite poles that are difficult to reconcile but whose integration is essential for the realization of multifunctional buildings.</p><p><br></p><p>The topics addressed during the course will first deal with the comprehensive vision typical of undergraduate courses and then with the pragmatic attitude of the professional world. This last aspect is essential to help students to enter the world of work. It will be accomplished thanks to the partnership with an expert operating in the civil engineering sector, in particular in the building of mega-structures, tensile structures, and retractable construction systems. Such an expert will show the various project phases, from the brainstorming up to the complete realization on site, with the final aim of providing the student with that \"mindset\" necessary for success in the professional world.</p><p>The first part of the course focuses on analyzing the local and global mechanical behavior of masonry and the cracking pattern. It will be shown that the design methods of the masonry structures based on the curve of pressure and the inverted catenary are conceptually similar to those used for the design of tensile structures, discussed in the second part of the course. The two structural systems are respectively not resistant to traction and not resistant to compression, hence the duality of the calculation techniques.</p><p>The second part of the course deals with the study of \"special\" structures realized with unconventional materials and technologies that require a significantly different design approach from that used where classic materials are employed.&nbsp;In particular, this part of the course deals with:</p><ul><li>the design of glass facades. The theoretical concepts will be applied to the design of the main structural elements used in architecture and engineering (parapets, decks, beams, columns, fins, etc.) both by simplified strategies and by finite element simulations, accordingly to the CNR DT 210 guidelines;&nbsp;</li><li>the form-finding and design of tensile structures, based on the concept of lightness (limited weight compared to the surfaces and volumes built) and sustainable architecture aimed at using light, low cost, and low environmental impact materials. The analysis of case studies will support the theoretical aspects.&nbsp;&nbsp;</li><li>the details, cutting patterns, cables, and textile materials;</li><li>the principles underlying parametric design (or computational design). This design approach, considered the design method of the future, allows the designer a unique combination of forms and architectural composition.</li></ul><p><br></p><p>At the end of the course, the student must demonstrate an understanding of the topics addressed during the course by applying the theoretical concepts to case studies.</p>",
         "professor": [
           {
-            "name": "Roberta",
-            "surname": "Springhetti",
-            "id": "0203ed20c9762218c0ec928dc6771788"
-          },
-          {
             "name": "Diego",
             "surname": "Misseroni",
             "id": "fe04c981418fabe261f78f7522e7bc19"
+          },
+          {
+            "name": "Roberta",
+            "surname": "Springhetti",
+            "id": "0203ed20c9762218c0ec928dc6771788"
           }
         ],
         "assistant": [],
@@ -12695,7 +12695,13 @@
           }
         ],
         "description": "",
-        "professor": [],
+        "professor": [
+          {
+            "name": "Giovanna Paola",
+            "surname": "Varni",
+            "id": "7c8c74226f9e6f3a1b3afb72490e21c6"
+          }
+        ],
         "assistant": [],
         "degreeProgram": "INFORMATICA (LM)",
         "webSite": "https://www.esse3.unitn.it/Guide/PaginaADContest.do?ad_cont_id=10117*96059*2022*2011*10000"
@@ -12987,14 +12993,14 @@
         "description": "This module course aims to provide students with the basic competencies in quantum mechanics physics. \n\nAt the end of the first module, students are expected to:\n\n1) understand the main difference between the physical phenomenology at the macroscopic level ( governed by the laws of classical physics) and the phenomenology at the microscopic level, where quantum mechanical behavior takes place\n\n2) understand the concept of particle-wave duality, and describe and critically analyze the main experiments which provide evidence of quantum uncertainty, wave-like properties of matter, and energy or magnetic moment quantization. \n\n3) understand the mathematical and physical significance of the wave-function and the related time-dependent and stationary Schrodinger equation.\n\n4) Solve elementary problems in quantum mechanics (particle in an infinite square well, particle in a finite square potential, ground state of the harmonic oscillator)\n\n5) understand and use the basic mathematical tools involved in physical modeling, including:\n\n- Multi-dimensional calculus: partial derivatives, multi-dimensional integral, differential operators, partial differential equations. \n\n- Basic linear algebra, including matrix diagonalization, eigenvalues, and eigenvectors, commutation relationships. \n\n- Notion of Hilbert space and its representation theory\n\n- Notion of Dirac-delta function\n\n",
         "professor": [
           {
-            "name": "Pietro",
-            "surname": "Faccioli",
-            "id": "b50ebcae12dfdd6303adcfc851e78d4c"
-          },
-          {
             "name": "Pier Luigi",
             "surname": "Cudazzo",
             "id": "7de7d8062dac9a804c12eb3e398bd638"
+          },
+          {
+            "name": "Pietro",
+            "surname": "Faccioli",
+            "id": "b50ebcae12dfdd6303adcfc851e78d4c"
           }
         ],
         "assistant": [],
@@ -16288,6 +16294,11 @@
         "description": "The course is aimed at providing students with the knowledge and the understanding of contractual relationships based on the performance of work under personal subordination or under prevailing personal subordination, both in the private sector and in the so called \u201ccontractualized\u201d public sector. \nTo this end, the course will illustrate the fundamental legal framework and the various sources of labour law (i.e. national and European legislation, collective bargaining and individual employment contract), and it will endow students with a methodological guide (i.e. legal skills and reasoning) to solve practical cases.\n\nAt the end of the course the student shall be able:\n-\tto identify the relevant legal norms\n-\tto identify the collective agreement applicable to the case under consideration;\n-\tto compare the set of rules shaped and determined respectively by the law, by the collective agreement and, if it is the case, by the individual employment contract\n-\tto apprehend and evaluate the essential elements of the employment contract and of its performance, in order to determine the classification of the employment relationship (i.e. distinguishing autonomous subordinate work); \n-\tto structure the intellectual process of legal case-analysis and select, different methods and techniques, the strongest and most persuasive legal \n\n",
         "professor": [
           {
+            "name": "Chiara",
+            "surname": "Cristofolini",
+            "id": "e3feaa3ece41eb52fc05aa10eaac9c9f"
+          },
+          {
             "name": "Riccardo",
             "surname": "Salomone",
             "id": "7b235c7ec8fdce80c0d6116775867b4a"
@@ -18905,26 +18916,6 @@
         "webSite": "https://www.esse3.unitn.it/Guide/PaginaADContest.do?ad_cont_id=10507*92814*2022*2016*9999"
       },
       {
-        "name": "Storia del diritto internazionale e delle dottrine internazionalistiche",
-        "department": [
-          {
-            "unitName": "Faculty of Law",
-            "unitId": "STO0008624"
-          }
-        ],
-        "description": "<p>...</p>",
-        "professor": [
-          {
-            "name": "Giuliano",
-            "surname": "Marchetto",
-            "id": "804715b588a515c4482a88c174fe2912"
-          }
-        ],
-        "assistant": [],
-        "degreeProgram": "Giurisprudenza (LM5)",
-        "webSite": "https://www.esse3.unitn.it/Guide/PaginaADContest.do?ad_cont_id=10055*91545*2022*2011*9999"
-      },
-      {
         "name": "Diritto amministrativo dell'Unione Europea",
         "department": [
           {
@@ -18953,6 +18944,26 @@
         "assistant": [],
         "degreeProgram": "Giurisprudenza (LM5)",
         "webSite": "https://www.esse3.unitn.it/Guide/PaginaADContest.do?ad_cont_id=10055*91549*2022*2011*9999"
+      },
+      {
+        "name": "Storia del diritto internazionale e delle dottrine internazionalistiche",
+        "department": [
+          {
+            "unitName": "Faculty of Law",
+            "unitId": "STO0008624"
+          }
+        ],
+        "description": "<p>...</p>",
+        "professor": [
+          {
+            "name": "Giuliano",
+            "surname": "Marchetto",
+            "id": "804715b588a515c4482a88c174fe2912"
+          }
+        ],
+        "assistant": [],
+        "degreeProgram": "Giurisprudenza (LM5)",
+        "webSite": "https://www.esse3.unitn.it/Guide/PaginaADContest.do?ad_cont_id=10055*91545*2022*2011*9999"
       },
       {
         "name": "Improvement in Crop Production",
@@ -19003,6 +19014,11 @@
             "name": "Enzo",
             "surname": "Loner",
             "id": "8756b940cfd9c4c80424269c200c494d"
+          },
+          {
+            "name": "Paola",
+            "surname": "Capuana",
+            "id": "dd6ed89521b6b66bbb390d1625346138"
           }
         ],
         "assistant": [],
@@ -19453,14 +19469,14 @@
         "description": "",
         "professor": [
           {
-            "name": "Daniel",
-            "surname": "Baldauf",
-            "id": "0437953f76cf5c88990e1b3a6fe86e89"
-          },
-          {
             "name": "Jorge",
             "surname": "Jovicich",
             "id": "22e1177f6956cb666e44a776085edd2f"
+          },
+          {
+            "name": "Daniel",
+            "surname": "Baldauf",
+            "id": "0437953f76cf5c88990e1b3a6fe86e89"
           }
         ],
         "assistant": [],
@@ -20485,14 +20501,14 @@
         ],
         "assistant": [
           {
-            "name": "Milena",
-            "surname": "Stoycheva",
-            "id": "3c9ca351bdada07589a72fbd85cdf835"
-          },
-          {
             "name": "Lorenzo",
             "surname": "Angeli",
             "id": "fad3340b61bdcb60b776247dd90c9026"
+          },
+          {
+            "name": "Milena",
+            "surname": "Stoycheva",
+            "id": "3c9ca351bdada07589a72fbd85cdf835"
           }
         ],
         "degreeProgram": "INFORMATICA (LM)",
@@ -21723,6 +21739,11 @@
         "description": "<p>The course aims at explaining the opportunities that high-throughput technologies give in the analysis of genomes and of transcriptomes, being introduced to the concepts and tools of Precision Medicine. The course will focus on DNA microarrays, Next Generation Sequencing technologies and Next-Next Generation Sequencing technologies, their problems and perspectives. At the end of this course students will be able to: \u2022\tDistinguish between high-throughput and high-multiplexity technologies. \u2022\tList different high-throughput technologies. \u2022\tRelate low-throughput techniques based on nucleic acids hybridization. \u2022\tDescribe a microarray experiment. \u2022\tList different uses of microarrays: SNP-typing, CGH-arrays, gene expression analysis. \u2022\tRelate the history of microarray techniques. \u2022\tIllustrate fabrication methods of spotted, Agilent and Affymetrix, bead-based microarrays. \u2022\tDiscuss differences between Agilent and Affymetrix microarrays. \u2022\tDiscuss experimental design for microarray experiments. \u2022\tExplain the use of biological replicates and technical replicates. \u2022\tList and explain different steps in data analysis for microarray experiments. \u2022 Explain the need for normalization and the possible strategies for normalization of microarray data. \u2022\tIllustrate the difference between ratios and fold changes in the identification of differentially expressed genes. \u2022\tPerform cluster analysis of gene expression data. \u2022\tDescribe what a pathway analysis is and perform it. \u2022\tUse biological databases and gene ontology in data analysis. \u2022\tIllustrate the Sanger sequencing method and its direct evolution, the automated DNA sequencing. \u2022\tDistinguish between Sanger sequencing, Next Generation Sequencing (NGS) and Next-Next Generation Sequencing (NNGS). \u2022\tSchematise the phases of NGS. \u2022\tList different applications of NGS and different genome enrichment methods. \u2022\tIllustrate the workflow of template preparation for NGS. \u2022\tDescribe emulsion PCR methods for library preparation. \u2022\tIllustrate Quality Control and Library Preparation for NGS. \u2022\tIllustrate different NGS techniques, their features (read length, run time and maximum throughput) and discuss their advantages and disadvantages: the Roche 454 Pyrosequencing, the SOLiD, the IonProton, the Illumina NGS. \u2022\tDescribe how to multiplex and illustrate paired-end sequencing in Illumina NGS. \u2022\tIllustrate NNGS techniques: the PacBio, the Helicos, the Oxford Nanopore. \u2022\tIllustrate NGS applications in Metagenomics. \u2022\tIllustrate NGS applications in Medical Genomics. \u2022\tIllustrate Singe Cell Sequencing and Spatial Transcriptomics techniques. Bioinformatics approaches to retrieve biological information from publicly available RNA-seq data. Performing RNA-seq data analyses by applying specific tools through the terminal as well as through R packages in R Studio. Analyzing NGS data to assess quality in order to properly tune accurate reads mapping and from there calculate differentially expressed genes (DEGs), which can be used as input for several activities: clustering analyses, GO and pathways' identification, Gene Set Enrichment analysis (GSEA), to name a few. </p>",
         "professor": [
           {
+            "name": "Veronica",
+            "surname": "De Sanctis",
+            "id": "fe84a0377e83fecc57f7472228e9e06e"
+          },
+          {
             "name": "Erik",
             "surname": "Dassi",
             "id": "ca56af68877e89f41d0ad6c25376301a"
@@ -21731,11 +21752,6 @@
             "name": "Toma",
             "surname": "Tebaldi",
             "id": "456c6c24fcb6a79c46a4d8c821743fd2"
-          },
-          {
-            "name": "Veronica",
-            "surname": "De Sanctis",
-            "id": "fe84a0377e83fecc57f7472228e9e06e"
           },
           {
             "name": "Michela Alessandra",
@@ -23734,7 +23750,13 @@
           }
         ],
         "description": "The course aims to provide students with an understanding of the web and the tools necessary to build web applications.\nThe fundamental concepts that characterize the web will be acquired: http protocol, html, javascript and css languages, request-response cycle, framework based on asynchronous javascript, state persistence, interaction with database.\nAt the end of the course, the student will be able to design and implement simple web applications.\nS/he will be able to use the most common languages \u200b\u200btypical of the web, and will have become familiar with the concept of DOM. The acquired knowledge will allow the student to self-learn in the future with little effort other languages \u200b\u200band frameworks for the design and management of web systems.\n",
-        "professor": [],
+        "professor": [
+          {
+            "name": "Giovanna Paola",
+            "surname": "Varni",
+            "id": "7c8c74226f9e6f3a1b3afb72490e21c6"
+          }
+        ],
         "assistant": [],
         "degreeProgram": "Informatica (L2)",
         "webSite": "https://www.esse3.unitn.it/Guide/PaginaADContest.do?ad_cont_id=10114*90646*2022*2008*10005"
@@ -24445,14 +24467,14 @@
         "description": "<p>The course aims to merge structural engineering and architectural vision, often believed to be opposite poles that are difficult to reconcile but whose integration is essential for the realization of multifunctional buildings.</p><p><br></p><p>The topics addressed during the course will first deal with the comprehensive vision typical of undergraduate courses and then with the pragmatic attitude of the professional world. This last aspect is essential to help students to enter the world of work. It will be accomplished thanks to the partnership with an expert operating in the civil engineering sector, in particular in the building of mega-structures, tensile structures, and retractable construction systems. Such an expert will show the various project phases, from the brainstorming up to the complete realization on site, with the final aim of providing the student with that \"mindset\" necessary for success in the professional world.</p><p>The first part of the course focuses on analyzing the local and global mechanical behavior of masonry and the cracking pattern. It will be shown that the design methods of the masonry structures based on the curve of pressure and the inverted catenary are conceptually similar to those used for the design of tensile structures, discussed in the second part of the course. The two structural systems are respectively not resistant to traction and not resistant to compression, hence the duality of the calculation techniques.</p><p>The second part of the course deals with the study of \"special\" structures realized with unconventional materials and technologies that require a significantly different design approach from that used where classic materials are employed.&nbsp;In particular, this part of the course deals with:</p><ul><li>the design of glass facades. The theoretical concepts will be applied to the design of the main structural elements used in architecture and engineering (parapets, decks, beams, columns, fins, etc.) both by simplified strategies and by finite element simulations, accordingly to the CNR DT 210 guidelines;&nbsp;</li><li>the form-finding and design of tensile structures, based on the concept of lightness (limited weight compared to the surfaces and volumes built) and sustainable architecture aimed at using light, low cost, and low environmental impact materials. The analysis of case studies will support the theoretical aspects.&nbsp;&nbsp;</li><li>the details, cutting patterns, cables, and textile materials;</li><li>the principles underlying parametric design (or computational design). This design approach, considered the design method of the future, allows the designer a unique combination of forms and architectural composition.</li></ul><p><br></p><p>At the end of the course, the student must demonstrate an understanding of the topics addressed during the course by applying the theoretical concepts to case studies.</p>",
         "professor": [
           {
-            "name": "Roberta",
-            "surname": "Springhetti",
-            "id": "0203ed20c9762218c0ec928dc6771788"
-          },
-          {
             "name": "Diego",
             "surname": "Misseroni",
             "id": "fe04c981418fabe261f78f7522e7bc19"
+          },
+          {
+            "name": "Roberta",
+            "surname": "Springhetti",
+            "id": "0203ed20c9762218c0ec928dc6771788"
           }
         ],
         "assistant": [],
@@ -29365,14 +29387,14 @@
         "description": "Embedded computers are found everywhere, from home appliances to automobiles to medical devices. Designing an embedded computing system is a challenging task because the requirements include manufacturing cost, performance, power consumption, user interface, hard deadlines, and rich functionality. \nThe objective is to illustrate the embedded system design process, which includes requirements, specification, architecture, components, and system integration phases. The course will be backed up by real-life design examples to illustrate the design process, and also students will be asked to design embedded systems to gain experience.   \n",
         "professor": [
           {
-            "name": "Andrea",
-            "surname": "Albanese",
-            "id": "20e32c1f0023f65cca023d7b3970b839"
-          },
-          {
             "name": "Davide",
             "surname": "Brunelli",
             "id": "68033e67ff62ac61e8d0f788c9aa4974"
+          },
+          {
+            "name": "Andrea",
+            "surname": "Albanese",
+            "id": "20e32c1f0023f65cca023d7b3970b839"
           }
         ],
         "assistant": [],
@@ -31111,9 +31133,9 @@
         "description": "<p>The goal of this course is to provide the fundamentals of numerical optimization. We will focus on various kinds of optimization techniques, ranging from continuous to discrete optimization methods, including global and local search methods, derivative-based and derivative-free algorithms, as well as traditional operational research techniques such as those used for solving integer programming, linear programming, and quadratic programming problems. We will address both theoretical and practical considerations, complementing each lecture on the theory with a dedicated lab. During the labs, the students will have the opportunity to test the various techniques on synthetic and real-world optimization problems.</p><p>At the end of this course, the students will be familiar with the fundamentals of numerical optimization, and will be able to apply various kinds of optimization algorithms to different contexts. They will also know the basic theory needed for developing new algorithms, or adapting/tuning them to handle new problems.</p>",
         "professor": [
           {
-            "name": "Leonardo Lucio",
-            "surname": "Custode",
-            "id": "22b7d51df4cca996546fd0eb672d7fd6"
+            "name": "Giovanni",
+            "surname": "Iacca",
+            "id": "26347fc0ca1739f863f2fbfd85b05e6b"
           },
           {
             "name": "Andrea",
@@ -31121,9 +31143,9 @@
             "id": "c13632955baf56f579cd92a75c7109ce"
           },
           {
-            "name": "Giovanni",
-            "surname": "Iacca",
-            "id": "26347fc0ca1739f863f2fbfd85b05e6b"
+            "name": "Leonardo Lucio",
+            "surname": "Custode",
+            "id": "22b7d51df4cca996546fd0eb672d7fd6"
           }
         ],
         "assistant": [],
@@ -31840,7 +31862,13 @@
           }
         ],
         "description": "The course aims to provide students with an understanding of the web and the tools necessary to build web applications.\nThe fundamental concepts that characterize the web will be acquired: http protocol, html, javascript and css languages, request-response cycle, framework based on asynchronous javascript, state persistence, interaction with database.\nAt the end of the course, the student will be able to design and implement simple web applications.\nS/he will be able to use the most common languages \u200b\u200btypical of the web, and will have become familiar with the concept of DOM. The acquired knowledge will allow the student to self-learn in the future with little effort other languages \u200b\u200band frameworks for the design and management of web systems.\n",
-        "professor": [],
+        "professor": [
+          {
+            "name": "Giovanna Paola",
+            "surname": "Varni",
+            "id": "7c8c74226f9e6f3a1b3afb72490e21c6"
+          }
+        ],
         "assistant": [],
         "degreeProgram": "Informatica (L2)",
         "webSite": "https://www.esse3.unitn.it/Guide/PaginaADContest.do?ad_cont_id=10114*90646*2022*2008*10003"
@@ -33847,14 +33875,14 @@
         "description": "Embedded computers are found everywhere, from home appliances to automobiles to medical devices. Designing an embedded computing system is a challenging task because the requirements include manufacturing cost, performance, power consumption, user interface, hard deadlines, and rich functionality. \nThe objective is to illustrate the embedded system design process, which includes requirements, specification, architecture, components, and system integration phases. The course will be backed up by real-life design examples to illustrate the design process, and also students will be asked to design embedded systems to gain experience.   \n",
         "professor": [
           {
-            "name": "Andrea",
-            "surname": "Albanese",
-            "id": "20e32c1f0023f65cca023d7b3970b839"
-          },
-          {
             "name": "Davide",
             "surname": "Brunelli",
             "id": "68033e67ff62ac61e8d0f788c9aa4974"
+          },
+          {
+            "name": "Andrea",
+            "surname": "Albanese",
+            "id": "20e32c1f0023f65cca023d7b3970b839"
           }
         ],
         "assistant": [],
@@ -34769,6 +34797,11 @@
             "id": "efb05a9acce99cdaeb0787abfc950752"
           },
           {
+            "name": "Paola",
+            "surname": "Capuana",
+            "id": "dd6ed89521b6b66bbb390d1625346138"
+          },
+          {
             "name": "Enzo",
             "surname": "Loner",
             "id": "8756b940cfd9c4c80424269c200c494d"
@@ -35325,14 +35358,14 @@
         "description": "",
         "professor": [
           {
-            "name": "Luca",
-            "surname": "Tubiana",
-            "id": "8ae38e7423830aff6fcb258b3dd086bc"
-          },
-          {
             "name": "Gianluca",
             "surname": "Lattanzi",
             "id": "0a5033a28555b6a7be73aab6ae7bb60c"
+          },
+          {
+            "name": "Luca",
+            "surname": "Tubiana",
+            "id": "8ae38e7423830aff6fcb258b3dd086bc"
           }
         ],
         "assistant": [
@@ -37147,24 +37180,24 @@
         "webSite": "https://www.esse3.unitn.it/Guide/PaginaADContest.do?ad_cont_id=10438*91406*2022*2014*10001"
       },
       {
-        "name": "Coding Theory and Applications",
+        "name": "Fourier Analysis",
         "department": [
           {
             "unitName": "Department of Mathematics",
             "unitId": "STO0008628"
           }
         ],
-        "description": "<p>To provide the theory underpinning modern industrial applications of coding theory</p>",
+        "description": "The student is expected to learn the essential elements of the theory of Fourier series and Fourier transform, together with some of their relevant applications. It is also expected that she/he is able to set and complete the resolution of exercises and problems like the ones proposed during the course.",
         "professor": [
           {
-            "name": "Nadir",
-            "surname": "Murru",
-            "id": "953b174b6d6e11425ef7866eb7d39df6"
+            "name": "Gian Paolo",
+            "surname": "Leonardi",
+            "id": "4b497556b9d1a385d21e3432993adbe3"
           }
         ],
         "assistant": [],
         "degreeProgram": "MATEMATICA (LM)",
-        "webSite": "https://www.esse3.unitn.it/Guide/PaginaADContest.do?ad_cont_id=10170*91163*2022*2009*10002"
+        "webSite": "https://www.esse3.unitn.it/Guide/PaginaADContest.do?ad_cont_id=10170*91534*2022*2009*10002"
       },
       {
         "name": "Crash course - Legal Foundations",
@@ -38909,14 +38942,14 @@
         "description": "An introduction to big data science from the point of view of tensor decomposition.\n\nThe course will begin with concrete examples of big data problems. The central part of the course will be based on geometric structures for modeling the extraction of information from problems of large data collections. Part of the course will be devoted to computational aspects.\n\n1. Knowledge and understanding skills.\nGood knowledge of the basic arguments of tensor decomposition from the geometric point of view and concrete examples of big data.\n\n2. Ability to apply knowledge and understanding.\nInductive and deductive reasoning ability to deal with issues that are provided individually or in a group from time to time.\n\n3. Autonomy of judgment.\nAbility to develop logical arguments and produce correct demonstrations. Ability to identify the most appropriate methods for analyzing, interpreting, and modeling information extraction issues from large data collections.\n\n4. Communicative Skills.\nAbility to expose subjects both at the written / computational level by carrying out exercises handed out by the instructor both at the oral level in the possible presentation of a topic taught at a lecture through a public seminar.",
         "professor": [
           {
-            "name": "Vincenzo",
-            "surname": "Galgano",
-            "id": "db87ab335d39f9be25480a2bad5e7669"
-          },
-          {
             "name": "Alessandra",
             "surname": "Bernardi",
             "id": "cee3b730c583f4739b4a9ebe6353e171"
+          },
+          {
+            "name": "Vincenzo",
+            "surname": "Galgano",
+            "id": "db87ab335d39f9be25480a2bad5e7669"
           }
         ],
         "assistant": [],
@@ -42588,14 +42621,14 @@
         "description": "<p>At the end of the course, the students will be able to:</p><p>- Understand laboratory and insitu investigation methods to quantify the parameters needed for slope analysis</p><p>- Choose the most suitable method for slope stability analysis</p><p>- Carry out and differentiate slope stability analyses with different numerical methods</p><p>- Evaluate the suitability of different slope stabilization methods.</p>",
         "professor": [
           {
-            "name": "Edgar",
-            "surname": "Ferro",
-            "id": "ccb30130c898ffcea20161a8e4950902"
-          },
-          {
             "name": "Alessandro",
             "surname": "Gajo",
             "id": "edb7b2984f39549b3425c85f517d4185"
+          },
+          {
+            "name": "Edgar",
+            "surname": "Ferro",
+            "id": "ccb30130c898ffcea20161a8e4950902"
           }
         ],
         "assistant": [],
@@ -46652,14 +46685,14 @@
         "description": "This course provides an introduction to fundamental concepts and techniques in digital signal processing. The course starts with a detailed explanation of discrete-time signals/systems and with the analysis of discrete time linear time invariant systems. Subsequently, the discrete-time Fourier transform and the discrete Fourier transform are introduced, followed by an overview of fast algorithms for the computation of the discrete Fourier transform. Afterwards, the z-transform and its properties are introduced. Finally, the design of FIR and IIR filters is introduced. \nThe Lab lectures by using MATLAB are given to provide practical knowledge in processing real signals with examples from speech and audio. ",
         "professor": [
           {
-            "name": "Federico",
-            "surname": "Mento",
-            "id": "91e173af9c56da0f3fec679c75a5654c"
-          },
-          {
             "name": "Libertario",
             "surname": "Demi",
             "id": "024caded3bc2967e0a4861b694ce56e4"
+          },
+          {
+            "name": "Federico",
+            "surname": "Mento",
+            "id": "91e173af9c56da0f3fec679c75a5654c"
           }
         ],
         "assistant": [],
@@ -49963,11 +49996,6 @@
         "description": "Deepening the understanding of the functioning of markets and of the determinants and effectiveness of firms'' strategies, through the analysis of a specific market with appropriate data.\nSpecific skills to be acquired include:\n- identification of the most appropriate data to describe the object of interest;\n- knowledge of the various data sources, their characteristics and reliability;\n- ability to work with data in order to extract relevant information;\n- ability to use the theoretical concepts learnt in other courses in order to identify possible causes of the phenomenon under investigation, and to collect empirical evidence about them;\n- ability to write a research report.",
         "professor": [
           {
-            "name": "Ruggiero",
-            "surname": "Rippo",
-            "id": "426c5e6a085bc179afdc36a76f427308"
-          },
-          {
             "name": "Matteo",
             "surname": "Ploner",
             "id": "877f36c61beb8c978b9d3b90b1a1761c"
@@ -49978,6 +50006,11 @@
             "name": "Austeja",
             "surname": "Kazemekaityte",
             "id": "0c8b7c9d0a423e5be699f40f5d8d428d"
+          },
+          {
+            "name": "Ruggiero",
+            "surname": "Rippo",
+            "id": "426c5e6a085bc179afdc36a76f427308"
           }
         ],
         "degreeProgram": "Economia e Management (L2)",
@@ -51590,14 +51623,14 @@
         "description": "After completion of the course the student should know the main algorithms commonly used in the numerical solution of physical problems, and have learned the basics of the main simulation techniques for interacting many-particle systems described within non-relativistic quantum physics.\nThe student should be able to prove she/he has learned the fundamental concepts of the theory, and should be able to:\na) Choose the most suitable algorithm to the solution of a given problem\nb) Autonomously write working codes implementing the illustrated algorithms\nc) Appropriately use existing software and libraries in support of the self-developed code.",
         "professor": [
           {
-            "name": "Francesco",
-            "surname": "Pederiva",
-            "id": "d1e290c9aaa764a7295c16d554bb105b"
-          },
-          {
             "name": "Alessandro",
             "surname": "Roggero",
             "id": "3882b5bb70c427fcc0e789e59f2d6a78"
+          },
+          {
+            "name": "Francesco",
+            "surname": "Pederiva",
+            "id": "d1e290c9aaa764a7295c16d554bb105b"
           }
         ],
         "assistant": [],
@@ -53143,26 +53176,6 @@
         "webSite": "https://www.esse3.unitn.it/Guide/PaginaADContest.do?ad_cont_id=10117*90643*2022*2011*10001"
       },
       {
-        "name": "Organizzazione e gestione aziendale",
-        "department": [
-          {
-            "unitName": "Department of Information Engineering and Computer Science",
-            "unitId": "STO0008629"
-          }
-        ],
-        "description": "",
-        "professor": [
-          {
-            "name": "Marco",
-            "surname": "Formentini",
-            "id": "39f60862ebc77c45c1cb1c1b70ecc7f2"
-          }
-        ],
-        "assistant": [],
-        "degreeProgram": "Ingegneria Informatica, delle Comunicazioni ed Elettronica (L2)",
-        "webSite": "https://www.esse3.unitn.it/Guide/PaginaADContest.do?ad_cont_id=10712*94273*2022*2019*9999"
-      },
-      {
         "name": "Reti logiche",
         "department": [
           {
@@ -53187,6 +53200,26 @@
         ],
         "degreeProgram": "Ingegneria Informatica, delle Comunicazioni ed Elettronica (L2)",
         "webSite": "https://www.esse3.unitn.it/Guide/PaginaADContest.do?ad_cont_id=10712*94277*2022*2019*9999"
+      },
+      {
+        "name": "Organizzazione e gestione aziendale",
+        "department": [
+          {
+            "unitName": "Department of Information Engineering and Computer Science",
+            "unitId": "STO0008629"
+          }
+        ],
+        "description": "",
+        "professor": [
+          {
+            "name": "Marco",
+            "surname": "Formentini",
+            "id": "39f60862ebc77c45c1cb1c1b70ecc7f2"
+          }
+        ],
+        "assistant": [],
+        "degreeProgram": "Ingegneria Informatica, delle Comunicazioni ed Elettronica (L2)",
+        "webSite": "https://www.esse3.unitn.it/Guide/PaginaADContest.do?ad_cont_id=10712*94273*2022*2019*9999"
       },
       {
         "name": "Applied Cryptography",
@@ -53401,14 +53434,14 @@
         "description": "This course provides an introduction to fundamental concepts and techniques in digital signal processing. The course starts with a detailed explanation of discrete-time signals/systems and with the analysis of discrete time linear time invariant systems. Subsequently, the discrete-time Fourier transform and the discrete Fourier transform are introduced, followed by an overview of fast algorithms for the computation of the discrete Fourier transform. Afterwards, the z-transform and its properties are introduced. Finally, the design of FIR and IIR filters is introduced. \nThe Lab lectures by using MATLAB are given to provide practical knowledge in processing real signals with examples from speech and audio. ",
         "professor": [
           {
-            "name": "Federico",
-            "surname": "Mento",
-            "id": "91e173af9c56da0f3fec679c75a5654c"
-          },
-          {
             "name": "Libertario",
             "surname": "Demi",
             "id": "024caded3bc2967e0a4861b694ce56e4"
+          },
+          {
+            "name": "Federico",
+            "surname": "Mento",
+            "id": "91e173af9c56da0f3fec679c75a5654c"
           }
         ],
         "assistant": [],
@@ -53774,6 +53807,11 @@
         "description": "",
         "professor": [
           {
+            "name": "Anna",
+            "surname": "Casari",
+            "id": "a3bb0f44d102b897ddb8800e266c05b3"
+          },
+          {
             "name": "Alessandra",
             "surname": "Marzadri",
             "id": "831535bf29495f29307c21924adf1b80"
@@ -54095,11 +54133,6 @@
         "description": "<p>The goal of this course is to provide the fundamentals of numerical optimization. We will focus on various kinds of optimization techniques, ranging from continuous to discrete optimization methods, including global and local search methods, derivative-based and derivative-free algorithms, as well as traditional operational research techniques such as those used for solving integer programming, linear programming, and quadratic programming problems. We will address both theoretical and practical considerations, complementing each lecture on the theory with a dedicated lab. During the labs, the students will have the opportunity to test the various techniques on synthetic and real-world optimization problems.</p><p>At the end of this course, the students will be familiar with the fundamentals of numerical optimization, and will be able to apply various kinds of optimization algorithms to different contexts. They will also know the basic theory needed for developing new algorithms, or adapting/tuning them to handle new problems.</p>",
         "professor": [
           {
-            "name": "Andrea",
-            "surname": "Ferigo",
-            "id": "c13632955baf56f579cd92a75c7109ce"
-          },
-          {
             "name": "Leonardo Lucio",
             "surname": "Custode",
             "id": "22b7d51df4cca996546fd0eb672d7fd6"
@@ -54108,6 +54141,11 @@
             "name": "Giovanni",
             "surname": "Iacca",
             "id": "26347fc0ca1739f863f2fbfd85b05e6b"
+          },
+          {
+            "name": "Andrea",
+            "surname": "Ferigo",
+            "id": "c13632955baf56f579cd92a75c7109ce"
           }
         ],
         "assistant": [],
@@ -56287,14 +56325,14 @@
         "description": "",
         "professor": [
           {
-            "name": "Luca",
-            "surname": "Tubiana",
-            "id": "8ae38e7423830aff6fcb258b3dd086bc"
-          },
-          {
             "name": "Gianluca",
             "surname": "Lattanzi",
             "id": "0a5033a28555b6a7be73aab6ae7bb60c"
+          },
+          {
+            "name": "Luca",
+            "surname": "Tubiana",
+            "id": "8ae38e7423830aff6fcb258b3dd086bc"
           }
         ],
         "assistant": [
@@ -57559,14 +57597,14 @@
         "description": "Remote sensing optical and radar systems are one of the most complex information engineering systems, as they  involve many technologies and methodologies (satellites, passive sensors, radar sensors for the acquisition of images, data transmission techniques, advanced signal and image processing techniques, data storage and management techniques).\nThe course analyses the main elements of remote sensing systems and develops a basic level of competence in processing and automatic recognition of images and signals.\nThe programme is divided into 5 parts  The first part looks at remote sensing systems in general, and the principles upon which they are based.  The second part focuses on the acquistion phase of remote sensing images; covering satellites, sensors and data transmission systems.  The third part is dedicated to the automatic techniques used for the processing of remotely sensed images, and advanced methodologies for the analysis of multispectral optical images and radar images.  The fourth part of the course examines techniques for automatic recognition of remote sensing images and signals.  The final part of the course presents examples of the application of remote sensing systems and image analysis techniques to real problems.\nThe student wll also develop practical exercises in laboratory to consolidate the understanding of the theory, and gain experience of the techniques described in lectures.  There will also be some specialist seminars held by experts in the sector from national and international research institutes and from industry.",
         "professor": [
           {
-            "name": "Giulio",
-            "surname": "Weikmann",
-            "id": "c72f3fac73b32a082ac65fc4aa336408"
-          },
-          {
             "name": "Lorenzo",
             "surname": "Bruzzone",
             "id": "805c37b9a29dfeff3a1ef2b5e2258988"
+          },
+          {
+            "name": "Giulio",
+            "surname": "Weikmann",
+            "id": "c72f3fac73b32a082ac65fc4aa336408"
           }
         ],
         "assistant": [],
@@ -58111,14 +58149,14 @@
         "description": "The landscape of robotics has gone through a deep change throughout the last decade. Up until the early years of this century, robots were seen as heavy and dangerous machines used to execute stiffly defined tasks within controlled and structured environments. The recent advances in artificial intelligence have had a profound impact on the type of tasks that a robot can perform and on the level of safety and reliability they can be executed with. Modern robots assist older adults or  impaired people, work side by side with human workers, drive on the highways with little or no assistance. This paradigm shift requires the robot to perceive and understand the situation in the surroundings, to autonomously plan a suitable course of actions for a task, and to see to its correct execution by properly reacting to unexpected events. \nTo design a machine of this complexity, engineers need several competencies tapping diverse disciplines. Robots are physical machines created by humans, so their motion can be analysed and controlled through appropriate mathematical models. Robots move in a partially known environment, so they need to create a map of their surroundings, to localise themselves within the environment, to detect, classify and recognise the different objects they interact with. Robots are required to be autonomous or sem-iautonomous, so they need the ability to decide a sequence of actions (a plan), to implement it within appropriate safety bounds and to adapt it to changes as needed. Finally, robots embed computing machines that need to be programmed through appropriate languages and frameworks. \nThe students will be introduced to each one of these different aspects and will receive the opportunity to put them into practice using our advanced educational laboratories and teaching facilities. After taking the course, they will be able to take on a career as developers of robotic applications and/or to continue with advanced studies in the area of intelligent robots.",
         "professor": [
           {
-            "name": "Placido",
-            "surname": "Falqueto",
-            "id": "403b3239ddfce4de7bce60daad8e8309"
-          },
-          {
             "name": "Michele",
             "surname": "Focchi",
             "id": "55198852c5b9a81a52c83704ad83738b"
+          },
+          {
+            "name": "Placido",
+            "surname": "Falqueto",
+            "id": "403b3239ddfce4de7bce60daad8e8309"
           },
           {
             "name": "Niculae",
@@ -59831,14 +59869,14 @@
         "description": "After completion of the course the student should know the main algorithms commonly used in the numerical solution of physical problems, and have learned the basics of the main simulation techniques for interacting many-particle systems described within non-relativistic quantum physics.\nThe student should be able to prove she/he has learned the fundamental concepts of the theory, and should be able to:\na) Choose the most suitable algorithm to the solution of a given problem\nb) Autonomously write working codes implementing the illustrated algorithms\nc) Appropriately use existing software and libraries in support of the self-developed code.",
         "professor": [
           {
-            "name": "Alessandro",
-            "surname": "Roggero",
-            "id": "3882b5bb70c427fcc0e789e59f2d6a78"
-          },
-          {
             "name": "Francesco",
             "surname": "Pederiva",
             "id": "d1e290c9aaa764a7295c16d554bb105b"
+          },
+          {
+            "name": "Alessandro",
+            "surname": "Roggero",
+            "id": "3882b5bb70c427fcc0e789e59f2d6a78"
           }
         ],
         "assistant": [],
@@ -62461,14 +62499,14 @@
         "description": "",
         "professor": [
           {
-            "name": "Luca",
-            "surname": "Tubiana",
-            "id": "8ae38e7423830aff6fcb258b3dd086bc"
-          },
-          {
             "name": "Gianluca",
             "surname": "Lattanzi",
             "id": "0a5033a28555b6a7be73aab6ae7bb60c"
+          },
+          {
+            "name": "Luca",
+            "surname": "Tubiana",
+            "id": "8ae38e7423830aff6fcb258b3dd086bc"
           }
         ],
         "assistant": [
@@ -63982,14 +64020,14 @@
         "description": "This module course aims to provide students with the basic competencies in quantum mechanics physics. \n\nAt the end of the first module, students are expected to:\n\n1) understand the main difference between the physical phenomenology at the macroscopic level ( governed by the laws of classical physics) and the phenomenology at the microscopic level, where quantum mechanical behavior takes place\n\n2) understand the concept of particle-wave duality, and describe and critically analyze the main experiments which provide evidence of quantum uncertainty, wave-like properties of matter, and energy or magnetic moment quantization. \n\n3) understand the mathematical and physical significance of the wave-function and the related time-dependent and stationary Schrodinger equation.\n\n4) Solve elementary problems in quantum mechanics (particle in an infinite square well, particle in a finite square potential, ground state of the harmonic oscillator)\n\n5) understand and use the basic mathematical tools involved in physical modeling, including:\n\n- Multi-dimensional calculus: partial derivatives, multi-dimensional integral, differential operators, partial differential equations. \n\n- Basic linear algebra, including matrix diagonalization, eigenvalues, and eigenvectors, commutation relationships. \n\n- Notion of Hilbert space and its representation theory\n\n- Notion of Dirac-delta function\n\n",
         "professor": [
           {
-            "name": "Pier Luigi",
-            "surname": "Cudazzo",
-            "id": "7de7d8062dac9a804c12eb3e398bd638"
-          },
-          {
             "name": "Pietro",
             "surname": "Faccioli",
             "id": "b50ebcae12dfdd6303adcfc851e78d4c"
+          },
+          {
+            "name": "Pier Luigi",
+            "surname": "Cudazzo",
+            "id": "7de7d8062dac9a804c12eb3e398bd638"
           }
         ],
         "assistant": [],
@@ -65849,9 +65887,9 @@
         "description": "The course aims to provide students with the basic concepts of electricity and magnetism and the basic knowledge of the electrical and magnetic properties of matter. In this way, students will be able in the following courses to understand the application of the Maxwell equations in the study of time dependent electric and magnetic phenomena and the theory of electromagnetic radiation and its interaction with matter.\n\nElectromagnetism will be presented starting from the phenomenology and examples will be discussed related to natural manifestations of electromagnetic phenomena and their technological applications.\n\nDue to the frequency and to the active participation in the training activities offered by the course (lectures, exercises and tutoring) and to the individual study, the student will be able to:\n- Describe the electrical and magnetic properties of matter;\n- Understand the four Maxwell equations;\n- Solve electromagnetism problems.\n",
         "professor": [
           {
-            "name": "Lorenzo",
-            "surname": "Pavesi",
-            "id": "b56858d5869fc6b9ea9c7236e3ec8769"
+            "name": "Gioele",
+            "surname": "Piccoli",
+            "id": "17f65f6e4b9254db944f13f13c69b21c"
           },
           {
             "name": "Stefano",
@@ -65864,9 +65902,9 @@
             "id": "867964964267bb5f7ef02520e6920ada"
           },
           {
-            "name": "Gioele",
-            "surname": "Piccoli",
-            "id": "17f65f6e4b9254db944f13f13c69b21c"
+            "name": "Lorenzo",
+            "surname": "Pavesi",
+            "id": "b56858d5869fc6b9ea9c7236e3ec8769"
           }
         ],
         "assistant": [],
@@ -66442,26 +66480,26 @@
         "description": "<p>Taking into account the observation that \"in mathematics you don't understand things, you just get used to them\", aim of the course is to make familiar to the students the basic topics of mathematical analysis (functions, limits, derivatives, integrals, series, series of functions, differential equations). At the end of the course the students will be essentially able to orient themselves among the mathematical concepts listed above, and to understand how they can be useful for giving a rigorous form to more specific scientific arguments; they will be also able to solve exercises related to the topics of the course.</p>",
         "professor": [
           {
-            "name": "Alberto",
-            "surname": "Valli",
-            "id": "0ae71788f7ec7c4a42eaefa9f7e528eb"
-          },
-          {
             "name": "Francesco",
             "surname": "Menegale",
             "id": "73758b3e636de83a9748c8c64728860c"
+          },
+          {
+            "name": "Alberto",
+            "surname": "Valli",
+            "id": "0ae71788f7ec7c4a42eaefa9f7e528eb"
           }
         ],
         "assistant": [
           {
-            "name": "Mattia",
-            "surname": "Sensi",
-            "id": "c0dd2da2b62fae112ac9eafcb2ca36f2"
-          },
-          {
             "name": "Alessio",
             "surname": "Marinelli",
             "id": "2012b786f1cbcacccd228d0469773700"
+          },
+          {
+            "name": "Mattia",
+            "surname": "Sensi",
+            "id": "c0dd2da2b62fae112ac9eafcb2ca36f2"
           }
         ],
         "degreeProgram": "Ingegneria per l'ambiente e il territorio (L2)",
@@ -67503,16 +67541,6 @@
         "description": "<p>The course aims at explaining the opportunities that high-throughput technologies give in the analysis of genomes and of transcriptomes, being introduced to the concepts and tools of Precision Medicine. The course will focus on DNA microarrays, Next Generation Sequencing technologies and Next-Next Generation Sequencing technologies, their problems and perspectives. At the end of this course students will be able to: \u2022\tDistinguish between high-throughput and high-multiplexity technologies. \u2022\tList different high-throughput technologies. \u2022\tRelate low-throughput techniques based on nucleic acids hybridization. \u2022\tDescribe a microarray experiment. \u2022\tList different uses of microarrays: SNP-typing, CGH-arrays, gene expression analysis. \u2022\tRelate the history of microarray techniques. \u2022\tIllustrate fabrication methods of spotted, Agilent and Affymetrix, bead-based microarrays. \u2022\tDiscuss differences between Agilent and Affymetrix microarrays. \u2022\tDiscuss experimental design for microarray experiments. \u2022\tExplain the use of biological replicates and technical replicates. \u2022\tList and explain different steps in data analysis for microarray experiments. \u2022 Explain the need for normalization and the possible strategies for normalization of microarray data. \u2022\tIllustrate the difference between ratios and fold changes in the identification of differentially expressed genes. \u2022\tPerform cluster analysis of gene expression data. \u2022\tDescribe what a pathway analysis is and perform it. \u2022\tUse biological databases and gene ontology in data analysis. \u2022\tIllustrate the Sanger sequencing method and its direct evolution, the automated DNA sequencing. \u2022\tDistinguish between Sanger sequencing, Next Generation Sequencing (NGS) and Next-Next Generation Sequencing (NNGS). \u2022\tSchematise the phases of NGS. \u2022\tList different applications of NGS and different genome enrichment methods. \u2022\tIllustrate the workflow of template preparation for NGS. \u2022\tDescribe emulsion PCR methods for library preparation. \u2022\tIllustrate Quality Control and Library Preparation for NGS. \u2022\tIllustrate different NGS techniques, their features (read length, run time and maximum throughput) and discuss their advantages and disadvantages: the Roche 454 Pyrosequencing, the SOLiD, the IonProton, the Illumina NGS. \u2022\tDescribe how to multiplex and illustrate paired-end sequencing in Illumina NGS. \u2022\tIllustrate NNGS techniques: the PacBio, the Helicos, the Oxford Nanopore. \u2022\tIllustrate NGS applications in Metagenomics. \u2022\tIllustrate NGS applications in Medical Genomics. \u2022\tIllustrate Singe Cell Sequencing and Spatial Transcriptomics techniques. Bioinformatics approaches to retrieve biological information from publicly available RNA-seq data. Performing RNA-seq data analyses by applying specific tools through the terminal as well as through R packages in R Studio. Analyzing NGS data to assess quality in order to properly tune accurate reads mapping and from there calculate differentially expressed genes (DEGs), which can be used as input for several activities: clustering analyses, GO and pathways' identification, Gene Set Enrichment analysis (GSEA), to name a few. </p>",
         "professor": [
           {
-            "name": "Toma",
-            "surname": "Tebaldi",
-            "id": "456c6c24fcb6a79c46a4d8c821743fd2"
-          },
-          {
-            "name": "Michela Alessandra",
-            "surname": "Denti",
-            "id": "f1725c9d067decc31e9c437572815d14"
-          },
-          {
             "name": "Erik",
             "surname": "Dassi",
             "id": "ca56af68877e89f41d0ad6c25376301a"
@@ -67521,6 +67549,16 @@
             "name": "Veronica",
             "surname": "De Sanctis",
             "id": "fe84a0377e83fecc57f7472228e9e06e"
+          },
+          {
+            "name": "Toma",
+            "surname": "Tebaldi",
+            "id": "456c6c24fcb6a79c46a4d8c821743fd2"
+          },
+          {
+            "name": "Michela Alessandra",
+            "surname": "Denti",
+            "id": "f1725c9d067decc31e9c437572815d14"
           }
         ],
         "assistant": [
@@ -68859,14 +68897,14 @@
         "description": "This module course aims to provide students with the basic competencies in quantum mechanics physics. \n\nAt the end of the first module, students are expected to:\n\n1) understand the main difference between the physical phenomenology at the macroscopic level ( governed by the laws of classical physics) and the phenomenology at the microscopic level, where quantum mechanical behavior takes place\n\n2) understand the concept of particle-wave duality, and describe and critically analyze the main experiments which provide evidence of quantum uncertainty, wave-like properties of matter, and energy or magnetic moment quantization. \n\n3) understand the mathematical and physical significance of the wave-function and the related time-dependent and stationary Schrodinger equation.\n\n4) Solve elementary problems in quantum mechanics (particle in an infinite square well, particle in a finite square potential, ground state of the harmonic oscillator)\n\n5) understand and use the basic mathematical tools involved in physical modeling, including:\n\n- Multi-dimensional calculus: partial derivatives, multi-dimensional integral, differential operators, partial differential equations. \n\n- Basic linear algebra, including matrix diagonalization, eigenvalues, and eigenvectors, commutation relationships. \n\n- Notion of Hilbert space and its representation theory\n\n- Notion of Dirac-delta function\n\n",
         "professor": [
           {
-            "name": "Pietro",
-            "surname": "Faccioli",
-            "id": "b50ebcae12dfdd6303adcfc851e78d4c"
-          },
-          {
             "name": "Pier Luigi",
             "surname": "Cudazzo",
             "id": "7de7d8062dac9a804c12eb3e398bd638"
+          },
+          {
+            "name": "Pietro",
+            "surname": "Faccioli",
+            "id": "b50ebcae12dfdd6303adcfc851e78d4c"
           }
         ],
         "assistant": [],
@@ -68889,9 +68927,9 @@
             "id": "349740966b6c5ec79f7daa06aa89e7d3"
           },
           {
-            "name": "Michele",
-            "surname": "Fedel",
-            "id": "d29f5deb0ac17cfb783eae14f64152df"
+            "name": "Cinzia",
+            "surname": "Menapace",
+            "id": "476dd515445a01177ac7cb6245d04257"
           },
           {
             "name": "Andrea",
@@ -68899,9 +68937,9 @@
             "id": "6b5fcf96b1aacf2cc8d1bcb987c623ea"
           },
           {
-            "name": "Cinzia",
-            "surname": "Menapace",
-            "id": "476dd515445a01177ac7cb6245d04257"
+            "name": "Michele",
+            "surname": "Fedel",
+            "id": "d29f5deb0ac17cfb783eae14f64152df"
           },
           {
             "name": "Massimo",

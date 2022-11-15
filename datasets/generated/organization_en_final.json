@@ -5,2236 +5,2236 @@
     "language": "en",
     "data": [
       {
-        "identifier": "STO0000256",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "National/International Interlibrary Loan Office",
         "description": "",
-        "address": "Via Adalberto Libera, 3, Trento, TN"
+        "address": "Via Adalberto Libera, 3, Trento, TN",
+        "id": "STO0000256"
       },
       {
-        "identifier": "STO0013563",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "unit",
         "name": "Education and student services - Medical sciences area",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0013563"
       },
       {
-        "identifier": "STO0013562",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "unit",
         "name": "Orientation office",
         "description": "",
-        "address": "Via Tommaso Gar, 16/2 - 38122 Trento"
+        "address": "Via Tommaso Gar, 16/2 - 38122 Trento",
+        "id": "STO0013562"
       },
       {
-        "identifier": "STO0013561",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Management of national, EU and international research programmes office",
         "description": "<p>L\u2019ufficio fornisce supporto, anche attraverso un servizio di project management specialistico, in tutte le fasi di gestione dei progetti di ricerca finanziati - a livello locale, nazionale, europeo ed internazionale - che vanno dall\u2019avvio, alla gestione, al monitoraggio, alla rendicontazione e alle procedure di audit.</p>\n\n<p>In collaborazione con l\u2019<a href=\"https://webapps.unitn.it/du/it/StrutturaGestionale/STO0013553\">Ufficio Valorizzazione e Impatto della Ricerca</a>, si occupa della gestione di programmi e di progetti volti alla valorizzazione dei risultati della ricerca.</p>\n\n<p>In collaborazione con la <a href=\"https://webapps.unitn.it/du/it/StrutturaGestionale/STO0012564\">Divisione Relazioni Internazionali</a>, contribuisce alla gestione di progetti di cooperazione e mobilit\u00e0 internazionale.</p>\n\n<p>In collaborazione con l\u2019<a href=\"https://webapps.unitn.it/du/it/StrutturaGestionale/STO0013548\">Ufficio Etica e Integrit\u00e0 della Ricerca</a>, fornisce supporto alla <a href=\"https://webapps.unitn.it/du/it/StrutturaGestionale/STO0000863\">Divisione Pianificazione</a> per l\u2019attribuzione dei finanziamenti interni alla ricerca e per la gestione dei progetti finanziati su bandi di Ateneo.</p>\n",
-        "address": ""
+        "address": "",
+        "id": "STO0013561"
       },
       {
-        "identifier": "STO0012250",
         "unitType": "ACADEMIC STRUCTURE",
         "subType": "academic center",
         "name": "Centre Agriculture Food Environment - C3A",
         "description": "<p>The Centre Agriculture Food Environment was born out of a joint UNITN-FEM initiative with the aim of carrying out scientific research and instruction in the fields of agriculture, food and the environment.</p>\n\n<p>Operating as a research university, the Centre Agriculture Food Environment covers the entire didactic cycle in the environmental and <strong>agri-food sciences</strong> and encourages the <strong>integration of quality and insightful scientific research and instruction</strong> into the intensive agriculture field by focusing on quality food products and the <strong>reduction of the environmental impact</strong> of agricultural practices and a sustainable use of environmental resources.</p>\n",
-        "address": "Via Edmund Mach, 1, 38010 San Michele All'adige TN"
+        "address": "Via Edmund Mach, 1, 38010 San Michele All'adige TN",
+        "id": "STO0012250"
       },
       {
-        "identifier": "STO0000268",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Collegial Bodies and Programmatic Agreements",
         "description": "",
-        "address": "Via Calepina, 14, Trento, TN"
+        "address": "Via Calepina, 14, Trento, TN",
+        "id": "STO0000268"
       },
       {
-        "identifier": "STO0000266",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "directorate",
         "name": "Estates Directorate",
         "description": "<p>The Real Estate and Procurement Directorate oversees the construction of new buildings and all architectural, maintenance and technical aspects.</p>\n\n<p><strong>It drafts and updates the Building plan</strong>, which lays down the University\u2019s functional and dimensional requirements and establishes its priorities.</p>\n\n<p>The Directorate works with the divisions and offices it supervises:</p>\n\n<ul>\n\t<li>Buildings Management</li>\n\t<li>Logistics Services</li>\n\t<li>Property Development</li>\n\t<li>Prevention and Protection Service</li>\n</ul>\n\n<p>to monitor the <strong>procedures</strong> <strong>&nbsp;concerning planned construction works</strong> and preliminary tendering procedures for new works and supply contracts.<br />\n<strong>It coordinates the</strong> <strong>project management</strong> of buildings under construction and provides assistance with their <strong>acceptance</strong>.<br />\nProvides the departments and centers with appropriate management, administrative and technical procedures for a wide range of tasks.</p>\n\n<p>The Directorate presents all the University\u2019s projects and their motivation to the conference of services of the Autonomous Province of Trento.</p>\n\n<p>The Real Estate and Procurement Directorate coordinates and promotes the University\u2019s prevention and protection policy, to ensure <strong>compliance with all safety regulations</strong>.</p>\n\n<p>In synergy with the Provincial Healthcare Service (APSS), it helps draft agreements for the development of new research areas in the health and medical sector.</p>\n",
-        "address": "Via Antonio Rosmini, 70, Trento, 38122 TN"
+        "address": "Via Antonio Rosmini, 70, Trento, 38122 TN",
+        "id": "STO0000266"
       },
       {
-        "identifier": "STO0000273",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Financial Management",
         "description": "",
-        "address": "Via Giuseppe Verdi, 6, Trento, TN"
+        "address": "Via Giuseppe Verdi, 6, Trento, TN",
+        "id": "STO0000273"
       },
       {
-        "identifier": "STO0000292",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Mesiano University Library (BUM) room",
         "description": "",
-        "address": "Via Mesiano, 77, 38123 Trento"
+        "address": "Via Mesiano, 77, 38123 Trento",
+        "id": "STO0000292"
       },
       {
-        "identifier": "STO0000239",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "General Accounting",
         "description": "",
-        "address": "Via Giuseppe Verdi, 6, Trento, TN"
+        "address": "Via Giuseppe Verdi, 6, Trento, TN",
+        "id": "STO0000239"
       },
       {
-        "identifier": "STO0000237",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Payroll",
         "description": "",
-        "address": "Via Giuseppe Verdi, 6, Trento, TN"
+        "address": "Via Giuseppe Verdi, 6, Trento, TN",
+        "id": "STO0000237"
       },
       {
-        "identifier": "STO0000235",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Training and Continuing Professional Development",
         "description": "",
-        "address": "Via Giuseppe Verdi, 6, Trento, TN"
+        "address": "Via Giuseppe Verdi, 6, Trento, TN",
+        "id": "STO0000235"
       },
       {
-        "identifier": "STO0013548",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Research ethics and integrity office",
         "description": "<p>The office oversees the drafting and implementation of the University\u2019s policies and procedures on research ethics and integrity, the processing and protection of data in research projects, gender equality, public engagement.</p>\n\n<p>In collaboration with the <a href=\"https://webapps.unitn.it/du/en/StrutturaGestionale/STO0013553/Persone\">Division for the Valorization and Impact of Research</a> and the <a href=\"https://webapps.unitn.it/du/en/StrutturaGestionale/STO0013038/Persone\">Directorate of Communication and External Relations</a>, the office coordinates and supports public engagement e Citizens Science activities.</p>\n\n<p>It also coordinates the activities of the Research Ethics Committee through a dedicated office.</p>\n",
-        "address": ""
+        "address": "",
+        "id": "STO0013548"
       },
       {
-        "identifier": "STO0013547",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "C3A staff",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0013547"
       },
       {
-        "identifier": "STO0013546",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "directorate",
         "name": "Directorate of Research Services and Valorization",
         "description": "<p>The Directorate oversees <strong>all the activities supporting scientific research</strong> within the University, from the planning of the activities to their implementation, to the exploitation of results.</p>\n\n<p>It provides assistance with the <strong>promotion and valorization of research outputs</strong>, including activities inspired by the principles of <strong>Open Science</strong>, providing advice and training on copyright issues and on strategies for publishing and disseminating research results.</p>\n\n<p>The Directorate also monitors the activities <strong>in the area of research ethics and integrity</strong>, as well as those in the area of research quality<strong> and the evaluation of research outputs</strong>.<br />\n&nbsp;</p>\n",
-        "address": ""
+        "address": "",
+        "id": "STO0013546"
       },
       {
-        "identifier": "STO0013543",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Alumni office",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0013543"
       },
       {
-        "identifier": "STO0000241",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Building management - Trento",
         "description": "",
-        "address": "Via Tomaso Gar, 14, Trento, 38122 TN"
+        "address": "Via Tomaso Gar, 14, Trento, 38122 TN",
+        "id": "STO0000241"
       },
       {
-        "identifier": "STO0000240",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Tax Accounting",
         "description": "",
-        "address": "Via Giuseppe Verdi, 6, Trento, TN"
+        "address": "Via Giuseppe Verdi, 6, Trento, TN",
+        "id": "STO0000240"
       },
       {
-        "identifier": "STO0013556",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Dissemination and Evaluation of Research Outputs Division",
         "description": "<p>The Division <strong>designs and manages digital services and University databases</strong> for the collection, documentation, conservation, dissemination, promotion&nbsp;and monitoring of research outputs.</p>\n\n<p>It provides support in the definition and implementation of University policies and procedures for <strong>Open Science and University publishing</strong>.</p>\n",
-        "address": ""
+        "address": "",
+        "id": "STO0013556"
       },
       {
-        "identifier": "STO0013555",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Administration Information Services",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0013555"
       },
       {
-        "identifier": "STO0013552",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "unit",
         "name": "Funded research staff - Povo-Mesiano",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0013552"
       },
       {
-        "identifier": "STO0013550",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Research Support Division",
         "description": "<p>The division helps define, implement and coordinate the activities required to support research, and helps promote the talent of researchers and their career. It also contributes to the identification and management of processes ensuring quality in research and third mission.</p>\n\n<p>The division helps researchers draft and submit individual and partnership proposals to participate in national, European and international calls, and provides assistance with the interpretation of the management and accounting regulations as well as in the definition of contracts with funding organizations during the negotiation phase.</p>\n\n<p>The division oversees the drafting and implementation of the University\u2019s policies and procedures on research ethics and integrity and the processing and protection of data in research projects, and is responsible for the office of the Research Ethics Committee.</p>\n\n<p>The activities are carried out by two offices:</p>\n\n<ul>\n\t<li>The <a href=\"https://webapps.unitn.it/du/en/StrutturaGestionale/STO0013548/Persone\">Research ethics and integrity office</a>, and</li>\n\t<li>the <a href=\"https://webapps.unitn.it/du/en/StrutturaGestionale/STO0013551/Persone\">Research support office</a>, which is organized in three units, one for each campus, in Trento, Povo-Mesiano, and Rovereto.</li>\n</ul>\n",
-        "address": ""
+        "address": "",
+        "id": "STO0013550"
       },
       {
-        "identifier": "STO0012278",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Legal services, Partnerships, Corruption Prevention",
         "description": "<p>The legal services office deals with a wide range of legal matters on behalf of the University, providing assistance in preparation for and during legal proceedings and overseeing the work of external consulting firms. It provides legal advice.<br />\nIt coordinates and gives legal support on all that concerns personal data protection and security, the right to access public documents and self-certification. It is responsible for the University\u2019s legal requirements, in particular in the area of transparency and anti-corruption policies.<br />\nIs in charge of the implementation of the Three-year programme for transparency and integrity and of the regulation on transparency. It monitors and implements the anti-corruption policies laid down in the Three-year plan for corruption prevention.</p>\n\n<p>It establishes the procedures for citizens\u2019 access to University documents and the University register, and provides technical and legal support in relationships between the University and partner organizations.</p>\n",
-        "address": "Via Giuseppe Verdi, 6, Trento, 38122 TN"
+        "address": "Via Giuseppe Verdi, 6, Trento, 38122 TN",
+        "id": "STO0012278"
       },
       {
-        "identifier": "STO0001641",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Research Outputs Office",
         "description": "<p>L\u2019ufficio si occupa della gestione degli archivi e dei sistemi informativi di Ateneo dedicati alla raccolta, alla documentazione, alla conservazione e alla disseminazione della produzione scientifica. In particolare, in tali sistemi \u00e8 incluso l\u2019<a href=\"https://iris.unitn.it/\">archivio IRIS</a> dei prodotti della ricerca e delle tesi di dottorato. Quest\u2019ultimo costituisce il punto unico di inserimento delle informazioni strategiche per tutti i processi interni ed esterni della ricerca inclusi quelli per la valutazione e il monitoraggio della ricerca (VQR, ASN, PRIN, accreditamento dottorati, progressioni e scatti stipendiali, prodotti della ricerca finanziata dalla UE e altri adempimenti in merito agli obblighi di pubblicazione ad accesso aperto, ecc.).</p>\n\n<p>Fornisce supporto alla definizione e all\u2019implementazione delle politiche e delle procedure di Ateneo per la Scienza Aperta e per il diritto d'autore, anche attraverso campagne informative al personale docente e ricercatore.</p>\n\n<p>Si occupa inoltre del coordinamento del personale preposto allo svolgimento delle attivit\u00e0 di supporto e verifica dei contenuti inseriti dagli autori nei diversi archivi di Ateneo, con particolare riferimento alla verifica delle scelte degli autori in merito alle policy di accesso ai prodotti depositati in archivio.</p>\n",
-        "address": "Via Giuseppe Verdi, 8, Trento, 38122 TN"
+        "address": "Via Giuseppe Verdi, 8, Trento, 38122 TN",
+        "id": "STO0001641"
       },
       {
-        "identifier": "STO0013626",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "unit",
         "name": "Office of the Directorate of Research Services and Valorization",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0013626"
       },
       {
-        "identifier": "STO0013625",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Construction Projects and Contracts Office",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0013625"
       },
       {
-        "identifier": "STO0013634",
         "unitType": "ACADEMIC STRUCTURE LEVEL 2",
         "subType": "degree program",
         "name": "PhD programme (Ministerial Decree 45/2013) - Information and Engineering and Computer Science",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0013634"
       },
       {
-        "identifier": "STO0000399",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Systems Management, HPC and Data Center",
         "description": "",
-        "address": "Via Sommarive, 9, Povo, 38123 TN"
+        "address": "Via Sommarive, 9, Povo, 38123 TN",
+        "id": "STO0000399"
       },
       {
-        "identifier": "STO0000335",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Electronics and Design Planning",
         "description": "",
-        "address": "Via Sommarive, 14, Povo, 38123 TN"
+        "address": "Via Sommarive, 14, Povo, 38123 TN",
+        "id": "STO0000335"
       },
       {
-        "identifier": "STO0000366",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Technical Services Coordination - Science Departments",
         "description": "",
-        "address": "Via Sommarive, 14, Povo, 38123 TN"
+        "address": "Via Sommarive, 14, Povo, 38123 TN",
+        "id": "STO0000366"
       },
       {
-        "identifier": "STO0000371",
         "unitType": "ACADEMIC STRUCTURE LEVEL 2",
         "subType": "research center",
         "name": "Doctoral School of Social Sciences",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0000371"
       },
       {
-        "identifier": "ORI0000274",
         "unitType": "INSTITUTIONAL BODY",
         "subType": "supporting board",
         "name": "Committee for the Implementation of the Code of Ethics",
         "description": "<p>The Committe of the Senate for the implementation of the Ethic Code is a consultive body. Upon request of the Academic Senate, it submits opinions and recommendations on their areas of competence.</p>\n",
-        "address": ""
+        "address": "",
+        "id": "ORI0000274"
       },
       {
-        "identifier": "ORI0000273",
         "unitType": "INSTITUTIONAL BODY",
         "subType": "board",
         "name": "Center for Mind/Brain Sciences-CIMeC - Council",
         "description": "<p>The Council of the Department is the main governing body of the Department.<br />\nIt comprises all the professors of the Department and representatives of students, detailed below, PhD students, research fellows and researchers, in accordance with the procedures defined in the Department regulation.</p>\n",
-        "address": ""
+        "address": "",
+        "id": "ORI0000273"
       },
       {
-        "identifier": "ORI0000275",
         "unitType": "INSTITUTIONAL BODY",
         "subType": "supporting board",
         "name": "The University Animal Welfare Committee (OPBA)",
         "description": "<p>The Body for the Protection of Animals (OPBA) deals with topics regarding animals used for scientific and educational purposes, in all facilities of the University which carry out scientific activity using animals, as per Legislative Decree no. 26/2014.</p>\n",
-        "address": ""
+        "address": "",
+        "id": "ORI0000275"
       },
       {
-        "identifier": "ORI0000278",
         "unitType": "INSTITUTIONAL BODY",
         "subType": "governing board",
         "name": "Board of Discipline",
         "description": "<p>The Board of Discipline carries out the preliminary phase of the disciplinary legal proceedings concerning professors and researchers, which foresee more serious sanctions than censure, and expresses an opinion which is submitted to the Council of Administration.</p>\n",
-        "address": ""
+        "address": "",
+        "id": "ORI0000278"
       },
       {
-        "identifier": "ORI0000277",
         "unitType": "INSTITUTIONAL BODY",
         "subType": "governing board",
         "name": "Director General",
         "description": "<p>The Director General, in the frame of the areas approved by the Council of Administration, is responsible for the overall running and organisation of the offices and services, the technical-administrative staff of the University and the technical resources.</p>\n",
-        "address": ""
+        "address": "",
+        "id": "ORI0000277"
       },
       {
-        "identifier": "ORI0000270",
         "unitType": "INSTITUTIONAL BODY",
         "subType": "board",
         "name": "Humanities - Department Council",
         "description": "<p>The Council of the Department is the main governing body of the Department.<br />\nIt comprises all the professors of the Department and representatives of students , detailed below, PhD students, research fellows and researchers, in accordance with the procedures defined in the Department regulation.</p>\n",
-        "address": ""
+        "address": "",
+        "id": "ORI0000270"
       },
       {
-        "identifier": "ORI0000271",
         "unitType": "INSTITUTIONAL BODY",
         "subType": "board",
         "name": "School of International Studies - Council",
         "description": "<p>The Council of the School is the main governing body of the School.<br />\nIt comprises all the professors of the School and representatives of students , detailed below, PhD students, research fellows and researchers, in accordance with the procedures defined in the Department School regulation.</p>\n",
-        "address": ""
+        "address": "",
+        "id": "ORI0000271"
       },
       {
-        "identifier": "ORI0000285",
         "unitType": "INSTITUTIONAL BODY",
         "subType": "supporting board",
         "name": "Data Protection Committee",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "ORI0000285"
       },
       {
-        "identifier": "ORI0000281",
         "unitType": "INSTITUTIONAL BODY",
         "subType": "governing board",
         "name": "President",
         "description": "<p>The President of the Board of Directors guarantees the special autonomy the University avails of.</p>\n",
-        "address": ""
+        "address": "",
+        "id": "ORI0000281"
       },
       {
-        "identifier": "STO0000432",
         "unitType": "ACADEMIC STRUCTURE LEVEL 2",
         "subType": "degree program",
         "name": "Doctoral programme - Cognitive and Brain Sciences",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0000432"
       },
       {
-        "identifier": "ORI0000265",
         "unitType": "INSTITUTIONAL BODY",
         "subType": "board",
         "name": "Physics - Department Council",
         "description": "<p>The Council of the Department is the main governing body of the Department.<br />\nIt comprises all the professors of the Department and representatives of students, detailed below, PhD students, research fellows and researchers, in accordance with the procedures defined in the Department regulation.</p>\n",
-        "address": ""
+        "address": "",
+        "id": "ORI0000265"
       },
       {
-        "identifier": "ORI0000264",
         "unitType": "INSTITUTIONAL BODY",
         "subType": "board",
         "name": "Civil, Environmental and Mechanical Engineering - Department Council",
         "description": "<p>The Council of the Department is the main governing body of the Department.<br />\nIt comprises all the professors of the Department and representatives of students, detailed below, PhD students, research fellows and researchers, in accordance with the procedures defined in the Department regulation.</p>\n",
-        "address": ""
+        "address": "",
+        "id": "ORI0000264"
       },
       {
-        "identifier": "ORI0000267",
         "unitType": "INSTITUTIONAL BODY",
         "subType": "board",
         "name": "Information Engineering and Computer Science - Department Council",
         "description": "<p>The Council of the Department is the main governing body of the Department.<br />\nIt comprises all the professors of the Department and representatives of students, detailed below, PhD students, research fellows and researchers, in accordance with the procedures defined in the Department regulation.</p>\n",
-        "address": ""
+        "address": "",
+        "id": "ORI0000267"
       },
       {
-        "identifier": "ORI0000266",
         "unitType": "INSTITUTIONAL BODY",
         "subType": "board",
         "name": "Mathematics - Department Council",
         "description": "<p>The Council of the Department is the main governing body of the Department.<br />\nIt comprises all the professors of the Department and representatives of students, detailed below, PhD students, research fellows and researchers, in accordance with the procedures defined in the Department regulation.</p>\n",
-        "address": ""
+        "address": "",
+        "id": "ORI0000266"
       },
       {
-        "identifier": "ORI0000269",
         "unitType": "INSTITUTIONAL BODY",
         "subType": "board",
         "name": "Psychology and Cognitive Science - Department Council",
         "description": "<p>The Council of the Department is the main governing body of the Department.<br />\nIt comprises all the professors of the Department and representatives of students , detailed below, PhD students, research fellows and researchers, in accordance with the procedures defined in the Department regulation.</p>\n",
-        "address": ""
+        "address": "",
+        "id": "ORI0000269"
       },
       {
-        "identifier": "ORI0000268",
         "unitType": "INSTITUTIONAL BODY",
         "subType": "board",
         "name": "Sociology and Social Research - Department Council",
         "description": "<p>The Council of the Department is the main governing body of the Department.<br />\nIt comprises all the professors of the Department and representatives of students, detailed below, PhD students, research fellows and researchers, in accordance with the procedures defined in the Department regulation.</p>\n",
-        "address": ""
+        "address": "",
+        "id": "ORI0000268"
       },
       {
-        "identifier": "ORI0000201",
         "unitType": "INSTITUTIONAL BODY",
         "subType": "supporting board",
         "name": "Committee of Technical and Administrative Staff",
         "description": "<p>The administrative and technical staff council advises on the steps to be taken concerning the policies of organization, management and training of the technical and administrative staff and of language teachers of the University.</p>\n",
-        "address": ""
+        "address": "",
+        "id": "ORI0000201"
       },
       {
-        "identifier": "STO0013709",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Biotechnology Laboratories",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0013709"
       },
       {
-        "identifier": "STO0013708",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Physical Science Laboratories",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0013708"
       },
       {
-        "identifier": "ORI0000221",
         "unitType": "INSTITUTIONAL BODY",
         "subType": "supporting board",
         "name": "Committee of PhD Candidates and Research Fellowship Holders",
         "description": "<p>The Committee of Phd students and grant holders is a collective body with an advisory capacity in the field of organizational, maagerial and educational policies of Phds and grant holders.</p>\n",
-        "address": ""
+        "address": "",
+        "id": "ORI0000221"
       },
       {
-        "identifier": "STO0013712",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Model Organism Facility staff",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0013712"
       },
       {
-        "identifier": "STO0013711",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Laboratory staff",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0013711"
       },
       {
-        "identifier": "STO0000012",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "directorate",
         "name": "Central Management",
         "description": "<p>Al vertice della struttura amministrativa si colloca la Direzione Generale, in rapporto di dipendenza politica dal Rettore, che indirizza e coordina i servizi tecnico-amministrativi a supporto delle attivit\u00e0 istituzionali di Ateneo.<br />\nA supporto del Direttore Generale vi \u00e8 un organismo composto dai dirigenti di primo livello, denominato Board, presieduto dal Direttore Generale e con funzioni consultive.<br />\nAttraverso le divisioni e gli uffici che direttamente dipendono da essa, la Direzione Generale assolve le seguenti funzioni:</p>\n\n<ul>\n\t<li>definizione, in linea con il piano strategico di Ateneo, del piano pluriennale di sviluppo e miglioramento della qualit\u00e0 dei servizi tecnico-amministrativi di supporto alle attivit\u00e0 istituzionali di Ateneo e rendicontazione annuale sullo stato della sua attuazione</li>\n\t<li>collegamento e integrazione con gli Organi di Governo dell\u2019Ateneo</li>\n\t<li>coordinamento funzioni di supporto a Presidente del CdA, Rettore e Direttore Generale</li>\n\t<li>coordinamento delle Direzioni</li>\n\t<li>adozione degli atti relativi all\u2019organizzazione degli uffici e all\u2019attribuzione di incarichi e responsabilit\u00e0 ai dirigenti, d\u2019intesa con il Rettore ed in attuazione dei piani generali di organizzazione approvati dal Consiglio di Amministrazione</li>\n\t<li>attuazione dei piani, programmi e direttive generali definite dal Rettore, dal Consiglio di Amministrazione e dagli organi accademici</li>\n\t<li>gestione degli adempimenti connessi con la stesura del Piano integrato di attivit\u00e0 e organizzazione (PIAO) e della Relazione sulla performance</li>\n\t<li>rapporti con le istituzioni</li>\n\t<li>definizione dei piani strategici di comunicazione e gestione delle relative iniziative</li>\n\t<li>assistenza nella risoluzione di problematiche legali, consulenza legale e rilascio pareri e indicazioni di tipo tecnico giuridico alle strutture dell\u2019Amministrazione centrale e dell\u2019Ateneo&nbsp;</li>\n\t<li>gestione dell\u2019attivit\u00e0 amministrativa e di segreteria degli Organi di governo dell\u2019Ateneo (Consiglio di Amministrazione, Senato Accademico, ecc.)</li>\n\t<li>raccolta dati ed elaborazioni per gli Organi di Governo e per le attivit\u00e0 di programmazione di Ateneo</li>\n\t<li>presidio delle funzioni riguardanti la trasparenza, l\u2019anticorruzione e la protezione dei dati personali</li>\n\t<li>applicazione e gestione del sistema di valutazione e assicurazione interna della Qualit\u00e0 di Ateneo&nbsp;</li>\n\t<li>gestione del patrimonio informativo</li>\n\t<li>monitoraggio e sviluppo dei rapporti dell\u2019Universit\u00e0 con i soggetti esterni</li>\n\t<li>gestione dei rapporti con le societ\u00e0 partecipate, riguardo agli aspetti finanziari, contabili e organizzativi delle stesse</li>\n\t<li>promozione di iniziative ed eventi volti a favorire l\u2019equit\u00e0 e la valorizzazione di tutte le diversit\u00e0 presenti all\u2019interno della realt\u00e0 dell\u2019Ateneo</li>\n\t<li>gestione, a supporto degli Organi di Governo e dei Centri di Responsabilit\u00e0, dei processi di pianificazione e controllo di gestione</li>\n\t<li>verifica del corretto svolgimento dei processi contabili previsionali e di consuntivazione</li>\n\t<li>elaborazione del Bilancio di Ateneo</li>\n\t<li>gestione finanza</li>\n\t<li>gestione dei rapporti con gli enti finanziatori e gli organi di controllo esterni (Collegio dei Revisori dei conti, Nucleo di Valutazione, auditors esterni) in coordinamento con la Direzione Servizi alla Ricerca e Valorizzazione</li>\n\t<li>gestione degli adempimenti connessi con: l\u2019Atto di indirizzo con la Provincia Autonoma di Trento;&nbsp;l\u2019intesa con la Fondazione Cassa di Risparmio di Trento e Rovereto ed altri finanziatori minori;&nbsp;le specifiche richieste del MUR;&nbsp;il patto di stabilit\u00e0 e altri adempimenti legati al concorso dell\u2019ateneo agli obiettivi di finanza pubblica</li>\n</ul>\n",
-        "address": "Via Calepina, 14, Trento, TN, Italia"
+        "address": "Via Calepina, 14, Trento, TN, Italia",
+        "id": "STO0000012"
       },
       {
-        "identifier": "STO0000006",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "rectorate",
         "name": "Rectorate",
         "description": "<p>The activities of this office involve institutional relations and assistance to the Rector, the Vice-Rectors and Rector\u2019s delegates.</p>\n",
-        "address": "Via Calepina, 14 38122 Trento TN"
+        "address": "Via Calepina, 14 38122 Trento TN",
+        "id": "STO0000006"
       },
       {
-        "identifier": "STO0000001",
         "unitType": "UNIVERSITY",
         "subType": "university",
         "name": "University of Trento",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0000001"
       },
       {
-        "identifier": "STO0008899",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "unit",
         "name": "Industrial engineering - Laboratory Technicians",
         "description": "",
-        "address": "Via Sommarive, 9, Povo, 38123 TN"
+        "address": "Via Sommarive, 9, Povo, 38123 TN",
+        "id": "STO0008899"
       },
       {
-        "identifier": "STO0008898",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Industrial Engineering - Department Staff",
         "description": "",
-        "address": "Via Sommarive, 9, Povo, 38123 TN"
+        "address": "Via Sommarive, 9, Povo, 38123 TN",
+        "id": "STO0008898"
       },
       {
-        "identifier": "STO0008862",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "unit",
         "name": "Communications Staff - Trento",
         "description": "",
-        "address": "Via Calepina, 14, Trento, TN"
+        "address": "Via Calepina, 14, Trento, TN",
+        "id": "STO0008862"
       },
       {
-        "identifier": "STO0008861",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Teaching and Research Quality Assurance",
         "description": "<p>It supports the Quality Assurance Committee (PQA) in defining the procedures for the implementation of quality assurance policies in education, research, third mission, based on the suggestions of the University\u2019s governing bodies.</p>\n\n<p>It coordinates all activities in the area of quality assurance (management of SUA CdS and SUA Rd databases, periodical review and monitoring activities) and provides support to university services responsible for carrying them out.</p>\n\n<p>It designs and implements common instruments for QA procedures, like guidelines and training sessions, both online and in class.</p>\n\n<p>It is responsible for disseminating information on quality assurance matters among interested parties and the Evaluation Group.</p>\n",
-        "address": "Via Calepina, 14, Trento, TN"
+        "address": "Via Calepina, 14, Trento, TN",
+        "id": "STO0008861"
       },
       {
-        "identifier": "STO0008865",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Technical Support and Relations with the Educational System",
         "description": "",
-        "address": "Via Sommarive, 14, Povo, 38123 TN"
+        "address": "Via Sommarive, 14, Povo, 38123 TN",
+        "id": "STO0008865"
       },
       {
-        "identifier": "STO0008864",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "unit",
         "name": "Communications Staff - Povo",
         "description": "",
-        "address": "Via Sommarive, 9, Povo, 38123 TN"
+        "address": "Via Sommarive, 9, Povo, 38123 TN",
+        "id": "STO0008864"
       },
       {
-        "identifier": "ORI0000161",
         "unitType": "INSTITUTIONAL BODY",
         "subType": "supporting board",
         "name": "Committee for Recruitment and Career Advancement",
         "description": "<p>The Committee for Recruitment and Career Advancement aims to implement quality procedures for the recruitment and career advancement of academic and research staff.</p>\n",
-        "address": ""
+        "address": "",
+        "id": "ORI0000161"
       },
       {
-        "identifier": "STO0008885",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Administration and Accounting Services - Povo",
         "description": "<p>The Administration and Accounting Service for Povo-Mesiano offers its services to the departments and centers based in Povo-Mesiano.<br />\nThe service:</p>\n\n<ul>\n\t<li>supports the Planning Division, in collaboration with the directors of departments and centers, in <strong>planning and programming activities </strong>for the relevant units</li>\n\t<li>is responsible for (general/analytic, vendors/clients) <strong>accounting </strong>for its units, including all that is required for drawing up the balance sheet (amendments and corrections included)</li>\n\t<li>serves as a liaison office for the Administration Division for <strong>tax requirements </strong>and <strong>support to external auditors</strong></li>\n\t<li>manages <strong>supply procedures and contracts </strong>below the EU threshold</li>\n\t<li>issues <strong>invoices </strong>and monitors <strong>credits</strong></li>\n\t<li>manages <strong>cash reserves </strong>for the relevant units</li>\n\t<li>is responsible for <strong>paying suppliers of goods and services</strong>, reimbursing expenses for missions, other compensations</li>\n\t<li>supports teaching and research staff in accounting matters, contracts, various procedures</li>\n\t<li>provides its support in selection procedures in the areas of teaching and research and oversees contracts in collaboration with the Human Resources and Organization Directorate</li>\n\t<li>drafts and organizes <strong>contracts</strong></li>\n</ul>\n",
-        "address": "Via Sommarive, 9, Povo, 38123 TN"
+        "address": "Via Sommarive, 9, Povo, 38123 TN",
+        "id": "STO0008885"
       },
       {
-        "identifier": "STO0008883",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "unit",
         "name": "Funded research staff - Rovereto",
         "description": "",
-        "address": "Corso Bettini, 31, Rovereto, 38068 TN"
+        "address": "Corso Bettini, 31, Rovereto, 38068 TN",
+        "id": "STO0008883"
       },
       {
-        "identifier": "STO0008878",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Teaching and Research Laboratories",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0008878"
       },
       {
-        "identifier": "STO0008892",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Physics - Department Staff",
         "description": "",
-        "address": "Via Sommarive, 14, Povo, 38123 TN"
+        "address": "Via Sommarive, 14, Povo, 38123 TN",
+        "id": "STO0008892"
       },
       {
-        "identifier": "STO0008891",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Purchasing and Accounting - Trento",
         "description": "",
-        "address": "Via Giuseppe Verdi, 26, Trento, 38122 TN"
+        "address": "Via Giuseppe Verdi, 26, Trento, 38122 TN",
+        "id": "STO0008891"
       },
       {
-        "identifier": "STO0008896",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "unit",
         "name": "Information Engineering and Computer Science - Laboratory Technicians",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0008896"
       },
       {
-        "identifier": "STO0008895",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Information Engineering and Computer Science - Department Staff",
         "description": "",
-        "address": "Via Sommarive, 9, Povo, 38123 TN"
+        "address": "Via Sommarive, 9, Povo, 38123 TN",
+        "id": "STO0008895"
       },
       {
-        "identifier": "STO0008894",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Mathematics - Department Staff",
         "description": "",
-        "address": "Via Sommarive, 14, Povo, 38123 TN"
+        "address": "Via Sommarive, 14, Povo, 38123 TN",
+        "id": "STO0008894"
       },
       {
-        "identifier": "ORI0000101",
         "unitType": "INSTITUTIONAL BODY",
         "subType": "governing board",
         "name": "Council of Directors",
         "description": "<p>The Council of Directors is the body that acts as the link among the academic structures, and between the latter and the Academic Senate. Its members consist of the Directors of the different Departments and Centres. It is chaired by the Rector.</p>\n",
-        "address": ""
+        "address": "",
+        "id": "ORI0000101"
       },
       {
-        "identifier": "STO0000148",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Human Resources and Administration Office",
         "description": "",
-        "address": "Via Giuseppe Verdi, 6, Trento, TN"
+        "address": "Via Giuseppe Verdi, 6, Trento, TN",
+        "id": "STO0000148"
       },
       {
-        "identifier": "STO0000143",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "directorate",
         "name": "Human Resources and Organization",
         "description": "<p>The Human Resources and Organization Directorate, with the divisions and offices it supervises, oversees the<strong> management of the University\u2019s human resources </strong>, is responsible <strong>for paying staff </strong>and<strong> social security contributions, </strong>and monitors <strong>staffing requirements</strong> and <strong>related costs</strong>.</p>\n\n<p>The directorate implements<strong> policies and programmes for the development of technical and administrative staff</strong>, including training and recruitment plans, a <strong>staff evaluation exercise</strong> and <strong>incentives systems</strong>.</p>\n\n<p>On request from the University\u2019s management, it is responsible for implementing <strong>organizational development strategies</strong> and establishing welfare and organizational well-being policies.</p>\n\n<p>It is in charge of updating internal regulations and is responsible for <strong>relations with trade unions</strong> and for drafting and updating the <strong>University\u2019s collective agreement</strong>.<br />\nThe directorate also <strong>welcomes</strong> newly appointed staff and oversees the service responsible for managing access to university buildings.</p>\n\n<p>It also offers consulting services to grant holders, and provides a welcome service to high school students who participate in the \u201cAlternanza scuola lavoro\u201d project at the University.</p>\n\n<p>The directorate provides its support to the Centro Studi Martino Martini.</p>\n\n<p>Finally, it serves as a coordinator for its dependent offices and divisions:</p>\n\n<ul>\n\t<li>The Employee Relations Division - Academic and Teaching Staff</li>\n\t<li>The Employee Relations and Payroll Division - Technical and Administrative Staff, which recruitment procedures and contracts for technical and administrative staff and language experts. The division ensures the proper implementation of labour law, the national collective agreement, the University Collective Agreement and other provisions.</li>\n\t<li>The HR Development and Organization Division, which is responsible for evaluating staff performance, establishing training requirements, overseeing internal mobility, and conducting surveys on organizational wellbeing and the quality of services.</li>\n\t<li>The Relations with Trade Unions Office.</li>\n</ul>\n",
-        "address": "Via Giuseppe Verdi, 6, Trento, 38122 TN"
+        "address": "Via Giuseppe Verdi, 6, Trento, 38122 TN",
+        "id": "STO0000143"
       },
       {
-        "identifier": "STO0000160",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Property and Real Estate Division",
         "description": "<p>The Property and Real Estate Division is responsible for <strong>property estimates</strong>, <strong>compulsory acquisitions</strong> and <strong>tenancy agreements</strong>, and coordinates <strong>office and furniture moves</strong>.&nbsp;</p>\n\n<p>It is also in charge of <strong>guestrooms</strong>, contracts for <strong>janitorial services</strong>, the <strong>security service</strong>, and the University\u2019s <strong>fleet of vehicles</strong>. In the performance of its tasks, the division works closely with the heads of the Building management divisions in Trento, Rovereto and Povo-Mesiano.</p>\n\n<p>The division advises on the purchase of <strong>furniture and equipment</strong>, and offers a <strong>maintenance service</strong>.<br />\nIt is responsible for <strong>general services</strong> (deliveries, vending machines, photocopiers) and for their proper functioning.</p>\n\n<p>The Estates and Facilities, together with the Planning, Administration and Finance Directorate, manages <strong>property insurance</strong>.</p>\n",
-        "address": "Via Antonio Rosmini, 70, Trento, 38122 TN"
+        "address": "Via Antonio Rosmini, 70, Trento, 38122 TN",
+        "id": "STO0000160"
       },
       {
-        "identifier": "STO0000123",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Prevention and Protection Service",
         "description": "<p>The Prevention and Protection Service submits to the Rector guidelines and strategies on Health and Safety at Work.<br />\nIt identifies and implements <strong>safety procedures</strong> and examines <strong>risk factors</strong> to formulate risk assessments. Based on these assessments, it proposes appropriate preventive and protective measures and suggests risk monitoring systems.</p>\n\n<p>It falls within the responsibilities of the service to inform University staff and students on <strong>prevention measures</strong> and to improve <strong>safety culture</strong>.</p>\n\n<p>The Prevention and Protection Service, together with APSS, is responsible for <strong>staff training</strong> on health issues.<br />\nIt is in charge of implementing <strong>regulations in force</strong> on matters of health and safety at work and preventive and protective measures.</p>\n",
-        "address": "Via Antonio Rosmini, 70, Trento, 38122 TN"
+        "address": "Via Antonio Rosmini, 70, Trento, 38122 TN",
+        "id": "STO0000123"
       },
       {
-        "identifier": "STO0008940",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "unit",
         "name": "University Language Centre",
         "description": "",
-        "address": "Via Giuseppe Verdi, 8, Trento, 38122 TN"
+        "address": "Via Giuseppe Verdi, 8, Trento, 38122 TN",
+        "id": "STO0008940"
       },
       {
-        "identifier": "STO0008932",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Education and Student Services - Science and technology area",
         "description": "",
-        "address": "Via Sommarive, 5, Povo, 38123 TN"
+        "address": "Via Sommarive, 5, Povo, 38123 TN",
+        "id": "STO0008932"
       },
       {
-        "identifier": "STO0008935",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Student Support Service: Psychology and Cognitive Science, Mind and Brain Centre",
         "description": "",
-        "address": "Corso Bettini, 84, Rovereto, 38068 TN"
+        "address": "Corso Bettini, 84, Rovereto, 38068 TN",
+        "id": "STO0008935"
       },
       {
-        "identifier": "STO0008934",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "unit",
         "name": "International Mobility Staff - Cognitive Science Area",
         "description": "",
-        "address": "Corso Bettini, 84, Rovereto, 38068 TN"
+        "address": "Corso Bettini, 84, Rovereto, 38068 TN",
+        "id": "STO0008934"
       },
       {
-        "identifier": "STO0008900",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "unit",
         "name": "Technical support and Relations with schools",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0008900"
       },
       {
-        "identifier": "STO0008904",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "unit",
         "name": "Humanities - Laboratory Technicians",
         "description": "",
-        "address": "Via Tomaso Gar, 14, Trento, TN"
+        "address": "Via Tomaso Gar, 14, Trento, TN",
+        "id": "STO0008904"
       },
       {
-        "identifier": "STO0008901",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Civil, Environmental and Mechanical Engineering - Department Staff",
         "description": "",
-        "address": "Via Mesiano, 77, 38123 Trento"
+        "address": "Via Mesiano, 77, 38123 Trento",
+        "id": "STO0008901"
       },
       {
-        "identifier": "STO0008907",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Economics and Management - Department Staff",
         "description": "",
-        "address": "Via Vigilio Inama, 5, Trento, 38122 TN"
+        "address": "Via Vigilio Inama, 5, Trento, 38122 TN",
+        "id": "STO0008907"
       },
       {
-        "identifier": "STO0008905",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Sociology and Social Research - Department Staff",
         "description": "",
-        "address": "Via Giuseppe Verdi, 26, Trento, 38122 TN"
+        "address": "Via Giuseppe Verdi, 26, Trento, 38122 TN",
+        "id": "STO0008905"
       },
       {
-        "identifier": "STO0008909",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Faculty of Law - Department Staff",
         "description": "",
-        "address": "Via Giuseppe Verdi, 53, Trento, 38122 TN"
+        "address": "Via Giuseppe Verdi, 53, Trento, 38122 TN",
+        "id": "STO0008909"
       },
       {
-        "identifier": "STO0008915",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "CIBIO - Department Staff",
         "description": "",
-        "address": "Via Sommarive, 9, Povo, 38123 TN"
+        "address": "Via Sommarive, 9, Povo, 38123 TN",
+        "id": "STO0008915"
       },
       {
-        "identifier": "STO0008914",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "unit",
         "name": "CIMeC - Laboratory Technicians",
         "description": "",
-        "address": "Via delle Regole, 101, Mattarello, TN"
+        "address": "Via delle Regole, 101, Mattarello, TN",
+        "id": "STO0008914"
       },
       {
-        "identifier": "STO0008913",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "CIMeC - Technical and IT Support",
         "description": "",
-        "address": "Via delle Regole, 101, Mattarello, TN"
+        "address": "Via delle Regole, 101, Mattarello, TN",
+        "id": "STO0008913"
       },
       {
-        "identifier": "STO0008912",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Center for Mind/Brain Sciences - Staff",
         "description": "",
-        "address": "Via delle Regole, 101, Mattarello, TN"
+        "address": "Via delle Regole, 101, Mattarello, TN",
+        "id": "STO0008912"
       },
       {
-        "identifier": "STO0008917",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "School of International Studies - Staff",
         "description": "",
-        "address": "Via Tomaso Gar, 14, Trento, 38122 TN"
+        "address": "Via Tomaso Gar, 14, Trento, 38122 TN",
+        "id": "STO0008917"
       },
       {
-        "identifier": "STO0008926",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Science and Technology Area - PhD Office",
         "description": "<p>The division supports the work of academic departments and centres in the science and technology area, in particular as regards:</p>\n\n<ul>\n\t<li>writing proposals to establish and renew doctoral courses, annual reports, courses regulations, and maintaining relationships with institutional partners;</li>\n\t<li>establishing collaboration and funding agreements to offer study courses;</li>\n\t<li>preparing calls for admissions, managing applications online, dealing with selection procedures;</li>\n\t<li>improving the international appeal of the doctoral programme and increasing student mobility through agreements for joint thesis research, international mobility programmes, support to foreign students/PhD students, support to evaluation committees that have to assess foreign qualifications;</li>\n\t<li>accounting procedures in compliance with national regulations, elaboration and analysis of statistical data.</li>\n</ul>\n\n<p>The division also oversees the academic progress of PhD students up to their thesis defense, and is responsible for other qualifying exams (esami di Stato) that the University offers.</p>\n",
-        "address": "Via Sommarive, 14, Povo, 38123 TN"
+        "address": "Via Sommarive, 14, Povo, 38123 TN",
+        "id": "STO0008926"
       },
       {
-        "identifier": "STO0008925",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Education and Student Services - Science and Technology Area",
         "description": "<p>Through its subunits, the office defines the university courses for departments and centres, oversees students matters for first and second level courses (admissions, careers, exam certificates, graduations), is responsible for quality assurance, the publication of notices on Esse3, lecture arrangements.</p>\n\n<p>The office also oversees international mobility programmes, helping foreign students and PhD students on their arrival and during their stay, it drafts international mobility agreements and takes part in negotiations for this purpose, publishes calls and designates the members of selection committees. It participates in international promotion campaigns.</p>\n",
-        "address": "Via Sommarive, 5, Povo, 38123 TN"
+        "address": "Via Sommarive, 5, Povo, 38123 TN",
+        "id": "STO0008925"
       },
       {
-        "identifier": "STO0008929",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Student Support Service: Economics, Law and International Studies",
         "description": "",
-        "address": "Via Giuseppe Verdi, 8, Trento, 38122 TN"
+        "address": "Via Giuseppe Verdi, 8, Trento, 38122 TN",
+        "id": "STO0008929"
       },
       {
-        "identifier": "STO0008927",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Education and Student Services - Cognitive Science Area",
         "description": "<p>Through its subunits, the office defines the university courses for departments and centres, oversees students matters for first and second level courses (admissions, careers, exam certificates, graduations), is responsible for quality assurance, the publication of notices on Esse3, lecture arrangements.</p>\n\n<p>The office also oversees international mobility programmes, helping foreign students and PhD students on their arrival and during their stay, it drafts international mobility agreements and takes part in negotiations for this purpose, publishes calls and designates the members of selection committees. It participates in international promotion campaigns.</p>\n",
-        "address": "Corso Bettini, 84, Rovereto, 38068 TN"
+        "address": "Corso Bettini, 84, Rovereto, 38068 TN",
+        "id": "STO0008927"
       },
       {
-        "identifier": "ORI0000081",
         "unitType": "INSTITUTIONAL BODY",
         "subType": "supporting board",
         "name": "Library Committee",
         "description": "<p>The library council decides on the general guidelines and determines the planning aims of the University library.</p>\n",
-        "address": ""
+        "address": "",
+        "id": "ORI0000081"
       },
       {
-        "identifier": "ORI0000006",
         "unitType": "INSTITUTIONAL BODY",
         "subType": "governing board",
         "name": "Board of Auditors",
         "description": "<p>The Board of Auditors checks the accounting-administration of the University and monitors that the principles of correct administration and of the regulations in force are respected.</p>\n",
-        "address": ""
+        "address": "",
+        "id": "ORI0000006"
       },
       {
-        "identifier": "ORI0000002",
         "unitType": "INSTITUTIONAL BODY",
         "subType": "governing board",
         "name": "Academic Senate",
         "description": "<p>The Academic Senate is the body that governs scientific production and teaching at the University. It cooperates with the Rector in the targeting, planning and coordination of teaching and research activities at the University. Moreover, taking into consideration the proposals of the individual areas of the University, it collaborates with the Rector in determining the scientific and teaching plans and their fulfilment, the allocation of resources and the recruitment of professors and researchers.</p>\n",
-        "address": ""
+        "address": "",
+        "id": "ORI0000002"
       },
       {
-        "identifier": "ORI0000004",
         "unitType": "INSTITUTIONAL BODY",
         "subType": "governing board",
         "name": "Student Council",
         "description": "<p>The Student Council is the body that represents the students attending the different courses at the University.</p>\n",
-        "address": ""
+        "address": "",
+        "id": "ORI0000004"
       },
       {
-        "identifier": "STO0012809",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Technicians - Hydraulics and Soil Defence Laboratory",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0012809"
       },
       {
-        "identifier": "STO0012808",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Technicians - Materials and Structures Testing Laboratory",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0012808"
       },
       {
-        "identifier": "STO0012898",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Support to Evaluation and Quality Assurance",
         "description": "<p>The division supports the University\u2019s governing bodies in the collection, use and processing of data for evaluation and planning activities and in the implementation and management of Quality Assurance processes.&nbsp;</p>\n",
-        "address": "Via Calepina, 14, Trento, TN, Italia"
+        "address": "Via Calepina, 14, Trento, TN, Italia",
+        "id": "STO0012898"
       },
       {
-        "identifier": "STO0012838",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Rovereto University Library (BUR) room",
         "description": "",
-        "address": "Corso Bettini, 43 - 38068 Rovereto"
+        "address": "Corso Bettini, 43 - 38068 Rovereto",
+        "id": "STO0012838"
       },
       {
-        "identifier": "STO0012836",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "BUC Rooms and Training",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0012836"
       },
       {
-        "identifier": "STO0012834",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "BUD - University Digital Library",
         "description": "<p>The e-library division manages the library\u2019s electronic resources: databases, e-books and electronic periodicals.</p>\n\n<p>In particular, it collaborates with the Acquisitions and Contracts Division to evaluate and select new resources, it monitors bibliographic management operations and the development of applications, maintains relations with digital service suppliers, manages the helpdesk.</p>\n\n<p>Through the website and other media, the division also informs users and provides training on the library\u2019s services and resources.</p>\n\n<p>It constantly monitors and stays up to date with new technological trends and opportunities offered by the market in the area of library services.</p>\n",
-        "address": "Via Giuseppe Verdi, 8, Trento, 38122 TN"
+        "address": "Via Giuseppe Verdi, 8, Trento, 38122 TN",
+        "id": "STO0012834"
       },
       {
-        "identifier": "STO0012832",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Library - Acquisitions and Contracts Division",
         "description": "<p>The Acquisitions and Contracts Division is responsible for selecting the suppliers of goods and services for the University Library System.</p>\n\n<p>The division, in particular, is in charge of the acquisition process, from the choice of publications in collaboration with the departments to the drawing up of contracts; is oversees bibliographic and administrative management operations as regards books and paper periodicals, and is responsible for their addition to and cataloguing in the Catalogo Bibliografico Trentino and other catalogues.<br />\n&nbsp;</p>\n",
-        "address": "Via Adalberto Libera, 3, Trento, TN"
+        "address": "Via Adalberto Libera, 3, Trento, TN",
+        "id": "STO0012832"
       },
       {
-        "identifier": "STO0012833",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Cataloguing and Acquisitions Office",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0012833"
       },
       {
-        "identifier": "STO0000868",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Academic and Teaching Staff Office",
         "description": "",
-        "address": "Via Giuseppe Verdi, 6, Trento, TN"
+        "address": "Via Giuseppe Verdi, 6, Trento, TN",
+        "id": "STO0000868"
       },
       {
-        "identifier": "STO0000867",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Employee Relations Division - Academic and Teaching Staff",
         "description": "<p>The Employee Relations Division - Academic and Teaching Staff organizes and oversees the <strong>recruitment procedures</strong> of teaching and research staff, and awards <strong>teaching and research contracts</strong> to professors from Italian and foreign universities.</p>\n\n<p>It manages career development matters (salary increases, study and research leave, leaves of absence, sick leave, retirements), in compliance with <strong>labour law</strong>, and drafts <strong>regulations, directives and explanatory notes</strong> in its areas of competence.</p>\n\n<p>The division reviews the procedures authorizing teaching staff to perform other work beside their university assignments, and prepares <strong>individual contracts</strong> below the Community threshold for other university units and divisions. It maintains the \u201cAnagrafe delle prestazioni\u201d database, and is in charge of relations with INAIL and Agenzia del Lavoro.</p>\n",
-        "address": "Via Giuseppe Verdi, 6, Trento, 38122 TN"
+        "address": "Via Giuseppe Verdi, 6, Trento, 38122 TN",
+        "id": "STO0000867"
       },
       {
-        "identifier": "STO0000864",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Administration Division",
         "description": "<p>The Administration Division supports the Planning, Administration and Finance Directorate in its control functions as concerns the <strong>voluntary review of the final budget</strong> and the <strong>monitoring of the financial rating</strong>.</p>\n\n<p>It plans <strong>cash flows</strong>, manages <strong>available funds</strong> (management and monitoring of earnings, payments, bank reports, mortgages, credit cards, reminders) and is responsible for <strong>accounting</strong> for the Central Management, support documents for vendor payments, missions, scholarships and other compensations.<br />\nManages cash reserves and credit card payments.</p>\n",
-        "address": "Via Giuseppe Verdi, 6, Trento, 38122 TN"
+        "address": "Via Giuseppe Verdi, 6, Trento, 38122 TN",
+        "id": "STO0000864"
       },
       {
-        "identifier": "STO0000863",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Planning Division",
         "description": "<p>The Planning Division helps the Planning, Administration and Finance Directorate with the <strong>strategic plan</strong> and the <strong>multi-year operating plans</strong>.<br />\nIt is in charge of relations with the departments and centers for the drawing up of the <strong>annual and multiannual budget</strong>.</p>\n\n<p>It <strong>monitors the budget</strong> on an ongoing basis based on the University\u2019s financial position, financial performance and cash flows.<br />\nProvides its support in these matters, including through appropriate management <strong>reports</strong>. It monitors the evolution of staff expenditure and State revenue.</p>\n\n<p>The Planning Division drafts the preliminary balance sheet and monitors the current budget.</p>\n",
-        "address": "Via Giuseppe Verdi, 6, Trento, 38122 TN"
+        "address": "Via Giuseppe Verdi, 6, Trento, 38122 TN",
+        "id": "STO0000863"
       },
       {
-        "identifier": "STO0000862",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Planning, Administration and Finance Office",
         "description": "",
-        "address": "Via Giuseppe Verdi, 6, Trento, TN"
+        "address": "Via Giuseppe Verdi, 6, Trento, TN",
+        "id": "STO0000862"
       },
       {
-        "identifier": "STO0000861",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "directorate",
         "name": "Purchasing Directorate",
         "description": "<p>The mission of the Purchasing Directorate is to serve as a central office for the University's purchases through accurate planning and the optimization of the entire procurement process of all goods and services. The directorate oversees the legal and procedural correctness of above and below threshold tendering procedures for goods and services, negotiated procedures and the direct award of contracts.</p>\n\n<p>In particular, the Directorate:</p>\n\n<ul>\n\t<li>plans the purchasing requirements of departments and centres and develops a University plan for supplies and services, in order to sign contracts in the general interest of the University including by defining a sustainable procurement system;</li>\n\t<li>plans the purchases and defines tendering procedures that can meet the needs of departments and centres and the strategic, procedural and affordability objectives of the University;</li>\n\t<li>coordinates and supports University departments and centres and the procurement officers (Responsabile Unico del Procedimento - RUP) for the implementation of the special framework for procurement and the rationalization of expenditure;</li>\n\t<li>manages the procurement procedures for public works, supplies and services, through monitoring activities as well as contracts and framework agreements;</li>\n\t<li>supports and coordinats the procedures concerning judicial and extrajudicial litigation in this area;</li>\n\t<li>manages relations and coordinates with APAC (Agenzia Provinciale degli Appalti e contratti, the regional agency for public procurement) to complete the procedures necessary for the purchase of works, goods and services managed by the Agency;</li>\n\t<li>monitors legislation in the area of public procurement and drafts relevant guidelines to assist departments and centres, including through legal advice and assessments of the impact of procurement legislation on the organization;</li>\n\t<li>oversees the University's obligations resulting from the University general guideline (atto di indirizzo) and the Stability Pact with the Autonomous Province of Trento as regards the University's involvement in achieving public finance objectives and the specific requirements of the Ministry of University and research;</li>\n\t<li>provides advice on administrative, accounting and tax matters and support to the directors of departments and centres.</li>\n</ul>\n",
-        "address": "Via Rosmini, 70 - 38122 Trento TN"
+        "address": "Via Rosmini, 70 - 38122 Trento TN",
+        "id": "STO0000861"
       },
       {
-        "identifier": "STO0000886",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "HR Development and Organization",
         "description": "<p>The HR Development and Organization Division is responsible for the evaluation of technical, administrative, and managerial staff, and for the definition of <strong>incentive policies</strong>.<br />\nIt adheres to the management\u2019s directives and keeps up with the University\u2019s organizational developments.</p>\n\n<p>The division identifies <strong>training requirements for technical and administrative staff, presents the training programme, and designs individual training actions</strong>.</p>\n\n<p>In collaboration with the Human Resources and Organization Directorate, it closely monitors <strong>internal mobility</strong> of technical and administrative staff.</p>\n\n<p>The division conducts <strong>surveys on the work environment and organizational well-being</strong>, and collects information on the <strong>quality of services</strong> offered by the University\u2019s units. It participates in the drafting of the <strong>Three year plan of positive actions</strong>.</p>\n\n<p>To conclude, it supervises the actions proposed in the framework on the <strong>Good Practice</strong> project, whose purpose is to improve the constant monitoring of performance within the participating universities and the University\u2019s <strong>Family Audit</strong> certificate.</p>\n",
-        "address": "Via Giuseppe Verdi, 6, Trento, 38122 TN"
+        "address": "Via Giuseppe Verdi, 6, Trento, 38122 TN",
+        "id": "STO0000886"
       },
       {
-        "identifier": "STO0000883",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Technical and Administrative Staff Administration",
         "description": "",
-        "address": "Via Giuseppe Verdi, 6, Trento, TN"
+        "address": "Via Giuseppe Verdi, 6, Trento, TN",
+        "id": "STO0000883"
       },
       {
-        "identifier": "STO0000451",
         "unitType": "ACADEMIC STRUCTURE LEVEL 2",
         "subType": "degree program",
         "name": "Doctoral programme \u2013 Information and Communication Technology",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0000451"
       },
       {
-        "identifier": "STO0000462",
         "unitType": "ACADEMIC STRUCTURE LEVEL 2",
         "subType": "degree program",
         "name": "Doctoral programme \u2013 International studies",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0000462"
       },
       {
-        "identifier": "STO0000474",
         "unitType": "ACADEMIC STRUCTURE LEVEL 2",
         "subType": "graduate school",
         "name": "Diploma Course in IT",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0000474"
       },
       {
-        "identifier": "STO0013848",
         "unitType": "ACADEMIC STRUCTURE LEVEL 2",
         "subType": "degree program",
         "name": "Corso di Dottorato (D.M.226/2021) - Forme del testo e dello scambio culturale",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0013848"
       },
       {
-        "identifier": "STO0013847",
         "unitType": "ACADEMIC STRUCTURE LEVEL 2",
         "subType": "degree program",
         "name": "Corso di Dottorato (D.M.226/2021) - Dottorato di interesse Nazionale in Space Science and Technology - SST",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0013847"
       },
       {
-        "identifier": "STO0012549",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "unit",
         "name": "Support to the Evaluation Group",
         "description": "<p>This office provides organizational support to the Evaluation Group in managing the collection and statistical processing of data to carry out the evaluations required by legislation in force and by the University's Charter and regulations. This includes:</p>\n\n<ul>\n\t<li>individual performances, organizational performance, the transparency and the anti-corruption performance</li>\n\t<li>internal investigations on organizational well-being and customer satisfaction</li>\n\t<li>the verification of requirements imposed by the self-assessment, accreditation and periodic evaluation system (AVA)</li>\n\t<li>the distribution of teaching loads</li>\n\t<li>the verification of requirements for the accreditation of doctoral programmes</li>\n</ul>\n",
-        "address": "Via Calepina, 14, Trento, TN"
+        "address": "Via Calepina, 14, Trento, TN",
+        "id": "STO0012549"
       },
       {
-        "identifier": "STO0013878",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "unit",
         "name": "Tutor supporto CISMed",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0013878"
       },
       {
-        "identifier": "STO0001821",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "unit",
         "name": "CeRiN - Center for Neurocognitive Rehabilitation",
         "description": "",
-        "address": "Via M. del Ben, 5b, Rovereto, 38068 TN"
+        "address": "Via M. del Ben, 5b, Rovereto, 38068 TN",
+        "id": "STO0001821"
       },
       {
-        "identifier": "STO0012558",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Application Services Division - Administration, Interoperability and Platforms",
         "description": "<p>The division is responsible for the provision of <strong>services and assistance </strong>to all users affiliated with the University\u2019s organizational units and governance bodies, both online and offline. It oversees and manages <strong>shared technological services </strong>in the main premises (rectorate, department buildings, Central University Library).</p>\n\n<p>It is in charge of the analysis and development of <strong>middleware </strong>for software applications and provides the relevant support. It implements systems for the management and evolution of the ICT services access model (for logical and physical resources) through the <strong>Identity Management System</strong> and other services.</p>\n\n<p>It cooperates with other divisions to ensure the adoption of shared practices and standards to access and use the services and to share internal, external and cloud information. Provides support in the implementation of access policies established by operational rules and procedures and in monitoring their efficacy.</p>\n\n<p>It makes an assessment of requirements and finds possible solutions for the upgrade of services. It collects and publishes information, service quality benchmarks, statistical data, technical documents and manuals.</p>\n",
-        "address": "Via di Briamasco, 2, Trento, 38122 TN"
+        "address": "Via di Briamasco, 2, Trento, 38122 TN",
+        "id": "STO0012558"
       },
       {
-        "identifier": "STO0012555",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Application Services Division - Education, Research and Knowledge",
         "description": "<p>The division is responsible for the technological evolution of the University\u2019s information systems, and the use of advanced technology for programming, application development and integration of platforms and services.</p>\n\n<p>The division, in particular:</p>\n\n<ul>\n\t<li>oversees and coordinates <strong>digitization processes and related work</strong>, to simplify and develop administrative procedures, and is committed to redesign document flows, increase the use of electronic signatures, adopt the standards and instruments available at a national level;</li>\n\t<li>promotes measures to implement the \u201c<strong>Codice dell\u2019Amministrazione Digitale</strong>\u201d (eGovernment Code), and ensures its support in the implementation of its provisions, guidelines and best practices;</li>\n\t<li>works on the gradual development of a <strong>plan for the evolution of IT systems </strong>which focuses on the analysis of users\u2019 needs in the areas of teaching, research, administrative and technical services, in line with the general objectives established by the University;</li>\n\t<li>coordinates the development of information systems among different areas, promoting the sharing of the most efficient solutions and the <strong>dissemination of best practices</strong>;</li>\n\t<li>oversees the <strong>life cycle </strong>of applications;</li>\n\t<li>offers its services to <strong>develop applications</strong>, both through local platforms and through integration with external systems;</li>\n\t<li>identifies the most appropriate <strong>instruments </strong>to satisfy the efficiency and functionality requirements for the development of information systems;</li>\n\t<li>participates in the analysis of requirements providing <strong>decision-making support tools</strong>, and designs information systems that can be used to give an overview of University data in a coherent, correctly structured and clear way.</li>\n\t<li>collaborates to <strong>user training initiatives </strong>on how to use the services and instruments it developed;</li>\n\t<li>organizes support and coordination activities, in collaboration with the departments, to <strong>involve students </strong>in software development projects to supply services to users.</li>\n</ul>\n",
-        "address": "Via di Briamasco, 2, Trento, 38122 TN"
+        "address": "Via di Briamasco, 2, Trento, 38122 TN",
+        "id": "STO0012555"
       },
       {
-        "identifier": "STO0012556",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "ICT Services Division",
         "description": "<p>The division provides users in departments and centers with <strong>assistance, support and training </strong>to access ICT services, and supervises <strong>local services</strong>; it ensures its support in the implementation of business continuity and security plans.</p>\n\n<p>It provides technical assistance to the <strong>University Language Center</strong> and the <strong>Test Center</strong>, and ensures that the users of UniTrento have access to <strong>\u201cCampus\u201d software</strong>.</p>\n\n<p>It also collects and publishes information, service quality benchmarks, statistical data, technical documents and manuals.<br />\nThe division has specialized personnel providing services in the three University locations:</p>\n\n<ul>\n\t<li>User Support - Trento</li>\n\t<li>User Support - Povo-Mesiano</li>\n\t<li>User Support - Rovereto</li>\n</ul>\n",
-        "address": "Via di Briamasco, 2, Trento, 38122 TN"
+        "address": "Via di Briamasco, 2, Trento, 38122 TN",
+        "id": "STO0012556"
       },
       {
-        "identifier": "STO0012553",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Events Office",
         "description": "",
-        "address": "Via Calepina, 14, Trento, TN"
+        "address": "Via Calepina, 14, Trento, TN",
+        "id": "STO0012553"
       },
       {
-        "identifier": "STO0012554",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Web and Social Media Office",
         "description": "",
-        "address": "Via Calepina, 14, Trento, TN"
+        "address": "Via Calepina, 14, Trento, TN",
+        "id": "STO0012554"
       },
       {
-        "identifier": "STO0012552",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Partnerships and Corruption Prevention",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0012552"
       },
       {
-        "identifier": "STO0012566",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Admissions and Inclusion Office",
         "description": "",
-        "address": "Via Tommaso Gar, 16/2 - 38122 Trento"
+        "address": "Via Tommaso Gar, 16/2 - 38122 Trento",
+        "id": "STO0012566"
       },
       {
-        "identifier": "STO0012567",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "International Mobility Office - Social Sciences Area and Humanities",
         "description": "",
-        "address": "Via Tommaso Gar, 16/2 - 38122 Trento"
+        "address": "Via Tommaso Gar, 16/2 - 38122 Trento",
+        "id": "STO0012567"
       },
       {
-        "identifier": "STO0012565",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Education and Student Services coordination",
         "description": "<p>The division has a coordinating role between the director and the other divisions.</p>\n\n<p>It serves as a liaison office among the three Education and Student Services Offices (of the Cognitive Science Area, the Humanities and Social Sciences Area, and the Science and Technology Area), and the offices responsible for student admissions to first and second level degree courses.</p>\n",
-        "address": "Via Tommaso Gar, 16/2 - 38122 Trento"
+        "address": "Via Tommaso Gar, 16/2 - 38122 Trento",
+        "id": "STO0012565"
       },
       {
-        "identifier": "STO0012561",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Email and Collaboration Services",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0012561"
       },
       {
-        "identifier": "STO0009561",
         "unitType": "ACADEMIC STRUCTURE LEVEL 2",
         "subType": "degree program",
         "name": "Doctoral programme \u2013 Civil, environmental and mechanical engineering",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0009561"
       },
       {
-        "identifier": "STO0002101",
         "unitType": "ACADEMIC STRUCTURE LEVEL 2",
         "subType": "degree program",
         "name": "Doctoral programme \u2013 Biomolecular Sciences",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0002101"
       },
       {
-        "identifier": "STO0002121",
         "unitType": "ACADEMIC STRUCTURE LEVEL 2",
         "subType": "graduate school",
         "name": "Postgraduate School \u2013 Postgraduate Specialisation for Legal Professions",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0002121"
       },
       {
-        "identifier": "STO0009626",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Protocol, archive and postal services",
         "description": "<p>L'ufficio si occupa delle attivit\u00e0 di protocollazione e gestione documentale:</p>\n\n<ul>\n\t<li>protocollazione, gestione e smistamento della corrispondenza in arrivo, anche per via telematica, e coordinamento delle attivit\u00e0 di protocollo in entrata svolte dai punti decentrati;&nbsp;</li>\n\t<li>supporto alle unit\u00e0 amministrative di Ateneo in relazione alle attivit\u00e0 di protocollazione in uscita e di registrazione dei provvedimenti da esse compiute;&nbsp;</li>\n\t<li>gestione e sviluppo del sistema di protocollo informatico e gestione documentale PITre;</li>\n\t<li>presidio delle comunicazioni attraverso i canali telematici disponibili: posta elettronica certificata (PEC) di Ateneo, interoperabilit\u00e0 semplificata, indirizzi di posta elettronica istituzionale di Ateneo.&nbsp;</li>\n</ul>\n\n<p>Per contattare l'ufficio in relazione al <strong>servizio di protocollazione</strong>, si prega di scrivere all'indirizzo&nbsp;<strong><a href=\"mailto:uff.protocollocentrale@unitn.it\" target=\"_blank\">uff.protocollocentrale@unitn.it</a>&nbsp;</strong></p>\n\n<p>\u00c8 assegnata inoltre alla struttura la gestione del servizio postale interno. Per contattare l'ufficio in relazione al <strong>servizio postale interno</strong>, si prega di scrivere all'indirizzo&nbsp;<strong><a href=\"mailto:serviziopostale@unitn.it\" target=\"_blank\">serviziopostale@unitn.it</a></strong></p>\n\n<p>L'Ufficio si occupa, infine, del presidio degli strumenti archivistici (titolario di classificazione, manuale di gestione, massimario di scarto, ecc.), dell\u2019implementazione delle procedure di aggiornamento dell\u2019Albo di Ateneo, della gestione dell\u2019Archivio di deposito di Ateneo e del servizio di conservazione digitale, nonch\u00e9&nbsp;della tenuta dell\u2019Archivio storico di Ateneo e del servizio di consultazione connesso.</p>\n",
-        "address": "Via Calepina, 14, Trento, TN"
+        "address": "Via Calepina, 14, Trento, TN",
+        "id": "STO0009626"
       },
       {
-        "identifier": "STO0011925",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Service Desk, Service Catalog and  ICT Training",
         "description": "",
-        "address": "Via di Briamasco, 20, Trento, TN"
+        "address": "Via di Briamasco, 20, Trento, TN",
+        "id": "STO0011925"
       },
       {
-        "identifier": "STO0004802",
         "unitType": "ACADEMIC STRUCTURE LEVEL 2",
         "subType": "degree program",
         "name": "Doctoral programme - Sociology and Social Research (Doctoral School of Social Sciences)",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0004802"
       },
       {
-        "identifier": "STO0000948",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "General-Secretary Education and Student Services",
         "description": "",
-        "address": "Via Tommaso Gar, 16/2 - 38122 Trento"
+        "address": "Via Tommaso Gar, 16/2 - 38122 Trento",
+        "id": "STO0000948"
       },
       {
-        "identifier": "STO0000947",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "directorate",
         "name": "Education and Student Services Management",
         "description": "<p>The Education and Student Services Management Directorate supports academic departments and centres in defining course content, oversees admissions and the academic progress of students of all levels, and is in charge of teacher training.</p>\n\n<p>It offers orientation services for perspective students, organizes language courses, certifies skills and awards international certificates to enrolled students. It organizes and develops online teaching and learning tools.</p>\n\n<p>It also serves as a liaison for the following divisions:</p>\n\n<ul>\n\t<li>Education and Student Services coordination</li>\n\t<li>Language Centre, Test Center and Digital Teaching Resources</li>\n\t<li>Science and Technology Area - PhD Office</li>\n\t<li>Humanities and Cognitive Science Area - PhD Office</li>\n\t<li>General-Secretary Education and Student Services</li>\n\t<li>Online Services and Technical Support</li>\n\t<li>Teacher Training and Qualifications</li>\n\t<li>Student Activities Office</li>\n</ul>\n",
-        "address": "Via Tommaso Gar, 16/2 - 38122 Trento"
+        "address": "Via Tommaso Gar, 16/2 - 38122 Trento",
+        "id": "STO0000947"
       },
       {
-        "identifier": "STO0000943",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Events, Branding and Graphic Design Division",
         "description": "<p>The Events, Branding and Graphic Design Division oversees:</p>\n\n<ul>\n\t<li>The <strong>Branding and Graphic Design Office</strong>.</li>\n\t<li>The <strong>Events Office</strong> (which coordinates the \"Events Staff\" for the City, Povo-Mesiano and Rovereto campuses).</li>\n</ul>\n\n<p>The Division:</p>\n\n<ul>\n\t<li>plans and <strong>organizes dissemination events</strong>;</li>\n\t<li>manages the <strong>University trademark</strong> and is responsible for the University\u2019s <strong>visual identity</strong>;</li>\n\t<li>oversees the work of Print services for different publications and printed materials, and supports the departments and centres with their publication requirements;</li>\n\t<li>is responsible for the design and layout of <strong>University publications</strong> and printed materials for advertising and events;</li>\n\t<li><strong>prints publications and other materials</strong> for teaching and information purposes;</li>\n\t<li>maintains the University <strong>photo collection</strong>.</li>\n</ul>\n",
-        "address": "Via Calepina, 14, Trento, 38122 TN"
+        "address": "Via Calepina, 14, Trento, 38122 TN",
+        "id": "STO0000943"
       },
       {
-        "identifier": "STO0000958",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Student Activities Office",
         "description": "",
-        "address": "Via Tommaso Gar, 16/2 - 38122 Trento"
+        "address": "Via Tommaso Gar, 16/2 - 38122 Trento",
+        "id": "STO0000958"
       },
       {
-        "identifier": "STO0000962",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "E-Learning",
         "description": "",
-        "address": "Via Giuseppe Verdi, 8, Trento, 38122 TN"
+        "address": "Via Giuseppe Verdi, 8, Trento, 38122 TN",
+        "id": "STO0000962"
       },
       {
-        "identifier": "STO0000907",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Contract Office",
         "description": "",
-        "address": "Via Antonio Rosmini, 70, Trento, 38122 TN"
+        "address": "Via Antonio Rosmini, 70, Trento, 38122 TN",
+        "id": "STO0000907"
       },
       {
-        "identifier": "STO0012900",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Engineering Division",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0012900"
       },
       {
-        "identifier": "STO0012998",
         "unitType": "ACADEMIC STRUCTURE LEVEL 2",
         "subType": "degree program",
         "name": "Doctoral Program in Industrial Innovation (M.D. 45/2013)",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0012998"
       },
       {
-        "identifier": "STO0008662",
         "unitType": "ACADEMIC STRUCTURE",
         "subType": "academic department",
         "name": "Department of Cellular, Computational and Integrative Biology - CIBIO",
         "description": "<p>The Department for Integrative Biology (CIBIO) is the project started by the University of Trento and the Autonomous Province of Trento in the field of <strong>biotechnologies for human health</strong>.</p>\n\n<p>CIBIO aims at creating a suitable environment for <strong>merging classical cellular and molecular biology with the new powerful tools of systems and synthetic biology</strong>, through an <strong>interdisciplinary and integrated approach</strong> that draws from chemistry, physics, informatics, mathematics, and engineering.</p>\n\n<p>Research at CIBIO is centred around a number of laboratories headed by<strong> independent principal investigators</strong>, and covers 4 main areas: 1) Cancer Biology &amp; Genomics; 2) Cell &amp; Molecular Biology; 3) Microbiology &amp; Synthetic Biology; 4) Neurobiology &amp; Development. Researchers at CIBIO pursue their objectives with a holistic perspective on basic biological processes and their derangement in disease, creating a model in which <strong>science and innovation interact</strong> in the search for new diagnostic and therapeutic methods.</p>\n\n<p>Technological resources are organized in core facilities, <strong>technological platforms</strong> managed by highly skilled staff that <strong>supports the research work done by laboratories</strong> but also provides a service to the local community to promote research in the biomedical and biotechnological field. In particular, CIBIO developed technological platforms specialized in: 1) DNA sequencing, 2)&nbsp;molecular screening and microarray development, 3) advanced microscopy, 4) cell analysis and sorting, 5) bioinformatics, 6) proteomics, 7) cell and gene editing technologies.</p>\n\n<p>With its high quality standards and a commitment to internationalization, CIBIO offers the following courses:</p>\n\n<ul>\n\t<li>Bachelor\u2019s Degree in Biomolecular Sciences and Technologies</li>\n\t<li>Master\u2019s Degree in Cellular and Molecular Biotechnology (in English)</li>\n\t<li>Master\u2019s Degree in Quantitative and Computational Biology (new multidisciplinary course taught in English and organized with the departments of Physics, Mathematics and Information Engineering and Computer Science - DISI)</li>\n\t<li>International PhD Program in Biomolecular Sciences</li>\n</ul>\n",
-        "address": "Via Sommarive, 9, Povo, 38123 TN"
+        "address": "Via Sommarive, 9, Povo, 38123 TN",
+        "id": "STO0008662"
       },
       {
-        "identifier": "STO0008631",
         "unitType": "ACADEMIC STRUCTURE",
         "subType": "academic department",
         "name": "Department of Psychology and Cognitive Science",
         "description": "<p>The department is devoted to the&nbsp;<strong>scientific study of the human mind and behaviour</strong>: from the creation of models of human functioning to the development of applications in the fields of psychology, education, work, and social organization.</p>\n\n<p>The department\u2019s core research focuses on the&nbsp;<strong>creation of models</strong>&nbsp;explaining the functioning of the human mind and behaviour, both in normal and in pathological conditions, using empirically-verifiable scientific methods and a rigorous multidisciplinary approach. This is possible thanks to the interplay of different skills and knowledge and the numerous research perspectives pertaining to experimental and applied psychology, the neurosciences, pedagogy, philosophy, sociology, cultural studies, and cognitive technologies, all disciplines that pertain to the Cognitive Sciences. These models are applied to various fields: psycho-diagnostics, social and psychological rehabilitation, the use and implementation of new technologies, the management of groups and organizations, the analysis of working and social environments. The department adopts&nbsp;<strong>an integrated approach to the study of the mind, the brain and behaviour</strong>, unique among Italian universities.</p>\n\n<p>The key research areas are:</p>\n\n<ul>\n\t<li>Social Mind</li>\n\t<li>Clinical and cognitive neurosciences</li>\n\t<li>Organization, education and cultural studies</li>\n\t<li>Quantitative methodologies and cognitive technologies</li>\n</ul>\n\n<p>A number of laboratories focus on research in specific subjects:</p>\n\n<ul>\n\t<li>Laboratory of Cognitive and Social Sciences</li>\n\t<li>Laboratory of Physiology and Affiliative Behaviours</li>\n\t<li>Laboratory of Neurocognitive Development</li>\n\t<li>Observation, Diagnosis and Education Laboratory (ODFLab)</li>\n\t<li>Laboratory of Quantitative Psychology (QPSYLab)</li>\n\t<li>Interdisciplinary Laboratory for the Quality and Innovation of Didactics (LIQuID)</li>\n</ul>\n\n<p>The department offers&nbsp;<strong>3 Bachelor degree courses</strong>, one of which is organized with the School of Medicine and Surgery of the University of Ferrara and with the Sociology department of the University of Trento, and&nbsp;<strong>2 Master\u2019s degree courses</strong>.<br />\nThe department also provides courses within the&nbsp;<strong>Doctoral School in Cognitive Sciences</strong>.</p>\n",
-        "address": "Corso Bettini, 84, Rovereto, 38068 TN"
+        "address": "Corso Bettini, 84, Rovereto, 38068 TN",
+        "id": "STO0008631"
       },
       {
-        "identifier": "STO0008630",
         "unitType": "ACADEMIC STRUCTURE",
         "subType": "academic department",
         "name": "Department of Sociology and social research",
         "description": "<p>The Department of Sociology and Social Research investigates social and political life in a globalized world.</p>\n\n<p>The department has the distinction of being the <strong>first Sociology department founded in Italy</strong>, and has consistently been among the best Social Science departments in the country. It is characterized by a strongly multidisciplinary approach and counts amongst its ranks professors and researchers of sociology, political science, history, economics, and anthropology. Faculty and students are encouraged to work within a wide variety of traditions and conceptual approaches which favour an empirical approach to research.</p>\n\n<p>The <strong>international profile</strong> of the department is evident in the recently launched English-taught Master\u2019s program in Sociology and Social Research, the first of its kind in Italy. Furthermore, a considerable part of the research carried out in the department is published in international peer-reviewed journals and books.</p>\n\n<p>The department has numerous research units, each of which constitutes a specialized forum for faculty and students:</p>\n\n<ul>\n\t<li>Action, Culture, Meaning, and Experience - ACME&nbsp;</li>\n\t<li>Center for Computational Socia Science and Human Dynamics - C2S2&nbsp;</li>\n\t<li>The Center for Interdisciplinary Studies on Gender - CSG&nbsp;</li>\n\t<li>Center for Social Inequality - CSIS&nbsp;</li>\n\t<li>Research group on collective action, change and transition - CoACT&nbsp;</li>\n\t<li>Democracy and Global Governance \u2013 DEMOGLOB&nbsp;</li>\n\t<li>Futures Literacy and Anticipation Theory - FLAT&nbsp;</li>\n\t<li>Research Unit on Communication, Organizational Learning and Aesthetics \u2013 RUCOLA&nbsp;</li>\n\t<li>Migration Scenarios and Social Changes - SMMS&nbsp;</li>\n\t<li>Science and Technology in Science - STSTN&nbsp;</li>\n\t<li>Social Work and Social Policies - SW &amp; SP</li>\n</ul>\n\n<p>The degree programs offered through the department are the following:</p>\n\n<p><strong>Bachelor\u2019s degree programs</strong></p>\n\n<ul>\n\t<li>Sociology</li>\n\t<li>International Studies</li>\n\t<li>Social Work</li>\n</ul>\n\n<p><strong>Master\u2019s degree programs</strong>:</p>\n\n<ul>\n\t<li>Data Science</li>\n\t<li>Global and local studies</li>\n\t<li>Methodology, Organization and Evaluation of Social Services</li>\n\t<li>Management of Organizations and Territory</li>\n\t<li>Sociology and Social Research</li>\n</ul>\n",
-        "address": "Via Giuseppe Verdi, 26, 38122 Trento"
+        "address": "Via Giuseppe Verdi, 26, 38122 Trento",
+        "id": "STO0008630"
       },
       {
-        "identifier": "STO0008625",
         "unitType": "ACADEMIC STRUCTURE",
         "subType": "academic department",
         "name": "Department of Industrial Engineering",
         "description": "<p>The Department\u2019s focus is on teaching and research in the disciplines of industrial engineering, and more specifically in mechanics, mechatronics, materials engineering, electronic and micro-electronic systems, information management systems, optimisation methods and models to support decision making.</p>\n\n<p>Current research themes are the structure of materials and their features and applications; new materials and technologies; automation systems of processes and machineries; energy production and storage; design and implementation of new integrated mechanical/electronic devices, with specific functions in innovative applications; the optimization of products and processes.<br />\nThe Department collaborates with many <strong>national and international research institutions</strong>, and is involved in <strong>basic and applied research projects</strong> with <strong>close links to the industrial world</strong>.</p>\n\n<p>Research is organized in the following areas:</p>\n\n<ul>\n\t<li>Materials Engineering</li>\n\t<li>Mechatronics</li>\n\t<li>Electronic-and Micro-electronic Systems</li>\n\t<li>Operational Research</li>\n</ul>\n\n<p>The department offers the following courses:</p>\n\n<ul>\n\t<li>Industrial engineering</li>\n\t<li>Mechatronics</li>\n\t<li>Materials and Production Engineering</li>\n</ul>\n\n<p>Students and researchers can participate in <strong>mobility programmes</strong>, one of which is the double degree programme \u201cEIT Master School in Sustainable Materials (SUMA)\u201d, but there are also other opportunities with European and US universities. The department is the coordinator of 3 Erasmus Mundus projects: Bridging the Gap, One More Step, and Swap and Transfer, that promote student exchange in the Far East (China and Mongolia) and in Southeast Asia (Thailand, Vietnam, Singapore), and it is also a member of the BEAM project, that encourages high-level mobility and cooperation with Queensland University of Technology and the University of Sydney in Australia.</p>\n\n<p>The department also hosts <strong>BIOtech - Biomedical Technologies</strong>, a centre that supports research in the field of biomedical sciences and technologies in cooperation with external public and private partners, research institutions, companies and healthcare facilities.</p>\n",
-        "address": "Via Sommarive, 9, Povo, 38123 TN"
+        "address": "Via Sommarive, 9, Povo, 38123 TN",
+        "id": "STO0008625"
       },
       {
-        "identifier": "STO0008628",
         "unitType": "ACADEMIC STRUCTURE",
         "subType": "academic department",
         "name": "Department of Mathematics",
         "description": "<p>The Department of Mathematics covers research in most areas of <strong>pure mathematics</strong>, such as Algebra, Analysis, Geometry, Logic, Mathematical Physics, Numerical Analysis, Probability and Statistics.</p>\n\n<p>The Department has a <strong>strong interest in applications</strong>, which cover among others Biomathematics, Cryptography, Coding Theory, Electromagnetism and Fluidodinamics, Game Theory. On these themes there are several ongoing collaborations with leading companies and organizations.</p>\n\n<p>A laboratory of the Department is devoted to teaching and communication, in collaborations with several schools in the area.<br />\nThe Department runs a <strong>BSc, a MSc, and a PhD programme in Matematics</strong>. The MSc and the Phd are held in English, and offer internship with several leading companies and organizations. The Department is a partner in a M.Sc. in <strong>Quantitative and Computational Biology</strong>. The Department offers courses for several other Departments.</p>\n\n<p>Individual researchers of the Department entertain a <strong>vast network of international collaborations</strong>. The Department has institutional collaborations with several organizations.</p>\n",
-        "address": "Via Sommarive, 14, 38123 Povo TN"
+        "address": "Via Sommarive, 14, 38123 Povo TN",
+        "id": "STO0008628"
       },
       {
-        "identifier": "STO0008627",
         "unitType": "ACADEMIC STRUCTURE",
         "subType": "academic department",
         "name": "Department of Physics",
         "description": "<p>The new Department of Physics was established in 2012 and continues a 40-year long history during which its professors and researchers have been engaged in many key areas of physics. Research spans from theoretical investigations of fundamental interactions, gravitational physics and cosmology, to nuclear and sub-nuclear physics, astroparticles physics, ultracold gases and Bose Einstein condensation; and from experimental gravitation to molecular and atomic physics, biophysics, biochemistry, energetics, science education and physics communication; from material sciences to nanoscience, photonics and complex systems.</p>\n\n<p>R<strong>esearch groups effectively collaborate with many research centres and universities</strong> and, specifically, with the National Institute of Nuclear Physics (INFN), the Italian and European Space Agencies (ASI and ESA), the National Research Council (CNR); at a local level, they share research projects and programmes with the Bruno Kessler Foundation (FBK), the Edmund Mach Foundation (FEM) and the Provincial Healthcare Service (APSS). The department also hosts the Trento Institute for Fundamental Physics and Applications (TIFPA) \u2013 a joint initiative including INFN, University, FBK and APSS \u2013 , the LISC-FBK units of the European Centre for Theoretical Studies in Nuclear Physics and Related areas (ECT), and the Trento sections of INO-CNR and IFN-CNR institutes.</p>\n\n<p>Students can choose from a t<strong>hree-year Bachelor\u2019s degree in Physics</strong>, an <strong>advanced course in Physics</strong> and an <strong>English-taught Master\u2019s degree in Physics</strong>. The department is also involved in the <strong>Master\u2019s Degree in Quantitative and Computational Biology</strong>. Students live in an <strong>international environment</strong>: 20% of those enrolled in the Master\u2019s course are from abroad, and many students decide to attend one of the two double-degree programmes established with T\u00fcbingen University in Germany and with the <a href=\"http://www.sissa.it/physics\" target=\"_blank\">International School for Advanced Studies</a> (SISSA) in Trieste. In addition, the department coordinates the <strong>Doctoral school in Physics</strong>, organizes basic physics and chemistry courses for a number of degree courses held by other departments and offers a qualifying course for the professional training of high school teachers.</p>\n",
-        "address": "Via Sommarive, 14, Povo, 38123 TN"
+        "address": "Via Sommarive, 14, Povo, 38123 TN",
+        "id": "STO0008627"
       },
       {
-        "identifier": "STO0008626",
         "unitType": "ACADEMIC STRUCTURE",
         "subType": "academic department",
         "name": "Department of Civil, Environmental and Mechanical Engineering",
         "description": "<p>Research activities are focused on the <strong>key areas of engineering, planning and applied sciences</strong>, such as environmental protection, landscape, architecture, natural renewable resources, energy, biomedical sciences, smart structures and materials, risk prevention, infrastructures and efficient and sustainable structures, building and estates, service networks and territory.</p>\n\n<p>At DICAM we foster innovation and shape sustainability. The department is deeply involved in all these areas with <strong>high quality research and higher education programmes</strong> in line with the most prestigious research-intensive Universities.<br />\nThe research activities of the Department may be grouped into six areas:</p>\n\n<ul>\n\t<li>Environmental Resources, Security and Climate Change</li>\n\t<li>Mechanics, Materials and Smart Structures</li>\n\t<li>Surveying, planning and design for sustainable places \u2013 SusPlaces</li>\n\t<li>Energy and Green Technologies</li>\n\t<li>Architectural Sciences</li>\n\t<li>Modelling and Simulation in Engineering and Sciences</li>\n</ul>\n\n<p>Teaching aims to prepare young professionals in engineering and architecture, and researchers able to <strong>participate in the economic and cultural growth of society with their creativity and innovation</strong>. The department offers three undergraduate courses, three Master\u2019s courses and one five-year Master\u2019s course.</p>\n\n<p>DICAM plays a strategic role as concerns <strong>technology transfer from University to the business world</strong>: indeed the first start-up of the University of Trento was founded in 2008 within the Department, which currently hosts two of the nine start-ups of the University.</p>\n\n<p>Within the Department, the research work performed at the<strong> Doctoral School in Civil, Environmental and Mechanical Engineering</strong> is of central importance. The aim of research is to develop an <strong>exploratory approach to topics</strong> that are relevant for society and call for the development of highly-innovative technologies, methods, and solutions, and to <strong>transfer specialized scientific results to problems and applied contexts</strong>, with a view to fostering innovation and reinforcing the ties between basic and applied research.</p>\n",
-        "address": "Via Mesiano, 77, 38123 Trento"
+        "address": "Via Mesiano, 77, 38123 Trento",
+        "id": "STO0008626"
       },
       {
-        "identifier": "STO0008633",
         "unitType": "ACADEMIC STRUCTURE",
         "subType": "academic center",
         "name": "School of International Studies - SIS",
         "description": "<p>The School of International Studies (SIS) is a Centre established by the University of Trento to promote postgraduate research and education in the area of European and international studies. The departments of Economics and Management, Humanities, Sociology and Social Research, and the Faculty of Law participated in the creation of the school, which develops research and education programmes based on interdisciplinary approaches and skills to <strong>respond to the challenges of social, economic and institutional change resulting from globalization and European integration</strong>.</p>\n\n<p>The School participates in several <strong>interdisciplinary research projects</strong> co-funded by external bodies. Three projects, co-funded by the Autonomous Province of Trento, focus on institutional change, economic growth and social development (with special attention for the European and Chinese areas). Two projects, funded by MIUR and the University, are centred on the relationship between globalization, climate change and the use of natural resources (water, in particular).</p>\n\n<p>The School offers interdisciplinary education and specialization courses, entirely taught in English, to students who completed a three-year undergraduate degree, and is therefore the only \u201c<strong>Graduate School</strong>\u201d of International Studies in Italy. More precisely, the School organizes a Master's Degree in European and International Studies (Laura Magistrale in Studi Europei e Internazionali, MEIS), a Master's Degree in International Security Studies (Laura Magistrale in Studi sulla Sicurezza Internazionale - MISS) with Sant\u2019Anna School of Advanced Studies in Pisa, and a three-year Doctoral programme in International Studies.</p>\n\n<p>The School collaborates with national and international research centres and think-tanks and with the University\u2019s departments and faculties. <strong>National and international academics are regularly invited to visit the School to give lectures</strong> and meet students. The School hosts weekly seminars on subjects pertaining to European and international studies and security, welcomes professional practitioners employed in important international organizations, promotes research conferences and workshops, organizes meetings to develop cross-sector skills (soft skills), contributes to the set up of the Summer school and to other dissemination events with other local, national and international research entities. Students, faculty members, post-doc researchers and visiting professors from all over the world take part in the School\u2019s teaching and research activities.</p>\n\n<p>The School of International Studies is honoured to have two distinguished Honorary Professors: Senator Giorgio Napolitano (former President of the Italian Republic) and Vaclav Klaus (former President of the Czech Republic).</p>\n",
-        "address": "Via Tomaso Gar, 14, Trento, 38122 TN"
+        "address": "Via Tomaso Gar, 14, Trento, 38122 TN",
+        "id": "STO0008633"
       },
       {
-        "identifier": "STO0009701",
         "unitType": "ACADEMIC STRUCTURE LEVEL 2",
         "subType": "degree program",
         "name": "Doctoral programme \u2013 Materials, Mechatronics and Systems Engineering",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0009701"
       },
       {
-        "identifier": "STO0013074",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Environmental and Safety Services Division",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0013074"
       },
       {
-        "identifier": "STO0010809",
         "unitType": "ACADEMIC STRUCTURE LEVEL 2",
         "subType": "degree program",
         "name": "Doctoral programme - Le Forme del Testo",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0010809"
       },
       {
-        "identifier": "STO0010808",
         "unitType": "ACADEMIC STRUCTURE LEVEL 2",
         "subType": "degree program",
         "name": "Doctoral programme - Culture d'Europa. Ambiente, spazi, storie, arti, idee",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0010808"
       },
       {
-        "identifier": "STO0013041",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Special Projects",
         "description": "<p>La Divisione si occupa delle attivit\u00e0 finalizzate ad ampliare e consolidare la rete degli ALUMNI.</p>\n\n<p>Si occupa del progetto UNISPORT di cui cura la partecipazione a network tematici nazionali ed internazionali, lo studio di nuove iniziative, progetti di sviluppo e relativi documenti di supporto.</p>\n\n<p>Coordina i rapporti con enti e societ\u00e0 sportive locali e &nbsp;nazionali.</p>\n\n<p>Cura i rapporti con il circolo ricreativo universitario CRU e supporta e gestisce iniziative di innovazione sociale, anche attraverso canali multimediali.</p>\n\n<p>Promuove e gestisce le associazioni studentesche e le loro iniziative con relativo supporto alla Commissione preposta alla loro valutazione.</p>\n\n<p>Supporta e individua iniziative e strumenti di comunicazione finalizzati al fundraising.</p>\n",
-        "address": ""
+        "address": "",
+        "id": "STO0013041"
       },
       {
-        "identifier": "STO0013040",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Relations with employers and local organizations",
-        "description": "",
-        "address": ""
+        "description": "<p>La Divisione Rapporti con mondo del lavoro e territorio fornisce<strong> supporto </strong>alle strutture accademiche per un <strong>dialogo sistematico con il mondo del lavoro</strong> al fine di <strong>progettare/rivedere i corsi di studio</strong>, di gestire iniziative formative duali (tirocinio, apprendistato di alta formazione, dottorati industriali, ecc.) e di <strong>sviluppare servizi che favoriscano l\u2019occupabilit\u00e0 dei/delle neolaureati/e Unitrento</strong>.</p>\n\n<p>In tale ambito la Divisione promuove, <strong>gestisce e supporta iniziative</strong> volte a <strong>rafforzare i curricula</strong> dei propri studenti con <strong>competenze e abilit\u00e0 richieste dal mercato del lavoro</strong> e, in collaborazione con la Direzione Servizi alla Ricerca e Valorizzazione, iniziative volte a sviluppare una cultura del lavoro anche a carattere autonomo.</p>\n\n<p>Inoltre, in sinergia con la rete Alumni e con gli attori della rete dei servizi per l\u2019impiego, locali e non, progetta e promuove attivit\u00e0 volte all\u2019<strong>orientamento al lavoro</strong>, alla <strong>conoscenza del mercato del lavoro</strong>, alla <strong>ricerca </strong>del lavoro, all'<strong>accompagnamento al lavoro</strong>.</p>\n\n<p>Infine, <strong>promuove iniziative/attivit\u00e0&nbsp;di Ateneo di terza missione</strong> e, anche in sinergia con la Divisione Relazioni Internazionali, supporta la partecipazione a reti e <strong>consorzi interuniversitari nazionali e internazionali</strong> che si occupano delle medesime tematiche.&nbsp;</p>\n",
+        "address": "",
+        "id": "STO0013040"
       },
       {
-        "identifier": "STO0010819",
         "unitType": "ACADEMIC STRUCTURE LEVEL 2",
         "subType": "degree program",
         "name": "Doctoral programme - Development Economics and Local Systems",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0010819"
       },
       {
-        "identifier": "STO0012231",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "unit",
         "name": "Support to the Centro Studi Martino Martini",
         "description": "",
-        "address": "Via Tomaso Gar, 14, Trento, TN"
+        "address": "Via Tomaso Gar, 14, Trento, TN",
+        "id": "STO0012231"
       },
       {
-        "identifier": "STO0000267",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Monitoring, Statistics and Policy Development Unit",
         "description": "<p>The Monitoring, Statistics and Policy Development Unit performs studies that the University\u2019s governing bodies need for <strong>strategic decision making and planning</strong>.</p>\n\n<p>The Unit is responsible for the collection, consistency and coherence of data that it submits to the University's internal and external stakeholders through the statistical office, the University website and specific analyses.</p>\n\n<p>It is responsible for activities connected with <strong>statistical analyses </strong>required by the Ministry of Education, Italian National Institute of Statistics, Almalaurea annual surveys about students' features and employment condition, national and international rankings and the municipalities of Trento and Rovereto.</p>\n\n<p>It oversees all activities carried out for the <strong>National register of students</strong> on undergraduate and postgraduate degree programmes.</p>\n\n<p>The unit takes great care in preparing detailed <strong>documents</strong> whose purpose is to assess and account for the University's achievements in a number of important areas, in particular as regards the allocation of funds to departments and centres, the approval of salary increases for academic staff every three years, the evaluation of teaching objectives, and student career progress.</p>\n\n<p>As part of its main activities in the area of education, the unit <strong>collects information </strong>and data for the Evaluation Committee and <strong>monitors quality</strong> for the Quality Assurance Committee.</p>\n\n<p>In accordance with the Quality Assurance Committee, it organizes and&nbsp;processes the statistical data emerging from&nbsp;the evaluation of&nbsp;quality of teaching activities&nbsp;by students. It works with other offices on customer satisfaction surveys on University services. It prepares the statistical analyses required for the drawing up of the Integrated Plan and the data processing required for gender studies for the Committee for Equal Opportunities.</p>\n",
-        "address": "Via Giuseppe Verdi, 7 38122 Trento TN"
+        "address": "Via Calepina, 14, Trento, TN, Italia",
+        "id": "STO0000267"
       },
       {
-        "identifier": "STO0000291",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Povo University Library (BUP) room",
         "description": "",
-        "address": "Via Sommarive, 5, Povo, 38123 TN"
+        "address": "Via Sommarive, 5, Povo, 38123 TN",
+        "id": "STO0000291"
       },
       {
-        "identifier": "STO0000217",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Press office and External relations",
         "description": "",
-        "address": "Via Calepina, 14, Trento, TN, Italia"
+        "address": "Via Calepina, 14, Trento, TN, Italia",
+        "id": "STO0000217"
       },
       {
-        "identifier": "STO0013533",
         "unitType": "ACADEMIC STRUCTURE",
         "subType": "academic center",
         "name": "Centre for Medical Sciences - CISMED",
         "description": "",
-        "address": "via S. Maria Maddalena, 1, 38122 Trento"
+        "address": "via S. Maria Maddalena, 1, 38122 Trento",
+        "id": "STO0013533"
       },
       {
-        "identifier": "STO0013532",
         "unitType": "ACADEMIC STRUCTURE LEVEL 2",
         "subType": "research center",
         "name": "Centre of Security and Crime Sciences",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0013532"
       },
       {
-        "identifier": "STO0000238",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Social security",
         "description": "",
-        "address": "Via Giuseppe Verdi, 6, Trento, TN"
+        "address": "Via Giuseppe Verdi, 6, Trento, TN",
+        "id": "STO0000238"
       },
       {
-        "identifier": "STO0013549",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Privacy Compliance",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0013549"
       },
       {
-        "identifier": "STO0013545",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Privacy regulation",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0013545"
       },
       {
-        "identifier": "STO0013544",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Sports office",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0013544"
       },
       {
-        "identifier": "STO0013542",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "unit",
         "name": "Office of the Directorate of Communication and External Relations",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0013542"
       },
       {
-        "identifier": "STO0013560",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Research Staff Recruitment Office",
         "description": "<p>L\u2019ufficio si occupa dell\u2019attivazione e della gestione delle procedure di selezione del personale di ricerca (assegni di ricerca, collaborazioni alla ricerca, borse di studio).</p>\n",
-        "address": ""
+        "address": "",
+        "id": "STO0013560"
       },
       {
-        "identifier": "STO0000242",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Building management - Povo-Mesiano",
         "description": "",
-        "address": "Via Sommarive, 5, Povo, 38123 TN"
+        "address": "Via Sommarive, 5, Povo, 38123 TN",
+        "id": "STO0000242"
       },
       {
-        "identifier": "STO0013559",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Research Management Division",
         "description": "<p>In collaboration with the <a href=\"https://webapps.unitn.it/du/en/StrutturaGestionale/STO0013550/Persone\">Research Support Division</a> and with the administrative and accounting offices of departments and centres, the Division provides consultancy and <strong>administrative support</strong> for the <strong>development of research activities</strong>, the management of research, cultural cooperation and international mobility projects, and the selection of research staff.</p>\n\n<p>In particular, the Division provides <strong>support in all the phases of the management of funded research projects&nbsp;</strong>ranging&nbsp;from&nbsp;initiation to management, to the selection of research staff, monitoring, reporting and audit procedures. In addition, the Division supports the valorization of University technological platforms and research laboratories.</p>\n\n<p>In collaboration with the <a href=\"https://webapps.unitn.it/du/en/StrutturaGestionale/STO0013550/Persone\">Research Support </a><b>&nbsp;</b>and the&nbsp;<a href=\"https://webapps.unitn.it/du/en/StrutturaGestionale/STO0013553/Persone\">Research Valorisation and Impact</a> Divisions and in coordination&nbsp;with the administrative and accounting offices and departments, the Division <strong>deals with the stipulation and revision of national and international agreements, contracts and conventions aimed at carrying out both institutional and commercial research activities</strong>.</p>\n",
-        "address": ""
+        "address": "",
+        "id": "STO0013559"
       },
       {
-        "identifier": "STO0013558",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Scientific Publications Office",
         "description": "<p>L\u2019ufficio fornisce consulenza e supporto amministrativo ai dipartimenti e centri di Ateneo nelle procedure di avvio di nuove iniziative editoriali (riviste e collane) per la casa editrice Universit\u00e0 degli Studi di Trento. Si occupa inoltre di fornire supporto alle redazioni editoriali delle riviste e delle collane di Ateneo per le attivit\u00e0 correlate alla pubblicazione di opere scientifiche in formato sia cartaceo che digitale e per la loro promozione e disseminazione ad accesso aperto.</p>\n",
-        "address": ""
+        "address": "",
+        "id": "STO0013558"
       },
       {
-        "identifier": "STO0013557",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Digital services for research office",
         "description": "<p>L\u2019ufficio si occupa dell\u2019ideazione e della gestione di servizi digitali orientati alla promozione, alla valorizzazione e al monitoraggio della ricerca, con particolare riferimento alla produzione scientifica, agli esperti e alle competenze di Ateneo. Questa missione \u00e8 in linea e in continuit\u00e0 con l\u2019iniziativa <a href=\"https://www.unitn.it/DU/info\">Digital University</a> e viene perseguita in collaborazione con la <a href=\"https://webapps.unitn.it/du/it/StrutturaGestionale/STO0000870\">Direzione Servizi Digitali e Bibliotecari</a> e con la <a href=\"https://webapps.unitn.it/du/it/StrutturaGestionale/STO0013038\">Direzione Comunicazione e Relazioni Esterne</a>.</p>\n\n<p>L\u2019analisi dei processi organizzativi e gestionali nei diversi contesti applicativi in cui si genera e transita l\u2019informazione costituisce un mezzo attraverso il quale l\u2019ufficio propone soluzioni - che possono includere la ridefinizione dei processi - mirate al progressivo miglioramento della qualit\u00e0 dei dati e dei servizi offerti.</p>\n",
-        "address": ""
+        "address": "",
+        "id": "STO0013557"
       },
       {
-        "identifier": "STO0013554",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "ICT Services for Staff",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0013554"
       },
       {
-        "identifier": "STO0013553",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Division for the Valorization and Impact of Research",
         "description": "<p>The Division provides support in the area of protection and valorization of intellectual and industrial property, technology transfer and creation of university startups. For this reason, it collaborates with the <a href=\"https://webapps.unitn.it/du/en/OrganoIstituzionale/ORI0000280/Persone\">Intellectual property rights committee</a>&nbsp;and implements its decisions.</p>\n\n<p>In order to maximise the impact of university research and in collaboration with the&nbsp;<a href=\"https://webapps.unitn.it/du/en/StrutturaGestionale/STO0013559/Persone\">Research Management Division</a>&nbsp;and the&nbsp;<a href=\"https://webapps.unitn.it/du/en/StrutturaGestionale/STO0013550/Persone\">Research Support Division</a>&nbsp;it promotes and provides support for participation in national and international calls and programmes through the drafting of collaboration agreements for joint research projects, partnerships, collaboration contracts, confidentiality agreements and third party contracts. The Division also coordinates and manages relations with local bodies and foundations within its&nbsp;competence.</p>\n",
-        "address": ""
+        "address": "",
+        "id": "STO0013553"
       },
       {
-        "identifier": "STO0013551",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Research Support Office",
         "description": "<p>Through its three on-campus units (in <a href=\"https://webapps.unitn.it/du/en/StrutturaGestionale/STO0008881/Persone\">Trento</a>, <a href=\"https://webapps.unitn.it/du/en/StrutturaGestionale/STO0013552/Persone\">Povo-Mesiano</a>, and <a href=\"https://webapps.unitn.it/du/en/StrutturaGestionale/STO0008883/Persone\">Rovereto</a>), the office helps researchers find funding opportunities and disseminates information on calls for proposals and training activities in the area of research and innovation.</p>\n\n<p>The office promotes the participation in national, European and international calls for funding by providing assistance with the interpretation of management and accounting regulations. It also defines guidelines and procedures on how to participate in research programmes and calls for funding.</p>\n\n<p>The office manages the database of the University\u2019s research projects (anagrafica progetti) and provides support with contracts with funding organizations and accounting and audit procedures.</p>\n",
-        "address": ""
+        "address": "",
+        "id": "STO0013551"
       },
       {
-        "identifier": "STO0000398",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Test Center",
         "description": "",
-        "address": "Via Giuseppe Verdi, 8, Trento, 38122 TN"
+        "address": "Via Giuseppe Verdi, 8, Trento, 38122 TN",
+        "id": "STO0000398"
       },
       {
-        "identifier": "STO0000336",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Mechanics",
         "description": "",
-        "address": "Via Sommarive, 14, Povo, 38123 TN"
+        "address": "Via Sommarive, 14, Povo, 38123 TN",
+        "id": "STO0000336"
       },
       {
-        "identifier": "STO0000355",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Storage",
         "description": "",
-        "address": "Via Sommarive, 14, Povo, 38123 TN"
+        "address": "Via Sommarive, 14, Povo, 38123 TN",
+        "id": "STO0000355"
       },
       {
-        "identifier": "STO0000354",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Cryogenics",
         "description": "",
-        "address": "Via Sommarive, 14, Povo, 38123 TN"
+        "address": "Via Sommarive, 14, Povo, 38123 TN",
+        "id": "STO0000354"
       },
       {
-        "identifier": "STO0013669",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "CisMed staff",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0013669"
       },
       {
-        "identifier": "ORI0000276",
         "unitType": "INSTITUTIONAL BODY",
         "subType": "governing board",
         "name": "Rector",
         "description": "<p>The Rector guarantees that there is a common strategic policy among the governing bodies of the University and promotes and coordinates scientific and teaching activities. The Rector is the legal representative of the University.</p>\n",
-        "address": ""
+        "address": "",
+        "id": "ORI0000276"
       },
       {
-        "identifier": "ORI0000279",
         "unitType": "INSTITUTIONAL BODY",
         "subType": "supporting board",
         "name": "Sports council",
         "description": "<p>The sports council oversees all sports initiatives and activities that are organised by the University and the Trento University Sports Centre.</p>\n",
-        "address": ""
+        "address": "",
+        "id": "ORI0000279"
       },
       {
-        "identifier": "ORI0000272",
         "unitType": "INSTITUTIONAL BODY",
         "subType": "board",
         "name": "CIBIO - Council",
         "description": "<p>The Council of the Department is the main governing body of the Department.<br />\nIt comprises all the professors of the Department and representatives of students, detailed below, PhD students, research fellows and researchers, in accordance with the procedures defined in the Department regulation.</p>\n",
-        "address": ""
+        "address": "",
+        "id": "ORI0000272"
       },
       {
-        "identifier": "ORI0000284",
         "unitType": "INSTITUTIONAL BODY",
         "subType": "board",
         "name": "Consiglio del Centro Interdipartimentale in Scienze Mediche - CISMed",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "ORI0000284"
       },
       {
-        "identifier": "ORI0000280",
         "unitType": "INSTITUTIONAL BODY",
         "subType": "supporting board",
         "name": "Patent commission",
         "description": "<p>The commission is appointed to take decisions regarding the management of the patent portfolio of the University and to define the policies concerning the protection of the industrial p</p>\n",
-        "address": ""
+        "address": "",
+        "id": "ORI0000280"
       },
       {
-        "identifier": "ORI0000283",
         "unitType": "INSTITUTIONAL BODY",
         "subType": "supporting board",
         "name": "Research Ethics Committee",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "ORI0000283"
       },
       {
-        "identifier": "ORI0000282",
         "unitType": "INSTITUTIONAL BODY",
         "subType": "board",
         "name": "Consiglio del Centro Agricoltura, Alimenti, Ambiente - C3A",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "ORI0000282"
       },
       {
-        "identifier": "STO0000413",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Procurement Office",
         "description": "",
-        "address": "Via Antonio Rosmini, 70, Trento, 38122 TN"
+        "address": "Via Antonio Rosmini, 70, Trento, 38122 TN",
+        "id": "STO0000413"
       },
       {
-        "identifier": "STO0001741",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "CeRiN Administrative Services",
         "description": "",
-        "address": "Via M. del Ben, 5b, Rovereto, 38068 TN"
+        "address": "Via M. del Ben, 5b, Rovereto, 38068 TN",
+        "id": "STO0001741"
       },
       {
-        "identifier": "ORI0000241",
         "unitType": "INSTITUTIONAL BODY",
         "subType": "supporting board",
         "name": "Committee for Equal Opportunities, Well-being at Work and Against Discriminations (CUG)",
         "description": "<p>The Supervisory Committee aims at promoting and protecting equal opportunities and wellbeing and the quality of working time and of the organization, for all the staff of the University, including the non-permanent staff.</p>\n",
-        "address": ""
+        "address": "",
+        "id": "ORI0000241"
       },
       {
-        "identifier": "STO0013731",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Institutional Relations Office supporting the Rector, the President of the Board of Directors and the Director General",
         "description": "<p>The Institutional Relations Office supporting the Rector, the President of the Board of Directors and the Director General:</p>\n\n<ul>\n\t<li>assists the Rector and Vice Rectors, the President of the Board of Directors and the Director General in carrying out their institutional activities.</li>\n\t<li>Collaborates with the University's leadership for the management, maintenance and development of institutional relationships, strategic partnerships, and initiatives that require special attention.</li>\n\t<li>Collaborates with departments and centres in the organization of events that include the participation of the University's top management, coordinates the organization of institutional ceremonies, and is responsible for ceremonial aspects.</li>\n\t<li>Manages the budget and the goods and services requirements of departments, centres and other offices.</li>\n</ul>\n",
-        "address": ""
+        "address": "",
+        "id": "STO0013731"
       },
       {
-        "identifier": "STO0013730",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Director General support and document drafting",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0013730"
       },
       {
-        "identifier": "STO0000435",
         "unitType": "ACADEMIC STRUCTURE LEVEL 2",
         "subType": "degree program",
         "name": "Doctoral programme \u2013 Physics",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0000435"
       },
       {
-        "identifier": "STO0000434",
         "unitType": "ACADEMIC STRUCTURE LEVEL 2",
         "subType": "degree program",
         "name": "Doctoral programme \u2013 Comparative and European legal studies",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0000434"
       },
       {
-        "identifier": "STO0013747",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Strategic research programmes office",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0013747"
       },
       {
-        "identifier": "STO0013746",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Student Support Service - Science and technology area - Mesiano",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0013746"
       },
       {
-        "identifier": "STO0013745",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Youth projects office",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0013745"
       },
       {
-        "identifier": "STO0013744",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "unit",
         "name": "Purchasing support",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0013744"
       },
       {
-        "identifier": "ORI0000263",
         "unitType": "INSTITUTIONAL BODY",
         "subType": "board",
         "name": "Industrial Engineering - Department Council",
         "description": "<p>The Council of the Department is the main governing body of the Department.<br />\nIt comprises all the professors of the Department and representatives of students, detailed below, PhD students, research fellows and researchers, in accordance with the procedures defined in the Department regulation.</p>\n",
-        "address": ""
+        "address": "",
+        "id": "ORI0000263"
       },
       {
-        "identifier": "ORI0000262",
         "unitType": "INSTITUTIONAL BODY",
         "subType": "board",
         "name": "Faculty of Law - Department Council",
         "description": "<p>The Council of the Faculty is the main governing body of the Faculty.<br />\nIt comprises all the professors of the Faculty and representatives of students, detailed below, PhD students, research fellows and researchers, in accordance with the procedures defined in the Faculty regulation.</p>\n",
-        "address": ""
+        "address": "",
+        "id": "ORI0000262"
       },
       {
-        "identifier": "ORI0000261",
         "unitType": "INSTITUTIONAL BODY",
         "subType": "board",
         "name": "Economics and Management - Department Council",
         "description": "<p>The Council of the Department is the main governing body of the Department.<br />\nIt comprises all the professors of the Department and representatives of students, detailed below, PhD students, research fellows and researchers, in accordance with the procedures defined in the Department regulation.</p>\n",
-        "address": ""
+        "address": "",
+        "id": "ORI0000261"
       },
       {
-        "identifier": "STO0013710",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Core Facilities",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0013710"
       },
       {
-        "identifier": "STO0013318",
         "unitType": "ACADEMIC STRUCTURE LEVEL 2",
         "subType": "degree program",
         "name": "PhD programme (Ministerial Decree 45/2013) - Sustainability: Economics, Environment, Management and Society",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0013318"
       },
       {
-        "identifier": "STO0008897",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "unit",
         "name": "Information Engineering and Computer Science - Technical Support",
         "description": "",
-        "address": "Via Sommarive, 9, Povo, 38123 TN"
+        "address": "Via Sommarive, 9, Povo, 38123 TN",
+        "id": "STO0008897"
       },
       {
-        "identifier": "STO0008863",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "unit",
         "name": "Communications Staff - Rovereto",
         "description": "",
-        "address": "Corso Bettini, 84, Rovereto, 38068 TN"
+        "address": "Corso Bettini, 84, Rovereto, 38068 TN",
+        "id": "STO0008863"
       },
       {
-        "identifier": "STO0008874",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "ICT Services Division - Trento",
         "description": "",
-        "address": "Via Vigilio Inama, 5, Trento, 38122 TN"
+        "address": "Via Vigilio Inama, 5, Trento, 38122 TN",
+        "id": "STO0008874"
       },
       {
-        "identifier": "STO0008866",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "unit",
         "name": "Maintenance at departments and centres",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0008866"
       },
       {
-        "identifier": "STO0008881",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "unit",
         "name": "Funded research staff - Trento",
         "description": "",
-        "address": "Via Calepina, 14, Trento, TN"
+        "address": "Via Calepina, 14, Trento, TN",
+        "id": "STO0008881"
       },
       {
-        "identifier": "STO0008877",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "ICT Services Division -  Rovereto",
         "description": "",
-        "address": "Corso Bettini, 31, Rovereto, 38068 TN"
+        "address": "Corso Bettini, 31, Rovereto, 38068 TN",
+        "id": "STO0008877"
       },
       {
-        "identifier": "STO0008876",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "ICT Services Division -  Povo-Mesiano",
         "description": "",
-        "address": "Via Mesiano, 77, 38123 Trento"
+        "address": "Via Mesiano, 77, 38123 Trento",
+        "id": "STO0008876"
       },
       {
-        "identifier": "STO0008875",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Audio, videos and multimedia",
         "description": "",
-        "address": "Via Tomaso Gar, 14, Trento, 38122 TN"
+        "address": "Via Tomaso Gar, 14, Trento, 38122 TN",
+        "id": "STO0008875"
       },
       {
-        "identifier": "STO0008890",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Administrative Services for Teaching and Research Activities - Trento",
         "description": "",
-        "address": "Via Giuseppe Verdi, 26, Trento, 38122 TN"
+        "address": "Via Giuseppe Verdi, 26, Trento, 38122 TN",
+        "id": "STO0008890"
       },
       {
-        "identifier": "STO0008893",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "unit",
         "name": "Physics - Laboratory Technicians",
         "description": "",
-        "address": "Via Sommarive, 14, Povo, 38123 TN"
+        "address": "Via Sommarive, 14, Povo, 38123 TN",
+        "id": "STO0008893"
       },
       {
-        "identifier": "STO0008887",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Administration and Accounting Services - Rovereto",
         "description": "<p>The Administration and Accounting Service for Rovereto offers its services to the departments and centers based in Rovereto.<br />\nThe service:</p>\n\n<ul>\n\t<li>supports the Planning Division, in collaboration with the directors of departments and centers, in <strong>planning and programming activities </strong>for the relevant units</li>\n\t<li>is responsible for (general/analytic, vendors/clients) <strong>accounting </strong>for its units, including all that is required for drawing up the balance sheet (amendments and corrections included)</li>\n\t<li>serves as a liaison office for the Administration Division for <strong>tax requirements </strong>and <strong>support to external auditors</strong></li>\n\t<li>manages <strong>supply procedures and contracts </strong>below the EU threshold</li>\n\t<li>issues <strong>invoices </strong>and monitors <strong>credits</strong></li>\n\t<li>manages <strong>cash reserves </strong>for the relevant units</li>\n\t<li>is responsible for <strong>paying suppliers of goods and services</strong>, reimbursing expenses for missions, other compensations</li>\n\t<li>supports research and scientific collaborations</li>\n\t<li>supports teaching and research staff in accounting matters, contracts, various procedures</li>\n\t<li>provides its support in selection procedures in the areas of teaching and research and oversees contracts in collaboration with the Human Resources and Organization Directorate</li>\n\t<li>drafts and organizes <strong>contracts</strong></li>\n</ul>\n",
-        "address": "Corso Bettini, 84, Rovereto, 38068 TN"
+        "address": "Corso Bettini, 84, Rovereto, 38068 TN",
+        "id": "STO0008887"
       },
       {
-        "identifier": "STO0008886",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Administration and Accounting Services - Trento",
         "description": "<p>The Administration and Accounting Service for Trento offers its services to the departments and centers based in Trento.<br />\nThe service:</p>\n\n<ul>\n\t<li>supports the Planning Division, in collaboration with the directors of departments and centers, in <strong>planning and programming activities </strong>for the relevant units</li>\n\t<li>is responsible for (general/analytic, vendors/clients) <strong>accounting </strong>for its units, including all that is required for drawing up the balance sheet (amendments and corrections included)</li>\n\t<li>serves as a liaison office for the Administration Division for <strong>tax requirements </strong>and <strong>support to external auditors</strong></li>\n\t<li>manages <strong>supply procedures and contracts </strong>below the EU threshold</li>\n\t<li>issues <strong>invoices </strong>and monitors <strong>credits</strong></li>\n\t<li>manages <strong>cash reserves </strong>for the relevant units</li>\n\t<li>is responsible for <strong>paying suppliers of goods and services</strong>, reimbursing expenses for missions, other compensations</li>\n\t<li>supports research and scientific collaborations</li>\n\t<li>supports teaching and research staff in accounting matters, contracts, procedures</li>\n\t<li>provides its support in selection procedures in the areas of teaching and research and oversees contracts in collaboration with the Human Resources and Organization Directorate</li>\n\t<li>drafts and organizes <strong>contracts</strong></li>\n</ul>\n",
-        "address": "Via Giuseppe Verdi, 26, Trento, 38122 TN"
+        "address": "Via Giuseppe Verdi, 26, Trento, 38122 TN",
+        "id": "STO0008886"
       },
       {
-        "identifier": "ORI0000181",
         "unitType": "INSTITUTIONAL BODY",
         "subType": "supporting board",
         "name": "Quality Committee",
         "description": "<p>The Quality Assurance Committee is responsible for the implementation of quality assurance procedures at University level, within courses of study and in the departments, based on the guidelines established by the governing bodies.</p>\n",
-        "address": ""
+        "address": "",
+        "id": "ORI0000181"
       },
       {
-        "identifier": "ORI0000141",
         "unitType": "INSTITUTIONAL BODY",
         "subType": "supporting board",
         "name": "Joint Committee for the Right to Study and the Valorization of Merit",
         "description": "<p>The joint committee for the right to study and the promotion of merit expresses obligatory opinion to the Academic Senate as regards the system of student contribution, the policies of promotion of merit, and the measures for the right to study; it makes proposals to the Academic Senate about international mobility and services to the students; it monitors initiatives taken in these areas.</p>\n",
-        "address": ""
+        "address": "",
+        "id": "ORI0000141"
       },
       {
-        "identifier": "STO0013423",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "unit",
         "name": "Remote tutor",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0013423"
       },
       {
-        "identifier": "STO0008930",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Student Support Service: Humanities and Social Sciences",
         "description": "",
-        "address": "Via Tomaso Gar, 14, 38122 Trento"
+        "address": "Via Tomaso Gar, 14, 38122 Trento",
+        "id": "STO0008930"
       },
       {
-        "identifier": "STO0008936",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Job Guidance",
         "description": "",
-        "address": "Via Giuseppe Verdi, 6, Trento, 38122 TN"
+        "address": "Via Giuseppe Verdi, 6, Trento, 38122 TN",
+        "id": "STO0008936"
       },
       {
-        "identifier": "STO0008903",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Humanities - Department Staff",
         "description": "",
-        "address": "Via Tomaso Gar, 14, Trento, 38122 TN"
+        "address": "Via Tomaso Gar, 14, Trento, 38122 TN",
+        "id": "STO0008903"
       },
       {
-        "identifier": "STO0008902",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "unit",
         "name": "Civil, Environmental and Mechanical Engineering - Laboratory Technicians",
         "description": "",
-        "address": "Via Mesiano, 77, 38123 Trento"
+        "address": "Via Mesiano, 77, 38123 Trento",
+        "id": "STO0008902"
       },
       {
-        "identifier": "STO0008908",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "unit",
         "name": "Economics and Management - Laboratory Technicians",
         "description": "",
-        "address": "Via Vigilio Inama, 5, Trento, 38122 TN"
+        "address": "Via Vigilio Inama, 5, Trento, 38122 TN",
+        "id": "STO0008908"
       },
       {
-        "identifier": "STO0008906",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "unit",
         "name": "Sociology and Social Research - Technical Support",
         "description": "",
-        "address": "Via Giuseppe Verdi, 26, Trento, 38122 TN"
+        "address": "Via Giuseppe Verdi, 26, Trento, 38122 TN",
+        "id": "STO0008906"
       },
       {
-        "identifier": "STO0008911",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "unit",
         "name": "Psychology and Cognitive Science - Laboratory Technicians",
         "description": "",
-        "address": "Via M. del Ben, 5b, Rovereto, 38068 TN"
+        "address": "Via M. del Ben, 5b, Rovereto, 38068 TN",
+        "id": "STO0008911"
       },
       {
-        "identifier": "STO0008910",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Psychology and Cognitive science - Department Staff",
         "description": "",
-        "address": "Corso Bettini, 84, Rovereto, 38068 TN"
+        "address": "Corso Bettini, 84, Rovereto, 38068 TN",
+        "id": "STO0008910"
       },
       {
-        "identifier": "STO0008919",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Teacher Training and Qualifications",
         "description": "",
-        "address": "Corso Bettini, 84, Rovereto, 38068 TN"
+        "address": "Corso Bettini, 84, Rovereto, 38068 TN",
+        "id": "STO0008919"
       },
       {
-        "identifier": "STO0008916",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "unit",
         "name": "Centre for Integrative Biology - Laboratory Technicians",
         "description": "",
-        "address": "Via Sommarive, 9, Povo, 38123 TN"
+        "address": "Via Sommarive, 9, Povo, 38123 TN",
+        "id": "STO0008916"
       },
       {
-        "identifier": "STO0008921",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Language Centre, Test Center and Digital Teaching Resources",
         "description": "<p>In collaboration with departments and centres, it designs and organizes language courses (both in-class and online) for all university students, students participating in international mobility programmes and University staff. It organizes the language tests that students must pass to participate in training and mobility programmes.</p>\n\n<p>It coordinates distance learning and training programmes and online evaluations, and oversees some administrative and practical aspects of the activities organized by the University Test Center.</p>\n",
-        "address": "Via Giuseppe Verdi, 8, Trento, 38122 TN"
+        "address": "Via Giuseppe Verdi, 8, Trento, 38122 TN",
+        "id": "STO0008921"
       },
       {
-        "identifier": "STO0008920",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Development of Online Services and User Support",
         "description": "",
-        "address": "Via Tommaso Gar, 16/2 - 38122 Trento"
+        "address": "Via Tommaso Gar, 16/2 - 38122 Trento",
+        "id": "STO0008920"
       },
       {
-        "identifier": "STO0008924",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Humanities and Cognitive Science Area - PhD Office",
         "description": "<p>The division supports the work of academic departments and centres of the humanities and cognitive science area, in particular as regards:</p>\n\n<ul>\n\t<li>writing proposals to establish and renew doctoral courses, annual reports, courses regulations, and maintaining relationships with institutional partners;</li>\n\t<li>establishing collaboration and funding agreements to offer study courses;</li>\n\t<li>preparing calls for admissions, managing applications online, dealing with selection procedures;</li>\n\t<li>improving the international appeal of the doctoral programme and increasing student mobility through agreements for joint thesis research, international mobility programmes, support to foreign students/PhD students, support to evaluation committees that have to assess foreign qualifications;</li>\n\t<li>accounting procedures in compliance with national regulations, elaboration and analysis of statistical data.</li>\n</ul>\n\n<p>The division also oversees the academic progress of PhD students up to their thesis defense, and is responsible for other qualifying exams (esami di Stato) that the University offers.<br />\nThe division is also responsible for the services that the two areas have in common (as concerns doctoral courses and advanced training): preparing the budget for PhD grants, aids, increases; accounting procedures connected to benefits; accounting procedures for tax purposes.</p>\n",
-        "address": "Via Giuseppe Verdi, 26, Trento, 38122 TN"
+        "address": "Via Giuseppe Verdi, 26, Trento, 38122 TN",
+        "id": "STO0008924"
       },
       {
-        "identifier": "STO0008923",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Education and Student Services - Humanities and Social Sciences Area",
         "description": "<p>Through its subunits, the office defines the university courses for departments and centres, oversees students matters for first and second level courses (admissions, careers, exam certificates, graduations), is responsible for quality assurance, the publication of notices on Esse3, lecture arrangements.</p>\n\n<p>The office also oversees international mobility programmes, helping foreign students and PhD students on their arrival and during their stay, it drafts international mobility agreements and takes part in negotiations for this purpose, publishes calls and designates the members of selection committees. It participates in international promotion campaigns.</p>\n",
-        "address": "Via Verdi, 53 - 38122 Trento"
+        "address": "Via Verdi, 53 - 38122 Trento",
+        "id": "STO0008923"
       },
       {
-        "identifier": "ORI0000003",
         "unitType": "INSTITUTIONAL BODY",
         "subType": "governing board",
         "name": "Board of Directors",
         "description": "<p>The Board of Directors is the body that governs and is responsible for the general organisation of the University. It oversees the economic and financial management of the University as well as that of its assets.</p>\n",
-        "address": ""
+        "address": "",
+        "id": "ORI0000003"
       },
       {
-        "identifier": "ORI0000005",
         "unitType": "INSTITUTIONAL BODY",
         "subType": "governing board",
         "name": "Evaluation Group",
         "description": "<p>The Evaluation Group continuously and systematically checks the performance of the University in its organization, in the research and teaching activities, and determines the overall quality of the procedures, thereby contributing to the improvement of the internal system of self-evaluation and to the promotion of merit. The Group, in complete autonomy, draws up an annual report on the attainment of the strategic plan and on the achievement of the rigorous objectives, and submits this report to the Council of Administration by May of each year.</p>\n",
-        "address": ""
+        "address": "",
+        "id": "ORI0000005"
       },
       {
-        "identifier": "STO0000696",
         "unitType": "ACADEMIC STRUCTURE LEVEL 2",
         "subType": "degree program",
         "name": "Doctoral programme \u2013 Psychology and Education Sciences",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0000696"
       },
       {
-        "identifier": "STO0012756",
         "unitType": "ACADEMIC STRUCTURE LEVEL 2",
         "subType": "degree program",
         "name": "Doctoral programme (D.M.45/2013) \u2013 Cognitive Science",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0012756"
       },
       {
-        "identifier": "STO0000843",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Legal Office",
         "description": "",
-        "address": "Via Calepina, 14, Trento, TN"
+        "address": "Via Calepina, 14, Trento, TN",
+        "id": "STO0000843"
       },
       {
-        "identifier": "STO0012899",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Architecture Division",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0012899"
       },
       {
-        "identifier": "STO0012837",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Science Libraries (Science, Engineering, Cognitive Science)",
         "description": "<p>The Science Libraries Division performs research work and bibliographic searches to develop the collections, organizes spaces and activities at the libraries of Engineering, Science and Cognitive Science, coordinates and manages user services: borrowing on site, provincial interlibrary loan, reference service, training on the library\u2019s resources and services.</p>\n",
-        "address": "Via Sommarive, 5, 38123 TN"
+        "address": "Via Sommarive, 5, 38123 TN",
+        "id": "STO0012837"
       },
       {
-        "identifier": "STO0012835",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "BUC - Central University Library",
         "description": "<p>The Central University Library (BUC) Division performs research work and bibliographical checks to develop the collections, organizes the library\u2019s spaces and activities, coordinates and manages user services: borrowing on site, provincial, national and international interlibrary loan, reference service, training on the library\u2019s resources and services.</p>\n",
-        "address": "Via Adalberto Libera, 3, Trento, TN"
+        "address": "Via Adalberto Libera, 3, Trento, TN",
+        "id": "STO0012835"
       },
       {
-        "identifier": "STO0012831",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Recruitment and Relations with Trade Unions",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0012831"
       },
       {
-        "identifier": "STO0000869",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Induction and Additional Services",
         "description": "",
-        "address": "Via Giuseppe Verdi, 6, Trento, TN"
+        "address": "Via Giuseppe Verdi, 6, Trento, TN",
+        "id": "STO0000869"
       },
       {
-        "identifier": "STO0000879",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Employee Relations and Payroll Division - Technical and Administrative Staff",
         "description": "<p>The Employee Relations and Payroll Division - Technical and Administrative Staff manages administrative procedures relating to technical and administrative staff and Language experts.</p>\n\n<p>The division ensures the proper implementation of <strong>labour law</strong>, the national collective agreement, the <strong>University Collective Agreement</strong> and other decentralized agreements (on matters like trial periods, permits, leaves of absence, parental leave, sick leave, mobility, part-time work, study permits), and drafts <strong>regulations, directives and explanatory notes</strong> in its areas of competence.</p>\n\n<p>The division prepares staff <strong>salaries</strong> and is responsible for procedures concerning <strong>tax reports, insurances, social security</strong>. In these matters, it implements social security and remuneration legislation.</p>\n\n<p>The division oversees the administrative implications of <strong>fringe benefits</strong> granted to employees.</p>\n",
-        "address": "Via Giuseppe Verdi, 6, Trento, 38122 TN"
+        "address": "Via Giuseppe Verdi, 6, Trento, 38122 TN",
+        "id": "STO0000879"
       },
       {
-        "identifier": "STO0000871",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Office of the Directorate of IT and Library Services",
         "description": "",
-        "address": "Via di Briamasco, 2, Trento, TN"
+        "address": "Via di Briamasco, 2, Trento, TN",
+        "id": "STO0000871"
       },
       {
-        "identifier": "STO0000870",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "directorate",
         "name": "Directorate of IT and Library Services",
         "description": "<p>La <strong>Direzione Servizi Digitali e Bibliotecari</strong> si occupa di:&nbsp;</p>\n\n<ul>\n\t<li>attuazione dei programmi deliberati dagli organi accademici e delle direttive del Direttore Generale, attraverso la gestione finanziaria, tecnica e amministrativa delle risorse umane, strumentali e di controllo direttamente attribuite per <strong>garantire un costante sviluppo e miglioramento della componente tecnologica</strong> dei sistemi informativi, dell\u2019accesso ad applicazioni, informazioni e servizi da parte degli utenti e l\u2019acquisizione ed utilizzo efficace ed efficiente di infrastrutture e tecnologie ICT per lo svolgimento delle funzioni proprie dell\u2019ateneo;&nbsp;&nbsp;</li>\n\t<li><strong>coordinamento e verifica delle aree di servizio</strong> presidiate dai poli e facilitazione dell\u2019integrazione con l\u2019attivit\u00e0 delle altre direzioni;</li>\n\t<li>supporto, alla luce dei bisogni di servizi ICT delle strutture, nell\u2019<strong>elaborazione di piani e programmi anche pluriennali</strong> generali e/o specifici dell\u2019area;</li>\n\t<li>elaborazione periodica di consuntivi circa i risultati conseguiti in termini di efficienza nell'impiego delle risorse e di efficacia nella gestione in relazione agli obiettivi prefissati;&nbsp;</li>\n\t<li>elaborazione dei <strong>piani e programmi di sviluppo del Sistema Bibliotecario di Ateneo</strong>;&nbsp;</li>\n\t<li>rendicontazione periodica sullo stato del Sistema Bibliotecario di Ateneo;</li>\n\t<li>predisposizione e trasmissione all\u2019Ufficio Studi dei dati di competenza per la diffusione ad organi esterni (MIUR, Nucleo di Valutazione, ecc.);</li>\n\t<li>raccolta <strong>dati statistici</strong> e indicatori statistici;</li>\n\t<li>gestione dei sistemi <strong>U-Gov IRIS</strong> e <strong>UNITN-eprints</strong>.</li>\n</ul>\n",
-        "address": "Via di Briamasco, 2, Trento, 38122 TN"
+        "address": "Via di Briamasco, 2, Trento, 38122 TN",
+        "id": "STO0000870"
       },
       {
-        "identifier": "STO0000887",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Staff Evaluation and Organization",
         "description": "",
-        "address": "Via Giuseppe Verdi, 6, Trento, TN"
+        "address": "Via Giuseppe Verdi, 6, Trento, TN",
+        "id": "STO0000887"
       },
       {
-        "identifier": "STO0000885",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Network, TLC and ICT Security",
         "description": "",
-        "address": "Via Sommarive, 9, Povo, 38123 TN"
+        "address": "Via Sommarive, 9, Povo, 38123 TN",
+        "id": "STO0000885"
       },
       {
-        "identifier": "STO0000461",
         "unitType": "ACADEMIC STRUCTURE LEVEL 2",
         "subType": "degree program",
         "name": "Doctoral programme \u2013 Mathematics",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0000461"
       },
       {
-        "identifier": "STO0000482",
         "unitType": "ACADEMIC STRUCTURE LEVEL 2",
         "subType": "graduate school",
         "name": "Diploma Course in Social Work",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0000482"
       },
       {
-        "identifier": "STO0012548",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Diversity Management",
         "description": "<ul>\n\t<li>Assists the Vice Rector for equality and diversity policies in the management and development of institutional relations and in carrying out their functions;</li>\n\t<li>promotes good practices to manage diversity;</li>\n\t<li>assists and coordinates the departments' delegates on equality policies;</li>\n\t<li>provides organizational support to the Committee for equal opportunities;</li>\n\t<li>provides assistance to the working table including all bodies engaged in anti-discrimination policies (for example: the Committee for equal opportunities, the Vice Rector for equality and diversity policies, the Rector\u2019s delegate for Organizational well-being, the Confidential counsellor, the Committee for the implementation of the Code of Ethics);</li>\n\t<li>serves as a support and liaison office for working groups in the area of equality and diversity: for example the working group on ethnic differences, the working group on disabilities, the working group on work-life balance;</li>\n\t<li>liaises with the Human Resources and Organization Directorate in the design of work-life balance policies.</li>\n</ul>\n",
-        "address": "Via Calepina, 14, Trento, TN"
+        "address": "Via Calepina, 14, Trento, TN",
+        "id": "STO0012548"
       },
       {
-        "identifier": "STO0012559",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Information services in support of academic activities",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0012559"
       },
       {
-        "identifier": "STO0012557",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Infrastructure, Collaboration and ICT Security Services Division",
         "description": "<p>The division designs, oversees and manages the <strong>infrastructure of technological services </strong>of the University: Network, Data Center, Audio and Video technology, Mail and Collaboration software. It makes an assessment of requirements, finds possible solutions and options for their upgrade.</p>\n\n<p>It supports the implementation of <strong>business continuity and ICT security plans</strong>: it is in charge of the <strong>CERT </strong>service (overseeing policies and procedures in matters of security, risk assessment, incident and escalation management) and of the <strong>on-call </strong>service.</p>\n\n<p>It also collects and publishes information, service quality benchmarks, statistical data, technical documents and manuals.</p>\n",
-        "address": "Via Sommarive, 14, 38123 Povo TN"
+        "address": "Via Sommarive, 14, 38123 Povo TN",
+        "id": "STO0012557"
       },
       {
-        "identifier": "STO0012568",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "International Mobility Office - Science and technology area",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0012568"
       },
       {
-        "identifier": "STO0012564",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "International Relations",
         "description": "<p>The division monitors the network of international inter-university consortia, oversees mobility and cooperation programmes, supports departments and centres when they join initiatives launched by ministries and other public and private organizations.</p>\n\n<p>It works side by side with the Prorector for international development, including on financial matters.</p>\n\n<p>The division plans international mobility and cooperation initiatives, supports the Jean Monnet Centre with the programmes and events it promotes, is responsible for bi- and multilateral agreements for student, faculty and staff mobility.</p>\n\n<p>It promotes international programmes, writes texts to advertise international courses, oversees institutional communication for international mobility and cooperation programmes through the University website, it elaborates and disseminates data and documents for governance bodies.</p>\n",
-        "address": "Via Giuseppe Verdi, 6, Trento, 38122 TN"
+        "address": "Via Giuseppe Verdi, 6, Trento, 38122 TN",
+        "id": "STO0012564"
       },
       {
-        "identifier": "STO0012563",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Middleware development",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0012563"
       },
       {
-        "identifier": "STO0012560",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Emerging solutions",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0012560"
       },
       {
-        "identifier": "STO0008301",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "unit",
         "name": "International mobility",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0008301"
       },
       {
-        "identifier": "STO0004803",
         "unitType": "ACADEMIC STRUCTURE LEVEL 2",
         "subType": "degree program",
         "name": "Doctoral programme - Economics and management (Doctoral School of Social Sciences)",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0004803"
       },
       {
-        "identifier": "STO0000946",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Branding and Graphic Design Office",
         "description": "",
-        "address": "via Calepina, 14 - 38122 Trento"
+        "address": "via Calepina, 14 - 38122 Trento",
+        "id": "STO0000946"
       },
       {
-        "identifier": "STO0000903",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Contracts and Procurement Division",
         "description": "<p>The Contracts and Procurement Division supports all University offices in <strong>preparing the documents</strong> for tender procedures or the award of contracts for the supply of goods and services.<br />\nIt is responsible for procedures open to public scrutiny for public procurement of works, supplies and services above EU threshold.<br />\nSupports the project manager in all public tendering procedures for the award of public work contracts.</p>\n\n<p>The Contracts and Procurement Division supervises the <strong>procedures for the purchase of goods and services </strong>below the EU threshold for the University\u2019s divisions, including through e-procurement and online tender procedures.</p>\n\n<p>It prepares and signs contracts for <strong>the outsourcing of services</strong> below the EU threshold and supervises the procedures leading to open contracts/framework agreements below EU threshold for consumer goods.</p>\n",
-        "address": "Via Antonio Rosmini, 70, Trento, 38122 TN"
+        "address": "Via Antonio Rosmini, 70, Trento, 38122 TN",
+        "id": "STO0000903"
       },
       {
-        "identifier": "STO0000902",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "division",
         "name": "Buildings Managementand Maintenance Division",
         "description": "<p>Among the responsibilities of the Buildings Managementand Maintenance Division are <strong>routine and non-routine maintenance services</strong>, the University\u2019s <strong>energy saving policy</strong>, contracts for <strong>planned maintenance</strong>, the management of <strong>urban services</strong>, the <strong>on-call service</strong>.</p>\n\n<p>The division also oversees the correct implementation of <strong>internal safety rules</strong> and procedures in all University premises, in collaboration with&nbsp;Environmental and safety services.&nbsp;</p>\n\n<p>It maintains the archive of <strong>as built plans</strong> and all the <strong>declarations of conformity</strong> under law 46/99.&nbsp;</p>\n",
-        "address": "Via Antonio Rosmini, 70, Trento, 38122 TN"
+        "address": "Via Antonio Rosmini, 70, Trento, 38122 TN",
+        "id": "STO0000902"
       },
       {
-        "identifier": "STO0000901",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Administration and Accounting Office - Estates Directorate",
         "description": "",
-        "address": "Via Antonio Rosmini, 70, Trento, TN"
+        "address": "Via Antonio Rosmini, 70, Trento, TN",
+        "id": "STO0000901"
       },
       {
-        "identifier": "STO0000905",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "office",
         "name": "Building management - Rovereto and Mattarello",
         "description": "",
-        "address": "Via delle Regole, 101, Mattarello, TN"
+        "address": "Via delle Regole, 101, Mattarello, TN",
+        "id": "STO0000905"
       },
       {
-        "identifier": "STO0012999",
         "unitType": "ACADEMIC STRUCTURE LEVEL 2",
         "subType": "degree program",
         "name": "Doctoral Program in Agrifood and Environmental Sciences (D.M.45/2013)",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0012999"
       },
       {
-        "identifier": "STO0002401",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "unit",
         "name": "Circolo Ricreativo Universit\u00e0 - CRU (University Recreation Centre)",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0002401"
       },
       {
-        "identifier": "STO0008663",
         "unitType": "ACADEMIC STRUCTURE",
         "subType": "academic center",
         "name": "Center for Mind/Brain Sciences - CIMeC",
         "description": "<p>The research areas at the Center for Mind/Brain Sciences - CIMeC span from <strong>experimental psychology</strong> and <strong>neuroimaging acquisition methods</strong> to <strong>cognitive neurosciences</strong> and <strong>animal cognition</strong> to <strong>computational linguistics</strong>. The Centre is composed of the departments of Psychology and Cognitive science, Humanities, Mathematics, Physics, Information engineering and computer science.</p>\n\n<p>The Centre offers a <strong>Master\u2019s degree</strong> and a PhD course which give students excellent employment opportunities once they have completed their studies, and this is possible thanks to a strong empirical approach at all levels.</p>\n\n<p>CIMeC has been recently ranked as the <strong>leading research unit in Cognitive neuroscience in Italy</strong>.</p>\n",
-        "address": "Corso Bettini, 31, Rovereto, 38068 TN"
+        "address": "Corso Bettini, 31, Rovereto, 38068 TN",
+        "id": "STO0008663"
       },
       {
-        "identifier": "STO0008621",
         "unitType": "ACADEMIC STRUCTURE",
         "subType": "academic department",
         "name": "Department of Economics and Management",
         "description": "<p>Research at the Department of Economics and Management covers a wide range of sectors in the economics and management area and its members adopt different perspectives that include <strong>theoretical and experimental research, quantitative and experimental methods, case-study analysis and computer simulations</strong>.</p>\n\n<p>The department is home to a <strong>multidisciplinary research environment</strong> where researchers apply a vast array of different approaches to investigate:</p>\n\n<ul>\n\t<li>Business ethics, social enterprises and social innovation</li>\n\t<li>Decision making and economic choices</li>\n\t<li>Financial markets and economic activity</li>\n\t<li>Firm behaviour, strategic management and organization</li>\n\t<li>Household and labour economics</li>\n\t<li>Institutions, norms and economic policies</li>\n\t<li>Tourism, Environment, Sustainable Business and Consumption</li>\n</ul>\n\n<p>The department is renowned for its <strong>high quality teaching</strong> and its graduates enjoy a high employment rate. Among other things, it offers many study options.</p>\n",
-        "address": "Via Vigilio Inama, 5, Trento, 38122 TN"
+        "address": "Via Vigilio Inama, 5, Trento, 38122 TN",
+        "id": "STO0008621"
       },
       {
-        "identifier": "STO0008632",
         "unitType": "ACADEMIC STRUCTURE",
         "subType": "academic department",
         "name": "Department of Humanities",
         "description": "<p>The department promotes, coordinates and manages teaching and research in the area of humanities, and specifically in literature, linguistics, philology, philosophy, history and cultural heritage.<br />\nResearch in the Department of Humanities encompasses two areas:</p>\n\n<ul>\n\t<li>philosophy, history and cultural heritage</li>\n\t<li>language, philology and literature</li>\n</ul>\n\n<h2>Philosophy, history and cultural heritage</h2>\n\n<p>Researchers in the area of philosophy study the history of <strong>philosophy, from the ancient world to contemporary philosophical issues</strong> and, with a more theoretical approach, examine issues pertaining to ethics, aesthetics, and political philosophy. Specific attention is devoted to theological studies and interreligious dialogue.</p>\n\n<p>In the area of <strong>history</strong>, research interests are focused on the <strong>history of institutions and public administration</strong>, <strong>social and communication structures</strong>, the i<strong>nteraction between history and culture</strong>. Particular interest is paid to the Alpine regions and the relationships between the Italian and Germanic worlds. From a more theoretical point of view, specific studies are dedicated to the means of disseminating the historical memory - at individual and collective levels - and to the relationship between historical research and political ideologies.</p>\n\n<p>In the area of cultural heritage, research activities focus on three main strands: <strong>archaeology, history of art, and music</strong>.</p>\n\n<h2>Language, Philology and Literature</h2>\n\n<p>Research in these areas focuses on texts and their contexts.</p>\n\n<p>As regards languages, the department fosters research in <strong>English, German, French, Russian, and Spanish</strong>, both from a <strong>historical</strong> point of view (the study of literature) and a <strong>synchronic</strong> point of view (the study of spoken languages).</p>\n\n<p><strong>Philology and literature</strong> are closely tied subjects, following the best Italian and European traditions. Research interests are divided in two main areas: the <strong>classical and medieval traditions</strong>, both Latin and vernacular, and <strong>contemporary literature</strong>, explored in a comparative and theoretical perspective.</p>\n\n<p>Two laboratories support research in these areas: one is devoted to the study of European cultural journals (<strong>CIRCE</strong>: Catalogo Informatico delle Riviste Culturali Europee), the other to contemporary poetry studies (<strong>SEMPER</strong>: Seminario Permanente di Poesia). Two journals are published by scholars working in this area: \u201cOsservatorio critico della germanistica\u201d (German studies) and \u201cTicontre\u201d (Theory, Text, Translation).</p>\n\n<p>The department has recently expanded its <strong>course offer</strong>, which now includes 4 undergraduate degrees and 9 master\u2019s degrees. Students also have the opportunity to participate in <strong>training and internship programmes</strong>, spend study periods in other European universities and take the <strong>double degree programme with the University of Dresden</strong>.</p>\n",
-        "address": "Via Tomaso Gar, 14, Trento, TN"
+        "address": "Via Tomaso Gar, 14, Trento, TN",
+        "id": "STO0008632"
       },
       {
-        "identifier": "STO0008624",
         "unitType": "ACADEMIC STRUCTURE",
         "subType": "academic department",
         "name": "Faculty of Law",
         "description": "<p>The Faculty of Law promotes, coordinates and manages teaching and research in the area of legal studies. It is committed to publish and disseminate the results of research, and supports the circulation of knowledge ensuring full and open access to scientific literature. For this purpose, it organizes seminars, conferences and meetings with a scientific approach.</p>\n\n<p>Research at the Faculty of Law involves a <strong>wide range of subjects</strong>, and this favours the development of individual research areas while strengthening the fundamental integrity of the department. Research work is organized into the following areas: administrative law, civil procedure law, commercial law, comparative law, criminal law, criminal procedure, economics, history of law, canon law, ecclesiastical law, history of political doctrines, international law, labour law, philosophy of law, private law, public law, Roman and antique law, sociological-juridical studies, European law, tax law, biolaw, environmental law, food law, constitutional law, sociology of law, deviance and social change.</p>\n\n<p>The Faculty offers a five-year <strong>Master\u2019s degree in Law</strong>, which includes:</p>\n\n<ul>\n\t<li>additional, advanced and specialization courses to improve teaching</li>\n\t<li>practical workshops</li>\n\t<li>annual programming of courses, to keep up with the current perspectives of European legal professionals</li>\n\t<li>international programmes and an international teaching staff</li>\n\t<li>international mobility opportunities for students</li>\n\t<li>courses aimed at improving language and IT skills</li>\n\t<li>internship opportunities, in Italy and abroad</li>\n</ul>\n\n<p>The Faculty of Law is a member of the School of International Studies and participates in its <strong>interdisciplinary Master\u2019s programme in European and International Studies</strong>, which provides students with knowledge in economics, politics, sociology. This Master does not prepare for legal professions, but gives students an essential legal background to work in other sectors. It also participates, with a number of modules, in courses offered by the Departments of Economics and Management, Sociology and Social Research, Humanities and Engineering. The Faculty of Law has recently launched a three-year degree programme in <strong>Comparative, European and International Legal Studies</strong> (CEILS), whose main features are:</p>\n\n<ul>\n\t<li>the limited number of places available (50)</li>\n\t<li>English taught courses</li>\n\t<li>a strong focus on comparative law</li>\n\t<li>an international and transnational approach, in terms of language and contents, for both Italian and foreign students</li>\n</ul>\n\n<p>The Faculty also offers, organizes and manages a <strong>Doctoral Programme in Comparative and European Legal Studies</strong>.</p>\n",
-        "address": "Via Giuseppe Verdi, 53, 38122 Trento"
+        "address": "Via Giuseppe Verdi, 53, 38122 Trento",
+        "id": "STO0008624"
       },
       {
-        "identifier": "STO0008629",
         "unitType": "ACADEMIC STRUCTURE",
         "subType": "academic department",
         "name": "Department of Information Engineering and Computer Science",
         "description": "<p>The Department of Information Engineering and Computer Science (DISI), founded in 2002, is a <strong>leading institution in research and development in the area of Information and Communication Technology</strong> (ICT) &nbsp;both locally and internationally. DISI &nbsp;is searching for an optimal <strong>balance between theoretical and applied research</strong>, as is shown by the strong &nbsp;achievement in European and industrial projects, by playing a &nbsp;key role to develop several &nbsp; initiatives with the European Institute of Innovation and Technology (EIT).<br />\n&nbsp;<br />\nThe department covers two main ICT fields</p>\n\n<ul>\n\t<li>Computer science</li>\n\t<li>Information Engineering &nbsp;</li>\n</ul>\n\n<p>The different subjects are offered in separate courses, with an <strong>interdisciplinary approach</strong>&nbsp;that gives students a wide rage of crucial tech skills&nbsp;to develop advanced technologies for innovative applications and services.<br />\n&nbsp;<br />\nResearch programs are &nbsp;organized into fifteen (15) areas:</p>\n\n<ul>\n\t<li>Cyber Security</li>\n\t<li>Data and Knowledge Management</li>\n\t<li>Deep and Structured Machine Learning</li>\n\t<li>Embedded Electronics and Computing Systems</li>\n\t<li>Language, Speech and Interaction</li>\n\t<li>LION - Machine Learning and Intelligent OptimizatioN</li>\n\t<li>Multimedia Signal Processing and Understanding</li>\n\t<li>Next Generation Networks</li>\n\t<li>Quantum Information and Computing</li>\n\t<li>Remote and Distributed Sensing</li>\n\t<li>Signal Processing and Recognition</li>\n\t<li>Social Informatics</li>\n\t<li>Software Engineering and Formal Methods</li>\n\t<li>Systems and Networks</li>\n\t<li>Wireless Technology and Systems</li>\n</ul>\n\n<p>\u200bDISI constantly takes part in important national and international research projects, collaborating with world-renown centers and university departments such as the Bruno Kessler Foundation, CoSBI Research Centre, Center of REsearch And Telecommunication Experimentations for NETworked communities and the National Research Council CNR.</p>\n",
-        "address": "Via Sommarive, 9, Povo, 38123 TN"
+        "address": "Via Sommarive, 9, Povo, 38123 TN",
+        "id": "STO0008629"
       },
       {
-        "identifier": "STO0008701",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "unit",
         "name": "Center for Neuroscience and Cognitive Systems@UniTn, Italian Institute of Technology, Rovereto, Italy",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0008701"
       },
       {
-        "identifier": "STO0013015",
         "unitType": "ACADEMIC STRUCTURE LEVEL 2",
         "subType": "degree program",
         "name": "Doctoral programme (D.M.45/2013) - Forms of cultural exchange",
         "description": "",
-        "address": ""
+        "address": "",
+        "id": "STO0013015"
       },
       {
-        "identifier": "STO0013038",
         "unitType": "MANAGEMENT STRUCTURE",
         "subType": "directorate",
         "name": "Directorate of Communication and External Relations",
         "description": "<p>The Directorate of Communication and External Relations oversees initiatives aimed at promoting the University, highlighting in particular its international dimension and relations with external organizations and employers.</p>\n\n<p>The directorate, in particular:</p>\n\n<ul>\n\t<li>promotes the University by strengthening and widening its participation in national and international networks and projects</li>\n\t<li>develops and monitors the University's relationships with other organizations</li>\n\t<li>manages political information from the governing bodies to the media</li>\n\t<li>manages actions aimed at the development of the University's international relations</li>\n\t<li>defines the communication plans and manages the initiatives they contain</li>\n\t<li>works for the development of web and social media communication</li>\n\t<li>develops event promotion and branding campaigns for the University as a whole and its departments and centres</li>\n\t<li>organizes scientific dissemination events</li>\n\t<li>provides support to identify new communication initiatives and tools for fundraising and for the recruitment of international students</li>\n\t<li>develops relations between the University and employers, in collaboration with academic departments and centres</li>\n\t<li>manages initiatives that bring together students, graduates and employers</li>\n\t<li>manages projects to support and develop university sport</li>\n\t<li>supports associations and groups and manages activities designed for them</li>\n\t<li>manages activities aimed at widening and consolidating the Alumni network, and at supporting Alumni associations and groups</li>\n</ul>\n\n<p>The Directorate of Communication and External Relations includes the following offices and divisions:</p>\n\n<ul>\n\t<li>International student recruitment</li>\n\t<li>Press Office and External Relations</li>\n\t<li>Web and Social Media Office</li>\n\t<li>Events, Branding and Graphic Projects Division</li>\n\t<li>Relations with employers and local organizations</li>\n\t<li>International Relations Division</li>\n\t<li>Special projects</li>\n</ul>\n",
-        "address": "Via Calepina, 14, Trento, TN, Italia"
+        "address": "Via Calepina, 14, Trento, TN, Italia",
+        "id": "STO0013038"
       }
     ]
   },
