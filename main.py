@@ -21,7 +21,7 @@ def get_initial_data(urls, filenames):
     :return: All the downloaded data and the extracted URLs
     """
     downloaded_data = []
-    URL_REGEX = r"""((?:(?:https|ftp|http)?:(?:/{1,3}|[a-z0-9%])|[a-z0-9.\-]+[.](?:it)/)(?:[^\s()<>{}\[\]]+|\([^\s()]*?\([^\s()]+\)[^\s()]*?\)|\([^\s]+?\))+(?:\([^\s()]*?\([^\s()]+\)[^\s()]*?\)|\([^\s]+?\)|[^\s`!()\[\]{};:'".,<>?«»“”‘’])|(?:(?<!@)[a-z0-9]+(?:[.\-][a-z0-9]+)*[.](?:it)\b/?(?!@)))"""
+    # URL_REGEX = r"""((?:(?:https|ftp|http)?:(?:/{1,3}|[a-z0-9%])|[a-z0-9.\-]+[.](?:it)/)(?:[^\s()<>{}\[\]]+|\([^\s()]*?\([^\s()]+\)[^\s()]*?\)|\([^\s]+?\))+(?:\([^\s()]*?\([^\s()]+\)[^\s()]*?\)|\([^\s]+?\)|[^\s`!()\[\]{};:'".,<>?«»“”‘’])|(?:(?<!@)[a-z0-9]+(?:[.\-][a-z0-9]+)*[.](?:it)\b/?(?!@)))"""
 
     for i in range(len(urls)):
         print(f"Downloading {urls[i]}...")
@@ -477,7 +477,7 @@ def start():
     set_total_size(organization_phone_dataset)
     set_total_size(organization_email_dataset)
     set_total_size(organization_website_dataset)
-    #set_total_size(organization_path_dataset)
+    # set_total_size(organization_path_dataset)
     addresses.remove('')
 
     save_dataset(data[3], 'generated/organization_en_final', 'json')

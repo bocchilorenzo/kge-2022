@@ -2313,14 +2313,14 @@
         ],
         "assistant": [
           {
-            "name": "Daniele",
-            "surname": "Bugnotti",
-            "id": "ddf205261a80192f78157995e4165c11"
-          },
-          {
             "name": "Emanuela",
             "surname": "Callone",
             "id": "3064d00d5a754d0dc4c563bdca289114"
+          },
+          {
+            "name": "Daniele",
+            "surname": "Bugnotti",
+            "id": "ddf205261a80192f78157995e4165c11"
           }
         ],
         "degreeProgram": "Materials Engineering (LM)",
@@ -2500,7 +2500,7 @@
             "unitId": "STO0008630"
           }
         ],
-        "description": "<p>.</p>",
+        "description": "<p>The course provides the main conceptual and methodological tools underlying social research concerning those behaviors that, historically and culturally, have been qualified as deviant acts. The course is divided into two sections. The first section, identified as \u201cgeneral section\u201d, introduces to the fundamental notions of the sociology of deviance, and research methods, explanations and policies related to deviant behavior and crime. The second section, indicated as \u201cmonographic section\u201d, consists of an in-depth analysis of the study of risk factors for suicide and suicide prevention \u2013 a behavior that have been for a long time stigmatized in the culture and history of western societies \u2013 and of social and psychological consequences that impact family members and relatives of suicide victims (generally identified as suicide survivors).</p>",
         "professor": [
           {
             "name": "Domenico",
@@ -3655,14 +3655,14 @@
         "description": "<h3>The course aims to</h3><ul><li>provide the basic elements of Linear Algebra, with applications to the geometry in three-dimensional space and to vector calculus.</li></ul><p><br></p><h3>At the end of the corse the student should:</h3><ul><li>have a good knowledge and understanding of the theory of finite dimensional real vector spaces, as described in the corse list of topics.</li><li>know the basic concepts, be able to explain and describe them also with examples, identify the connections between them.</li><li>be familiar with the mathematical tools which are needed to develop a suitable approach and solve Linear Algebra problems, such as, for example, operations between matrices, echelon form reduction algorithms, computation of determinants, of eigenvalues and eigenvectors.</li></ul><p><br></p>",
         "professor": [
           {
-            "name": "Anna",
-            "surname": "Fochesato",
-            "id": "8e50e359a512adc5d12f05b29ba4476c"
-          },
-          {
             "name": "Gianluca",
             "surname": "Occhetta",
             "id": "16a64b346d59ab0c12bd9c300595633d"
+          },
+          {
+            "name": "Anna",
+            "surname": "Fochesato",
+            "id": "8e50e359a512adc5d12f05b29ba4476c"
           }
         ],
         "assistant": [],
@@ -6632,14 +6632,14 @@
         "description": "We live in a world full of data. Almost every human activity nowadays produces data or needs access to data. As such, there is a need for effective and efficient solutions that will allow us to store, maintain, search and retrieve large volumes of data. This is what the data management systems do. The goal of this course is to teach the students the fundamental concepts of data  management, to train them in order to be able to design of good databases, give them the ability to build complex queries, and allow them to identify and solve performance problems in real life situations. \nNaturally the course focuses on relational databases since the relational model is the one that drives most of the existing data management systems in the industry nowadays, it has been around for more than 30 years and has been one of the most studied model, and has been the one with the most commercial tools in operation. \n",
         "professor": [
           {
-            "name": "Atefeh",
-            "surname": "Zareh Chahoki",
-            "id": "26ddd5336d198053e6cffad8ffe2862f"
-          },
-          {
             "name": "Yannis",
             "surname": "Velegrakis",
             "id": "7cc92da07568a577d6b2682d602350e5"
+          },
+          {
+            "name": "Atefeh",
+            "surname": "Zareh Chahoki",
+            "id": "26ddd5336d198053e6cffad8ffe2862f"
           }
         ],
         "assistant": [],
@@ -8503,14 +8503,14 @@
         "description": "<h3>The course aims to</h3><ul><li>provide the basic elements of Linear Algebra, with applications to the geometry in three-dimensional space and to vector calculus.</li></ul><p><br></p><h3>At the end of the corse the student should:</h3><ul><li>have a good knowledge and understanding of the theory of finite dimensional real vector spaces, as described in the corse list of topics.</li><li>know the basic concepts, be able to explain and describe them also with examples, identify the connections between them.</li><li>be familiar with the mathematical tools which are needed to develop a suitable approach and solve Linear Algebra problems, such as, for example, operations between matrices, echelon form reduction algorithms, computation of determinants, of eigenvalues and eigenvectors.</li></ul><p><br></p>",
         "professor": [
           {
-            "name": "Gianluca",
-            "surname": "Occhetta",
-            "id": "16a64b346d59ab0c12bd9c300595633d"
-          },
-          {
             "name": "Anna",
             "surname": "Fochesato",
             "id": "8e50e359a512adc5d12f05b29ba4476c"
+          },
+          {
+            "name": "Gianluca",
+            "surname": "Occhetta",
+            "id": "16a64b346d59ab0c12bd9c300595633d"
           }
         ],
         "assistant": [],
@@ -12694,7 +12694,7 @@
             "unitId": "STO0008629"
           }
         ],
-        "description": "",
+        "description": "<p>This course is aimed at providing the students with foundational knowledge on the design and the development of interfaces enabling users to interact by means of intuitive, everyday human behavior. These interfaces go further the interaction paradigms traditionally adopted in Human Computer Interaction, exploiting the richness of the human capability to interact with the world through a single or multiple modalities together.&nbsp;</p><p><br></p><p>At the end of the course, the students will acquire the following knowledge and skills:</p><p>\u00b7&nbsp;&nbsp;understanding the motivations for using such advanced interfaces, the major components they consist of, the application areas where they can be successfully exploited;</p><p>\u00b7&nbsp;&nbsp;knowing and applying technologies and algorithms for capturing, representing, and automatically analyzing the different modalities (e.g., full-body movement, touch, facial expressions, and speech) and how to integrate them in a multimodal fashion;</p><p>\u00b7&nbsp;&nbsp;analyzing specific use cases in selected scenarios;</p><p>\u00b7&nbsp;&nbsp;designing and / or implementing examples of such interfaces.</p><p><br></p><p>This course encourages students to discuss among them and with the teacher about technological approaches to the interfaces and to develop a critical attitude in addressing HCI topics. This course is delivered in English.</p>",
         "professor": [
           {
             "name": "Giovanna Paola",
@@ -19252,14 +19252,14 @@
         "description": "<p>The instructional goals of the course is to acquire a comprehensive overview of the distributed systems for measurement and automation used today in industrial and service application domains. The course focuses on the most advanced technological solutions adopted in industry as well as on the theoretical aspects that arise when control or estimation are applied in a distributed context. Particular emphasis will be given to robotic perception using Artificial Intelligence techniques to be applied to robotic problems.</p><p>During the course, the focus will be on the design and implementation of distributed estimators to be used for intelligent autonomous systems in industrial and service environments, analyzing the resulting problems from both a practical and theoretical point of view. Examples of the application of these techniques on real or realistic systems will be presented during the course.</p><p>At the end of the course, the student will be able to:</p><p>- Understand the complexity, the issues and the potentialities of distributed systems;</p><p>- Compare the various different technological solutions available for a distributed system;</p><p>- Evaluate and analyze the practical and theoretical implications of a distributed measurement and/or perception system;</p><p>- Analyse and design the distributed solution for a particular system;</p><p>- Critically asses the benefits and the limitations of a distributed solution.</p>",
         "professor": [
           {
-            "name": "Luca",
-            "surname": "Santoro",
-            "id": "6906ec6aa9f8db99be031996edfde5e4"
-          },
-          {
             "name": "Daniele",
             "surname": "Fontanelli",
             "id": "e86ca7bd6be44ef197ba63cc843d20c7"
+          },
+          {
+            "name": "Luca",
+            "surname": "Santoro",
+            "id": "6906ec6aa9f8db99be031996edfde5e4"
           },
           {
             "name": "David",
@@ -19469,14 +19469,14 @@
         "description": "",
         "professor": [
           {
-            "name": "Jorge",
-            "surname": "Jovicich",
-            "id": "22e1177f6956cb666e44a776085edd2f"
-          },
-          {
             "name": "Daniel",
             "surname": "Baldauf",
             "id": "0437953f76cf5c88990e1b3a6fe86e89"
+          },
+          {
+            "name": "Jorge",
+            "surname": "Jovicich",
+            "id": "22e1177f6956cb666e44a776085edd2f"
           }
         ],
         "assistant": [],
@@ -20196,14 +20196,14 @@
         "description": "The course offers a bird-eye view on the most important topics related to modern robotics, highlighting the main problems that need to be faced in order to make the robots operate correctly in the environment. Specifically, the course will cover the following topics: taxonomy of the different types of robots, physical modelling of robots (direct and inverse kinematics and dynamics), simulation of models, sensing and actuation solutions for perception and action.\nUsing the developed models, the most famous methodologies to control robot motion and interaction, will be presented. These methods will be first studied in theory, and then implemented in simulation (with the Python language) to gain practical experience.\nAttention will be also paid to illustrate the most common non idealities and issues that are present when controlling robots. The course will adopt a combination of simulation models and lab experiences to consolidate the knowledge transmitted during the theoretical lessons.\nAfter completing the course, students will be able to:\n- select the most suitable sensors and actuators for a given robotic application\n- model the kinematics and dynamics any kind of robot\n- understand the working principles of several control algorithms for robotic systems\n- choose the appropriate approach(es) to control a specific system for a given target application\n- implement, tune, and test control algorithms with the Python language",
         "professor": [
           {
-            "name": "Matteo",
-            "surname": "Saveriano",
-            "id": "12cd8503143a7936020bcf997a4781be"
-          },
-          {
             "name": "Michele",
             "surname": "Focchi",
             "id": "55198852c5b9a81a52c83704ad83738b"
+          },
+          {
+            "name": "Matteo",
+            "surname": "Saveriano",
+            "id": "12cd8503143a7936020bcf997a4781be"
           }
         ],
         "assistant": [],
@@ -21739,6 +21739,16 @@
         "description": "<p>The course aims at explaining the opportunities that high-throughput technologies give in the analysis of genomes and of transcriptomes, being introduced to the concepts and tools of Precision Medicine. The course will focus on DNA microarrays, Next Generation Sequencing technologies and Next-Next Generation Sequencing technologies, their problems and perspectives. At the end of this course students will be able to: \u2022\tDistinguish between high-throughput and high-multiplexity technologies. \u2022\tList different high-throughput technologies. \u2022\tRelate low-throughput techniques based on nucleic acids hybridization. \u2022\tDescribe a microarray experiment. \u2022\tList different uses of microarrays: SNP-typing, CGH-arrays, gene expression analysis. \u2022\tRelate the history of microarray techniques. \u2022\tIllustrate fabrication methods of spotted, Agilent and Affymetrix, bead-based microarrays. \u2022\tDiscuss differences between Agilent and Affymetrix microarrays. \u2022\tDiscuss experimental design for microarray experiments. \u2022\tExplain the use of biological replicates and technical replicates. \u2022\tList and explain different steps in data analysis for microarray experiments. \u2022 Explain the need for normalization and the possible strategies for normalization of microarray data. \u2022\tIllustrate the difference between ratios and fold changes in the identification of differentially expressed genes. \u2022\tPerform cluster analysis of gene expression data. \u2022\tDescribe what a pathway analysis is and perform it. \u2022\tUse biological databases and gene ontology in data analysis. \u2022\tIllustrate the Sanger sequencing method and its direct evolution, the automated DNA sequencing. \u2022\tDistinguish between Sanger sequencing, Next Generation Sequencing (NGS) and Next-Next Generation Sequencing (NNGS). \u2022\tSchematise the phases of NGS. \u2022\tList different applications of NGS and different genome enrichment methods. \u2022\tIllustrate the workflow of template preparation for NGS. \u2022\tDescribe emulsion PCR methods for library preparation. \u2022\tIllustrate Quality Control and Library Preparation for NGS. \u2022\tIllustrate different NGS techniques, their features (read length, run time and maximum throughput) and discuss their advantages and disadvantages: the Roche 454 Pyrosequencing, the SOLiD, the IonProton, the Illumina NGS. \u2022\tDescribe how to multiplex and illustrate paired-end sequencing in Illumina NGS. \u2022\tIllustrate NNGS techniques: the PacBio, the Helicos, the Oxford Nanopore. \u2022\tIllustrate NGS applications in Metagenomics. \u2022\tIllustrate NGS applications in Medical Genomics. \u2022\tIllustrate Singe Cell Sequencing and Spatial Transcriptomics techniques. Bioinformatics approaches to retrieve biological information from publicly available RNA-seq data. Performing RNA-seq data analyses by applying specific tools through the terminal as well as through R packages in R Studio. Analyzing NGS data to assess quality in order to properly tune accurate reads mapping and from there calculate differentially expressed genes (DEGs), which can be used as input for several activities: clustering analyses, GO and pathways' identification, Gene Set Enrichment analysis (GSEA), to name a few. </p>",
         "professor": [
           {
+            "name": "Michela Alessandra",
+            "surname": "Denti",
+            "id": "f1725c9d067decc31e9c437572815d14"
+          },
+          {
+            "name": "Toma",
+            "surname": "Tebaldi",
+            "id": "456c6c24fcb6a79c46a4d8c821743fd2"
+          },
+          {
             "name": "Veronica",
             "surname": "De Sanctis",
             "id": "fe84a0377e83fecc57f7472228e9e06e"
@@ -21747,16 +21757,6 @@
             "name": "Erik",
             "surname": "Dassi",
             "id": "ca56af68877e89f41d0ad6c25376301a"
-          },
-          {
-            "name": "Toma",
-            "surname": "Tebaldi",
-            "id": "456c6c24fcb6a79c46a4d8c821743fd2"
-          },
-          {
-            "name": "Michela Alessandra",
-            "surname": "Denti",
-            "id": "f1725c9d067decc31e9c437572815d14"
           }
         ],
         "assistant": [
@@ -24300,26 +24300,6 @@
         "webSite": "https://www.esse3.unitn.it/Guide/PaginaADContest.do?ad_cont_id=10114*87758*2022*2008*10003"
       },
       {
-        "name": "Diritto del lavoro pubblico",
-        "department": [
-          {
-            "unitName": "Faculty of Law",
-            "unitId": "STO0008624"
-          }
-        ],
-        "description": "<p>-</p>",
-        "professor": [
-          {
-            "name": "Riccardo",
-            "surname": "Salomone",
-            "id": "7b235c7ec8fdce80c0d6116775867b4a"
-          }
-        ],
-        "assistant": [],
-        "degreeProgram": "Giurisprudenza (LM5)",
-        "webSite": "https://www.esse3.unitn.it/Guide/PaginaADContest.do?ad_cont_id=10055*85145*2022*2011*9999"
-      },
-      {
         "name": "Blockchain",
         "department": [
           {
@@ -24344,6 +24324,26 @@
         ],
         "degreeProgram": "INFORMATICA (LM)",
         "webSite": "https://www.esse3.unitn.it/Guide/PaginaADContest.do?ad_cont_id=10117*96061*2022*2011*10000"
+      },
+      {
+        "name": "Diritto del lavoro pubblico",
+        "department": [
+          {
+            "unitName": "Faculty of Law",
+            "unitId": "STO0008624"
+          }
+        ],
+        "description": "<p>-</p>",
+        "professor": [
+          {
+            "name": "Riccardo",
+            "surname": "Salomone",
+            "id": "7b235c7ec8fdce80c0d6116775867b4a"
+          }
+        ],
+        "assistant": [],
+        "degreeProgram": "Giurisprudenza (LM5)",
+        "webSite": "https://www.esse3.unitn.it/Guide/PaginaADContest.do?ad_cont_id=10055*85145*2022*2011*9999"
       },
       {
         "name": "Tecnica delle costruzioni",
@@ -24567,14 +24567,14 @@
         "description": "The course offers a bird-eye view on the most important topics related to modern robotics, highlighting the main problems that need to be faced in order to make the robots operate correctly in the environment. Specifically, the course will cover the following topics: taxonomy of the different types of robots, physical modelling of robots (direct and inverse kinematics and dynamics), simulation of models, sensing and actuation solutions for perception and action.\nUsing the developed models, the most famous methodologies to control robot motion and interaction, will be presented. These methods will be first studied in theory, and then implemented in simulation (with the Python language) to gain practical experience.\nAttention will be also paid to illustrate the most common non idealities and issues that are present when controlling robots. The course will adopt a combination of simulation models and lab experiences to consolidate the knowledge transmitted during the theoretical lessons.\nAfter completing the course, students will be able to:\n- select the most suitable sensors and actuators for a given robotic application\n- model the kinematics and dynamics any kind of robot\n- understand the working principles of several control algorithms for robotic systems\n- choose the appropriate approach(es) to control a specific system for a given target application\n- implement, tune, and test control algorithms with the Python language",
         "professor": [
           {
-            "name": "Matteo",
-            "surname": "Saveriano",
-            "id": "12cd8503143a7936020bcf997a4781be"
-          },
-          {
             "name": "Michele",
             "surname": "Focchi",
             "id": "55198852c5b9a81a52c83704ad83738b"
+          },
+          {
+            "name": "Matteo",
+            "surname": "Saveriano",
+            "id": "12cd8503143a7936020bcf997a4781be"
           }
         ],
         "assistant": [],
@@ -31138,14 +31138,14 @@
             "id": "26347fc0ca1739f863f2fbfd85b05e6b"
           },
           {
-            "name": "Andrea",
-            "surname": "Ferigo",
-            "id": "c13632955baf56f579cd92a75c7109ce"
-          },
-          {
             "name": "Leonardo Lucio",
             "surname": "Custode",
             "id": "22b7d51df4cca996546fd0eb672d7fd6"
+          },
+          {
+            "name": "Andrea",
+            "surname": "Ferigo",
+            "id": "c13632955baf56f579cd92a75c7109ce"
           }
         ],
         "assistant": [],
@@ -32604,14 +32604,14 @@
         "description": "The course offers a bird-eye view on the most important topics related to modern robotics, highlighting the main problems that need to be faced in order to make the robots operate correctly in the environment. Specifically, the course will cover the following topics: taxonomy of the different types of robots, physical modelling of robots (direct and inverse kinematics and dynamics), simulation of models, sensing and actuation solutions for perception and action.\nUsing the developed models, the most famous methodologies to control robot motion and interaction, will be presented. These methods will be first studied in theory, and then implemented in simulation (with the Python language) to gain practical experience.\nAttention will be also paid to illustrate the most common non idealities and issues that are present when controlling robots. The course will adopt a combination of simulation models and lab experiences to consolidate the knowledge transmitted during the theoretical lessons.\nAfter completing the course, students will be able to:\n- select the most suitable sensors and actuators for a given robotic application\n- model the kinematics and dynamics any kind of robot\n- understand the working principles of several control algorithms for robotic systems\n- choose the appropriate approach(es) to control a specific system for a given target application\n- implement, tune, and test control algorithms with the Python language",
         "professor": [
           {
-            "name": "Matteo",
-            "surname": "Saveriano",
-            "id": "12cd8503143a7936020bcf997a4781be"
-          },
-          {
             "name": "Michele",
             "surname": "Focchi",
             "id": "55198852c5b9a81a52c83704ad83738b"
+          },
+          {
+            "name": "Matteo",
+            "surname": "Saveriano",
+            "id": "12cd8503143a7936020bcf997a4781be"
           }
         ],
         "assistant": [],
@@ -33192,14 +33192,14 @@
         "description": "1. Knowledge and understanding\nIn-depth knowledge of the basic methods of the calculus for functions of one variable, as specified by the course program. Ability to analyze and understand the main characteristics of differentiable and integrable real value functions. Ability to apply the methods to concrete problems and other scientific or industrial problems.\n\n2. Ability to apply knowledge and understanding\nAbility of inductive and deductive reasoning in dealing with problems of the nature of the analysis of functions. Ability to set up a problem and solve it using appropriate analysis tools.\n\n3. Autonomy of judgment\nAbility to develop logical arguments, to understand when a proof is rigorous and complete, and to extend and produce minor extensions of the proofs seen in the course. Ability to identify the most appropriate methods for analyzing and interpreting problems.\n\n4. Learning skills\nAbility to acquire and manage new information starting from the statements and proofs developed in the lectures.\n",
         "professor": [
           {
-            "name": "Sara",
-            "surname": "Sottile",
-            "id": "10658e775a0ab2f5ae1e969adb39da84"
-          },
-          {
             "name": "Andrea",
             "surname": "Pugliese",
             "id": "4ebce8bd72ad01aa8cadadd7c1c98653"
+          },
+          {
+            "name": "Sara",
+            "surname": "Sottile",
+            "id": "10658e775a0ab2f5ae1e969adb39da84"
           }
         ],
         "assistant": [],
@@ -39631,14 +39631,14 @@
             "id": "edb9b55959fb0277cdba087d2125435a"
           },
           {
-            "name": "Daniele",
-            "surname": "Fontanelli",
-            "id": "e86ca7bd6be44ef197ba63cc843d20c7"
-          },
-          {
             "name": "Luca",
             "surname": "Santoro",
             "id": "6906ec6aa9f8db99be031996edfde5e4"
+          },
+          {
+            "name": "Daniele",
+            "surname": "Fontanelli",
+            "id": "e86ca7bd6be44ef197ba63cc843d20c7"
           }
         ],
         "assistant": [],
@@ -51337,6 +51337,26 @@
             "id": "e1b195e2a1276ed62f6c74715b945726"
           },
           {
+            "name": "Luca",
+            "surname": "Fava",
+            "id": "e55d4618af3fa8e2b04ed4e253e5838e"
+          },
+          {
+            "name": "Manuela",
+            "surname": "Basso",
+            "id": "4cb565fb0660b2b3feecdcfcbb5def88"
+          },
+          {
+            "name": "Enrico",
+            "surname": "Domenici",
+            "id": "3887db670d203ed38152d40495e68f06"
+          },
+          {
+            "name": "Flavia",
+            "surname": "Ravelli",
+            "id": "3f7e458911b838881af20ab5b1943387"
+          },
+          {
             "name": "Riccardo",
             "surname": "Ceccato",
             "id": "af4a7c4f52e844a830a3e1dcb82005a9"
@@ -53176,6 +53196,26 @@
         "webSite": "https://www.esse3.unitn.it/Guide/PaginaADContest.do?ad_cont_id=10117*90643*2022*2011*10001"
       },
       {
+        "name": "Organizzazione e gestione aziendale",
+        "department": [
+          {
+            "unitName": "Department of Information Engineering and Computer Science",
+            "unitId": "STO0008629"
+          }
+        ],
+        "description": "",
+        "professor": [
+          {
+            "name": "Marco",
+            "surname": "Formentini",
+            "id": "39f60862ebc77c45c1cb1c1b70ecc7f2"
+          }
+        ],
+        "assistant": [],
+        "degreeProgram": "Ingegneria Informatica, delle Comunicazioni ed Elettronica (L2)",
+        "webSite": "https://www.esse3.unitn.it/Guide/PaginaADContest.do?ad_cont_id=10712*94273*2022*2019*9999"
+      },
+      {
         "name": "Reti logiche",
         "department": [
           {
@@ -53200,26 +53240,6 @@
         ],
         "degreeProgram": "Ingegneria Informatica, delle Comunicazioni ed Elettronica (L2)",
         "webSite": "https://www.esse3.unitn.it/Guide/PaginaADContest.do?ad_cont_id=10712*94277*2022*2019*9999"
-      },
-      {
-        "name": "Organizzazione e gestione aziendale",
-        "department": [
-          {
-            "unitName": "Department of Information Engineering and Computer Science",
-            "unitId": "STO0008629"
-          }
-        ],
-        "description": "",
-        "professor": [
-          {
-            "name": "Marco",
-            "surname": "Formentini",
-            "id": "39f60862ebc77c45c1cb1c1b70ecc7f2"
-          }
-        ],
-        "assistant": [],
-        "degreeProgram": "Ingegneria Informatica, delle Comunicazioni ed Elettronica (L2)",
-        "webSite": "https://www.esse3.unitn.it/Guide/PaginaADContest.do?ad_cont_id=10712*94273*2022*2019*9999"
       },
       {
         "name": "Applied Cryptography",
@@ -54133,6 +54153,11 @@
         "description": "<p>The goal of this course is to provide the fundamentals of numerical optimization. We will focus on various kinds of optimization techniques, ranging from continuous to discrete optimization methods, including global and local search methods, derivative-based and derivative-free algorithms, as well as traditional operational research techniques such as those used for solving integer programming, linear programming, and quadratic programming problems. We will address both theoretical and practical considerations, complementing each lecture on the theory with a dedicated lab. During the labs, the students will have the opportunity to test the various techniques on synthetic and real-world optimization problems.</p><p>At the end of this course, the students will be familiar with the fundamentals of numerical optimization, and will be able to apply various kinds of optimization algorithms to different contexts. They will also know the basic theory needed for developing new algorithms, or adapting/tuning them to handle new problems.</p>",
         "professor": [
           {
+            "name": "Andrea",
+            "surname": "Ferigo",
+            "id": "c13632955baf56f579cd92a75c7109ce"
+          },
+          {
             "name": "Leonardo Lucio",
             "surname": "Custode",
             "id": "22b7d51df4cca996546fd0eb672d7fd6"
@@ -54141,11 +54166,6 @@
             "name": "Giovanni",
             "surname": "Iacca",
             "id": "26347fc0ca1739f863f2fbfd85b05e6b"
-          },
-          {
-            "name": "Andrea",
-            "surname": "Ferigo",
-            "id": "c13632955baf56f579cd92a75c7109ce"
           }
         ],
         "assistant": [],
@@ -54656,14 +54676,14 @@
         "description": "<p>The instructional goals of the course is to acquire a comprehensive overview of the distributed systems for measurement and automation used today in industrial and service application domains. The course focuses on the most advanced technological solutions adopted in industry as well as on the theoretical aspects that arise when control or estimation are applied in a distributed context. Particular emphasis will be given to robotic perception using Artificial Intelligence techniques to be applied to robotic problems.</p><p>During the course, the focus will be on the design and implementation of distributed estimators to be used for intelligent autonomous systems in industrial and service environments, analyzing the resulting problems from both a practical and theoretical point of view. Examples of the application of these techniques on real or realistic systems will be presented during the course.</p><p>At the end of the course, the student will be able to:</p><p>- Understand the complexity, the issues and the potentialities of distributed systems;</p><p>- Compare the various different technological solutions available for a distributed system;</p><p>- Evaluate and analyze the practical and theoretical implications of a distributed measurement and/or perception system;</p><p>- Analyse and design the distributed solution for a particular system;</p><p>- Critically asses the benefits and the limitations of a distributed solution.</p>",
         "professor": [
           {
-            "name": "Luca",
-            "surname": "Santoro",
-            "id": "6906ec6aa9f8db99be031996edfde5e4"
-          },
-          {
             "name": "Daniele",
             "surname": "Fontanelli",
             "id": "e86ca7bd6be44ef197ba63cc843d20c7"
+          },
+          {
+            "name": "Luca",
+            "surname": "Santoro",
+            "id": "6906ec6aa9f8db99be031996edfde5e4"
           },
           {
             "name": "David",
@@ -56646,14 +56666,14 @@
         "description": "<p>The course provides an introduction to advanced topics and techniques in machine learning for natural language processing and other data modalities, covering a variety of state-of-the-art architectures and machine learning tasks, including prediction, generation, adaptation to new domains and tasks, explanation, and debugging.&nbsp; The course consists of both theoretical classes and practical sessions, in which the students learn hands-on how to (i) adapt existing architectures to specific tasks and develop new architectures from scratch, (ii)&nbsp; train and fine-tune state-of-the-art models on a wide variety of data, (iii) evaluate the quality and behaviour of the learnt models, and (iv) explore what knowledge the models acquired and how it is being used to achieve specific predictions.&nbsp; The students will be introduced to standard open source Python libraries for machine learning, chiefly scikit-learn and pytorch.&nbsp; The project assignment will touch on natural language processing in the context of the topics covered during the course.</p>",
         "professor": [
           {
-            "name": "Paolo",
-            "surname": "Rota",
-            "id": "c02faab3797c8f6990539932462e960b"
-          },
-          {
             "name": "Stefano",
             "surname": "Teso",
             "id": "93fca9330ee64ada2c4e5fc559c08a38"
+          },
+          {
+            "name": "Paolo",
+            "surname": "Rota",
+            "id": "c02faab3797c8f6990539932462e960b"
           }
         ],
         "assistant": [],
@@ -57597,14 +57617,14 @@
         "description": "Remote sensing optical and radar systems are one of the most complex information engineering systems, as they  involve many technologies and methodologies (satellites, passive sensors, radar sensors for the acquisition of images, data transmission techniques, advanced signal and image processing techniques, data storage and management techniques).\nThe course analyses the main elements of remote sensing systems and develops a basic level of competence in processing and automatic recognition of images and signals.\nThe programme is divided into 5 parts  The first part looks at remote sensing systems in general, and the principles upon which they are based.  The second part focuses on the acquistion phase of remote sensing images; covering satellites, sensors and data transmission systems.  The third part is dedicated to the automatic techniques used for the processing of remotely sensed images, and advanced methodologies for the analysis of multispectral optical images and radar images.  The fourth part of the course examines techniques for automatic recognition of remote sensing images and signals.  The final part of the course presents examples of the application of remote sensing systems and image analysis techniques to real problems.\nThe student wll also develop practical exercises in laboratory to consolidate the understanding of the theory, and gain experience of the techniques described in lectures.  There will also be some specialist seminars held by experts in the sector from national and international research institutes and from industry.",
         "professor": [
           {
-            "name": "Lorenzo",
-            "surname": "Bruzzone",
-            "id": "805c37b9a29dfeff3a1ef2b5e2258988"
-          },
-          {
             "name": "Giulio",
             "surname": "Weikmann",
             "id": "c72f3fac73b32a082ac65fc4aa336408"
+          },
+          {
+            "name": "Lorenzo",
+            "surname": "Bruzzone",
+            "id": "805c37b9a29dfeff3a1ef2b5e2258988"
           }
         ],
         "assistant": [],
@@ -58149,24 +58169,24 @@
         "description": "The landscape of robotics has gone through a deep change throughout the last decade. Up until the early years of this century, robots were seen as heavy and dangerous machines used to execute stiffly defined tasks within controlled and structured environments. The recent advances in artificial intelligence have had a profound impact on the type of tasks that a robot can perform and on the level of safety and reliability they can be executed with. Modern robots assist older adults or  impaired people, work side by side with human workers, drive on the highways with little or no assistance. This paradigm shift requires the robot to perceive and understand the situation in the surroundings, to autonomously plan a suitable course of actions for a task, and to see to its correct execution by properly reacting to unexpected events. \nTo design a machine of this complexity, engineers need several competencies tapping diverse disciplines. Robots are physical machines created by humans, so their motion can be analysed and controlled through appropriate mathematical models. Robots move in a partially known environment, so they need to create a map of their surroundings, to localise themselves within the environment, to detect, classify and recognise the different objects they interact with. Robots are required to be autonomous or sem-iautonomous, so they need the ability to decide a sequence of actions (a plan), to implement it within appropriate safety bounds and to adapt it to changes as needed. Finally, robots embed computing machines that need to be programmed through appropriate languages and frameworks. \nThe students will be introduced to each one of these different aspects and will receive the opportunity to put them into practice using our advanced educational laboratories and teaching facilities. After taking the course, they will be able to take on a career as developers of robotic applications and/or to continue with advanced studies in the area of intelligent robots.",
         "professor": [
           {
-            "name": "Michele",
-            "surname": "Focchi",
-            "id": "55198852c5b9a81a52c83704ad83738b"
-          },
-          {
             "name": "Placido",
             "surname": "Falqueto",
             "id": "403b3239ddfce4de7bce60daad8e8309"
           },
           {
-            "name": "Niculae",
-            "surname": "Sebe",
-            "id": "807331e34b2cb57353530ed5ae6bdabe"
-          },
-          {
             "name": "Luigi",
             "surname": "Palopoli",
             "id": "7348316d66d4065e0c7de8f3a6462dee"
+          },
+          {
+            "name": "Michele",
+            "surname": "Focchi",
+            "id": "55198852c5b9a81a52c83704ad83738b"
+          },
+          {
+            "name": "Niculae",
+            "surname": "Sebe",
+            "id": "807331e34b2cb57353530ed5ae6bdabe"
           }
         ],
         "assistant": [],
@@ -58594,14 +58614,14 @@
         ],
         "assistant": [
           {
-            "name": "Adolfo",
-            "surname": "Villafiorita Monteleone",
-            "id": "868e69177f28adeac133527ac8708bf1"
-          },
-          {
             "name": "Michele",
             "surname": "Bof",
             "id": "f0fecd89e79c1e09fc73d5860dc15eb3"
+          },
+          {
+            "name": "Adolfo",
+            "surname": "Villafiorita Monteleone",
+            "id": "868e69177f28adeac133527ac8708bf1"
           }
         ],
         "degreeProgram": "Informatica (L2)",
@@ -64020,14 +64040,14 @@
         "description": "This module course aims to provide students with the basic competencies in quantum mechanics physics. \n\nAt the end of the first module, students are expected to:\n\n1) understand the main difference between the physical phenomenology at the macroscopic level ( governed by the laws of classical physics) and the phenomenology at the microscopic level, where quantum mechanical behavior takes place\n\n2) understand the concept of particle-wave duality, and describe and critically analyze the main experiments which provide evidence of quantum uncertainty, wave-like properties of matter, and energy or magnetic moment quantization. \n\n3) understand the mathematical and physical significance of the wave-function and the related time-dependent and stationary Schrodinger equation.\n\n4) Solve elementary problems in quantum mechanics (particle in an infinite square well, particle in a finite square potential, ground state of the harmonic oscillator)\n\n5) understand and use the basic mathematical tools involved in physical modeling, including:\n\n- Multi-dimensional calculus: partial derivatives, multi-dimensional integral, differential operators, partial differential equations. \n\n- Basic linear algebra, including matrix diagonalization, eigenvalues, and eigenvectors, commutation relationships. \n\n- Notion of Hilbert space and its representation theory\n\n- Notion of Dirac-delta function\n\n",
         "professor": [
           {
-            "name": "Pietro",
-            "surname": "Faccioli",
-            "id": "b50ebcae12dfdd6303adcfc851e78d4c"
-          },
-          {
             "name": "Pier Luigi",
             "surname": "Cudazzo",
             "id": "7de7d8062dac9a804c12eb3e398bd638"
+          },
+          {
+            "name": "Pietro",
+            "surname": "Faccioli",
+            "id": "b50ebcae12dfdd6303adcfc851e78d4c"
           }
         ],
         "assistant": [],
@@ -68927,24 +68947,24 @@
             "id": "349740966b6c5ec79f7daa06aa89e7d3"
           },
           {
-            "name": "Cinzia",
-            "surname": "Menapace",
-            "id": "476dd515445a01177ac7cb6245d04257"
-          },
-          {
             "name": "Andrea",
             "surname": "Dorigato",
             "id": "6b5fcf96b1aacf2cc8d1bcb987c623ea"
           },
           {
-            "name": "Michele",
-            "surname": "Fedel",
-            "id": "d29f5deb0ac17cfb783eae14f64152df"
+            "name": "Cinzia",
+            "surname": "Menapace",
+            "id": "476dd515445a01177ac7cb6245d04257"
           },
           {
             "name": "Massimo",
             "surname": "Pellizzari",
             "id": "3e21e21ecbff06e09c44ad54e1aabdfe"
+          },
+          {
+            "name": "Michele",
+            "surname": "Fedel",
+            "id": "d29f5deb0ac17cfb783eae14f64152df"
           }
         ],
         "assistant": [],
