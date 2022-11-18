@@ -56,139 +56,150 @@ def scrape_esse3(url):
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; rv:106.0) Gecko/20100101 Firefox/106.0'})
     # with open('prova.html', 'w', encoding='utf-8') as f:
     #     f.write(res.text)
-
     if res.ok:
         soup = BeautifulSoup(res.text, 'lxml')
         # with open('prova3.html', "r") as f:
         #     page = f.read()
         # soup = BeautifulSoup(page, 'lxml')
         course_id = uuid.uuid4().hex
-        table_values = soup.find_all('dd')
-        teaching_units_html = soup.find(
-            id="table1").find('tbody').find_all("tr")
-        teaching_units = []
-        for i in range(len(teaching_units_html)):
-            unit = teaching_units_html[i].find_all("td")
-            unitId = uuid.uuid4().hex
-            if len(unit) < 6:
-                # Probably an error in the input, see https://www.esse3.unitn.it/Guide/PaginaADContest.do?ad_cont_id=10661*94459*2022*2017*9999
-                previous_unit = teaching_units_html[i-1].find_all("td")
-                unit_information = {
-                    'courseId': course_id,
-                    'name': clean_string(previous_unit[0].string),
-                    'activityType': clean_string(unit[0].string) if unit[0].string else '',
-                    'durationHours': clean_string(unit[1].string) if unit[1].string else '',
-                    'typeTeaching': clean_string(unit[2].string) if unit[2].string else '',
-                    'subjectArea': clean_string(unit[3].string) if unit[3].string else '',
-                    'credits': clean_string(unit[4].string) if unit[4].string else '',
-                    'id': unitId
-                }
-            else:
-                unit_information = {
-                    'courseId': course_id,
-                    'name': clean_string(unit[0].string),
-                    'activityType': clean_string(unit[1].string) if unit[1].string else '',
-                    'durationHours': clean_string(unit[2].string) if unit[2].string else '',
-                    'typeTeaching': clean_string(unit[3].string) if unit[3].string else '',
-                    'subjectArea': clean_string(unit[4].string) if unit[4].string else '',
-                    'credits': clean_string(unit[5].string) if unit[5].string else '',
-                    'id': unitId
-                }
-            teaching_units.append(unit_information)
-
-        partitions_html = soup.find(id="table2").find(
-            'tbody').find_all("tr") if soup.find(id="table2") else None
-        partitions = []
-        last_rowspan = {
-            'partition': 1,
-            'syllabus': 1
-        }
-        append_new = True
-        professor = {
-            'count': 0,
-            'name': '',
-            'tenured': True
-        }
-        if partitions_html:
-            for i in range(len(partitions_html)):
-                partition = partitions_html[i].find_all("td")
-                partitionId = uuid.uuid4().hex
-                if list(last_rowspan.values()) == [1, 1]:
-                    partition_information = {
-                        'name': clean_string(partition[0].string),
-                        'period': clean_string(partition[1].string),
-                        'teacher': {'name': [clean_string(partition[2].string, 'prof') if partition[2].string else ''], 'tenured': [True if partition[3].find('img') else False]},
-                        'syllabusLink': 'https://www.esse3.unitn.it/'+partition[4].find('a')['href'] if partition[4].find('a') else '' if partition[4] else '',
+        if soup.find(id='header2').find('h2').string == "Errore":
+            information = {
+                'id': course_id,
+                'year': 'NA',
+                'typeCourse': 'NA',
+                'credits': 'NA',
+                'lessonType': 'NA',
+                'examType': 'NA',
+                'evaluationType': 'NA',
+                'lessonPeriod': 'NA'
+            }
+        else:
+            table_values = soup.find_all('dd')
+            teaching_units_html = soup.find(
+                id="table1").find('tbody').find_all("tr")
+            teaching_units = []
+            for i in range(len(teaching_units_html)):
+                unit = teaching_units_html[i].find_all("td")
+                unitId = uuid.uuid4().hex
+                if len(unit) < 6:
+                    # Probably an error in the input, see https://www.esse3.unitn.it/Guide/PaginaADContest.do?ad_cont_id=10661*94459*2022*2017*9999
+                    previous_unit = teaching_units_html[i-1].find_all("td")
+                    unit_information = {
+                        'courseId': course_id,
+                        'name': clean_string(previous_unit[0].string),
+                        'activityType': clean_string(unit[0].string) if unit[0].string else '',
+                        'durationHours': clean_string(unit[1].string) if unit[1].string else '',
+                        'typeTeaching': clean_string(unit[2].string) if unit[2].string else '',
+                        'subjectArea': clean_string(unit[3].string) if unit[3].string else '',
+                        'credits': clean_string(unit[4].string) if unit[4].string else '',
+                        'id': unitId
                     }
-                    last_rowspan = {
-                        'partition': int(partition[0]['rowspan']),
-                        'syllabus': int(partition[4]['rowspan'])
-                    }
-                    if partition[2].string and clean_string(partition[2].string, 'prof') != '':
-                        professor['count'] += 1
-                        professor['name'] = clean_string(
-                            partition[2].string, 'prof')
-                        professor['tenured'] = True if partition[3].find(
-                            'img') else False
                 else:
-                    if last_rowspan['partition'] <= 1:
+                    unit_information = {
+                        'courseId': course_id,
+                        'name': clean_string(unit[0].string),
+                        'activityType': clean_string(unit[1].string) if unit[1].string else '',
+                        'durationHours': clean_string(unit[2].string) if unit[2].string else '',
+                        'typeTeaching': clean_string(unit[3].string) if unit[3].string else '',
+                        'subjectArea': clean_string(unit[4].string) if unit[4].string else '',
+                        'credits': clean_string(unit[5].string) if unit[5].string else '',
+                        'id': unitId
+                    }
+                teaching_units.append(unit_information)
+
+            partitions_html = soup.find(id="table2").find(
+                'tbody').find_all("tr") if soup.find(id="table2") else None
+            partitions = []
+            last_rowspan = {
+                'partition': 1,
+                'syllabus': 1
+            }
+            append_new = True
+            professor = {
+                'count': 0,
+                'name': '',
+                'tenured': True
+            }
+            if partitions_html:
+                for i in range(len(partitions_html)):
+                    partition = partitions_html[i].find_all("td")
+                    partitionId = uuid.uuid4().hex
+                    if list(last_rowspan.values()) == [1, 1]:
                         partition_information = {
                             'name': clean_string(partition[0].string),
                             'period': clean_string(partition[1].string),
                             'teacher': {'name': [clean_string(partition[2].string, 'prof') if partition[2].string else ''], 'tenured': [True if partition[3].find('img') else False]},
-                            'syllabusLink': '',
+                            'syllabusLink': 'https://www.esse3.unitn.it/'+partition[4].find('a')['href'] if partition[4].find('a') else '' if partition[4] else '',
                         }
-                        append_new = True
-                        if partition[2].string and clean_string(partition[2].string) != '':
+                        last_rowspan = {
+                            'partition': int(partition[0]['rowspan']),
+                            'syllabus': int(partition[4]['rowspan'])
+                        }
+                        if partition[2].string and clean_string(partition[2].string, 'prof') != '':
                             professor['count'] += 1
                             professor['name'] = clean_string(
                                 partition[2].string, 'prof')
                             professor['tenured'] = True if partition[3].find(
                                 'img') else False
                     else:
-                        last_rowspan['partition'] -= 1
-                        partitions[-1]['teacher']['name'].append(clean_string(
-                            partition[0].string, 'prof') if partition[0].string else '')
-                        partitions[-1]['teacher']['tenured'].append(
-                            True if partition[1].find('img') else False)
-                        append_new = False
-                        if partition[0].string and clean_string(partition[0].string) != '':
-                            professor['count'] += 1
-                            professor['name'] = clean_string(
-                                partition[0].string, 'prof')
-                            professor['tenured'] = True if partition[1].find(
-                                'img') else False
+                        if last_rowspan['partition'] <= 1:
+                            partition_information = {
+                                'name': clean_string(partition[0].string),
+                                'period': clean_string(partition[1].string),
+                                'teacher': {'name': [clean_string(partition[2].string, 'prof') if partition[2].string else ''], 'tenured': [True if partition[3].find('img') else False]},
+                                'syllabusLink': '',
+                            }
+                            append_new = True
+                            if partition[2].string and clean_string(partition[2].string) != '':
+                                professor['count'] += 1
+                                professor['name'] = clean_string(
+                                    partition[2].string, 'prof')
+                                professor['tenured'] = True if partition[3].find(
+                                    'img') else False
+                        else:
+                            last_rowspan['partition'] -= 1
+                            partitions[-1]['teacher']['name'].append(clean_string(
+                                partition[0].string, 'prof') if partition[0].string else '')
+                            partitions[-1]['teacher']['tenured'].append(
+                                True if partition[1].find('img') else False)
+                            append_new = False
+                            if partition[0].string and clean_string(partition[0].string) != '':
+                                professor['count'] += 1
+                                professor['name'] = clean_string(
+                                    partition[0].string, 'prof')
+                                professor['tenured'] = True if partition[1].find(
+                                    'img') else False
 
-                    if last_rowspan['syllabus'] <= 1:
-                        partition_information['syllabusLink'] = clean_string(partition[4].string) if len(
-                            partition) >= 5 and partition[4] else partition_information['syllabusLink']
-                    else:
-                        last_rowspan['syllabus'] -= 1
-                        if partitions[-1]['syllabusLink'] == '':
-                            partitions[-1]['syllabusLink'] = clean_string(partition[2].string) if len(
-                                partition) >= 3 and partition[2] else partition_information['syllabusLink']
-                if append_new:
-                    partition_information['courseId'] = course_id
-                    partition_information['id'] = partitionId
-                    partitions.append(partition_information)
-            if professor['count'] == 1:
-                for partition in partitions:
-                    partition['teacher']['name'] = [professor['name']]
-                    partition['teacher']['tenured'] = [professor['tenured']]
-
-        information = {
-            'id': course_id,
-            'year': table_values[0].contents[0].string[0],
-            'typeCourse': clean_string(table_values[1].contents[0]),
-            'credits': clean_string(table_values[2].contents[0].string.split(" ")[0]),
-            'lessonType': clean_string(soup.find("desc_tipo_att").contents[0].string if soup.find("desc_tipo_att") else ''),
-            'examType': clean_string(table_values[4].contents[0].string),
-            'evaluationType': clean_string(table_values[5].contents[0].string),
-            'lessonPeriod': clean_string(table_values[6].contents[0].string)
-        }
+                        if last_rowspan['syllabus'] <= 1:
+                            partition_information['syllabusLink'] = clean_string(partition[4].string) if len(
+                                partition) >= 5 and partition[4] else partition_information['syllabusLink']
+                        else:
+                            last_rowspan['syllabus'] -= 1
+                            if partitions[-1]['syllabusLink'] == '':
+                                partitions[-1]['syllabusLink'] = clean_string(partition[2].string) if len(
+                                    partition) >= 3 and partition[2] else partition_information['syllabusLink']
+                    if append_new:
+                        partition_information['courseId'] = course_id
+                        partition_information['id'] = partitionId
+                        partitions.append(partition_information)
+                if professor['count'] == 1:
+                    for partition in partitions:
+                        partition['teacher']['name'] = [professor['name']]
+                        partition['teacher']['tenured'] = [professor['tenured']]
+            information = {
+                'id': course_id,
+                'year': table_values[0].contents[0].string[0],
+                'typeCourse': clean_string(table_values[1].contents[0]),
+                'credits': clean_string(table_values[2].contents[0].string.split(" ")[0]),
+                'lessonType': clean_string(soup.find("desc_tipo_att").contents[0].string if soup.find("desc_tipo_att") else ''),
+                'examType': clean_string(table_values[4].contents[0].string),
+                'evaluationType': clean_string(table_values[5].contents[0].string),
+                'lessonPeriod': clean_string(table_values[6].contents[0].string)
+            }
     else:
         # add better error control with an exception
         print(f"Cannot download the page from {url}.")
+        return {}, [], []
 
     """ with open('prova_esse3.json', 'w', encoding='utf-8') as f:
         json.dump(information, f) """
@@ -301,6 +312,7 @@ def start():
     teaching_units_dataset = initialize_dataset()
     courses_dataset = initialize_dataset()
     count = 0
+    course_errors = set()
     for course in data[0]['value']['data']:
         print(f"Scraping {course['name']}...")
         information, partitions, teaching_units = scrape_esse3(
@@ -308,22 +320,27 @@ def start():
         course_professors, course_assistants = course['professor'], course['assistant']
         del course['professor'], course['assistant']
 
+        if not bool(information) or information['year'] == 'NA':
+            course_errors.add(information['id'])
+            
         course.update(information)
 
         if len(course['department']) > 0:
             course['departmentId'] = course['department'][0]['unitId']
+        else:
+            course['departmentId'] = ''
         del course['department']
 
         base = deepcopy(course)
 
         for professor in course_professors:
             to_append = deepcopy(base)
-            to_append['professorId'] = professor['id']
+            to_append.update({'professorId': professor['id'], 'assistantId': ''})
             append_data(courses_dataset, to_append)
 
         for assistant in course_assistants:
             to_append = deepcopy(base)
-            to_append['assistantId'] = assistant['id']
+            to_append.update({'professorId': '', 'assistantId': assistant['id']})
             append_data(courses_dataset, to_append)
 
         for partition in partitions:
@@ -369,13 +386,20 @@ def start():
                 'role': position['role'],
                 'departmentId': position['unitId']
             })
-        for phone in person['phone']:
-            to_append = deepcopy(person)
-            to_append['phoneNumber'] = phone
-            to_append['id'] = to_append['identifier']
-            del to_append['identifier'], to_append['position'], to_append['phone']
+        person['id'] = person['identifier']
+        del person['identifier']
+        
+        if len(person['phone']) > 0:
+            for phone in person['phone']:
+                to_append = deepcopy(person)
+                to_append['phoneNumber'] = phone
+                del to_append['position'], to_append['phone']
 
-            append_data(person_dataset, to_append)
+                append_data(person_dataset, to_append)
+        else:
+            person['phoneNumber'] = ''
+            del person['position'], person['phone']
+            append_data(person_dataset, person)
 
     set_total_size(positions_dataset)
     set_total_size(person_dataset)
@@ -384,42 +408,46 @@ def start():
     save_dataset(positions_dataset, 'generated/positions_en', 'json')
 
     # Separating the lists from the organization dataset
-    # organization_email_dataset = initialize_dataset()
-    # organization_website_dataset = initialize_dataset()
     organization_dataset = initialize_dataset()
     addresses = set()
     for organization in data[1]['value']['data']:
         if len(organization['email']) > 0:
             organization['email'] = organization['email'][0]
         else:
-            del organization['email']
+            organization['email'] = ''
         if len(organization['website']) > 0:
             organization['website'] = organization['website'][0]
         else:
-            del organization['website']
+            organization['website'] = ''
         organization['id'] = organization['identifier']
 
         del organization['unitPath'], organization['identifier']
         addresses.add(organization['address'])
-        for phone in organization['phone']:
-            to_append = deepcopy(organization)
-            to_append['phoneNumber'] = phone
-            del to_append['phone']
+        
+        if len(organization['phone']) > 0:
+            for phone in organization['phone']:
+                to_append = deepcopy(organization)
+                to_append['phoneNumber'] = phone
+                del to_append['phone']
 
-            append_data(organization_dataset, to_append)
+                append_data(organization_dataset, to_append)
+        else:
+            organization['phoneNumber'] = ''
+            del organization['phone']
+            append_data(organization_dataset, organization)
 
     set_total_size(organization_dataset)
-    # set_total_size(organization_path_dataset)
+    
     addresses.remove('')
 
     save_dataset(organization_dataset,
                  'generated/organization_en_final', 'json')
 
-    #save_dataset(organization_path_dataset, 'generated/organization_path', 'json')
-
     # Download information about the addresses from OpenStreetMap
     get_geospatial_data(data[1], addresses)
 
+    if len(course_errors) > 0:
+        print(f"Courses with errors: {', '.join(course_errors)}")
     print("Done!")
 
 
