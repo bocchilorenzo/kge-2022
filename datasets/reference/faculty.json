@@ -1,0 +1,21 @@
+{
+	"value": {
+		"total": 7290,
+		"size": 7290,
+		"language": "en",
+		"data": [
+			{
+				"id": "SHCUIHICIHAUCIHUIHCIU", //MANCA NELL'ER
+				"address": "Via Giuseppe Verdi, 53, 38122 Trento",
+				"name": "Facolt\u00e0 di Giurisprudenza",
+				"email": "",
+				"website": "https://www.giurisprudenza.unitn.it/",
+				"alt_name": "",
+				"opening_hours": "",
+				"phone": "",
+				"wheelchair": "",
+                "spatialPartOf": "IDUNIVERSITA"
+			}
+		]
+	}
+}

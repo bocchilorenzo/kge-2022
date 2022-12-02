@@ -1,0 +1,19 @@
+{
+	"value": {
+		"total": 7290,
+		"size": 7290,
+		"language": "en",
+		"data": [
+			{
+				"courseId": "7b3555b5ef104710bb88e4a5ecd5b6b2",
+				"name": "Introduction to Computer and Network Security",
+				"activityType": "Lezioni",
+				"durationHours": "48",
+				"typeTeaching": "Caratterizzante",
+				"subjectArea": "[ING-INF/05]",
+				"credits": "6",
+				"id": "a5831b5444a740c3b74cc6c58d6f0c04"
+			}
+		]
+	}
+}

@@ -185,10 +185,20 @@ def scrape_esse3(url):
                 if professor['count'] == 1:
                     for partition in partitions:
                         partition['teacher']['name'] = [professor['name']]
-                        partition['teacher']['tenured'] = [professor['tenured']]
+                        partition['teacher']['tenured'] = [
+                            professor['tenured']]
+
+            course_year = '0'
+            year_tmp = table_values[0].contents[0].string.split(',')
+            if len(year_tmp) > 1:
+                course_year = year_tmp[0][0] + '&' + year_tmp[1][1]
+            elif table_values[0].contents[0].string[0] in {'1', '2', '3', '4', '5'}:
+                course_year = table_values[0].contents[0].string[0]
+            else:
+                course_year = clean_string(table_values[0].contents[0].string)
             information = {
                 'id': course_id,
-                'year': table_values[0].contents[0].string[0],
+                'year': course_year,
                 'typeCourse': clean_string(table_values[1].contents[0]),
                 'credits': clean_string(table_values[2].contents[0].string.split(" ")[0]),
                 'lessonType': clean_string(soup.find("desc_tipo_att").contents[0].string if soup.find("desc_tipo_att") else ''),
@@ -315,50 +325,54 @@ def start():
     course_errors = set()
     for course in data[0]['value']['data']:
         print(f"Scraping {course['name']}...")
-        information, partitions, teaching_units = scrape_esse3(
-            course['webSite'])
-        course_professors, course_assistants = course['professor'], course['assistant']
-        del course['professor'], course['assistant']
+        try:
+            information, partitions, teaching_units = scrape_esse3(
+            course['webSite'] + '&cod_lingua=eng')
+            course_professors, course_assistants = course['professor'], course['assistant']
+            del course['professor'], course['assistant']
 
-        if not bool(information) or information['year'] == 'NA':
-            course_errors.add(information['id'])
-            
-        course.update(information)
+            if not bool(information) or information['year'] == 'NA':
+                course_errors.add(information['id'])
 
-        if len(course['department']) > 0:
-            course['departmentId'] = course['department'][0]['unitId']
-        else:
-            course['departmentId'] = ''
-        del course['department']
+            course.update(information)
 
-        base = deepcopy(course)
+            if len(course['department']) > 0:
+                course['departmentId'] = course['department'][0]['unitId']
+            else:
+                course['departmentId'] = ''
+            del course['department']
 
-        for professor in course_professors:
-            to_append = deepcopy(base)
-            to_append.update({'professorId': professor['id'], 'assistantId': ''})
-            append_data(courses_dataset, to_append)
+            base = deepcopy(course)
 
-        for assistant in course_assistants:
-            to_append = deepcopy(base)
-            to_append.update({'professorId': '', 'assistantId': assistant['id']})
-            append_data(courses_dataset, to_append)
+            for professor in course_professors:
+                to_append = deepcopy(base)
+                to_append.update(
+                    {'professorId': professor['id'], 'assistantId': ''})
+                append_data(courses_dataset, to_append)
 
-        for partition in partitions:
-            for i in range(len(partition['teacher']['name'])):
-                for j in range(len(course_professors)):
-                    if " ".join([course_professors[j]['name'], course_professors[j]['surname']]).lower() == partition['teacher']['name'][i].lower():
-                        to_append = deepcopy(partition)
-                        to_append.update({'professorId': course_professors[j]
-                                          ['id'], 'tenured': partition['teacher']['tenured'][i]})
-                        del to_append['teacher']
-                        append_data(partitions_dataset, to_append)
+            for assistant in course_assistants:
+                to_append = deepcopy(base)
+                to_append.update(
+                    {'professorId': '', 'assistantId': assistant['id']})
+                append_data(courses_dataset, to_append)
 
-        for unit in teaching_units:
-            append_data(teaching_units_dataset, unit)
+            for partition in partitions:
+                for i in range(len(partition['teacher']['name'])):
+                    for j in range(len(course_professors)):
+                        if " ".join([course_professors[j]['name'], course_professors[j]['surname']]).lower() == partition['teacher']['name'][i].lower():
+                            to_append = deepcopy(partition)
+                            to_append.update({'professorId': course_professors[j]
+                                            ['id'], 'tenured': partition['teacher']['tenured'][i]})
+                            del to_append['teacher']
+                            append_data(partitions_dataset, to_append)
 
-        # if count == 3:
-        #     break
+            for unit in teaching_units:
+                append_data(teaching_units_dataset, unit)
 
+            # if count == 3:
+            #     break
+        except:
+            course_errors.add(course)
         count += 1
         if count == 100:
             time.sleep(10)
@@ -370,42 +384,38 @@ def start():
     set_total_size(partitions_dataset)
     set_total_size(teaching_units_dataset)
 
-    save_dataset(courses_dataset, 'generated/course_en_final', 'json')
-    save_dataset(partitions_dataset, 'generated/partitions_en', 'json')
-    save_dataset(teaching_units_dataset, 'generated/teaching_units_en', 'json')
+    save_dataset(courses_dataset, 'generated/course', 'json')
+    save_dataset(partitions_dataset, 'generated/course_partition', 'json')
+    save_dataset(teaching_units_dataset, 'generated/teaching_unit', 'json')
 
     # Separating the lists from the staff dataset
-    positions_dataset = initialize_dataset()
     person_dataset = initialize_dataset()
     for person in data[2]['value']['data']:
-        for position in person['position']:
-            position_id = uuid.uuid4().hex
-            append_data(positions_dataset, {
-                'id': position_id,
-                'personId': person['identifier'],
-                'role': position['role'],
-                'departmentId': position['unitId']
-            })
         person['id'] = person['identifier']
         del person['identifier']
-        
+
+        for position in person['position']:
+            to_append = deepcopy(person)
+            to_append['role'] = position['role']
+            to_append['departmentId'] = position['unitId']
+            to_append['phoneNumber'] = ""
+            del to_append['position'], to_append['phone']
+
+            append_data(person_dataset, to_append)
+
         if len(person['phone']) > 0:
             for phone in person['phone']:
                 to_append = deepcopy(person)
                 to_append['phoneNumber'] = phone
+                to_append['role'] = ''
+                to_append['departmentId'] = ''
                 del to_append['position'], to_append['phone']
 
                 append_data(person_dataset, to_append)
-        else:
-            person['phoneNumber'] = ''
-            del person['position'], person['phone']
-            append_data(person_dataset, person)
 
-    set_total_size(positions_dataset)
     set_total_size(person_dataset)
 
     save_dataset(person_dataset, 'generated/person_en_final', 'json')
-    save_dataset(positions_dataset, 'generated/positions_en', 'json')
 
     # Separating the lists from the organization dataset
     organization_dataset = initialize_dataset()
@@ -423,7 +433,7 @@ def start():
 
         del organization['unitPath'], organization['identifier']
         addresses.add(organization['address'])
-        
+
         if len(organization['phone']) > 0:
             for phone in organization['phone']:
                 to_append = deepcopy(organization)
@@ -437,7 +447,7 @@ def start():
             append_data(organization_dataset, organization)
 
     set_total_size(organization_dataset)
-    
+
     addresses.remove('')
 
     save_dataset(organization_dataset,

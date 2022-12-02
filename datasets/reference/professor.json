@@ -1,0 +1,17 @@
+{
+	"value": {
+		"total": 7290,
+		"size": 7290,
+		"language": "en",
+		"data": [
+			{
+				"name": "Maurizio",
+				"surname": "Ferrari",
+				"id": "3d22af80edc6910656c3e49f5e8213b8",
+				"role": "Guest",
+				"departmentId": "STO0008627",
+				"phone": ""
+			}
+		]
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"value": {
+		"total": 7290,
+		"size": 7290,
+		"language": "en",
+		"data": [
+			{
+				"name": "Databases - Partizione Unica",
+				"period": "Primo Semestre",
+				"syllabusLink": "https://www.esse3.unitn.it/Guide/StampaContenutiCorso.do?CDS_ID=10114&AA_OFF_ID=2022&AD_ID=95009&AA_ORD_ID=2008&ANNO_COORTE=2022&PDS_ID=10003&FAT_PART_COD=N0&DOM_PART_COD=N0",
+				"courseId": "88cc6282f9164d78ac1d6adb80951af3",
+				"id": "685efcc7890a4f07a13522ad65b4d788",
+				"professorId": "26ddd5336d198053e6cffad8ffe2862f",
+				"tenured": false
+			}
+		]
+	}
+}
