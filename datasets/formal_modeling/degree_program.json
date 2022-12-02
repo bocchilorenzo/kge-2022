@@ -1,0 +1,49 @@
+{
+  "value": {
+    "total": 10,
+    "size": 10,
+    "language": "en",
+    "data": [
+      {
+        "id": "25c1bf0cd44241e19d144d69de783994",
+        "name": "Informatica (L2)"
+      },
+      {
+        "id": "8d796550658542f7b58fb79232666417",
+        "name": "Ingegneria Civile (L2)"
+      },
+      {
+        "id": "3006b565105745ef9581779022f2bee3",
+        "name": "Behavioural and Applied Economics - Economia Comportamentale e Applicata (LM)"
+      },
+      {
+        "id": "55870f216a3c4b85afc3475ae1ca1836",
+        "name": "Beni culturali (L2)"
+      },
+      {
+        "id": "230344c3a7224709903409f4ae629b3d",
+        "name": "Biologia Quantitativa e Computazionale (LM)"
+      },
+      {
+        "id": "f711db31d92b4fae9f7b4431c74f3c6f",
+        "name": "Previsione Sociale (M2)"
+      },
+      {
+        "id": "b04457b8c5fe4fabaaa2e38be425c86d",
+        "name": "Filologia e critica letteraria (LM)"
+      },
+      {
+        "id": "436953a36fe644809281ac321731682f",
+        "name": "International Management - Management Internazionale (LM)"
+      },
+      {
+        "id": "b5b39ad1316b45ad836a5306cfc2bf05",
+        "name": "Ingegneria dell'Informazione e delle Comunicazioni (LM)"
+      },
+      {
+        "id": "ffa39d22e4924d31bd51a2037a3538fb",
+        "name": "Human-Computer Interaction - Interazione Persona-Macchina (LM)"
+      }
+    ]
+  }
+}

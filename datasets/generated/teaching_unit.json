@@ -1,0 +1,109 @@
+{
+  "value": {
+    "total": 10,
+    "size": 10,
+    "language": "en",
+    "data": [
+      {
+        "courseId": "7965049d76ae455a9781ead99b422b00",
+        "name": "Databases",
+        "activityType": "Lecture",
+        "durationHours": "48",
+        "typeTeaching": "Compulsory subjects, characteristic of the class",
+        "subjectArea": "[ING-INF/05]",
+        "credits": "6",
+        "id": "e707e9edf70f4dd98035e224454b670b"
+      },
+      {
+        "courseId": "784213854e184de7916fb5da2dd7832c",
+        "name": "Analisi matematica 1",
+        "activityType": "Lecture",
+        "durationHours": "120",
+        "typeTeaching": "Basic compulsory subjects",
+        "subjectArea": "[MAT/05]",
+        "credits": "12",
+        "id": "7d4b57271e88426399e3d0dd917008ec"
+      },
+      {
+        "courseId": "a360de92fdee409490678971e6a6dc76",
+        "name": "Econometrics",
+        "activityType": "Lecture",
+        "durationHours": "48",
+        "typeTeaching": "Compulsory subjects, characteristic of the class",
+        "subjectArea": "[SECS-P/05]",
+        "credits": "8",
+        "id": "ec6e0b7dc78a41de9269af59c410f9f9"
+      },
+      {
+        "courseId": "143b251fac0e4fdebae27866673e05ba",
+        "name": "Agiografia II (UD1)",
+        "activityType": "Lecture",
+        "durationHours": "30",
+        "typeTeaching": "Basic compulsory subjects",
+        "subjectArea": "[L-FIL-LET/08]",
+        "credits": "6",
+        "id": "b05860ba903e42049d4c47df298d937c"
+      },
+      {
+        "courseId": "4194c7b52e0a40bd9d4fe096b501c2e5",
+        "name": "Signal, Image and Video",
+        "activityType": "Lecture",
+        "durationHours": "48",
+        "typeTeaching": "Optional subjects",
+        "subjectArea": "[ING-INF/03]",
+        "credits": "6",
+        "id": "49b7242a9be2415c9585ae2f54f8ba64"
+      },
+      {
+        "courseId": "ccab531ad8854d1e870b479a602f2cdc",
+        "name": "Immagini di futuro",
+        "activityType": "Lecture",
+        "durationHours": "8",
+        "typeTeaching": "",
+        "subjectArea": "[SPS/07]",
+        "credits": "2",
+        "id": "329d3cec319047eeb86bdb535a35c453"
+      },
+      {
+        "courseId": "263f3a3988f24996acb6e197abd9c980",
+        "name": "Filologia latina - LM (UD1)",
+        "activityType": "Lecture",
+        "durationHours": "30",
+        "typeTeaching": "Compulsory subjects, characteristic of the class",
+        "subjectArea": "[L-FIL-LET/04]",
+        "credits": "6",
+        "id": "43609c4d647645fda01990c65bf68c71"
+      },
+      {
+        "courseId": "1b25010e98b84649883ed3e7e8ee6eb9",
+        "name": "Technology Strategy",
+        "activityType": "Lecture",
+        "durationHours": "48",
+        "typeTeaching": "Optional subjects",
+        "subjectArea": "[SECS-P/08]",
+        "credits": "8",
+        "id": "513badc83d5a452db0aa5b2d21f685c4"
+      },
+      {
+        "courseId": "f1c7e735838f4eacb60f19f5566000cc",
+        "name": "Advanced computing architectures",
+        "activityType": "Lecture",
+        "durationHours": "48",
+        "typeTeaching": "Optional subjects",
+        "subjectArea": "[ING-INF/05]",
+        "credits": "6",
+        "id": "d8f5f72d40324a8f8a18b8d907a67ed4"
+      },
+      {
+        "courseId": "3226028822f540bb9cf9d1acb59a0d27",
+        "name": "Visual brain and design",
+        "activityType": "Lecture",
+        "durationHours": "42",
+        "typeTeaching": "Supplementary compulsory subjects",
+        "subjectArea": "[MED/37]",
+        "credits": "6",
+        "id": "25c84b7aa8474b34964d979f946875e5"
+      }
+    ]
+  }
+}

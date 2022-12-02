@@ -1,0 +1,117 @@
+{
+  "value": {
+    "total": 12,
+    "size": 12,
+    "language": "en",
+    "data": [
+      {
+        "name": "Databases - Partizione Unica",
+        "period": "First semester",
+        "syllabusLink": "https://www.esse3.unitn.it/Guide/StampaContenutiCorso.do?CDS_ID=10114&AA_OFF_ID=2022&AD_ID=95009&AA_ORD_ID=2008&ANNO_COORTE=2022&PDS_ID=10003&FAT_PART_COD=N0&DOM_PART_COD=N0",
+        "courseId": "7965049d76ae455a9781ead99b422b00",
+        "id": "01eb913894554e7398337afcbaa1de95",
+        "professorId": "26ddd5336d198053e6cffad8ffe2862f",
+        "tenured": false
+      },
+      {
+        "name": "Databases - Partizione Unica",
+        "period": "First semester",
+        "syllabusLink": "https://www.esse3.unitn.it/Guide/StampaContenutiCorso.do?CDS_ID=10114&AA_OFF_ID=2022&AD_ID=95009&AA_ORD_ID=2008&ANNO_COORTE=2022&PDS_ID=10003&FAT_PART_COD=N0&DOM_PART_COD=N0",
+        "courseId": "7965049d76ae455a9781ead99b422b00",
+        "id": "01eb913894554e7398337afcbaa1de95",
+        "professorId": "7cc92da07568a577d6b2682d602350e5",
+        "tenured": true
+      },
+      {
+        "name": "Mathematical analysis I - Partizione Unica",
+        "period": "First semester",
+        "syllabusLink": "https://www.esse3.unitn.it/Guide/StampaContenutiCorso.do?CDS_ID=10127&AA_OFF_ID=2022&AD_ID=91117&AA_ORD_ID=2020&ANNO_COORTE=2022&PDS_ID=9999&FAT_PART_COD=N0&DOM_PART_COD=N0",
+        "courseId": "784213854e184de7916fb5da2dd7832c",
+        "id": "c470de6f64b44c60b868cd7c43981302",
+        "professorId": "0ae71788f7ec7c4a42eaefa9f7e528eb",
+        "tenured": true
+      },
+      {
+        "name": "Mathematical analysis I - Partizione Unica",
+        "period": "First semester",
+        "syllabusLink": "https://www.esse3.unitn.it/Guide/StampaContenutiCorso.do?CDS_ID=10127&AA_OFF_ID=2022&AD_ID=91117&AA_ORD_ID=2020&ANNO_COORTE=2022&PDS_ID=9999&FAT_PART_COD=N0&DOM_PART_COD=N0",
+        "courseId": "784213854e184de7916fb5da2dd7832c",
+        "id": "c470de6f64b44c60b868cd7c43981302",
+        "professorId": "73758b3e636de83a9748c8c64728860c",
+        "tenured": false
+      },
+      {
+        "name": "Econometrics - Partizione Unica",
+        "period": "Second semester",
+        "syllabusLink": "https://www.esse3.unitn.it/Guide/StampaContenutiCorso.do?CDS_ID=10718&AA_OFF_ID=2022&AD_ID=89767&AA_ORD_ID=2019&ANNO_COORTE=2022&PDS_ID=9999&FAT_PART_COD=N0&DOM_PART_COD=N0",
+        "courseId": "a360de92fdee409490678971e6a6dc76",
+        "id": "6f867a773a754723940f1f3fed7f76d8",
+        "professorId": "c997d8fc4b25b0f2944afa53fd28a073",
+        "tenured": true
+      },
+      {
+        "name": "Hagiography II - Partizione Unica",
+        "period": "Second semester",
+        "syllabusLink": "https://www.esse3.unitn.it/Guide/StampaContenutiCorso.do?CDS_ID=10156&AA_OFF_ID=2022&AD_ID=91372&AA_ORD_ID=2009&ANNO_COORTE=2022&PDS_ID=9999&FAT_PART_COD=N0&DOM_PART_COD=N0",
+        "courseId": "143b251fac0e4fdebae27866673e05ba",
+        "id": "c7c0dd6c7d8a4b65a62642c71d3f2e15",
+        "professorId": "89c3a0ab959a9d1a13523f5568a9232d",
+        "tenured": true
+      },
+      {
+        "name": "Signal, Image and Video - Partizione Unica",
+        "period": "First semester",
+        "syllabusLink": "https://www.esse3.unitn.it/Guide/StampaContenutiCorso.do?CDS_ID=10616&AA_OFF_ID=2022&AD_ID=94664&AA_ORD_ID=2016&ANNO_COORTE=2022&PDS_ID=9999&FAT_PART_COD=N0&DOM_PART_COD=N0",
+        "courseId": "4194c7b52e0a40bd9d4fe096b501c2e5",
+        "id": "7ec4a7bb45554e2fbbfba1b6f85a6720",
+        "professorId": "55568e8d2acbd36dc9f92ffa6cf372fb",
+        "tenured": true
+      },
+      {
+        "name": "Immagini di futuro - Partizione Unica",
+        "period": "Attivit\u00e0 a durata annuale",
+        "syllabusLink": "https://www.esse3.unitn.it/Guide/StampaContenutiCorso.do?CDS_ID=10507&AA_OFF_ID=2022&AD_ID=95105&AA_ORD_ID=2016&ANNO_COORTE=2022&PDS_ID=9999&FAT_PART_COD=N0&DOM_PART_COD=N0",
+        "courseId": "ccab531ad8854d1e870b479a602f2cdc",
+        "id": "ad040b2d87c042b294b51555b87e77a5",
+        "professorId": "e86db02e663df8b87a424dfdca3bfa3a",
+        "tenured": true
+      },
+      {
+        "name": "Latin Philology - Partizione Unica",
+        "period": "Second semester",
+        "syllabusLink": "https://www.esse3.unitn.it/Guide/StampaContenutiCorso.do?CDS_ID=10166&AA_OFF_ID=2022&AD_ID=88881&AA_ORD_ID=2009&ANNO_COORTE=2022&PDS_ID=10002&FAT_PART_COD=N0&DOM_PART_COD=N0",
+        "courseId": "263f3a3988f24996acb6e197abd9c980",
+        "id": "1f0a7c60d24849ea93070b9e0305be24",
+        "professorId": "efb8cc9e310c90f5d017adca549c1279",
+        "tenured": true
+      },
+      {
+        "name": "Technology Strategy - Partizione Unica",
+        "period": "Second semester",
+        "syllabusLink": "https://www.esse3.unitn.it/Guide/StampaContenutiCorso.do?CDS_ID=10136&AA_OFF_ID=2022&AD_ID=95228&AA_ORD_ID=2011&ANNO_COORTE=2022&PDS_ID=9999&FAT_PART_COD=N0&DOM_PART_COD=N0",
+        "courseId": "1b25010e98b84649883ed3e7e8ee6eb9",
+        "id": "eefc57ae16f94e4cbabe7afea7580225",
+        "professorId": "2d0d739d099271d582cfd668d49643b9",
+        "tenured": true
+      },
+      {
+        "name": "Advanced computing architectures - Partizione Unica",
+        "period": "First semester",
+        "syllabusLink": "https://www.esse3.unitn.it/Guide/StampaContenutiCorso.do?CDS_ID=10627&AA_OFF_ID=2022&AD_ID=91609&AA_ORD_ID=2016&ANNO_COORTE=2022&PDS_ID=9999&FAT_PART_COD=N0&DOM_PART_COD=N0",
+        "courseId": "f1c7e735838f4eacb60f19f5566000cc",
+        "id": "325e2273033843b589b3462538f5fe9b",
+        "professorId": "bdd776f80a432830787e46b83d22c518",
+        "tenured": true
+      },
+      {
+        "name": "Visual brain and design - Partizione Unica",
+        "period": "Second semester",
+        "syllabusLink": "https://www.esse3.unitn.it/Guide/StampaContenutiCorso.do?CDS_ID=10559&AA_OFF_ID=2022&AD_ID=95450&AA_ORD_ID=2015&ANNO_COORTE=2022&PDS_ID=9999&FAT_PART_COD=N0&DOM_PART_COD=N0",
+        "courseId": "3226028822f540bb9cf9d1acb59a0d27",
+        "id": "6c14c5c6cc9c4fceb094d413d1b642f3",
+        "professorId": "8f3ac9ca0f3f46caf9750e46fbc1ac04",
+        "tenured": true
+      }
+    ]
+  }
+}
