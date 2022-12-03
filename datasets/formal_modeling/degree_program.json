@@ -1,48 +1,320 @@
 {
   "value": {
-    "total": 10,
-    "size": 10,
+    "total": 78,
+    "size": 78,
     "language": "en",
     "data": [
       {
-        "id": "25c1bf0cd44241e19d144d69de783994",
+        "id": "d6056b906aaf4c95b5a89d7f50d607fa",
         "name": "Informatica (L2)"
       },
       {
-        "id": "8d796550658542f7b58fb79232666417",
+        "id": "6c5886c478bc4571a4513ba51f479860",
         "name": "Ingegneria Civile (L2)"
       },
       {
-        "id": "3006b565105745ef9581779022f2bee3",
+        "id": "67ffbc8dcd454ffba87b5120ac93c267",
         "name": "Behavioural and Applied Economics - Economia Comportamentale e Applicata (LM)"
       },
       {
-        "id": "55870f216a3c4b85afc3475ae1ca1836",
+        "id": "857aa1cf9ee34a16912d4c755b2a534f",
         "name": "Beni culturali (L2)"
       },
       {
-        "id": "230344c3a7224709903409f4ae629b3d",
+        "id": "c8c3c401ae5d4390a3a1942bb68a7c40",
         "name": "Biologia Quantitativa e Computazionale (LM)"
       },
       {
-        "id": "f711db31d92b4fae9f7b4431c74f3c6f",
+        "id": "b316fe8bf31f4040ab960efb9d08533f",
         "name": "Previsione Sociale (M2)"
       },
       {
-        "id": "b04457b8c5fe4fabaaa2e38be425c86d",
+        "id": "ddb841a58a994cc98ed089aac5743d93",
         "name": "Filologia e critica letteraria (LM)"
       },
       {
-        "id": "436953a36fe644809281ac321731682f",
+        "id": "8bbc54bb1dae4903bfa7c345de1bce86",
         "name": "International Management - Management Internazionale (LM)"
       },
       {
-        "id": "b5b39ad1316b45ad836a5306cfc2bf05",
+        "id": "dde7d22a6c27480ea883c4b0543f4237",
         "name": "Ingegneria dell'Informazione e delle Comunicazioni (LM)"
       },
       {
-        "id": "ffa39d22e4924d31bd51a2037a3538fb",
+        "id": "e58d390fba824efca1d03e730b4928a3",
         "name": "Human-Computer Interaction - Interazione Persona-Macchina (LM)"
+      },
+      {
+        "id": "058c57e982d048f2be7ece75b23c8223",
+        "name": "MATEMATICA (LM)"
+      },
+      {
+        "id": "1ce742ca16c34585bf275c6ec93dd98a",
+        "name": "Interfacce e Tecnologie della Comunicazione (L2)"
+      },
+      {
+        "id": "d09afe6aa4cc48afb706f3bce732b362",
+        "name": "Filosofia e linguaggi della modernit\u00e0 (LM)"
+      },
+      {
+        "id": "4dcf6228209e4cec8f1f629cd1318b08",
+        "name": "Ingegneria Informatica, delle Comunicazioni ed Elettronica (L2)"
+      },
+      {
+        "id": "0fadb1344cb7417f8a6c2a6cc11964f8",
+        "name": "Metodologia, Organizzazione e Valutazione dei Servizi Sociali (LM)"
+      },
+      {
+        "id": "a0e977196f46479ca5ee42ab72a0f16f",
+        "name": "Management (LM)"
+      },
+      {
+        "id": "71394787190a4c369bcf6e3ac4e611b9",
+        "name": "Economia e Management (L2)"
+      },
+      {
+        "id": "0804eb00a6ec4784aab6bf9558125856",
+        "name": "EUROPEAN AND INTERNATIONAL STUDIES - STUDI EUROPEI E INTERNAZIONALI (LM)"
+      },
+      {
+        "id": "118ad92ab673422187a9bcd5e8a3d488",
+        "name": "Ingegneria Energetica (LM)"
+      },
+      {
+        "id": "f80414137eeb4838b485d0a4d8babf90",
+        "name": "Gestione Aziendale (L2)"
+      },
+      {
+        "id": "9038a26aefd7479bad8950e63e13be28",
+        "name": "Ingegneria per l'ambiente e il territorio (LM)"
+      },
+      {
+        "id": "8e42b39b0941446ea7617ec71b87aa52",
+        "name": "Materials and production Engineering - Ingegneria dei materiali e della produzione (LM)"
+      },
+      {
+        "id": "de70389b0af34623bc7722ee8e1e6237",
+        "name": "Global and Local Studies (LM)"
+      },
+      {
+        "id": "1c6cca759a7247f0aa99b145e4ddadfd",
+        "name": "Studi storici e filologico-letterari (L2)"
+      },
+      {
+        "id": "2aac54b651f24cfd87ae90b499cd0bdb",
+        "name": "Filosofia (L2)"
+      },
+      {
+        "id": "6eaf194f0cd64520bd982fb6a05b3dd5",
+        "name": "Psicologia (LM)"
+      },
+      {
+        "id": "43055b6cac464819ad0d7732ff3a249d",
+        "name": "Management della sostenibilit\u00e0 e del turismo (LM)"
+      },
+      {
+        "id": "08303f1f64734bf08ea257e3398e6dc3",
+        "name": "Giurisprudenza (LM5)"
+      },
+      {
+        "id": "a0299a43d1d746a7a1b474addd31bc13",
+        "name": "School of Innovation (CS)"
+      },
+      {
+        "id": "af73c5a3949d42eea90f385f71c42099",
+        "name": "Cognitive Science - Scienze Cognitive (LM)"
+      },
+      {
+        "id": "92160b46574e4b7790756486e5e89cc6",
+        "name": "Gestione di imprese sociali (G.I.S.) (M1)"
+      },
+      {
+        "id": "cd2455b40c2e49d9859c1aa8282960cc",
+        "name": "Data Science (LM)"
+      },
+      {
+        "id": "bed047bda2214b15857ff3a66bf89bc4",
+        "name": "Scienze e Tecniche di Psicologia Cognitiva (L2)"
+      },
+      {
+        "id": "263796102698415d8a20f558fdeee859",
+        "name": "Studi internazionali (L2)"
+      },
+      {
+        "id": "5106a2d029854bf08fc37b6e97f8e977",
+        "name": "Viticoltura ed Enologia (L2)"
+      },
+      {
+        "id": "1b7fef9ac2174fc5a7fa23c253c90032",
+        "name": "Mechatronics Engineering (LM)"
+      },
+      {
+        "id": "c27add1858654d09b40e64788ed4b5e7",
+        "name": "BIOTECNOLOGIE CELLULARI E MOLECOLARI (LM)"
+      },
+      {
+        "id": "edb4d2aeee424c898f69139156348e57",
+        "name": "Ingegneria per l'ambiente e il territorio (L2)"
+      },
+      {
+        "id": "2e89a17516a847af8855c2c906fea22f",
+        "name": "FISICA (LM)"
+      },
+      {
+        "id": "871f75bd84ad49fcaa31512d880f3738",
+        "name": "Sociology and social research - Sociologia e ricerca sociale (LM)"
+      },
+      {
+        "id": "e74c37805b894aec8dd8ee7559bbc158",
+        "name": "Innovation Management - Management dell'innovazione (LM)"
+      },
+      {
+        "id": "8c5c76e03d86444facda66b5aa873310",
+        "name": "Sociologia (L2)"
+      },
+      {
+        "id": "76158c88e3c74394ae6771bfdbfd116c",
+        "name": "Comparative, European and International Legal Studies (L2)"
+      },
+      {
+        "id": "313fe0d66a684b099c37fc785c3401df",
+        "name": "Amministrazione Aziendale e Diritto (L2)"
+      },
+      {
+        "id": "62b0804750644aef93d800b31e242f0b",
+        "name": "INFORMATICA (LM)"
+      },
+      {
+        "id": "e328c8e20bd04b6b8b448e7a17d09cc6",
+        "name": "Materials Engineering (LM)"
+      },
+      {
+        "id": "66816703aba34dcdb1f5a701f37feef1",
+        "name": "Ingegneria Civile (LM)"
+      },
+      {
+        "id": "fdfe2fa9ada941ce86d7ecfe0be6b23e",
+        "name": "Servizio Sociale (L2)"
+      },
+      {
+        "id": "f9ca418116d9458ea434f08bb4e43841",
+        "name": "Finanza (LM)"
+      },
+      {
+        "id": "6fbf578087c449a1953fd46de4117f29",
+        "name": "Studi Sulla Sicurezza Internazionale (LM)"
+      },
+      {
+        "id": "3a54210a2ed94195852989cbfd091a59",
+        "name": "Artificial Intelligence Systems (LM)"
+      },
+      {
+        "id": "cf7b118eb0f349bc87eaf8bd2eb8690d",
+        "name": "Ingegneria Industriale (L2)"
+      },
+      {
+        "id": "fcea5dd68ca94b8aaa7e9b7ff1d8f9b4",
+        "name": "Environmental Meteorology (LM)"
+      },
+      {
+        "id": "74498049a09e4c4ba29e827e8e660c7c",
+        "name": "Scienze e Tecnologie Biomolecolari (L2)"
+      },
+      {
+        "id": "3354b1f74309418bb018f5ae3564513f",
+        "name": "Economia e legislazione d'impresa (LM)"
+      },
+      {
+        "id": "128d0af74070432f874e1cf5713dd8af",
+        "name": "Management and Industrial Systems Engineering (LM)"
+      },
+      {
+        "id": "a477e552860e4e2e8e943e13301fbd55",
+        "name": "Mediazione linguistica, turismo e culture (LM)"
+      },
+      {
+        "id": "ec2740352a87441f8e0568ece1e1b8fc",
+        "name": "Gestione delle diversit\u00e0: inclusione ed equit\u00e0 (GEDIE) (M1)"
+      },
+      {
+        "id": "7e05277f8e4d41af9d8cb4b62b983961",
+        "name": "Communication of Science and Innovation - SCICOMM (M1)"
+      },
+      {
+        "id": "70f8d0b3263e4e55b604bbf7bf4a8bd7",
+        "name": "Fisica (L2)"
+      },
+      {
+        "id": "07cf8ba856714e62b16faf715ea5be75",
+        "name": "Matematica (L2)"
+      },
+      {
+        "id": "95ad8f18b0d14fc4a2663f982e113dd4",
+        "name": "Ingegneria civile, ambientale e meccanica (D1)"
+      },
+      {
+        "id": "13a1b11bbacd4883bc364609d7304b9c",
+        "name": "Medicina e Chirurgia (LM6)"
+      },
+      {
+        "id": "c79d2a74854648c39766abaacaecd8ba",
+        "name": "Scienze storiche (LM)"
+      },
+      {
+        "id": "de9a2e9478b746af9695633742be1cc9",
+        "name": "Centro Linguistico d'Ateneo (CLA)"
+      },
+      {
+        "id": "811a3380329b444997e91e9f987d2182",
+        "name": "Lingue moderne (L2)"
+      },
+      {
+        "id": "5006034ba4774860a10eff8fe5c483c2",
+        "name": "Letterature euroamericane, traduzione e critica letteraria (LM)"
+      },
+      {
+        "id": "1b5b5bd74c2a4b6685feb8a292e2ca76",
+        "name": "Educazione professionale (abilitante alla professione sanitaria di Educatore professionale) (L2)"
+      },
+      {
+        "id": "2a12ba33aff5419d8f7c343062d15074",
+        "name": "Ingegneria Edile-Architettura (LM5)"
+      },
+      {
+        "id": "2d93362d71744782abe8f08e61b576fc",
+        "name": "Materiali, meccatronica e ingegneria dei sistemi (D1)"
+      },
+      {
+        "id": "0a038976526f4971b8797ecd5192a030",
+        "name": "Organizzazione,societ\u00e0 e tecnologia (LM)"
+      },
+      {
+        "id": "8d8137e44d824036b38ac7b2c6c342fb",
+        "name": "Storia dell'arte e studi museali (LM)"
+      },
+      {
+        "id": "47496937d423474ab715a60a15120cdc",
+        "name": "Arte (LM)"
+      },
+      {
+        "id": "28e5318552044fa2bed0a883666eaca8",
+        "name": "Security, Intelligence and Strategic Studies (LM)"
+      },
+      {
+        "id": "b6b92ad2457e4eb7ab60438fe56af62e",
+        "name": "Agrifood Innovation Management (LM)"
+      },
+      {
+        "id": "a58af702366f4ed3a81e43b549711307",
+        "name": "Metodologie di intervento educativo per soggetti con disturbi dello spettro autistico (M1)"
+      },
+      {
+        "id": "9bea882e7a784f9c89e5609933b57460",
+        "name": "Economics - Economia (LM)"
+      },
+      {
+        "id": "7715758edfe5446fa6f38ac68a7ed015",
+        "name": "Percorso 24 CFU (CS24)"
       }
     ]
   }

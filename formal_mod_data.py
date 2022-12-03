@@ -40,6 +40,7 @@ with open('datasets/generated/organization_en_final.json', encoding='utf-8') as 
     old_org_data = json.load(f)['value']
     department = initialize_dataset()
     management_structure = initialize_dataset()
+    university = initialize_dataset()
     phd_program = initialize_dataset()
 
     for o in old_org_data['data']:
@@ -49,11 +50,24 @@ with open('datasets/generated/organization_en_final.json', encoding='utf-8') as 
         elif o['subType'] == 'academic department':
             del o['subType'], o['unitType']
             append_data(department, o)
+        elif o['subType'] == "university":
+            to_append = {
+                "id": o['id'],
+                "name": o['name'],
+                "startTime": "October 2022",
+                "endTime": "January 2023",
+                "latitude": "46.0626733",
+                "longitude": "11.12657322",
+                "altitude": "272",
+                "spatialPartOf": "Everything"
+            }
+            append_data(university, to_append)
         else:
-            o['subType'], o['unitType']
+            del o['subType'], o['unitType']
             append_data(management_structure, o)
 
     set_total_size(department)
+    set_total_size(university)
     set_total_size(management_structure)
     set_total_size(phd_program)
 
@@ -61,5 +75,6 @@ with open('datasets/generated/organization_en_final.json', encoding='utf-8') as 
     save_dataset(management_structure,
                  'formal_modeling/management_structure', 'json')
     save_dataset(phd_program, 'formal_modeling/phd_program', 'json')
+    save_dataset(university, 'formal_modeling/university', 'json')
 
     # course['data'] = old_course_data['data']
