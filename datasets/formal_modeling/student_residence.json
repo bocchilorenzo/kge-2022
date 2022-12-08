@@ -1,0 +1,30 @@
+{
+  "value": {
+    "total": 3,
+    "size": 3,
+    "language": "en",
+    "data": [
+      {
+        "id": "e3a2312bb3544c77b314184499242f51",
+        "address": "Via della Malpensada, 140, 38128 Trento",
+        "name": "Studentato S. Bartolameo",
+        "alt_name": "Sanba",
+        "wheelchair": ""
+      },
+      {
+        "id": "0d84f86e9f444cb79746193b2acb89ff",
+        "address": "Piazza Valeria Solesin, 1, Trento",
+        "name": "Studentato Mayer",
+        "alt_name": "Mayer",
+        "wheelchair": ""
+      },
+      {
+        "id": "d65cef09f8534386beb58b24e5da4672",
+        "address": "Via della Gora 9, Rovereto",
+        "name": "Residenza A. Barelli Rovereto",
+        "alt_name": "",
+        "wheelchair": ""
+      }
+    ]
+  }
+}

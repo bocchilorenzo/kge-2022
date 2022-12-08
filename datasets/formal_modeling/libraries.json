@@ -1,0 +1,69 @@
+{
+  "value": {
+    "total": 5,
+    "size": 5,
+    "language": "en",
+    "data": [
+      {
+        "id": "b7ba80505209483f8a7f9a2e04ce827c",
+        "address": "Via Adalberto Libera, 3, Trento, TN",
+        "name": "BUC - Biblioteca Universitaria Centrale",
+        "email": "",
+        "website": "https://www.biblioteca.unitn.it/buc-biblioteca-universitaria-centrale",
+        "alt_name": "Central Library",
+        "short_name": "",
+        "opening_hours": "Mo-Sa 08:00-23:45; Su 14:00-20:45",
+        "phone": "+39 0461 283011",
+        "wheelchair": "yes"
+      },
+      {
+        "id": "4d3e06dd20404315b45986531133d0d9",
+        "address": "Via di Briamasco, 2, Trento, 38122 TN",
+        "name": "Trento Expo",
+        "email": "",
+        "website": "https://www.trentoexpo.com",
+        "alt_name": "Trento Fiere",
+        "short_name": "",
+        "opening_hours": "",
+        "phone": "",
+        "wheelchair": ""
+      },
+      {
+        "id": "c6ab448b8b45456e9464d1b852622334",
+        "address": "Via Mesiano, 77, 38123 Trento",
+        "name": "Dipartimento di Ingegneria Civile, Ambientale e Meccanica",
+        "email": "dicam@unitn.it",
+        "website": "https://www.dicam.unitn.it/",
+        "alt_name": "",
+        "short_name": "",
+        "opening_hours": "",
+        "phone": "+39 0461 281978",
+        "wheelchair": ""
+      },
+      {
+        "id": "50b2616194724405a2ae6d0b2e39dc63",
+        "address": "Via di Briamasco, 2, Trento, TN",
+        "name": "Trento Expo",
+        "email": "",
+        "website": "https://www.trentoexpo.com",
+        "alt_name": "Trento Fiere",
+        "short_name": "",
+        "opening_hours": "",
+        "phone": "",
+        "wheelchair": ""
+      },
+      {
+        "id": "f834ebcf11b64cfe8a6dc107eb0f107f",
+        "address": "Via Sommarive, 5, Povo, 38123 TN",
+        "name": "Dipartimento di Ingegneria Industriale",
+        "email": "",
+        "website": "https://www.dii.unitn.it/",
+        "alt_name": "Povo 2",
+        "short_name": "",
+        "opening_hours": "",
+        "phone": "",
+        "wheelchair": ""
+      }
+    ]
+  }
+}
