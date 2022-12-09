@@ -1,0 +1,35 @@
+{
+	"id": "dioshuifds",
+	"teachingYear": 2,
+	"courseType": "tipo",
+	"credits": 6,
+	"teachingMethods": "Lezioni",
+	"examType": "Scritto",
+	"evalutation": "Esame completo",
+	"teachingPeriod": "Primo semestre",
+	"teachingUnits": [...],
+	"partitions": [...],
+	"name": "Databases",
+	"department": [
+		{
+		"unitName": "Department of Information Engineering and Computer Science",
+		"unitId": "STO0008629"
+		}
+	],
+	"description": "We live in a world full of data. Almost every human activity nowadays produces data or needs access to data. As such, there is a need for effective and efficient solutions that will allow us to store, maintain, search and retrieve large volumes of data. This is what the data management systems do. The goal of this course is to teach the students the fundamental concepts of data  management, to train them in order to be able to design of good databases, give them the ability to build complex queries, and allow them to identify and solve performance problems in real life situations. \nNaturally the course focuses on relational databases since the relational model is the one that drives most of the existing data management systems in the industry nowadays, it has been around for more than 30 years and has been one of the most studied model, and has been the one with the most commercial tools in operation. \n",
+	"professor": [
+		{
+		"name": "Yannis",
+		"surname": "Velegrakis",
+		"id": "7cc92da07568a577d6b2682d602350e5"
+		},
+		{
+		"name": "Atefeh",
+		"surname": "Zareh Chahoki",
+		"id": "26ddd5336d198053e6cffad8ffe2862f"
+		}
+	],
+	"assistant": [],
+	"degreeProgram": "Informatica (L2)",
+	"webSite": "https://www.esse3.unitn.it/Guide/PaginaADContest.do?ad_cont_id=10114*95009*2022*2008*10003"
+}

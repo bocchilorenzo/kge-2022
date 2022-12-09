@@ -10,8 +10,40 @@ def adapt_datasets():
     copy2('datasets/generated/teaching_unit.json',
         'datasets/formal_modeling/teaching_unit.json')
 
+    # extract from the person dataset all the professors, phd students and staff members
+    with open('datasets/generated/person_en_final.json', encoding='utf-8') as f:
+        old_per_data = json.load(f)['value']
+
+        phd_student = initialize_dataset()
+        professor = initialize_dataset()
+        staff_member = initialize_dataset()
+
+        for p in old_per_data['data']:
+            if p['role'].lower().find('teaching') != -1 or p['role'].lower().find('professor') != -1:
+                append_data(professor, p)
+            elif p['role'] == 'PhD student':
+                append_data(phd_student, p)
+            else:
+                append_data(staff_member, p)
+
+        set_total_size(phd_student)
+        set_total_size(professor)
+        set_total_size(staff_member)
+
+        save_dataset(phd_student, 'formal_modeling/phd_student', 'json')
+        save_dataset(professor,
+                    'formal_modeling/professor', 'json')
+        save_dataset(staff_member, 'formal_modeling/staff_member', 'json')
+
     # extract from the courses dataset all the courses and degree programs
-    with open('datasets/generated/course.json', encoding='utf-8') as f:
+    with open('../datasets/generated/course.json', encoding='utf-8') as f:
+        # first we read all the phd students to extract their ids
+        phd_ids = set()
+        with open("../datasets/formal_modeling/phd_student.json", encoding='utf-8') as f2:
+            phd_students = json.load(f2)['value']['data']
+            for phd in phd_students:
+                phd_ids.add(phd['id'])
+        
         old_course_data = json.load(f)['value']
         degree_program = initialize_dataset()
         deg_prog_lookup = {}
@@ -27,6 +59,13 @@ def adapt_datasets():
                 c['degreeProgramId'] = deg_prog_lookup[c['degreeProgram']]
 
             del c['degreeProgram']
+            if c['assistantId'] in phd_ids:
+                c['assistant_phd'] = c['assistantId']
+                c['assistant_professor'] = ""
+            else:
+                c['assistant_professor'] = c['assistantId']
+                c['assistant_phd'] = ""
+            del c['assistantId']
             append_data(course, c)
 
         set_total_size(degree_program)
@@ -34,8 +73,6 @@ def adapt_datasets():
 
         save_dataset(degree_program, 'formal_modeling/degree_program', 'json')
         save_dataset(course, 'formal_modeling/course', 'json')
-
-        # course['data'] = old_course_data['data']
 
     libraries = set()
     # extract from the organizations dataset all the departments, phd programs and the university
@@ -74,33 +111,6 @@ def adapt_datasets():
         save_dataset(department, 'formal_modeling/department', 'json')
         save_dataset(phd_program, 'formal_modeling/phd_program', 'json')
         save_dataset(university, 'formal_modeling/university', 'json')
-
-        # course['data'] = old_course_data['data']
-
-    # extract from the person dataset all the professors, phd students and staff members
-    with open('datasets/generated/person_en_final.json', encoding='utf-8') as f:
-        old_per_data = json.load(f)['value']
-
-        phd_student = initialize_dataset()
-        professor = initialize_dataset()
-        staff_member = initialize_dataset()
-
-        for p in old_per_data['data']:
-            if p['role'].lower().find('teaching') != -1 or p['role'].lower().find('professor') != -1:
-                append_data(professor, p)
-            elif p['role'] == 'PhD student':
-                append_data(phd_student, p)
-            else:
-                append_data(staff_member, p)
-
-        set_total_size(phd_student)
-        set_total_size(professor)
-        set_total_size(staff_member)
-
-        save_dataset(phd_student, 'formal_modeling/phd_student', 'json')
-        save_dataset(professor,
-                    'formal_modeling/professor', 'json')
-        save_dataset(staff_member, 'formal_modeling/staff_member', 'json')
 
     # extract from the buildings dataset all the libraries
     with open('datasets/generated/buildings.json', encoding='utf-8') as f:
