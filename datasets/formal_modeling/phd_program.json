@@ -8,139 +8,162 @@
         "name": "PhD programme (Ministerial Decree 45/2013) - Information and Engineering and Computer Science",
         "description": "",
         "website": "",
-        "id": "STO0013634"
+        "id": "STO0013634",
+        "universityId": "STO0000001"
       },
       {
         "name": "Doctoral programme - Cognitive and Brain Sciences",
         "description": "",
         "website": "",
-        "id": "STO0000432"
+        "id": "STO0000432",
+        "universityId": "STO0000001"
       },
       {
         "name": "Doctoral programme \u2013 Information and Communication Technology",
         "description": "",
         "website": "",
-        "id": "STO0000451"
+        "id": "STO0000451",
+        "universityId": "STO0000001"
       },
       {
         "name": "Doctoral programme \u2013 International studies",
         "description": "",
         "website": "",
-        "id": "STO0000462"
+        "id": "STO0000462",
+        "universityId": "STO0000001"
       },
       {
         "name": "Corso di Dottorato (D.M.226/2021) - Forme del testo e dello scambio culturale",
         "description": "",
         "website": "",
-        "id": "STO0013848"
+        "id": "STO0013848",
+        "universityId": "STO0000001"
       },
       {
         "name": "Corso di Dottorato (D.M.226/2021) - Dottorato di interesse Nazionale in Space Science and Technology - SST",
         "description": "",
         "website": "",
-        "id": "STO0013847"
+        "id": "STO0013847",
+        "universityId": "STO0000001"
       },
       {
         "name": "Doctoral programme \u2013 Civil, environmental and mechanical engineering",
         "description": "",
         "website": "",
-        "id": "STO0009561"
+        "id": "STO0009561",
+        "universityId": "STO0000001"
       },
       {
         "name": "Doctoral programme \u2013 Biomolecular Sciences",
         "description": "",
         "website": "",
-        "id": "STO0002101"
+        "id": "STO0002101",
+        "universityId": "STO0000001"
       },
       {
         "name": "Doctoral programme - Sociology and Social Research (Doctoral School of Social Sciences)",
         "description": "",
         "website": "",
-        "id": "STO0004802"
+        "id": "STO0004802",
+        "universityId": "STO0000001"
       },
       {
         "name": "Doctoral Program in Industrial Innovation (M.D. 45/2013)",
         "description": "",
         "website": "",
-        "id": "STO0012998"
+        "id": "STO0012998",
+        "universityId": "STO0000001"
       },
       {
         "name": "Doctoral programme \u2013 Materials, Mechatronics and Systems Engineering",
         "description": "",
         "website": "",
-        "id": "STO0009701"
+        "id": "STO0009701",
+        "universityId": "STO0000001"
       },
       {
         "name": "Doctoral programme - Le Forme del Testo",
         "description": "",
         "website": "",
-        "id": "STO0010809"
+        "id": "STO0010809",
+        "universityId": "STO0000001"
       },
       {
         "name": "Doctoral programme - Culture d'Europa. Ambiente, spazi, storie, arti, idee",
         "description": "",
         "website": "",
-        "id": "STO0010808"
+        "id": "STO0010808",
+        "universityId": "STO0000001"
       },
       {
         "name": "Doctoral programme - Development Economics and Local Systems",
         "description": "",
         "website": "",
-        "id": "STO0010819"
+        "id": "STO0010819",
+        "universityId": "STO0000001"
       },
       {
         "name": "Doctoral programme \u2013 Physics",
         "description": "",
         "website": "",
-        "id": "STO0000435"
+        "id": "STO0000435",
+        "universityId": "STO0000001"
       },
       {
         "name": "Doctoral programme \u2013 Comparative and European legal studies",
         "description": "",
         "website": "",
-        "id": "STO0000434"
+        "id": "STO0000434",
+        "universityId": "STO0000001"
       },
       {
         "name": "PhD programme (Ministerial Decree 45/2013) - Sustainability: Economics, Environment, Management and Society",
         "description": "",
         "website": "",
-        "id": "STO0013318"
+        "id": "STO0013318",
+        "universityId": "STO0000001"
       },
       {
         "name": "Doctoral programme \u2013 Psychology and Education Sciences",
         "description": "",
         "website": "",
-        "id": "STO0000696"
+        "id": "STO0000696",
+        "universityId": "STO0000001"
       },
       {
         "name": "Doctoral programme (D.M.45/2013) \u2013 Cognitive Science",
         "description": "",
         "website": "",
-        "id": "STO0012756"
+        "id": "STO0012756",
+        "universityId": "STO0000001"
       },
       {
         "name": "Doctoral programme \u2013 Mathematics",
         "description": "",
         "website": "",
-        "id": "STO0000461"
+        "id": "STO0000461",
+        "universityId": "STO0000001"
       },
       {
         "name": "Doctoral programme - Economics and management (Doctoral School of Social Sciences)",
         "description": "",
         "website": "",
-        "id": "STO0004803"
+        "id": "STO0004803",
+        "universityId": "STO0000001"
       },
       {
         "name": "Doctoral Program in Agrifood and Environmental Sciences (D.M.45/2013)",
         "description": "",
         "website": "",
-        "id": "STO0012999"
+        "id": "STO0012999",
+        "universityId": "STO0000001"
       },
       {
         "name": "Doctoral programme (D.M.45/2013) - Forms of cultural exchange",
         "description": "",
         "website": "",
-        "id": "STO0013015"
+        "id": "STO0013015",
+        "universityId": "STO0000001"
       }
     ]
   }

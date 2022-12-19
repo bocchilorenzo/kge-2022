@@ -5,25 +5,28 @@
     "language": "en",
     "data": [
       {
-        "id": "e3a2312bb3544c77b314184499242f51",
+        "id": "94588e150b4a40e9923e8b8a243f8690",
         "address": "Via della Malpensada, 140, 38128 Trento",
         "name": "Studentato S. Bartolameo",
         "alt_name": "Sanba",
-        "wheelchair": ""
+        "wheelchair": "",
+        "universityId": "STO0000001"
       },
       {
-        "id": "0d84f86e9f444cb79746193b2acb89ff",
+        "id": "9ca1023c8ee047a9a00e8336db3af2f8",
         "address": "Piazza Valeria Solesin, 1, Trento",
         "name": "Studentato Mayer",
         "alt_name": "Mayer",
-        "wheelchair": ""
+        "wheelchair": "",
+        "universityId": "STO0000001"
       },
       {
-        "id": "d65cef09f8534386beb58b24e5da4672",
+        "id": "a4da370a15a342c2824050b32cc13519",
         "address": "Via della Gora 9, Rovereto",
         "name": "Residenza A. Barelli Rovereto",
         "alt_name": "",
-        "wheelchair": ""
+        "wheelchair": "",
+        "universityId": "STO0000001"
       }
     ]
   }

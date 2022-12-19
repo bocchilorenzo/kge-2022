@@ -12,7 +12,8 @@
         "email": "",
         "website": "",
         "id": "STO0000256",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "unit",
@@ -22,7 +23,8 @@
         "email": "",
         "website": "",
         "id": "STO0013563",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "unit",
@@ -32,7 +34,8 @@
         "email": "",
         "website": "",
         "id": "STO0013562",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -42,7 +45,8 @@
         "email": "",
         "website": "",
         "id": "STO0013561",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "academic center",
@@ -52,7 +56,8 @@
         "email": "c3a@unitn.it",
         "website": "http://www.centro3a.unitn.it",
         "id": "STO0012250",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -62,7 +67,8 @@
         "email": "uff.organicollegiali@unitn.it",
         "website": "",
         "id": "STO0000268",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "directorate",
@@ -72,7 +78,8 @@
         "email": "dirpi@unitn.it",
         "website": "",
         "id": "STO0000266",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -82,7 +89,8 @@
         "email": "",
         "website": "",
         "id": "STO0000273",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -92,7 +100,8 @@
         "email": "BibliotecaIngegneria@unitn.it",
         "website": "",
         "id": "STO0000292",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -102,7 +111,8 @@
         "email": "",
         "website": "",
         "id": "STO0000239",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -112,7 +122,8 @@
         "email": "Uff.Stipendi@unitn.it",
         "website": "",
         "id": "STO0000237",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -122,7 +133,8 @@
         "email": "formazione@unitn.it",
         "website": "",
         "id": "STO0000235",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -132,7 +144,8 @@
         "email": "",
         "website": "",
         "id": "STO0013548",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -142,7 +155,8 @@
         "email": "",
         "website": "",
         "id": "STO0013547",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "directorate",
@@ -152,7 +166,8 @@
         "email": "",
         "website": "",
         "id": "STO0013546",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -162,7 +177,8 @@
         "email": "",
         "website": "",
         "id": "STO0013543",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -172,7 +188,8 @@
         "email": "",
         "website": "",
         "id": "STO0000241",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -182,7 +199,8 @@
         "email": "fiscale@unitn.it",
         "website": "",
         "id": "STO0000240",
-        "phoneNumber": "0461 283339"
+        "phoneNumber": "0461 283339",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -192,7 +210,8 @@
         "email": "",
         "website": "",
         "id": "STO0013556",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -202,7 +221,8 @@
         "email": "",
         "website": "",
         "id": "STO0013555",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "unit",
@@ -212,7 +232,8 @@
         "email": "",
         "website": "",
         "id": "STO0013552",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -222,7 +243,8 @@
         "email": "",
         "website": "",
         "id": "STO0013550",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -232,7 +254,8 @@
         "email": "",
         "website": "",
         "id": "STO0012278",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -242,7 +265,8 @@
         "email": "iris@unitn.it",
         "website": "",
         "id": "STO0001641",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "unit",
@@ -252,7 +276,8 @@
         "email": "",
         "website": "",
         "id": "STO0013626",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -262,7 +287,8 @@
         "email": "",
         "website": "",
         "id": "STO0013625",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -272,7 +298,8 @@
         "email": "gestione.sistemi@unitn.it",
         "website": "",
         "id": "STO0000399",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -282,7 +309,8 @@
         "email": "",
         "website": "",
         "id": "STO0000335",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -292,7 +320,8 @@
         "email": "",
         "website": "",
         "id": "STO0000366",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "research center",
@@ -302,7 +331,8 @@
         "email": "school.socialsciences@unitn.it",
         "website": "http://www.unitn.it/drss",
         "id": "STO0000371",
-        "phoneNumber": "0461 282290"
+        "phoneNumber": "0461 282290",
+        "universityId": "STO0000001"
       },
       {
         "subType": "research center",
@@ -312,7 +342,8 @@
         "email": "school.socialsciences@unitn.it",
         "website": "http://www.unitn.it/drss",
         "id": "STO0000371",
-        "phoneNumber": "0461 282331"
+        "phoneNumber": "0461 282331",
+        "universityId": "STO0000001"
       },
       {
         "subType": "research center",
@@ -322,7 +353,8 @@
         "email": "school.socialsciences@unitn.it",
         "website": "http://www.unitn.it/drss",
         "id": "STO0000371",
-        "phoneNumber": "0461 283756"
+        "phoneNumber": "0461 283756",
+        "universityId": "STO0000001"
       },
       {
         "subType": "supporting board",
@@ -332,7 +364,8 @@
         "email": "",
         "website": "",
         "id": "ORI0000274",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "board",
@@ -342,7 +375,8 @@
         "email": "",
         "website": "",
         "id": "ORI0000273",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "supporting board",
@@ -352,7 +386,8 @@
         "email": "",
         "website": "",
         "id": "ORI0000275",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "governing board",
@@ -362,7 +397,8 @@
         "email": "",
         "website": "",
         "id": "ORI0000278",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "governing board",
@@ -372,7 +408,8 @@
         "email": "direttoregenerale@unitn.it",
         "website": "",
         "id": "ORI0000277",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "board",
@@ -382,7 +419,8 @@
         "email": "",
         "website": "",
         "id": "ORI0000270",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "board",
@@ -392,7 +430,8 @@
         "email": "",
         "website": "",
         "id": "ORI0000271",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "supporting board",
@@ -402,7 +441,8 @@
         "email": "",
         "website": "",
         "id": "ORI0000285",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "governing board",
@@ -412,7 +452,8 @@
         "email": "presidente@unitn.it",
         "website": "",
         "id": "ORI0000281",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "board",
@@ -422,7 +463,8 @@
         "email": "",
         "website": "",
         "id": "ORI0000265",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "board",
@@ -432,7 +474,8 @@
         "email": "",
         "website": "",
         "id": "ORI0000264",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "board",
@@ -442,7 +485,8 @@
         "email": "",
         "website": "",
         "id": "ORI0000267",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "board",
@@ -452,7 +496,8 @@
         "email": "",
         "website": "",
         "id": "ORI0000266",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "board",
@@ -462,7 +507,8 @@
         "email": "",
         "website": "",
         "id": "ORI0000269",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "board",
@@ -472,7 +518,8 @@
         "email": "",
         "website": "",
         "id": "ORI0000268",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "supporting board",
@@ -482,7 +529,8 @@
         "email": "",
         "website": "",
         "id": "ORI0000201",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -492,7 +540,8 @@
         "email": "",
         "website": "",
         "id": "STO0013709",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -502,7 +551,8 @@
         "email": "",
         "website": "",
         "id": "STO0013708",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "supporting board",
@@ -512,7 +562,8 @@
         "email": "",
         "website": "",
         "id": "ORI0000221",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -522,7 +573,8 @@
         "email": "",
         "website": "",
         "id": "STO0013712",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -532,7 +584,8 @@
         "email": "",
         "website": "",
         "id": "STO0013711",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "directorate",
@@ -542,7 +595,8 @@
         "email": "staff.rettorato@unitn.it",
         "website": "",
         "id": "STO0000012",
-        "phoneNumber": "0461 283411"
+        "phoneNumber": "0461 283411",
+        "universityId": "STO0000001"
       },
       {
         "subType": "directorate",
@@ -552,7 +606,8 @@
         "email": "staff.rettorato@unitn.it",
         "website": "",
         "id": "STO0000012",
-        "phoneNumber": "0461 281241"
+        "phoneNumber": "0461 281241",
+        "universityId": "STO0000001"
       },
       {
         "subType": "directorate",
@@ -562,7 +617,8 @@
         "email": "staff.rettorato@unitn.it",
         "website": "",
         "id": "STO0000012",
-        "phoneNumber": "0461 281121"
+        "phoneNumber": "0461 281121",
+        "universityId": "STO0000001"
       },
       {
         "subType": "rectorate",
@@ -572,7 +628,8 @@
         "email": "staff.rettorato@unitn.it",
         "website": "",
         "id": "STO0000006",
-        "phoneNumber": "0461 281121"
+        "phoneNumber": "0461 281121",
+        "universityId": "STO0000001"
       },
       {
         "subType": "rectorate",
@@ -582,7 +639,8 @@
         "email": "staff.rettorato@unitn.it",
         "website": "",
         "id": "STO0000006",
-        "phoneNumber": "0461 281241"
+        "phoneNumber": "0461 281241",
+        "universityId": "STO0000001"
       },
       {
         "subType": "rectorate",
@@ -592,7 +650,8 @@
         "email": "staff.rettorato@unitn.it",
         "website": "",
         "id": "STO0000006",
-        "phoneNumber": "0461 281209"
+        "phoneNumber": "0461 281209",
+        "universityId": "STO0000001"
       },
       {
         "subType": "unit",
@@ -602,7 +661,8 @@
         "email": "dii.tecnici.laboratori@unitn.it",
         "website": "",
         "id": "STO0008899",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -612,7 +672,8 @@
         "email": "dii.supportstaff@unitn.it",
         "website": "",
         "id": "STO0008898",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "unit",
@@ -622,7 +683,8 @@
         "email": "Comunicazione-Citta@unitn.it",
         "website": "",
         "id": "STO0008862",
-        "phoneNumber": "0461 281809"
+        "phoneNumber": "0461 281809",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -632,7 +694,8 @@
         "email": "",
         "website": "",
         "id": "STO0008861",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -642,7 +705,8 @@
         "email": "",
         "website": "",
         "id": "STO0008865",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "unit",
@@ -652,7 +716,8 @@
         "email": "Comunicazione-Collina@unitn.it",
         "website": "",
         "id": "STO0008864",
-        "phoneNumber": "0461 281545"
+        "phoneNumber": "0461 281545",
+        "universityId": "STO0000001"
       },
       {
         "subType": "supporting board",
@@ -662,7 +727,8 @@
         "email": "",
         "website": "",
         "id": "ORI0000161",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -672,7 +738,8 @@
         "email": "",
         "website": "",
         "id": "STO0008885",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "unit",
@@ -682,7 +749,8 @@
         "email": "",
         "website": "",
         "id": "STO0008883",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -692,7 +760,8 @@
         "email": "labdipsco@unitn.it",
         "website": "",
         "id": "STO0008878",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -702,7 +771,8 @@
         "email": "",
         "website": "",
         "id": "STO0008892",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -712,7 +782,8 @@
         "email": "",
         "website": "",
         "id": "STO0008891",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "unit",
@@ -722,7 +793,8 @@
         "email": "",
         "website": "",
         "id": "STO0008896",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -732,7 +804,8 @@
         "email": "",
         "website": "",
         "id": "STO0008895",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -742,7 +815,8 @@
         "email": "",
         "website": "",
         "id": "STO0008894",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "governing board",
@@ -752,7 +826,8 @@
         "email": "",
         "website": "",
         "id": "ORI0000101",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -762,7 +837,8 @@
         "email": "",
         "website": "",
         "id": "STO0000148",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "directorate",
@@ -772,7 +848,8 @@
         "email": "DirezioneRisorseUmane@unitn.it",
         "website": "",
         "id": "STO0000143",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -782,7 +859,8 @@
         "email": "",
         "website": "",
         "id": "STO0000160",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -792,7 +870,8 @@
         "email": "",
         "website": "",
         "id": "STO0000123",
-        "phoneNumber": "0461 281272"
+        "phoneNumber": "0461 281272",
+        "universityId": "STO0000001"
       },
       {
         "subType": "unit",
@@ -802,7 +881,8 @@
         "email": "",
         "website": "",
         "id": "STO0008940",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -812,7 +892,8 @@
         "email": "",
         "website": "",
         "id": "STO0008932",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -822,7 +903,8 @@
         "email": "",
         "website": "",
         "id": "STO0008935",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "unit",
@@ -832,7 +914,8 @@
         "email": "",
         "website": "",
         "id": "STO0008934",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "unit",
@@ -842,7 +925,8 @@
         "email": "",
         "website": "",
         "id": "STO0008900",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "unit",
@@ -852,7 +936,8 @@
         "email": "",
         "website": "",
         "id": "STO0008904",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -862,7 +947,8 @@
         "email": "",
         "website": "",
         "id": "STO0008901",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -872,7 +958,8 @@
         "email": "",
         "website": "",
         "id": "STO0008907",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -882,7 +969,8 @@
         "email": "",
         "website": "",
         "id": "STO0008905",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -892,7 +980,8 @@
         "email": "",
         "website": "",
         "id": "STO0008909",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -902,7 +991,8 @@
         "email": "",
         "website": "",
         "id": "STO0008915",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "unit",
@@ -912,7 +1002,8 @@
         "email": "",
         "website": "",
         "id": "STO0008914",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -922,7 +1013,8 @@
         "email": "",
         "website": "",
         "id": "STO0008913",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -932,7 +1024,8 @@
         "email": "",
         "website": "",
         "id": "STO0008912",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -942,7 +1035,8 @@
         "email": "",
         "website": "",
         "id": "STO0008917",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -952,7 +1046,8 @@
         "email": "phd.office-st@unitn.it",
         "website": "",
         "id": "STO0008926",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -962,7 +1057,8 @@
         "email": "",
         "website": "",
         "id": "STO0008925",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -972,7 +1068,8 @@
         "email": "supportostudentiecogiursi@unitn.it",
         "website": "",
         "id": "STO0008929",
-        "phoneNumber": "0461 282166"
+        "phoneNumber": "0461 282166",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -982,7 +1079,8 @@
         "email": "",
         "website": "",
         "id": "STO0008927",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "supporting board",
@@ -992,7 +1090,8 @@
         "email": "",
         "website": "",
         "id": "ORI0000081",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "governing board",
@@ -1002,7 +1101,8 @@
         "email": "",
         "website": "",
         "id": "ORI0000006",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "governing board",
@@ -1012,7 +1112,8 @@
         "email": "",
         "website": "",
         "id": "ORI0000002",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "governing board",
@@ -1022,7 +1123,8 @@
         "email": "presidenteconsigliostudenti@unitn.it",
         "website": "",
         "id": "ORI0000004",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -1032,7 +1134,8 @@
         "email": "",
         "website": "",
         "id": "STO0012809",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -1042,7 +1145,8 @@
         "email": "",
         "website": "",
         "id": "STO0012808",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -1052,7 +1156,8 @@
         "email": "",
         "website": "",
         "id": "STO0012898",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -1062,7 +1167,8 @@
         "email": "",
         "website": "",
         "id": "STO0012838",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -1072,7 +1178,8 @@
         "email": "",
         "website": "",
         "id": "STO0012836",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -1082,7 +1189,8 @@
         "email": "",
         "website": "",
         "id": "STO0012834",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -1092,7 +1200,8 @@
         "email": "",
         "website": "",
         "id": "STO0012832",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -1102,7 +1211,8 @@
         "email": "",
         "website": "",
         "id": "STO0012833",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -1112,7 +1222,8 @@
         "email": "uff.personaledr@unitn.it",
         "website": "",
         "id": "STO0000868",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -1122,7 +1233,8 @@
         "email": "",
         "website": "",
         "id": "STO0000867",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -1132,7 +1244,8 @@
         "email": "Div.Amministrazione@unitn.it",
         "website": "",
         "id": "STO0000864",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -1142,7 +1255,8 @@
         "email": "Div.Pianificazione@unitn.it",
         "website": "",
         "id": "STO0000863",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -1152,7 +1266,8 @@
         "email": "",
         "website": "",
         "id": "STO0000862",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "directorate",
@@ -1162,7 +1277,8 @@
         "email": "dca@unitn.it",
         "website": "",
         "id": "STO0000861",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -1172,7 +1288,8 @@
         "email": "",
         "website": "",
         "id": "STO0000886",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -1182,7 +1299,8 @@
         "email": "uff.amministrazionepta@unitn.it",
         "website": "",
         "id": "STO0000883",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "graduate school",
@@ -1192,7 +1310,8 @@
         "email": "",
         "website": "",
         "id": "STO0000474",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "unit",
@@ -1202,7 +1321,8 @@
         "email": "",
         "website": "",
         "id": "STO0012549",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "unit",
@@ -1212,7 +1332,8 @@
         "email": "",
         "website": "",
         "id": "STO0013878",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "unit",
@@ -1222,7 +1343,8 @@
         "email": "",
         "website": "",
         "id": "STO0001821",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -1232,7 +1354,8 @@
         "email": "",
         "website": "",
         "id": "STO0012558",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -1242,7 +1365,8 @@
         "email": "",
         "website": "",
         "id": "STO0012555",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -1252,7 +1376,8 @@
         "email": "",
         "website": "",
         "id": "STO0012556",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -1262,7 +1387,8 @@
         "email": "",
         "website": "",
         "id": "STO0012553",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -1272,7 +1398,8 @@
         "email": "WebTeam@unitn.it",
         "website": "",
         "id": "STO0012554",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -1282,7 +1409,8 @@
         "email": "",
         "website": "",
         "id": "STO0012552",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -1292,7 +1420,8 @@
         "email": "ammissioni@unitn.it",
         "website": "",
         "id": "STO0012566",
-        "phoneNumber": "0461 282170"
+        "phoneNumber": "0461 282170",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -1302,7 +1431,8 @@
         "email": "",
         "website": "",
         "id": "STO0012567",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -1312,7 +1442,8 @@
         "email": "",
         "website": "",
         "id": "STO0012565",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -1322,7 +1453,8 @@
         "email": "",
         "website": "",
         "id": "STO0012561",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "graduate school",
@@ -1332,7 +1464,8 @@
         "email": "",
         "website": "",
         "id": "STO0002121",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -1342,7 +1475,8 @@
         "email": "Uff.ProtocolloCentrale@unitn.it",
         "website": "",
         "id": "STO0009626",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -1352,7 +1486,8 @@
         "email": "",
         "website": "",
         "id": "STO0011925",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -1362,7 +1497,8 @@
         "email": "dir.dss@unitn.it",
         "website": "",
         "id": "STO0000948",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "directorate",
@@ -1372,7 +1508,8 @@
         "email": "dir.dss@unitn.it",
         "website": "",
         "id": "STO0000947",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -1382,7 +1519,8 @@
         "email": "",
         "website": "",
         "id": "STO0000943",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -1392,7 +1530,8 @@
         "email": "uff.serviziallostudio@unitn.it",
         "website": "",
         "id": "STO0000958",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -1402,7 +1541,8 @@
         "email": "Uff.DidatticaOnLine@unitn.it",
         "website": "",
         "id": "STO0000962",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -1412,7 +1552,8 @@
         "email": "",
         "website": "",
         "id": "STO0000907",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -1422,7 +1563,8 @@
         "email": "",
         "website": "",
         "id": "STO0012900",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "academic department",
@@ -1432,7 +1574,8 @@
         "email": "cibio@unitn.it",
         "website": "http://www.cibio.unitn.it",
         "id": "STO0008662",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "academic department",
@@ -1442,7 +1585,8 @@
         "email": "dipartimentopsc@unitn.it",
         "website": "http://www.cogsci.unitn.it/",
         "id": "STO0008631",
-        "phoneNumber": "0464 808401"
+        "phoneNumber": "0464 808401",
+        "universityId": "STO0000001"
       },
       {
         "subType": "academic department",
@@ -1452,7 +1596,8 @@
         "email": "",
         "website": "http://www.sociologia.unitn.it",
         "id": "STO0008630",
-        "phoneNumber": "0461 281300"
+        "phoneNumber": "0461 281300",
+        "universityId": "STO0000001"
       },
       {
         "subType": "academic department",
@@ -1462,7 +1607,8 @@
         "email": "dii.supportstaff@unitn.it",
         "website": "http://www.dii.unitn.it",
         "id": "STO0008625",
-        "phoneNumber": "0461 282500"
+        "phoneNumber": "0461 282500",
+        "universityId": "STO0000001"
       },
       {
         "subType": "academic department",
@@ -1472,7 +1618,8 @@
         "email": "dii.supportstaff@unitn.it",
         "website": "http://www.dii.unitn.it",
         "id": "STO0008625",
-        "phoneNumber": "0461 282503"
+        "phoneNumber": "0461 282503",
+        "universityId": "STO0000001"
       },
       {
         "subType": "academic department",
@@ -1482,7 +1629,8 @@
         "email": "dept.math@unitn.it",
         "website": "http://www.maths.unitn.it/",
         "id": "STO0008628",
-        "phoneNumber": "0461 281508"
+        "phoneNumber": "0461 281508",
+        "universityId": "STO0000001"
       },
       {
         "subType": "academic department",
@@ -1492,7 +1640,8 @@
         "email": "dept.math@unitn.it",
         "website": "http://www.maths.unitn.it/",
         "id": "STO0008628",
-        "phoneNumber": "0461 281625"
+        "phoneNumber": "0461 281625",
+        "universityId": "STO0000001"
       },
       {
         "subType": "academic department",
@@ -1502,7 +1651,8 @@
         "email": "df.supportstaff@unitn.it",
         "website": "http://www.physics.unitn.it",
         "id": "STO0008627",
-        "phoneNumber": "0461 281504"
+        "phoneNumber": "0461 281504",
+        "universityId": "STO0000001"
       },
       {
         "subType": "academic department",
@@ -1512,7 +1662,8 @@
         "email": "dicam@unitn.it",
         "website": "http://www.dicam.unitn.it/",
         "id": "STO0008626",
-        "phoneNumber": "0461 281978"
+        "phoneNumber": "0461 281978",
+        "universityId": "STO0000001"
       },
       {
         "subType": "academic center",
@@ -1522,7 +1673,8 @@
         "email": "sis@unitn.it",
         "website": "http://www.sis.unitn.it",
         "id": "STO0008633",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -1532,7 +1684,8 @@
         "email": "",
         "website": "",
         "id": "STO0013074",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -1542,7 +1695,8 @@
         "email": "",
         "website": "",
         "id": "STO0013041",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -1552,7 +1706,8 @@
         "email": "",
         "website": "",
         "id": "STO0013040",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "unit",
@@ -1562,7 +1717,8 @@
         "email": "",
         "website": "",
         "id": "STO0012231",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -1572,7 +1728,8 @@
         "email": "UfficioStudi@unitn.it",
         "website": "",
         "id": "STO0000267",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -1582,7 +1739,8 @@
         "email": "",
         "website": "",
         "id": "STO0000291",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -1592,7 +1750,8 @@
         "email": "ufficio.stampa@unitn.it",
         "website": "",
         "id": "STO0000217",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "academic center",
@@ -1602,7 +1761,8 @@
         "email": "",
         "website": "",
         "id": "STO0013533",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "research center",
@@ -1612,7 +1772,8 @@
         "email": "",
         "website": "",
         "id": "STO0013532",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -1622,7 +1783,8 @@
         "email": "Uff.Previdenza@unitn.it",
         "website": "",
         "id": "STO0000238",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -1632,7 +1794,8 @@
         "email": "",
         "website": "",
         "id": "STO0013549",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -1642,7 +1805,8 @@
         "email": "uff.privacy@unitn.it",
         "website": "",
         "id": "STO0013545",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -1652,7 +1816,8 @@
         "email": "",
         "website": "",
         "id": "STO0013544",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "unit",
@@ -1662,7 +1827,8 @@
         "email": "",
         "website": "",
         "id": "STO0013542",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -1672,7 +1838,8 @@
         "email": "",
         "website": "",
         "id": "STO0013560",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -1682,7 +1849,8 @@
         "email": "gm.povo@unitn.it",
         "website": "",
         "id": "STO0000242",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -1692,7 +1860,8 @@
         "email": "",
         "website": "",
         "id": "STO0013559",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -1702,7 +1871,8 @@
         "email": "UfficioArchiviEditoria@unitn.it",
         "website": "",
         "id": "STO0013558",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -1712,7 +1882,8 @@
         "email": "",
         "website": "",
         "id": "STO0013557",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -1722,7 +1893,8 @@
         "email": "",
         "website": "",
         "id": "STO0013554",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -1732,7 +1904,8 @@
         "email": "",
         "website": "",
         "id": "STO0013553",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -1742,7 +1915,8 @@
         "email": "",
         "website": "",
         "id": "STO0013551",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -1752,7 +1926,8 @@
         "email": "ecdl@unitn.it",
         "website": "http://www.testcenter.unitn.it",
         "id": "STO0000398",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -1762,7 +1937,8 @@
         "email": "",
         "website": "",
         "id": "STO0000336",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -1772,7 +1948,8 @@
         "email": "",
         "website": "",
         "id": "STO0000355",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -1782,7 +1959,8 @@
         "email": "",
         "website": "",
         "id": "STO0000354",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -1792,7 +1970,8 @@
         "email": "",
         "website": "",
         "id": "STO0013669",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "governing board",
@@ -1802,7 +1981,8 @@
         "email": "rettore@unitn.it",
         "website": "",
         "id": "ORI0000276",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "supporting board",
@@ -1812,7 +1992,8 @@
         "email": "",
         "website": "",
         "id": "ORI0000279",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "board",
@@ -1822,7 +2003,8 @@
         "email": "",
         "website": "",
         "id": "ORI0000272",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "board",
@@ -1832,7 +2014,8 @@
         "email": "",
         "website": "",
         "id": "ORI0000284",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "supporting board",
@@ -1842,7 +2025,8 @@
         "email": "",
         "website": "",
         "id": "ORI0000280",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "supporting board",
@@ -1852,7 +2036,8 @@
         "email": "",
         "website": "",
         "id": "ORI0000283",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "board",
@@ -1862,7 +2047,8 @@
         "email": "",
         "website": "",
         "id": "ORI0000282",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -1872,7 +2058,8 @@
         "email": "",
         "website": "",
         "id": "STO0000413",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -1882,7 +2069,8 @@
         "email": "",
         "website": "",
         "id": "STO0001741",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "supporting board",
@@ -1892,7 +2080,8 @@
         "email": "",
         "website": "",
         "id": "ORI0000241",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -1902,7 +2091,8 @@
         "email": "",
         "website": "",
         "id": "STO0013731",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -1912,7 +2102,8 @@
         "email": "",
         "website": "",
         "id": "STO0013730",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -1922,7 +2113,8 @@
         "email": "",
         "website": "",
         "id": "STO0013747",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -1932,7 +2124,8 @@
         "email": "",
         "website": "",
         "id": "STO0013746",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -1942,7 +2135,8 @@
         "email": "",
         "website": "",
         "id": "STO0013745",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "unit",
@@ -1952,7 +2146,8 @@
         "email": "",
         "website": "",
         "id": "STO0013744",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "board",
@@ -1962,7 +2157,8 @@
         "email": "",
         "website": "",
         "id": "ORI0000263",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "board",
@@ -1972,7 +2168,8 @@
         "email": "",
         "website": "",
         "id": "ORI0000262",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "board",
@@ -1982,7 +2179,8 @@
         "email": "",
         "website": "",
         "id": "ORI0000261",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -1992,7 +2190,8 @@
         "email": "",
         "website": "",
         "id": "STO0013710",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "unit",
@@ -2002,7 +2201,8 @@
         "email": "",
         "website": "",
         "id": "STO0008897",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "unit",
@@ -2012,7 +2212,8 @@
         "email": "Comunicazione-Rovereto@unitn.it",
         "website": "",
         "id": "STO0008863",
-        "phoneNumber": "0464 808463"
+        "phoneNumber": "0464 808463",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -2022,7 +2223,8 @@
         "email": "",
         "website": "",
         "id": "STO0008874",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "unit",
@@ -2032,7 +2234,8 @@
         "email": "",
         "website": "",
         "id": "STO0008866",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "unit",
@@ -2042,7 +2245,8 @@
         "email": "",
         "website": "",
         "id": "STO0008881",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -2052,7 +2256,8 @@
         "email": "itmrovereto@unitn.it",
         "website": "",
         "id": "STO0008877",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -2062,7 +2267,8 @@
         "email": "icts.polocollina@unitn.it",
         "website": "",
         "id": "STO0008876",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -2072,7 +2278,8 @@
         "email": "",
         "website": "",
         "id": "STO0008875",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -2082,7 +2289,8 @@
         "email": "",
         "website": "",
         "id": "STO0008890",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "unit",
@@ -2092,7 +2300,8 @@
         "email": "",
         "website": "",
         "id": "STO0008893",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -2102,7 +2311,8 @@
         "email": "",
         "website": "",
         "id": "STO0008887",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -2112,7 +2322,8 @@
         "email": "",
         "website": "",
         "id": "STO0008886",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "supporting board",
@@ -2122,7 +2333,8 @@
         "email": "",
         "website": "",
         "id": "ORI0000181",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "supporting board",
@@ -2132,7 +2344,8 @@
         "email": "",
         "website": "",
         "id": "ORI0000141",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "unit",
@@ -2142,7 +2355,8 @@
         "email": "",
         "website": "",
         "id": "STO0013423",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -2152,7 +2366,8 @@
         "email": "",
         "website": "",
         "id": "STO0008930",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -2162,7 +2377,8 @@
         "email": "",
         "website": "",
         "id": "STO0008936",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -2172,7 +2388,8 @@
         "email": "",
         "website": "",
         "id": "STO0008903",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "unit",
@@ -2182,7 +2399,8 @@
         "email": "",
         "website": "",
         "id": "STO0008902",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "unit",
@@ -2192,7 +2410,8 @@
         "email": "",
         "website": "",
         "id": "STO0008908",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "unit",
@@ -2202,7 +2421,8 @@
         "email": "",
         "website": "",
         "id": "STO0008906",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "unit",
@@ -2212,7 +2432,8 @@
         "email": "",
         "website": "",
         "id": "STO0008911",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -2222,7 +2443,8 @@
         "email": "",
         "website": "",
         "id": "STO0008910",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -2232,7 +2454,8 @@
         "email": "",
         "website": "",
         "id": "STO0008919",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "unit",
@@ -2242,7 +2465,8 @@
         "email": "",
         "website": "",
         "id": "STO0008916",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -2252,7 +2476,8 @@
         "email": "",
         "website": "",
         "id": "STO0008921",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -2262,7 +2487,8 @@
         "email": "Uff.SviluppoServiziOnLine@unitn.it",
         "website": "",
         "id": "STO0008920",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -2272,7 +2498,8 @@
         "email": "phd.office-cssh@unitn.it",
         "website": "",
         "id": "STO0008924",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -2282,7 +2509,8 @@
         "email": "",
         "website": "",
         "id": "STO0008923",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "governing board",
@@ -2292,7 +2520,8 @@
         "email": "presidente@unitn.it",
         "website": "",
         "id": "ORI0000003",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "governing board",
@@ -2302,7 +2531,8 @@
         "email": "NucleodiValutazione@unitn.it",
         "website": "",
         "id": "ORI0000005",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -2312,7 +2542,8 @@
         "email": "uff.legale@unitn.it",
         "website": "",
         "id": "STO0000843",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -2322,7 +2553,8 @@
         "email": "",
         "website": "",
         "id": "STO0012899",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -2332,7 +2564,8 @@
         "email": "",
         "website": "",
         "id": "STO0012837",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -2342,7 +2575,8 @@
         "email": "",
         "website": "",
         "id": "STO0012835",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -2352,7 +2586,8 @@
         "email": "",
         "website": "",
         "id": "STO0012831",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -2362,7 +2597,8 @@
         "email": "Uff.AccoglienzaPersonale@unitn.it",
         "website": "",
         "id": "STO0000869",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -2372,7 +2608,8 @@
         "email": "",
         "website": "",
         "id": "STO0000879",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -2382,7 +2619,8 @@
         "email": "",
         "website": "",
         "id": "STO0000871",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "directorate",
@@ -2392,7 +2630,8 @@
         "email": "dir.sisti@unitn.it",
         "website": "https://icts.unitn.it/",
         "id": "STO0000870",
-        "phoneNumber": "0461 281228"
+        "phoneNumber": "0461 281228",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -2402,7 +2641,8 @@
         "email": "",
         "website": "",
         "id": "STO0000887",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -2412,7 +2652,8 @@
         "email": "network@unitn.it",
         "website": "",
         "id": "STO0000885",
-        "phoneNumber": "0461 283400"
+        "phoneNumber": "0461 283400",
+        "universityId": "STO0000001"
       },
       {
         "subType": "graduate school",
@@ -2422,7 +2663,8 @@
         "email": "",
         "website": "",
         "id": "STO0000482",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -2432,7 +2674,8 @@
         "email": "",
         "website": "",
         "id": "STO0012548",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -2442,7 +2685,8 @@
         "email": "",
         "website": "",
         "id": "STO0012559",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -2452,7 +2696,8 @@
         "email": "",
         "website": "",
         "id": "STO0012557",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -2462,7 +2707,8 @@
         "email": "",
         "website": "",
         "id": "STO0012568",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -2472,7 +2718,8 @@
         "email": "",
         "website": "",
         "id": "STO0012564",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -2482,7 +2729,8 @@
         "email": "",
         "website": "",
         "id": "STO0012563",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -2492,7 +2740,8 @@
         "email": "",
         "website": "",
         "id": "STO0012560",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "unit",
@@ -2502,7 +2751,8 @@
         "email": "",
         "website": "",
         "id": "STO0008301",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -2512,7 +2762,8 @@
         "email": "comunicazione@unitn.it",
         "website": "",
         "id": "STO0000946",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -2522,7 +2773,8 @@
         "email": "",
         "website": "",
         "id": "STO0000903",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "division",
@@ -2532,7 +2784,8 @@
         "email": "",
         "website": "",
         "id": "STO0000902",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -2542,7 +2795,8 @@
         "email": "",
         "website": "",
         "id": "STO0000901",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "office",
@@ -2552,7 +2806,8 @@
         "email": "",
         "website": "",
         "id": "STO0000905",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "unit",
@@ -2562,7 +2817,8 @@
         "email": "cru@unitn.it",
         "website": "",
         "id": "STO0002401",
-        "phoneNumber": "0461 281202"
+        "phoneNumber": "0461 281202",
+        "universityId": "STO0000001"
       },
       {
         "subType": "academic center",
@@ -2572,7 +2828,8 @@
         "email": "cimec@unitn.it",
         "website": "http://www.cimec.unitn.it",
         "id": "STO0008663",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "academic department",
@@ -2582,7 +2839,8 @@
         "email": "dem@unitn.it",
         "website": "http://www.economia.unitn.it",
         "id": "STO0008621",
-        "phoneNumber": "0461 282100"
+        "phoneNumber": "0461 282100",
+        "universityId": "STO0000001"
       },
       {
         "subType": "academic department",
@@ -2592,7 +2850,8 @@
         "email": "staffdip.lett@unitn.it",
         "website": "http://www.lettere.unitn.it/",
         "id": "STO0008632",
-        "phoneNumber": "0461 281717"
+        "phoneNumber": "0461 281717",
+        "universityId": "STO0000001"
       },
       {
         "subType": "academic department",
@@ -2602,7 +2861,8 @@
         "email": "staffdip.lett@unitn.it",
         "website": "http://www.lettere.unitn.it/",
         "id": "STO0008632",
-        "phoneNumber": "0461 282723"
+        "phoneNumber": "0461 282723",
+        "universityId": "STO0000001"
       },
       {
         "subType": "academic department",
@@ -2612,7 +2872,8 @@
         "email": "",
         "website": "http://www.giurisprudenza.unitn.it",
         "id": "STO0008624",
-        "phoneNumber": "0461 281818"
+        "phoneNumber": "0461 281818",
+        "universityId": "STO0000001"
       },
       {
         "subType": "academic department",
@@ -2622,7 +2883,8 @@
         "email": "disi@unitn.it",
         "website": "https://www.disi.unitn.it",
         "id": "STO0008629",
-        "phoneNumber": "0461 285226"
+        "phoneNumber": "0461 285226",
+        "universityId": "STO0000001"
       },
       {
         "subType": "academic department",
@@ -2632,7 +2894,8 @@
         "email": "disi@unitn.it",
         "website": "https://www.disi.unitn.it",
         "id": "STO0008629",
-        "phoneNumber": "0461 283966"
+        "phoneNumber": "0461 283966",
+        "universityId": "STO0000001"
       },
       {
         "subType": "unit",
@@ -2642,7 +2905,8 @@
         "email": "",
         "website": "",
         "id": "STO0008701",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       },
       {
         "subType": "directorate",
@@ -2652,7 +2916,8 @@
         "email": "",
         "website": "",
         "id": "STO0013038",
-        "phoneNumber": ""
+        "phoneNumber": "",
+        "universityId": "STO0000001"
       }
     ]
   }

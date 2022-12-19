@@ -36,10 +36,10 @@ def adapt_datasets():
         save_dataset(staff_member, 'formal_modeling/staff_member', 'json')
 
     # extract from the courses dataset all the courses and degree programs
-    with open('../datasets/generated/course.json', encoding='utf-8') as f:
+    with open('datasets/generated/course.json', encoding='utf-8') as f:
         # first we read all the phd students to extract their ids
         phd_ids = set()
-        with open("../datasets/formal_modeling/phd_student.json", encoding='utf-8') as f2:
+        with open("datasets/formal_modeling/phd_student.json", encoding='utf-8') as f2:
             phd_students = json.load(f2)['value']['data']
             for phd in phd_students:
                 phd_ids.add(phd['id'])
@@ -51,7 +51,7 @@ def adapt_datasets():
 
         for c in old_course_data['data']:
             if c['degreeProgram'] not in deg_prog_lookup:
-                to_add = {'id': uuid.uuid4().hex, 'name': c['degreeProgram']}
+                to_add = {'id': uuid.uuid4().hex, 'name': c['degreeProgram'], 'universityId': 'STO0000001'}
                 append_data(degree_program, to_add)
                 deg_prog_lookup[to_add['name']] = to_add['id']
                 c['degreeProgramId'] = to_add['id']
@@ -83,6 +83,7 @@ def adapt_datasets():
         phd_program = initialize_dataset()
 
         for o in old_org_data['data']:
+            o['universityId'] = 'STO0000001'
             if 'library' in o['name'].lower():
                 libraries.add(o['address'])
 
@@ -130,7 +131,8 @@ def adapt_datasets():
                     "short_name": p['osm_tags']['short_name'],
                     "opening_hours": p['osm_tags']['opening_hours'],
                     "phone": p['osm_tags']['phone'],
-                    "wheelchair": p['osm_tags']['wheelchair']
+                    "wheelchair": p['osm_tags']['wheelchair'],
+                    'universityId': 'STO0000001'
                 })
 
         set_total_size(libraries_data)
@@ -144,21 +146,24 @@ def adapt_datasets():
                     "address": "Via della Malpensada, 140, 38128 Trento",
                     "name": "Studentato S. Bartolameo",
                     "alt_name": "Sanba",
-                    "wheelchair": ""
+                    "wheelchair": "",
+                    'universityId': 'STO0000001'
                 })
     append_data(student_residence, {
                     "id": uuid.uuid4().hex,
                     "address": "Piazza Valeria Solesin, 1, Trento",
                     "name": "Studentato Mayer",
                     "alt_name": "Mayer",
-                    "wheelchair": ""
+                    "wheelchair": "",
+                    'universityId': 'STO0000001'
                 })
     append_data(student_residence, {
                     "id": uuid.uuid4().hex,
                     "address": "Via della Gora 9, Rovereto",
                     "name": "Residenza A. Barelli Rovereto",
                     "alt_name": "",
-                    "wheelchair": ""
+                    "wheelchair": "",
+                    'universityId': 'STO0000001'
                 })
     set_total_size(student_residence)
 

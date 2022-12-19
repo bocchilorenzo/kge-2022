@@ -5,7 +5,7 @@
     "language": "en",
     "data": [
       {
-        "id": "b7ba80505209483f8a7f9a2e04ce827c",
+        "id": "76613db77a1f472cb0a2edcc5588a135",
         "address": "Via Adalberto Libera, 3, Trento, TN",
         "name": "BUC - Biblioteca Universitaria Centrale",
         "email": "",
@@ -14,10 +14,11 @@
         "short_name": "",
         "opening_hours": "Mo-Sa 08:00-23:45; Su 14:00-20:45",
         "phone": "+39 0461 283011",
-        "wheelchair": "yes"
+        "wheelchair": "yes",
+        "universityId": "STO0000001"
       },
       {
-        "id": "4d3e06dd20404315b45986531133d0d9",
+        "id": "8250885861a64a03917e91aab8722d5c",
         "address": "Via di Briamasco, 2, Trento, 38122 TN",
         "name": "Trento Expo",
         "email": "",
@@ -26,10 +27,11 @@
         "short_name": "",
         "opening_hours": "",
         "phone": "",
-        "wheelchair": ""
+        "wheelchair": "",
+        "universityId": "STO0000001"
       },
       {
-        "id": "c6ab448b8b45456e9464d1b852622334",
+        "id": "65dee8fe33ec4f249975b244a585c375",
         "address": "Via Mesiano, 77, 38123 Trento",
         "name": "Dipartimento di Ingegneria Civile, Ambientale e Meccanica",
         "email": "dicam@unitn.it",
@@ -38,10 +40,11 @@
         "short_name": "",
         "opening_hours": "",
         "phone": "+39 0461 281978",
-        "wheelchair": ""
+        "wheelchair": "",
+        "universityId": "STO0000001"
       },
       {
-        "id": "50b2616194724405a2ae6d0b2e39dc63",
+        "id": "b6ffdb4f34c642aeba3b971697e079af",
         "address": "Via di Briamasco, 2, Trento, TN",
         "name": "Trento Expo",
         "email": "",
@@ -50,10 +53,11 @@
         "short_name": "",
         "opening_hours": "",
         "phone": "",
-        "wheelchair": ""
+        "wheelchair": "",
+        "universityId": "STO0000001"
       },
       {
-        "id": "f834ebcf11b64cfe8a6dc107eb0f107f",
+        "id": "de68e4d478f44e299c4a9032eb82d8a6",
         "address": "Via Sommarive, 5, Povo, 38123 TN",
         "name": "Dipartimento di Ingegneria Industriale",
         "email": "",
@@ -62,7 +66,8 @@
         "short_name": "",
         "opening_hours": "",
         "phone": "",
-        "wheelchair": ""
+        "wheelchair": "",
+        "universityId": "STO0000001"
       }
     ]
   }
